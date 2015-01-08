@@ -6,7 +6,7 @@ A) Effective viscosity of rigid polymer networks in the presence of friction-lik
 		just a graph showing the normalized frequency dependent moduli for 3 different architectures and slip rates
 	Fig 3) timescale of effective viscosity is architecture dependent
 		A graph showing the collapse of effective viscosities onto a single curve
-		predicting that the effective viscosity should have an analytical form at high density & moderate slip rate, but that there should be a falloff as density drops and slip rate increases.
+		I’m predicting that the effective viscosity should have an analytical form at high density & moderate slip rate, but that there should be a falloff as density drops and slip rate increases.
 	Fig 4) characteristic domain size of network tearing
 		A graph showing that as effective viscosity is lowered you eventually see disconnected regimes of various sizes 
 	
