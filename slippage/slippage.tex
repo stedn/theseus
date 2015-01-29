@@ -28,53 +28,65 @@ We are trying to describe the problem of what happens when cross-links relax str
 \maketitle
 
 \section{Introduction}
-Here, I talk about all the things that have ever happened of importance. And it goes on for a long time.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+
+
+
+
+Chemists have made synthetic systems that exhibit so called slide-ring cross-linking, but thus far this exact mechanism has not been seen in biological systems.  However, (some garbage experiments from biophysical journal that I know must exist because people put bullshit in biophysical journal all the time) have shown that multivalent crosslinks can effectively slide under a load.
 
 \section{The Model}
 Here I will include math and equations that explain what it is that I am talking about when I talk about a model.  It will involve writing the semi-flexible filament potential and then writing the coupling equation.  These are just placeholders for now, while I write these things out by hand first.
+
+Introduce wormlike chain model
+In the worm-like chain model, semi-flexible polymers are modeled as continuous curves s(x), 
 \begin{equation}
-\Delta =\sum_{i=1}^N w_i (x_i - \bar{x})^2.
-\end{equation}
-It is a good idea to number equations, but we can have a
-equation without a number:
-\begin{equation}
-P(x) = \frac{x - a}{b - a}, \nonumber
-\end{equation}
-and
-\begin{equation}
-g = \frac{1}{2} \sqrt{2\pi}. \nonumber
+{\cal H} =\frac{1}{2}\kappa \int ds(\nabla^2\mathbf{u})^2 + \frac{1}{2}\mu \int ds \left ( \frac{dl(s) }{ds} \right )^2
 \end{equation}
 
-We can give an equation a label so that we can refer to it later.
-\begin{equation}
-\label{eq:ising}
-E = -J \sum_{i=1}^N s_i s_{i+1},
-\end{equation}
-Equation~\eqref{eq:ising} expresses the energy of a configuration
-of spins in the Ising model.\footnote{REVTeX~4.1 places the footnotes in the bibliography. It is necessary to run BibTEX for footnotes to appear.}
+Introduce the formation of isotropic networks of wormlike chains.
 
+Introduce connection points as friction points
+{In previous work, crosslinks have been taking to be either perfectly rigid attachment points (HLM) or extended springlike structures (Taeyoon).  In addition, any mechanism of detachment is either absent (HLM) or governed by full detachment and full reattachment events(other).  In our model, we aim to create a more simple picture of crosslink stress relaxation based on .}
+
+Appendix material on connecting crosslink unbinding and corsslink slip
+
+Introduce form of coupling equation between 
+
+\begin{equation}
+\mathbf{F_{friction}} = \delta \zeta \cdot \int ds \: (\mathbf{v(s)}-\mathbf{v_0(s)}) \: p(s)
+\end{equation}
 
 \section{Analytical Results}
 And this is where I prove by hand that some great amazing things can be seen about the system if we just take our little averages the right way.
 
 \begin{equation}
-I = \! \int_{-\infty}^\infty f(x)\,dx \label{eq:fine}.
-\end{equation}
-We can do some fine tuning by adding small amounts of horizontal
-spacing:
-\begin{verbatim}
- \, small space       \! negative space
-\end{verbatim}
-as is done in Eq.~\eqref{eq:fine}.
+\mathbf{\sigma} = \frac{1}{D}\sum_{filaments}\: \sum_{crosslinks}\delta \zeta \cdot (\mathbf{v_i}-\mathbf{v_0})\end{equation}
 
+\begin{equation}
+\mathbf{\sigma} =  \frac{1}{D}\sum_{filaments}\:  \delta \zeta \cdot \int_0^L ds \: (\mathbf{v(s)}-\mathbf{v_0(s)}) \:\frac{1}{l_c} = \sum_{filaments}\:  \frac{\delta \zeta \dot \gamma L}{l_c} \cos \theta \cdot (x_l + \frac{L}{2} \cos \theta)
+\end{equation}
+
+\begin{equation}
+\mathbf{\sigma} =  \frac{1}{D} \int_0^L dx_l \int_{-\arccos (\frac{x_l}{L})}^{\arccos (\frac{x_l}{L})}d\theta \frac{\delta \zeta \dot \gamma L}{l_c} \cdot \frac{h}{Ll_c}\cdot \frac{\pi}{2}\arccos(x_l/L) (x_l \cos \theta + \frac{L}{2} cos^2\theta)
+\end{equation}
+
+\begin{equation}
+\mathbf{\sigma} = \frac{L^2}{l_c^2} \cdot \delta \zeta \cdot \frac{2}{\pi}(\pi(1+1/6)-20/9) \approx \frac{L^2}{l_c^2} \cdot \delta \zeta
+\end{equation}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{phase}
+\caption{\label{fig:phase}And here is your predicted phase diagram.}
+\end{figure}
 
 
 \section{Simulation Results}
 
-We can make figures bigger or smaller by scaling them. Figure~\ref{fig:sine}
-has been scaled by 60\%.
+And here, I show the simulation results, which fall into three categories, 1) the frequency falloff can be explained by heterogeneity in length, 2) the steady state effective viscosity matches the theoretical prediction in a range of parameter space, 3) the network tearing time drops as the effective viscosity drops to 0
+
+We have implemented a solution to the discretized form of our model equations.  
 
 \begin{figure}[h!]
 \centering
@@ -82,19 +94,20 @@ has been scaled by 60\%.
 \caption{\label{fig:sine}Show me a sine.}
 \end{figure}
 
+We can make figures bigger or smaller by scaling them. Figure~\ref{fig:sine}
+has been scaled by 60\%.
+
+
 \section{Simulation details}
-And I think I'll probably include all the gory details of how my simulations work since I'll be wanting to have direct references to the code. Use \verb+\begin{verbatim}+ and
-\verb+\end{verbatim}+ as in the following example:
+And I think I'll probably include all the gory details of how my simulations work since I'll be wanting to have direct references to the code. 
 \begin{verbatim}
 double y0 = 10; // example of declaration and assignment statement
 double v0 = 0;  // initial velocity
 double t = 0;   // time
 double dt = 0.01; // time step
-double y = y0;
+double y = y0; // solved all problems
 \end{verbatim}
-The command \verb+\verbatiminput{programs/Square.java}+ allows
-you to list the file \texttt{Square.java} in the directory
-programs.
+
 
 \section{Discussion}
 
