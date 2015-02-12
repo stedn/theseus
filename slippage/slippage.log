@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 FEB 2015 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 FEB 2015 17:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,7 +7,7 @@ entering extended mode
 (./slippage.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/texmf-local/tex/latex/revtex/revtex4-1.cls
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revtex4-1.cls
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
@@ -69,7 +69,7 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 
 Class revtex4-1 Warning: No Society specified, using default society aps.
 
-(/usr/local/texlive/texmf-local/tex/latex/revtex/aps4-1.rtx
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps4-1.rtx
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
@@ -77,7 +77,7 @@ Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 Class revtex4-1 Info: Selecting journal prb on input line 7544.
 Class revtex4-1 Info: APS journal PRB selected on input line 7545.
 
-(/usr/local/texlive/texmf-local/tex/latex/revtex/aps11pt4-1.rtx
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps11pt4-1.rtx
 File: aps11pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
 Class revtex4-1 Info: RevTeX pointsize 11pt selected on input line 30.
@@ -98,7 +98,7 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-(/usr/local/texlive/texmf-local/tex/latex/revtex/revsymb4-1.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revsymb4-1.sty
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
@@ -419,58 +419,60 @@ Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 16.
 
  [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] 
 [3] [4]
-Package epstopdf Info: Source file: <phase.eps>
-(epstopdf)                    date: 2006-12-05 13:02:34
-(epstopdf)                    size: 506852 bytes
-(epstopdf)             Output file: <phase-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-06-16 16:43:20
-(epstopdf)                    size: 21071 bytes
-(epstopdf)             Command: <repstopdf --outfile=phase-eps-converted-to.pdf
- phase.eps>
+Package epstopdf Info: Source file: <simuls.eps>
+(epstopdf)                    date: 2015-02-12 17:39:12
+(epstopdf)                    size: 5578862 bytes
+(epstopdf)             Output file: <simuls-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-12 17:39:27
+(epstopdf)                    size: 77816 bytes
+(epstopdf)             Command: <repstopdf --outfile=simuls-eps-converted-to.pd
+f simuls.eps>
 (epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
 
-<phase-eps-converted-to.pdf, id=87, 309.155pt x 328.22626pt>
-File: phase-eps-converted-to.pdf Graphic file (type pdf)
+<simuls-eps-converted-to.pdf, id=87, 2801.46625pt x 2705.10625pt>
+File: simuls-eps-converted-to.pdf Graphic file (type pdf)
 
-<use phase-eps-converted-to.pdf>
-Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 130.
-(pdftex.def)             Requested size: 185.49442pt x 196.93727pt.
+<use simuls-eps-converted-to.pdf>
+Package pdftex.def Info: simuls-eps-converted-to.pdf used on input line 130.
+(pdftex.def)             Requested size: 468.0pt x 451.89561pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package epstopdf Info: Source file: <sine.eps>
-(epstopdf)                    date: 2006-12-05 13:02:34
-(epstopdf)                    size: 89506 bytes
-(epstopdf)             Output file: <sine-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-06-16 16:41:36
-(epstopdf)                    size: 13045 bytes
-(epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
-sine.eps>
+Package epstopdf Info: Source file: <eff_vic.eps>
+(epstopdf)                    date: 2015-02-12 17:06:09
+(epstopdf)                    size: 244549 bytes
+(epstopdf)             Output file: <eff_vic-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-12 17:36:06
+(epstopdf)                    size: 18167 bytes
+(epstopdf)             Command: <repstopdf --outfile=eff_vic-eps-converted-to.p
+df eff_vic.eps>
 (epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
-<sine-eps-converted-to.pdf, id=88, 333.245pt x 191.71625pt>
-File: sine-eps-converted-to.pdf Graphic file (type pdf)
+<eff_vic-eps-converted-to.pdf, id=88, 1113.15875pt x 850.17625pt>
+File: eff_vic-eps-converted-to.pdf Graphic file (type pdf)
 
-<use sine-eps-converted-to.pdf>
-Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 144.
-(pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
+<use eff_vic-eps-converted-to.pdf>
+Package pdftex.def Info: eff_vic-eps-converted-to.pdf used on input line 144.
+(pdftex.def)             Requested size: 468.0pt x 357.43483pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <sine.eps>
-(epstopdf)                    date: 2006-12-05 13:02:34
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 89506 bytes
 (epstopdf)             Output file: <sine-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-06-16 16:41:36
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 13045 bytes
 (epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
 sine.eps>
 (epstopdf)             \includegraphics on input line 150.
 Package epstopdf Info: Output file is already uptodate.
+<sine-eps-converted-to.pdf, id=89, 333.245pt x 191.71625pt>
 File: sine-eps-converted-to.pdf Graphic file (type pdf)
+
 <use sine-eps-converted-to.pdf>
 Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 150.
 (pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
@@ -479,10 +481,10 @@ Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 150.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <sine.eps>
-(epstopdf)                    date: 2006-12-05 13:02:34
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 89506 bytes
 (epstopdf)             Output file: <sine-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-06-16 16:41:36
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 13045 bytes
 (epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
 sine.eps>
@@ -498,26 +500,29 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5]
 Package epstopdf Info: Source file: <phase.eps>
-(epstopdf)                    date: 2006-12-05 13:02:34
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 506852 bytes
 (epstopdf)             Output file: <phase-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-06-16 16:43:20
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 21071 bytes
 (epstopdf)             Command: <repstopdf --outfile=phase-eps-converted-to.pdf
  phase.eps>
 (epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
+ <phase-eps-converted-to.pdf, id=95, 309.155pt x 328.22626pt>
 File: phase-eps-converted-to.pdf Graphic file (type pdf)
- <use phase-eps-converted-to.pdf>
+
+<use phase-eps-converted-to.pdf>
 Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 170.
 (pdftex.def)             Requested size: 185.49442pt x 196.93727pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./phase-eps-converted-to.pdf> <./sine-eps-converted-to.pdf>] [7]
+[6 <./simuls-eps-converted-to.pdf>] [7 <./eff_vic-eps-converted-to.pdf> <./sine
+-eps-converted-to.pdf>] [8 <./phase-eps-converted-to.pdf>]
 No file slippage.bbl.
-[8]
+[9]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
  (./slippage.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
@@ -530,10 +535,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7817 strings out of 493117
- 110906 string characters out of 6135433
+ 7827 strings out of 493117
+ 111217 string characters out of 6135433
  216378 words of memory out of 5000000
- 11154 multiletter control sequences out of 15000+600000
+ 11161 multiletter control sequences out of 15000+600000
  11355 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,7n,28p,657b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -554,10 +559,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on slippage.pdf (8 pages, 233232 bytes).
+Output written on slippage.pdf (9 pages, 288537 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
