@@ -22,18 +22,18 @@
 \date{1 January 2014}
 
 \begin{abstract}
-We are trying to describe the problem of what happens when cross-links relax stress in semi-flexible filament networks.  We have addressed the problem using a simplified model in which cross-links are allowed to slip past one another in a friction-like manner.  This model gives a prediction for the long timescale effective viscosity of the medium.  We have verified our solution using computational models of filaments in the limit where persistence length is much longer than filament length.  In this model, we find that network architectures and slip rates give rise to different modes of connectivity.
+We are trying to describe the problem of what happens when cross-links relax stress in semi-flexible filament networks.  We have addressed the problem using a simplified model in which cross-links are allowed to slip past one another in a drag-like manner.  This model gives a prediction for the long timescale effective viscosity of the medium.  We have verified our solution using computational models of filaments in the limit where persistence length is much longer than filament length.  In this model, we find that network architectures and slip rates give rise to different modes of connectivity.
 \end{abstract}
 
 \maketitle
 
 \section{Introduction}
 
-In previous work, crosslinks have been taken to be either perfectly rigid attachment points (HLM) or extended springlike structures (Taeyoon).  In addition, any mechanism of detachment is either absent (HLM) or governed by full detachment and full reattachment events (Taeyoon, Broederz).  In our model, we aim to create a more simple and general picture of crosslink stress relaxation based on an effective molecular friction between filament attachment points.
+In previous work, crosslinks have been taken to be either perfectly rigid attachment points (HLM) or extended springlike structures (Taeyoon).  In addition, any mechanism of detachment is either absent (HLM) or governed by full detachment and full reattachment events (Taeyoon, Broederz).  In our model, we aim to create a more simple and general picture of cross-link stress relaxation based on an effective molecular drag between filament attachment points.
 
-Previous researchers have introduced the concept of molecular friction to describe crosslink slip.  We want to look at what such a model would produce in a larger network.
+Previous researchers have introduced the concept of molecular drag to describe cross-link slip.  We want to look at what such a model of cross link stress relaxation would imply towards the fictive viscosity of a larger network.
 
-Chemists have made synthetic systems that exhibit so called slide-ring cross-linking, but thus far this exact mechanism has not been seen in biological systems.  However, (some garbage experiments from biophysical journal that I know must exist because people put bullshit in biophysical journal all the time) have shown that multivalent crosslinks can effectively slide under a load.
+Chemists have made synthetic systems that exhibit so called slide-ring cross-linking, but thus far this exact mechanism has not been seen in biological systems.  However, (some garbage experiments from biophysical journal that I know must exist because people put bullshit in biophysical journal all the time) have shown that multivalent cross-links can effectively slide under a load.
 
 
 \section{The Model}
@@ -43,59 +43,59 @@ In the worm-like chain model, semi-flexible polymers are modeled as continuous c
 {\cal H} =\frac{1}{2}\kappa \int ds(\nabla^2\mathbf{u})^2 + \frac{1}{2}\mu \int ds \left ( \frac{dl(s) }{ds} \right )^2
 \end{equation}
 
-We generate 2D networks of these semi flexible filaments by laying them down with random position and orientation.  
+Here, $\mu$ represents an extensional modulus of a filament, and $\kappa$ represents a bending modulus.  We generate 2D networks of these semi flexible filaments by laying down filaments of length, $L$, with random position and orientation.  
 
-Although real cytoskeletal networks may exhibit non-negligible anisotropy, we choose to focus our attention on isotropic networks for simplicity.  We define the density using the distance between crosslinks along a filament, $l_c$. A simple geometrical argument can be used to prove that the number of filaments needed to fill a domain of size 2D x D is $4D^2/Ll_c$. 
+Although real cytoskeletal networks may exhibit non-negligible anisotropy, we choose to focus our attention on isotropic networks for simplicity.  We define the density using the distance between crosslinks along a filament, $l_c$. A simple geometrical argument can be used to prove that the number of filaments needed to fill a domain of size 2D x D is $4D^2/Ll_c$, and that the length density is therefore $1/l_c$. 
 
-In the absence of crosslink slip, we expect the network to comprise a connected solid with a well defined elastic modulus given by HLM.  These networks are only well-connected when the ratio of filament length to intercrosslink spacing, $L/l_c$ is greater than ~5.6.  Below this percolation threshold, there are only locally connected domains.  Additionally, as the filament density is increased beyond this point, there is another transition between non-affine bending and affine stretching of filaments, which changes the dominating term of the elastic modulus.
+In the absence of crosslink slip, we expect the network to comprise a connected solid with a well defined elastic modulus given by HLM.  These networks are only well-connected when the ratio of filament length to intercrosslink spacing, $L/l_c$ is greater than ~5.6.  Near this percolation threshold, there are only locally connected domains, and discussions of global network properties becomes less reasonable.  Additionally, as the filament density is increased beyond this point, there is another transition between non-affine bending and affine stretching of filaments, which changes the dominating term of the elastic modulus.
 
-In departure from the previous models, we wish to incorporate relaxation of the networks stored stress by letting the attachment points slip.  We do this by introducing a frictional coupling between filaments.
+In departure from the previous models, we wish to incorporate relaxation of the networks stored stress by letting the attachment points slip.  We do this by introducing a drag-like coupling between filaments.
 \begin{equation}
-\mathbf{F_{friction}} = \delta \zeta \cdot \int ds \: (\mathbf{v(s)}-\mathbf{v_0(s)}) \: p(s)
+\mathbf{F_{drag}} = \xi \cdot \int ds \: (\mathbf{v(s)}-\mathbf{v_0(s)}) \: p(s)
 \end{equation}
 
-In this case the motion for the entire network is governed by a dynamical equation of the form
+In this case the motion for the entire network is governed by a system of dynamical equations of the form
 
 \begin{equation}
-\zeta \int ds \: (\mathbf{v_i(s)} + \delta \sum _j(\mathbf{v_i(s)}-\mathbf{v_j(s)}) \: p_{ij}(s))= \nabla {\cal H}_i
+\int ds \: (\mathbf{\zeta v_i(s)} + \xi \sum _j(\mathbf{v_i(s)}-\mathbf{v_j(s)}) \: p_{ij}(s))= \nabla {\cal H}_i
 \end{equation}
 
-Although the general mechanical response of this system may be very complex, we wish to focus our attention on the linear order steady-state creep response of the system to an applied stress.  To do this we introduce a spatially varying stress along the midline of our domain.
+Although the general mechanical response of this system may be very complex, we wish to focus our attention on the linear order steady-state creep response of the system to an applied stress.  To do this we introduce a fixed stress, $\sigma$ along the midline of our domain.
 
 \begin{equation}
-F_{total}= \nabla {\cal H}_i + \sigma(x)-\zeta \int ds \: (\mathbf{v_i(s)} + \delta \sum _j(\mathbf{v_i(s)}-\mathbf{v_j(s)}) \: p_{ij}(s)) 
+F_{total}= \nabla {\cal H}_i + \sigma\cdot\delta(x-D)- \int ds \: (\zeta\mathbf{v_i(s)} + \xi \sum _j(\mathbf{v_i(s)}-\mathbf{v_j(s)}) \: p_{ij}(s)) 
 \end{equation}
 
-Finally, we add a 0 velocity constraint at the far edges of our domain of interest.  We assume that our network is in the low Reynold's number limit, where inertial effects are so small that we can equate our total force to 0.  The above equation is then discretized and integrated in time to determine the material response.
+Here, the first term in the integral is the filament's intrinsic drag through its embedding fluid, $\zeta$, while the second comes from the drag-like coupling between filaments, $\xi$.  Finally, we add a 0 velocity constraint at the far edges of our domain of interest.  We assume that our network is in the "dry," low Reynold's number limit, where inertial effects are so small that we can equate our total force to 0.  In addition, because we wish to probe the behavior of large scale network deformations, we are neglecting thermal fluctuations.  
 
 \section{Analytical Results}
-We would like to calculate an estimate of the effective viscosity for a network described by our model.  We carry this out by assuming we can apply a constant stress along a transect of the network.  With moderate stresses, we assume the network reaches a steady state affine creep. In this situation, we would find that the stress in the network exactly balances the sum of the frictional forces from crosslink slip.  So for any transect of length D, we have a force balance equation.
+We would like to calculate an estimate of the effective viscosity for a network described by our model.  We carry this out by assuming we can apply a constant stress along a transect of the network.  With moderate stresses, we assume the network reaches a steady state affine creep. In this situation, we would find that the stress in the network exactly balances the sum of the drag-like forces from crosslink slip.  So for any transect of length D, we have a force balance equation.
 
 \begin{equation}
-\mathbf{\sigma} = \frac{1}{D}\sum_{filaments}\: \sum_{crosslinks}\delta \zeta \cdot (\mathbf{v_i}-\mathbf{v_0})
+\mathbf{\sigma} = \frac{1}{D}\sum_{filaments}\: \sum_{crosslinks}\xi \cdot (\mathbf{v_i}-\mathbf{v_0})
 \end{equation}
 
 where $\mathbf{v_i(s)}-\mathbf{v_j(s)}$ is the difference between the velocity of a filament at it's crosslink point and the velocity of the filament to which it is a attached. We can convert the sum over crosslinks to an integral over the length using the average density of crosslinks, $1/l_c$ and invoking the assumption of (linear order) affine strain rate, $\mathbf{v_i}-\mathbf{v_0}=\dot \gamma x$. This results in
 
 \begin{equation}
-\mathbf{\sigma} =  \frac{1}{D}\sum_{filaments}\:  \delta \zeta \cdot \int_0^L ds \: (\mathbf{v(s)}-\mathbf{v_0(s)}) \:\frac{1}{l_c} = \sum_{filaments}\:  \frac{\delta \zeta \dot \gamma L}{l_c} \cos \theta \cdot (x_l + \frac{L}{2} \cos \theta)
+\mathbf{\sigma} =  \frac{1}{D}\sum_{filaments}\:  \xi \cdot \int_0^L ds \: (\mathbf{v(s)}-\mathbf{v_0(s)}) \:\frac{1}{l_c} = \sum_{filaments}\:  \frac{\xi \dot \gamma L}{l_c} \cos \theta \cdot (x_l + \frac{L}{2} \cos \theta)
 \end{equation}
 
 Here we have introduced the variables $x_l$, and $\theta$ to describe the leftmost endpoint and the angular orientation of a given filament respectively.  Next, to perform the sum over all filaments we wish to convert this to an integral over all orientations and endpoints that intersect our line of stress. The max distance for the leftmost endpoint is the length of a filament, L, and the maximum angle as a function of endpoint is $\arccos(x_l/L)$.  The linear density of endpoints is the constant $D/l_cL$ so our integrals can be rewritten as this density over $x_l$ and $\theta$ between our maximum and minimum allowed bounds.
 
 \begin{equation}
-\mathbf{\sigma} =  \frac{1}{D} \int_0^L dx_l \int_{-\arccos (\frac{x_l}{L})}^{\arccos (\frac{x_l}{L})}d\theta \frac{\delta \zeta \dot \gamma L}{l_c} \cdot \frac{D}{Ll_c}\cdot (x_l \cos \theta + \frac{L}{2} cos^2\theta)
+\mathbf{\sigma} =  \frac{1}{D} \int_0^L dx_l \int_{-\arccos (\frac{x_l}{L})}^{\arccos (\frac{x_l}{L})}\frac{d\theta}{\pi} \frac{\xi \dot \gamma L}{l_c} \cdot \frac{D}{Ll_c}\cdot (x_l \cos \theta + \frac{L}{2} cos^2\theta)
 \end{equation}
 
-Carrying our the integrals leaves us with a relation between stress and strain rate.
+Carrying out the integrals leaves us with a relation between stress and strain rate.
 
 \begin{equation}
-\mathbf{\sigma} = \frac{4L^2\delta \zeta}{3l_c^2} \dot \gamma \end{equation}
+\mathbf{\sigma} = \frac{4L^2 \xi}{\pi3l_c^2} \dot \gamma \end{equation}
 
-We recognize that the term next to the strain rate is the effective viscosity $\eta_{eff}$ at steady state creep.  With the constitutive relation for the rate of deformation, we can next write down an equation for the rate of network thinning.  
+We recognize that the term next to the strain rate is the effective viscosity $\eta_{eff}$ at steady state creep.  For extensional stresses, this constitutive relation for the rate of deformation allows us to write down an equation for the rate of network thinning.  
 
 \begin{equation}
-\frac{\partial l_c}{dt}=l_c\dot \gamma =\frac{l_c \sigma}{\eta}=l_c^3\frac{ \sigma}{L^2 \delta \zeta}
+\frac{\partial l_c}{dt}=l_c\dot \gamma =\frac{l_c \sigma}{\eta}\sim l_c^3\frac{ \sigma}{L^2 \xi}
 \end{equation}
 
 We can see that the rate of network thinning accelerates as we would expect.  When the network reaches some minimum connectivity we assume that it stops behaving as a continuum material.  
@@ -104,9 +104,9 @@ We can see that the rate of network thinning accelerates as we would expect.  Wh
 \tau_{break} = \frac{\eta_{eff}}{2\sigma}\cdot\left ( 1 -\frac{l_c^2}{l_{break}^2} \right )
 \end{equation}
 
-This provides us with an estimate of the timescale of catastrophic breakdown for a network with a given initial architecture and molecular friction.
+This provides us with an estimate of the timescale of catastrophic breakdown for a network with a given initial architecture and molecular drag.
 
-Finally, we wish to extend this analysis to have some idea of the frequency dependence of the complex elastic modulus.  I sure hope there is some way to do this.
+We have neglected the induced alignment of filaments by the applied stress.  
 
 
 \section{Computational Simulations}
@@ -115,7 +115,7 @@ Next, we wanted to test our analytical conclusions on a computational model.  Th
 
 For computational simplicity in these models, we assume that the bending rigidity, $\kappa$, is infinite, allowing us to model filaments as non-bending springs of rest length, $L$, and spring modulus $\mu$.  In the appendix, we show that our result is not significantly different from the result for semi-flexible polymers.
 
-We discretize the filaments such that the equations of motion becomes a coupled system of equations for the velocities of filament endpoints, $\mathbf{x}$.  The frictional force between overlapping filaments results in a coupling of the velocities of endpoints.  
+We discretize the filaments such that the equations of motion becomes a coupled system of equations for the velocities of filament endpoints, $\mathbf{x}$.  The drag-like force between overlapping filaments results in a coupling of the velocities of endpoints.  
 
 \begin{equation}
 \mathbf{A \cdot \dot x} = \mathbf{f(x)}
@@ -127,8 +127,8 @@ We generate a network by laying down filaments with random position and orientat
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=\textwidth]{simuls}
-\caption{\label{fig:sim}Two Simulation setups with $L=16 \mu m, D = 64 \mu m$. a) low density $l_c=2 \mu m$, b) high density $l_c=0.25 \mu m$ }
+\includegraphics[width=\textwidth]{network_def}
+\caption{\label{fig:sim}Two Simulation setups with $L=9 \mu m, D = 54 \mu m$ before and after 1000s of applied stress. a) low density $l_c=2 \mu m$, b) moderate density $l_c=1 \mu m$ }
 \end{figure}
 
 
@@ -171,12 +171,12 @@ And here, I show the simulation results, which fall into three categories, 1) th
 \caption{\label{fig:sim}Phase diagram of network connectivity.}
 \end{figure}
 
-\section{Appendix A: Deriving molecular friction coefficients}
-Thus far, the idea of a molecular friction coefficient was taken as a phenomenological, measured parameter for a given experimental setup.  While this is a sufficient pragmatic justification, it's useful to try to motivate the quantitative value of this friction coefficient by connecting it to the underlying cross-link properties of binding affinity, concentration, and extensibility.
+\section{Appendix A: Deriving molecular drag coefficients}
+Thus far, the idea of a molecular drag coefficient was taken as a phenomenological, measured parameter for a given experimental setup.  While this is a sufficient pragmatic justification, it's useful to try to motivate the quantitative value of this drag coefficient by connecting it to the underlying cross-link properties of binding affinity, concentration, and extensibility.
 
-To do this we'll imagine the simplified case of two cross linkers sliding past each other in one dimension.  In this case, imagine that we have an equilibrium number of bound crosslinkers, $n_B$, each of which can be displaced from its equilibrium length by some distance $x$.  Each cross linker unbinds with rate $k_{off}$ and rebinds at it's relaxed position ($x=0$) with rate $k_{on}$.  At the same time, all the cross linkers are being pulled from their relaxed position at a rate, $v$, which is simply the rate at which the filaments are sliding past each other.  
+To do this we'll imagine the simplified case of two cross linkers sliding past each other in one dimension.  In this case, imagine that we have an equilibrium number of bound cross-linkers, $n_B$, each of which can be displaced from its equilibrium length by some distance $x$.  Each cross linker unbinds with rate $k_{off}$ and rebinds at it's relaxed position ($x=0$) with rate $k_{on}$.  At the same time, all the cross linkers are being pulled from their relaxed position at a rate, $v$, which is simply the rate at which the filaments are sliding past each other.  
 
-We can right down an equation for the change in the density of crosslinks as they are advected, bind, and unbind.
+We can right down an equation for the change in the density of cross-links as they are advected, bind, and unbind.
 
 \begin{equation}
 \frac{\partial \rho}{\partial t} = -k_{off}\rho(x) - v\frac{\partial \rho}{\partial x} + k_{on}\delta(x)
@@ -188,13 +188,21 @@ Recognizing that $\int \rho(x)=n_B$ implies $k_{on}=k_{off}n_B$, we can find the
 \rho(x) = \frac{n_b k_{off}}{v}\cdot exp\left ( -\frac{k_{off}}{v}x \right )
 \end{equation}
 
-If each crosslink has a spring constant $\mu_c$, then we can equate the force on all crosslinks to the applied force that is sliding the filaments past each other.
+If each cross-link has a spring constant $\mu_c$, then we can equate the force on all cross-links to the applied force that is sliding the filaments past each other.  Realistically, the spring constant and binding affinity would be functions of the cross-link stretch, but here we are taking them as approximately constant.
 
 \begin{equation}
 \int_{0}^{\infty}\rho(x)\mu_cx dx = v \frac{\mu_c n_B}{k_{off}}= F_{app}
 \end{equation}
 
-Therefore, the term next to v, (i.e. $\tfrac{\mu_c n_B}{k_{off}}$) would be equal to our molecular friction coefficient, $\delta\zeta$.  Using the following table of estimates cobbled from a variety of data sources, we can chart the accuracy of this simple predictive model.
+Therefore, the term next to v, (i.e. $\tfrac{\mu_c n_B}{k_{off}}$) would be equal to our molecular drag coefficient, $\xi$.  assuming, approximately 1-5 cross links per filament overlap, and using the following table of estimates pulled from Ferrer et al., we can chart the accuracy of this simple predictive model.
+
+\begin{table}[h]
+\begin{tabular}{c|c|c|c}
+\textbf{cross-linker type} & \textbf{dissociation constant ($s^{-1}$)} & \textbf{spring constant ($nN / \mu m$)} & \textbf{drag coefficient ($\tfrac{nN \cdot s}{\mu m}$)} \\ \hline
+$\alpha$-actinin & 0.4 & 455 & 200-1000 \\
+filamin-A & 0.6 & 820 & 500-2500
+\end{tabular}
+\end{table}
 
 \section{Appendix B: Simulation details}
 And I think I'll probably include all the gory details of how my simulations work since I'll be wanting to have direct references to the code. 
