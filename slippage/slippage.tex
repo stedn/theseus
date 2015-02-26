@@ -29,11 +29,15 @@ We are trying to describe the problem of what happens when cross-links relax str
 
 \section{Introduction}
 
-In previous work, crosslinks have been taken to be either perfectly rigid attachment points (HLM) or extended springlike structures (Taeyoon).  In addition, any mechanism of detachment is either absent (HLM) or governed by full detachment and full reattachment events (Taeyoon, Broederz).  In our model, we aim to create a more simple and general picture of cross-link stress relaxation based on an effective molecular drag between filament attachment points.
+In previous work, crosslinks have been taken to be either perfectly rigid attachment points (HLM) or extended springlike structures (Taeyoon).  In addition, any mechanism of detachment is either absent (HLM) or governed by full detachment and full reattachment events (Taeyoon, Broederz).  In our model, we aim to create a more simple and general picture of crosslink stress relaxation based on an effective molecular friction between filament attachment points.
 
-Previous researchers have introduced the concept of molecular drag to describe cross-link slip.  We want to look at what such a model of cross link stress relaxation would imply towards the fictive viscosity of a larger network.
+Reversible cross linking can give rise to drag-like coping between polyemer filaments.(appendix and sources)
 
-Chemists have made synthetic systems that exhibit so called slide-ring cross-linking, but thus far this exact mechanism has not been seen in biological systems.  However, (some garbage experiments from biophysical journal that I know must exist because people put bullshit in biophysical journal all the time) have shown that multivalent cross-links can effectively slide under a load.
+Previous researchers have introduced the concept of molecular friction to describe crosslink slip.  We want to look at what such a model would produce in a larger network.
+
+coarse-graining the microscopic details of .  We explore a linear force-velocity relationship for crosslink slip. 
+
+Chemists have made synthetic systems that exhibit so called slide-ring cross-linking, but thus far this exact mechanism has not been seen in biological systems.  However, (some garbage experiments from biophysical journal that I know must exist because people put bullshit in biophysical journal all the time) have shown that multivalent crosslinks can effectively slide under a load.
 
 
 \section{The Model}
@@ -54,7 +58,7 @@ In departure from the previous models, we wish to incorporate relaxation of the 
 \mathbf{F_{drag}} = \xi \cdot \int ds \: (\mathbf{v(s)}-\mathbf{v_0(s)}) \: p(s)
 \end{equation}
 
-In this case the motion for the entire network is governed by a system of dynamical equations of the form
+This model therefore assumes a linear relation between applied force and the velocity difference between attached filaments.  Obviously, non-linearities can arise in the presence of stretch dependent attachment kinetics as well as non-linear force extension of crosslinks.  We address non-linear effects in the appendix.  Assuming non-linear effects can be accounted for by changing the $\delta \zeta$ term, the motion for the entire network is governed by a dynamical equation of the form
 
 \begin{equation}
 \int ds \: (\mathbf{\zeta v_i(s)} + \xi \sum _j(\mathbf{v_i(s)}-\mathbf{v_j(s)}) \: p_{ij}(s))= \nabla {\cal H}_i
@@ -106,7 +110,8 @@ We can see that the rate of network thinning accelerates as we would expect.  Wh
 
 This provides us with an estimate of the timescale of catastrophic breakdown for a network with a given initial architecture and molecular drag.
 
-We have neglected the induced alignment of filaments by the applied stress.  
+We have neglected the induced alignment of filaments by the applied stress.  Finally, we wish to extend this analysis to have some idea of the frequency dependence of the complex elastic modulus.  I sure hope there is some way to do this.
+
 
 
 \section{Computational Simulations}
@@ -131,13 +136,16 @@ We generate a network by laying down filaments with random position and orientat
 \caption{\label{fig:sim}Two Simulation setups with $L=9 \mu m, D = 54 \mu m$ before and after 1000s of applied stress. a) low density $l_c=2 \mu m$, b) moderate density $l_c=1 \mu m$ }
 \end{figure}
 
+The nominal units for length, force, and time are $\mu m$, nN, and s, respectively.  We explored parameters space around an estimate of biologically relevant parameter values, given in Table X. 
 
 All changes in the force felt by an endpoint are made smooth to allow integration of the differential equation (i.e. moving between stress domains, constraint domains, and overlap coupling occurs smoothly to prevent discontinuities).  Parameter conditions that cause instabilities are excluded, and the endpoint trajectories are integrated out to at least 1000 seconds. 
 
 
 \section{Simulation Results}
 
-And here, I show the simulation results, which fall into three categories, 1) the steady state effective viscosity matches the theoretical prediction in a range of parameter space, 2) the network tearing time drops as the effective viscosity drops to 0, 3) the frequency falloff can be explained by heterogeneity in length, 
+Our computational simulations show that in the high density limit, our theoretical derivation is highly accurate at explaining the network behavior.  However, we see that as the density of the network approaches the breakdown limit, the effective viscosity drops below our expected value.  This behavior depends strongly on the magnitude of total strain at the time of measurement and the crosslink coupling term. 
+
+This behavior is caused primarily by the low density network undergoing tearing events that interrupt global connectedness.  It should be noted that in the low density limit, lower crosslink friction actually results in a smaller deviation from the theoretical prediction because it more easily allows re-annealing after tearing events.  Meanwhile high crosslink friction causes steric avoidance after network segments are torn apart.
 
 \begin{figure}[h!]
 \centering
@@ -145,11 +153,17 @@ And here, I show the simulation results, which fall into three categories, 1) th
 \caption{\label{fig:effvic}Effective viscosity as a function of $L/l_c$.}
 \end{figure}
 
+For moderate strains, this result is largely the same as the result for extensional stress.  However, at larger deformations, extensional networks tear apart at much lower
+
+To further explore the occurrence of tearing events ...
+
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.6]{sine}
 \caption{\label{fig:tear}Tearing rate as a function of $L/l_c$.}
 \end{figure}
+
+Finally, we wished to explore the non-linear effects of reorientation of the filaments and non-linear network thinning/thickening.  To do so, we applied oscillatory shear 
 
 \begin{figure}[h!]
 \centering

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 FEB 2015 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 FEB 2015 15:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -418,35 +418,26 @@ Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 16.
 \openout3 = `slippageNotes.bib'.
 
  [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] 
-[3] [4]
+[3] [4] [5]
 Package epstopdf Info: Source file: <network_def.eps>
 (epstopdf)                    date: 2015-02-20 13:05:18
 (epstopdf)                    size: 1240270 bytes
 (epstopdf)             Output file: <network_def-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-02-20 13:02:14
-(epstopdf)                    size: 107368 bytes
+(epstopdf)                    date: 2015-02-20 13:05:37
+(epstopdf)                    size: 107380 bytes
 (epstopdf)             Command: <repstopdf --outfile=network_def-eps-converted-
 to.pdf network_def.eps>
-(epstopdf)             \includegraphics on input line 130.
-runsystem(repstopdf --outfile=network_def-eps-converted-to.pdf network_def.eps)
-...executed safely (allowed).
+(epstopdf)             \includegraphics on input line 135.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <network_def-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-02-20 13:05:37
-(epstopdf)                    size: 107380 bytes.
-
-<network_def-eps-converted-to.pdf, id=86, 433.62pt x 224.84pt>
+<network_def-eps-converted-to.pdf, id=92, 433.62pt x 224.84pt>
 File: network_def-eps-converted-to.pdf Graphic file (type pdf)
 
 <use network_def-eps-converted-to.pdf>
 Package pdftex.def Info: network_def-eps-converted-to.pdf used on input line 13
-0.
+5.
 (pdftex.def)             Requested size: 468.0pt x 242.67949pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5]
+ [6 <./network_def-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <eff_vic.eps>
 (epstopdf)                    date: 2015-02-12 17:06:09
 (epstopdf)                    size: 244549 bytes
@@ -455,18 +446,14 @@ Package epstopdf Info: Source file: <eff_vic.eps>
 (epstopdf)                    size: 18167 bytes
 (epstopdf)             Command: <repstopdf --outfile=eff_vic-eps-converted-to.p
 df eff_vic.eps>
-(epstopdf)             \includegraphics on input line 144.
+(epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
- <eff_vic-eps-converted-to.pdf, id=93, 1113.15875pt x 850.17625pt>
+<eff_vic-eps-converted-to.pdf, id=104, 1113.15875pt x 850.17625pt>
 File: eff_vic-eps-converted-to.pdf Graphic file (type pdf)
 
 <use eff_vic-eps-converted-to.pdf>
-Package pdftex.def Info: eff_vic-eps-converted-to.pdf used on input line 144.
+Package pdftex.def Info: eff_vic-eps-converted-to.pdf used on input line 152.
 (pdftex.def)             Requested size: 468.0pt x 357.43483pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 Package epstopdf Info: Source file: <sine.eps>
 (epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 89506 bytes
@@ -475,13 +462,14 @@ Package epstopdf Info: Source file: <sine.eps>
 (epstopdf)                    size: 13045 bytes
 (epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
 sine.eps>
-(epstopdf)             \includegraphics on input line 150.
+(epstopdf)             \includegraphics on input line 162.
 Package epstopdf Info: Output file is already uptodate.
-<sine-eps-converted-to.pdf, id=94, 333.245pt x 191.71625pt>
+
+<sine-eps-converted-to.pdf, id=105, 333.245pt x 191.71625pt>
 File: sine-eps-converted-to.pdf Graphic file (type pdf)
 
 <use sine-eps-converted-to.pdf>
-Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 150.
+Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 162.
 (pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
 
 
@@ -495,16 +483,17 @@ Package epstopdf Info: Source file: <sine.eps>
 (epstopdf)                    size: 13045 bytes
 (epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
 sine.eps>
-(epstopdf)             \includegraphics on input line 156.
+(epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 File: sine-eps-converted-to.pdf Graphic file (type pdf)
 <use sine-eps-converted-to.pdf>
-Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 156.
+Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 170.
 (pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[7 <./eff_vic-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <phase.eps>
 (epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 506852 bytes
@@ -513,26 +502,26 @@ Package epstopdf Info: Source file: <phase.eps>
 (epstopdf)                    size: 21071 bytes
 (epstopdf)             Command: <repstopdf --outfile=phase-eps-converted-to.pdf
  phase.eps>
-(epstopdf)             \includegraphics on input line 170.
+(epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
-<phase-eps-converted-to.pdf, id=95, 309.155pt x 328.22626pt>
+
+<phase-eps-converted-to.pdf, id=117, 309.155pt x 328.22626pt>
 File: phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use phase-eps-converted-to.pdf>
-Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 170.
+Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 184.
 (pdftex.def)             Requested size: 185.49442pt x 196.93727pt.
+ [8 <./sine-eps-converted-to.pdf> <./phase-eps-converted-to.pdf>]
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6 <./network_def-eps-converted-to.pdf>] [7 <./eff_vic-eps-converted-to.pdf> <.
-/sine-eps-converted-to.pdf>] [8 <./phase-eps-converted-to.pdf>]
-No file slippage.bbl.
 [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
+No file slippage.bbl.
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
  (./slippage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
 Package rerunfilecheck Info: File `slippage.out' has not changed.
 (rerunfilecheck)             Checksum: 1A5EFFDD24C964AC8BE6F7C728E8552A;762.
 
@@ -542,9 +531,9 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  7827 strings out of 493117
- 111243 string characters out of 6135433
+ 111240 string characters out of 6135433
  217378 words of memory out of 5000000
- 11161 multiletter control sequences out of 15000+600000
+ 11160 multiletter control sequences out of 15000+600000
  11355 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,10n,28p,657b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -566,10 +555,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on slippage.pdf (9 pages, 347674 bytes).
+Output written on slippage.pdf (10 pages, 349864 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
+ 224 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
