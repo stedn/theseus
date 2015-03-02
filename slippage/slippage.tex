@@ -15,14 +15,14 @@
 
 \begin{document}
 
-\title{Effective viscosity of polymer networks in the presence of cross-link slip}
+\title{Effective viscosity and tearing rate of polymer networks in the presence of cross-link slip}
 \author{William McFadden}
 \affiliation{University of Chicago, Biophysical Sciences Program, Chicago, IL 60615}
 
 \date{1 January 2014}
 
 \begin{abstract}
-We are trying to describe the problem of what happens when cross-links relax stress in semi-flexible filament networks.  We have addressed the problem using a simplified model in which cross-links are allowed to slip past one another in a drag-like manner.  This model gives a prediction for the long timescale effective viscosity of the medium.  We have verified our solution using computational models of filaments in the limit where persistence length is much longer than filament length.  In this model, we find that network architectures and slip rates give rise to different modes of connectivity.
+We are trying to describe rates of deformation in semi-flexible filament networks when cross-links are free to slip along filaments.  We have addressed the problem using a simplified model in which cross-links are allowed to slip past one another in a linear drag-like manner.  This model gives a prediction for the long timescale effective viscosity of the medium that depends on network architecture and effective drag coefficient between filaments.  We have verified our solution using computational models of filaments undergoing shear and extensional stress.  In addition we attempt to derive a time constant for network tearing.  In this model, we find that the inclusion of slip gives rise to varying levels of connectivity even when network architecture predicts full connectivity.
 \end{abstract}
 
 \maketitle
@@ -44,7 +44,7 @@ Chemists have made synthetic systems that exhibit so called slide-ring cross-lin
 
 \section{The Model}
 
-In the worm-like chain model, semi-flexible polymers are modeled as continuous curves, governed by a potential 
+We use the minimal network (Mikado model) defined by a potential
 \begin{equation}
 {\cal H} =\frac{1}{2}\kappa \int ds(\nabla^2\mathbf{u})^2 + \frac{1}{2}\mu \int ds \left ( \frac{dl(s) }{ds} \right )^2
 \end{equation}
@@ -231,9 +231,7 @@ double y = y0; // solved all problems
 \end{verbatim}
 
 
-
-
 \bibliography{slippage}
-\bibliogrphystyle{plain}
+\bibliographystyle{plain}
 
 \end{document}
