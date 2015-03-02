@@ -44,14 +44,14 @@ Chemists have made synthetic systems that exhibit so called slide-ring cross-lin
 
 \section{The Model}
 
-We use the minimal network (Mikado model) defined by a potential
+We use the minimal network (Mikado model) of connected filaments, where each filament has an individual semi flexible polymer potential defined
 \begin{equation}
 {\cal H} =\frac{1}{2}\kappa \int ds(\nabla^2\mathbf{u})^2 + \frac{1}{2}\mu \int ds \left ( \frac{dl(s) }{ds} \right )^2
 \end{equation}
 
-Here, $\mu$ represents an extensional modulus of a filament, and $\kappa$ represents a bending modulus.  We generate 2D networks of these semi flexible filaments by laying down filaments of length, $L$, with random position and orientation.  
+Here, $\mu$ represents an extensional modulus of a filament, and $\kappa$ represents a bending modulus.  We generate 2D networks of these semi flexible filaments by laying down filaments of length, $L$, with random position and orientation in a domain of size $D$ by $2D$.  
 
-Although real cytoskeletal networks may exhibit non-negligible anisotropy, we choose to focus our attention on isotropic networks for simplicity.  We define the density using the distance between crosslinks along a filament, $l_c$. A simple geometrical argument can be used to prove that the number of filaments needed to fill a domain of size 2D x D is $4D^2/Ll_c$, and that the length density is therefore $1/l_c$. 
+Although real cytoskeletal networks may exhibit non-negligible anisotropy, we choose to focus our attention on isotropic networks for simplicity.  We define the density using the distance between crosslinks along a filament, $l_c$. A simple geometrical argument can be used to prove that the number of filaments needed to tile a domain of size 2D x D is $4D^2/Ll_c$, and that the length density is therefore $1/l_c$. 
 
 In the absence of crosslink slip, we expect the network to comprise a connected solid with a well defined elastic modulus given by HLM.  These networks are only well-connected when the ratio of filament length to intercrosslink spacing, $L/l_c$ is greater than ~5.6.  Near this percolation threshold, there are only locally connected domains, and discussions of global network properties becomes less reasonable.  Additionally, as the filament density is increased beyond this point, there is another transition between non-affine bending and affine stretching of filaments, which changes the dominating term of the elastic modulus.
 

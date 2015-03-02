@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  27 FEB 2015 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  2 MAR 2015 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -430,7 +430,7 @@ to.pdf network_def.eps>
 (epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
 
-<network_def-eps-converted-to.pdf, id=92, 433.62pt x 224.84pt>
+<network_def-eps-converted-to.pdf, id=88, 433.62pt x 224.84pt>
 File: network_def-eps-converted-to.pdf Graphic file (type pdf)
 
 <use network_def-eps-converted-to.pdf>
@@ -448,7 +448,7 @@ Package epstopdf Info: Source file: <eff_vic.eps>
 df eff_vic.eps>
 (epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
-<eff_vic-eps-converted-to.pdf, id=104, 1113.15875pt x 850.17625pt>
+<eff_vic-eps-converted-to.pdf, id=100, 1113.15875pt x 850.17625pt>
 File: eff_vic-eps-converted-to.pdf Graphic file (type pdf)
 
 <use eff_vic-eps-converted-to.pdf>
@@ -465,7 +465,7 @@ sine.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
-<sine-eps-converted-to.pdf, id=105, 333.245pt x 191.71625pt>
+<sine-eps-converted-to.pdf, id=101, 333.245pt x 191.71625pt>
 File: sine-eps-converted-to.pdf Graphic file (type pdf)
 
 <use sine-eps-converted-to.pdf>
@@ -505,7 +505,7 @@ Package epstopdf Info: Source file: <phase.eps>
 (epstopdf)             \includegraphics on input line 186.
 Package epstopdf Info: Output file is already uptodate.
 
-<phase-eps-converted-to.pdf, id=117, 309.155pt x 328.22626pt>
+<phase-eps-converted-to.pdf, id=113, 309.155pt x 328.22626pt>
 File: phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use phase-eps-converted-to.pdf>
@@ -518,54 +518,45 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [9]
 No file slippage.bbl.
 [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
  (./slippage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package rerunfilecheck Info: File `slippage.out' has not changed.
+(rerunfilecheck)             Checksum: 7E7376BB767F917B5E8F11BA2CFB51EA;721.
 
-
-Package rerunfilecheck Warning: File `slippage.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `slippage.out':
-(rerunfilecheck)             Before: 1A5EFFDD24C964AC8BE6F7C728E8552A;762
-(rerunfilecheck)             After:  CFE3CEB71E388AAB723D92A685CF1622;704.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7815 strings out of 493117
- 111081 string characters out of 6135433
- 217380 words of memory out of 5000000
- 11152 multiletter control sequences out of 15000+600000
+ 7810 strings out of 493117
+ 111028 string characters out of 6135433
+ 217324 words of memory out of 5000000
+ 11148 multiletter control sequences out of 15000+600000
  10482 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,10n,28p,657b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.11} has been referenced but does not exi
-st, replaced by a fixed one
-
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on slippage.pdf (10 pages, 327909 bytes).
+ 29i,10n,28p,827b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on slippage.pdf (10 pages, 328760 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
