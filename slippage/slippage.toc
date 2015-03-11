@@ -1,0 +1,15 @@
+\contentsline {title}{Effective viscosity and tearing rate of polymer networks in the presence of cross-link slip and molecular motor activity}{1}{section*.2}
+\contentsline {abstract}{Abstract}{1}{section*.1}
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{2}{section*.3}
+\tocdepth@restore 
+\contentsline {section}{\numberline {}List of Figures}{2}{section*.4}
+\contentsline {section}{\numberline {}List of Tables}{2}{section*.5}
+\contentsline {section}{\numberline {I}Introduction}{3}{section*.6}
+\contentsline {section}{\numberline {II}The Model}{3}{section*.7}
+\contentsline {section}{\numberline {III}Analytical Results}{5}{section*.8}
+\contentsline {section}{\numberline {IV}Computational Simulations}{6}{section*.9}
+\contentsline {section}{\numberline {V}Simulation Results}{7}{section*.10}
+\contentsline {section}{\numberline {VI}Discussion}{8}{section*.11}
+\contentsline {section}{\numberline {VII}Appendix A: Deriving molecular drag coefficients}{9}{section*.12}
+\contentsline {section}{\numberline {VIII}Appendix B: Simulation details}{12}{section*.13}
