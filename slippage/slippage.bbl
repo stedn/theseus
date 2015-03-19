@@ -1,0 +1,193 @@
+\begin{thebibliography}{10}
+
+\bibitem{theo_frictionShila}
+Shiladitya Banerjee, M.~Cristina Marchetti, and Kristian M\"uller-Nedebock.
+\newblock Motor-driven dynamics of cytoskeletal filaments in motility assays.
+\newblock {\em Phys. Rev. E}, 84:011914, Jul 2011.
+
+\bibitem{theo_crosslinknonlinear}
+C.~P. Broedersz, C.~Storm, and F.~C. MacKintosh.
+\newblock Effective-medium approach for stiff polymer networks with flexible
+  cross-links.
+\newblock {\em Phys. Rev. E}, 79:061914, Jun 2009.
+
+\bibitem{theo_crosslinkslip1}
+Chase~P. Broedersz, Martin Depken, Norman~Y. Yao, Martin~R. Pollak, David~A.
+  Weitz, and Frederick~C. MacKintosh.
+\newblock Cross-link-governed dynamics of biopolymer networks.
+\newblock {\em Phys. Rev. Lett.}, 105:238101, Nov 2010.
+
+\bibitem{megareview}
+P.~Broedersz, C.\ and C.~MacKintosh, F.\.
+\newblock Modeling semiflexible polymer networks.
+\newblock {\em Rev. Mod. Phys.}, 86:995--1036, Jul 2014.
+
+\bibitem{theo_hydroish2}
+Preethi~L. Chandran and Mohammad R.~K. Mofrad.
+\newblock Averaged implicit hydrodynamic model of semiflexible filaments.
+\newblock {\em Phys. Rev. E}, 81:031920, Mar 2010.
+
+\bibitem{theo_molefric}
+A.~E. Filippov, J.~Klafter, and M.~Urbakh.
+\newblock Friction through dynamical formation and rupture of molecular bonds.
+\newblock {\em Phys. Rev. Lett.}, 92:135503, Mar 2004.
+
+\bibitem{cellmech_review1}
+Daniel~A. Fletcher and R.~Dyche Mullins.
+\newblock Cell mechanics and the cytoskeleton.
+\newblock {\em Nature}, 463(7280):485--492, 01 2010.
+
+\bibitem{rheo_crosslink_nonlin1}
+M.~L. Gardel, F.~Nakamura, J.~Hartwig, J.~C. Crocker, T.~P. Stossel, and D.~A.
+  Weitz.
+\newblock Stress-dependent elasticity of composite actin networks as a model
+  for cell behavior.
+\newblock {\em Phys. Rev. Lett.}, 96:088102, Mar 2006.
+
+\bibitem{rheo_crosslink_nonlin2}
+M.~L. Gardel, F.~Nakamura, J.~H. Hartwig, J.~C. Crocker, T.~P. Stossel, and
+  D.~A. Weitz.
+\newblock Prestressed f-actin networks cross-linked by hinged filamins
+  replicate mechanical properties of cells.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 103(6):1762--1767, 2006.
+
+\bibitem{rheo_marge}
+M.~L. Gardel, J.~H. Shin, F.~C. MacKintosh, L.~Mahadevan, P.~Matsudaira, and
+  D.~A. Weitz.
+\newblock Elastic behavior of cross-linked and bundled actin networks.
+\newblock {\em Science}, 304(5675):1301--1305, 2004.
+
+\bibitem{theo_hlm}
+David~A. Head, Alex~J. Levine, and F.~C. MacKintosh.
+\newblock Deformation of cross-linked semiflexible polymer networks.
+\newblock {\em Phys. Rev. Lett.}, 91:108102, Sep 2003.
+
+\bibitem{theo_nonaffine2}
+Claus Heussinger, Boris Schaefer, and Erwin Frey.
+\newblock Nonaffine rubber elasticity for stiff polymer networks.
+\newblock {\em Phys. Rev. E}, 76:031906, Sep 2007.
+
+\bibitem{rheo_actingel}
+Paul~A. Janmey, Soren Hvidt, Jennifer Lamb, and Thomas~P. Stossel.
+\newblock Resemblance of actin-binding protein/actin gels to covalently
+  crosslinked networks.
+\newblock {\em Nature}, 345(6270):89--92, 05 1990.
+
+\bibitem{rheo_crosslink_nonlin3}
+K.~E. Kasza, C.~P. Broedersz, G.~H. Koenderink, Y.~C. Lin, W.~Messner, E.~A.
+  Millman, F.~Nakamura, T.~P. Stossel, F.~C. MacKintosh, and D.~A. Weitz.
+\newblock Actin filament length tunes elasticity of flexibly cross-linked actin
+  networks.
+\newblock {\em Biophysical Journal}, 99(4):1091--1100, 2015/03/12.
+
+\bibitem{model_taeyoon}
+Taeyoon Kim, Wonmuk Hwang, and Roger~D Kamm.
+\newblock Dynamic role of cross-linking proteins in actin rheology.
+\newblock {\em Biophysical Journal}, 101(7):1597--1603, 10 2011.
+
+\bibitem{rheo_crosslinkslip1}
+O.~Lieleg, M.~M. A.~E. Claessens, Y.~Luan, and A.~R. Bausch.
+\newblock Transient binding and dissipation in cross-linked actin networks.
+\newblock {\em Phys. Rev. Lett.}, 101:108101, Sep 2008.
+
+\bibitem{rheo_crosslinkslip2}
+O.~Lieleg, K.~M. Schmoller, M.~M. A.~E. Claessens, and A.~R. Bausch.
+\newblock Cytoskeletal polymer networks: Viscoelastic properties are determined
+  by the microscopic interaction potential of cross-links.
+\newblock {\em Biophysical Journal}, 96(11):4725--4732, 6 2009.
+
+\bibitem{rheo_crosslinkreview}
+Oliver Lieleg, Mireille M. A.~E. Claessens, and Andreas~R. Bausch.
+\newblock Structure and dynamics of cross-linked actin networks.
+\newblock {\em Soft Matter}, 6:218--225, 2010.
+
+\bibitem{rheo_crosslink_notactin}
+Yi-Chia Lin, Chase~P. Broedersz, Amy~C. Rowat, Tatjana Wedig, Harald Herrmann,
+  Frederick~C. MacKintosh, and David~A. Weitz.
+\newblock Divalent cations crosslink vimentin intermediate filament tail
+  domains to regulate network mechanics.
+\newblock {\em Journal of Molecular Biology}, 399(4):637 -- 644, 2010.
+
+\bibitem{rheo_nonaffine}
+J.~Liu, G.~H. Koenderink, K.~E. Kasza, F.~C. MacKintosh, and D.~A. Weitz.
+\newblock Visualizing the strain field in semiflexible polymer networks: Strain
+  fluctuations and nonlinear rheology of $f$-actin gels.
+\newblock {\em Phys. Rev. Lett.}, 98:198304, May 2007.
+
+\bibitem{theo_crosslinkslip2}
+Kei~W. M\"uller, Robijn~F. Bruinsma, Oliver Lieleg, Andreas~R. Bausch,
+  Wolfgang~A. Wall, and Alex~J. Levine.
+\newblock Rheology of semiflexible bundle networks with transient linkers.
+\newblock {\em Phys. Rev. Lett.}, 112:238102, Jun 2014.
+
+\bibitem{cellmech_review2}
+Guillaume Salbreux, Guillaume Charras, and Ewa Paluch.
+\newblock Actin cortex mechanics and cellular morphogenesis.
+\newblock {\em Trends in Cell Biology}, 22(10):536 -- 545, 2012.
+
+\bibitem{theo_frictionSam}
+Evan Spruijt, Joris Sprakel, Marc Lemmers, Martien A.~Cohen Stuart, and Jasper
+  van~der Gucht.
+\newblock Relaxation dynamics at different time scales in electrostatic
+  complexes: Time-salt superposition.
+\newblock {\em Phys. Rev. Lett.}, 105:208301, Nov 2010.
+
+\bibitem{cell_rheo}
+Dimitrije Stamenovic.
+\newblock Cell mechanics: Two regimes, maybe three?
+\newblock {\em Nat Mater}, 5(8):597--598, 08 2006.
+
+\bibitem{theo_best}
+Cornelis Storm, Jennifer~J. Pastore, F.~C. MacKintosh, T.~C. Lubensky, and
+  Paul~A. Janmey.
+\newblock Nonlinear elasticity in biological gels.
+\newblock {\em Nature}, 435(7039):191--194, 05 2005.
+
+\bibitem{rheo_bench}
+R.~Tharmann, M.~M. A.~E. Claessens, and A.~R. Bausch.
+\newblock Viscoelasticity of isotropically cross-linked actin networks.
+\newblock {\em Phys. Rev. Lett.}, 98:088103, Feb 2007.
+
+\bibitem{theo_friction}
+Andrea Vanossi, Nicola Manini, Michael Urbakh, Stefano Zapperi, and Erio
+  Tosatti.
+\newblock \textit{Colloquium} : Modeling friction: From nanoscale to mesoscale.
+\newblock {\em Rev. Mod. Phys.}, 85:529--552, Apr 2013.
+
+\bibitem{rheo_crosslinksmatter}
+D.H. Wachsstock, W.H. Schwarz, and T.D. Pollard.
+\newblock Cross-linker dynamics determine the mechanical properties of actin
+  gels.
+\newblock {\em Biophysical Journal}, 66(3, Part 1):801 -- 809, 1994.
+
+\bibitem{mol_fric}
+Andrew Ward, Feodor Hilitski, Walter Schwenger, David Welch, A.~W.~C. Lau,
+  Vincenzo Vitelli, L.~Mahadevan, and Zvonimir Dogic.
+\newblock Solid friction between soft filaments.
+\newblock {\em Nat Mater}, advance online publication:--, 03 2015.
+
+\bibitem{rheo_crosslinkcompare}
+Sabine M.~Volkmer Ward, Astrid Weins, Martin~R. Pollak, and David~A. Weitz.
+\newblock Dynamic viscoelasticity of actin cross-linked with wild-type and
+  disease-causing mutant α-actinin-4.
+\newblock {\em Biophysical Journal}, 95(10):4915 -- 4923, 2008.
+
+\bibitem{theo_hlm2}
+Jan Wilhelm and Erwin Frey.
+\newblock Elasticity of stiff polymer networks.
+\newblock {\em Phys. Rev. Lett.}, 91:108103, Sep 2003.
+
+\bibitem{theo_floppy}
+M.~Wyart, H.~Liang, A.~Kabla, and L.~Mahadevan.
+\newblock Elasticity of floppy and stiff random networks.
+\newblock {\em Phys. Rev. Lett.}, 101:215501, Nov 2008.
+
+\bibitem{rheo_crosslinkslip3}
+Norman~Y. Yao, Daniel~J. Becker, Chase~P. Broedersz, Martin Depken,
+  Frederick~C. MacKintosh, Martin~R. Pollak, and David~A. Weitz.
+\newblock Nonlinear viscoelasticity of actin transiently cross-linked with
+  mutant α-actinin-4.
+\newblock {\em Journal of Molecular Biology}, 411(5):1062 -- 1071, 2011.
+
+\end{thebibliography}

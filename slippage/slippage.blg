@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: slippage.aux
+The style file: plain.bst
+Database file #1: slippageNotes.bib
+Database file #2: references.bib
+Warning--there's a month but no year in rheo_crosslink_nonlin3
+You've used 33 entries,
+            2118 wiz_defined-function locations,
+            711 strings with 10248 characters,
+and the built_in function-call counts, 13030 in all, are:
+= -- 1222
+> -- 803
+< -- 0
++ -- 315
+- -- 282
+* -- 1159
+:= -- 2255
+add.period$ -- 99
+call.type$ -- 33
+change.case$ -- 240
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 363
+empty$ -- 875
+format.name$ -- 282
+if$ -- 2573
+int.to.chr$ -- 0
+int.to.str$ -- 33
+missing$ -- 33
+newline$ -- 168
+num.names$ -- 66
+pop$ -- 175
+preamble$ -- 1
+purify$ -- 207
+quote$ -- 0
+skip$ -- 233
+stack$ -- 0
+substring$ -- 904
+swap$ -- 33
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 132
+warning$ -- 1
+while$ -- 109
+width$ -- 35
+write$ -- 365
+(There was 1 warning)

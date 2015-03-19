@@ -1,13 +1,31 @@
-\BOOKMARK [0][-]{section*.2}{Effective viscosity and tearing rate of polymer networks in the presence of cross-link slip and molecular motor activity}{}% 2
+\BOOKMARK [0][-]{section*.2}{Effective viscosity and tearing rate of polymer networks in the presence of cross-link slip}{}% 2
 \BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
 \BOOKMARK [1][-]{section*.3}{Contents}{section*.2}% 3
-\BOOKMARK [1][-]{section*.4}{List of Figures}{section*.2}% 4
-\BOOKMARK [1][-]{section*.5}{List of Tables}{section*.2}% 5
-\BOOKMARK [1][-]{section*.6}{Introduction}{section*.2}% 6
-\BOOKMARK [1][-]{section*.7}{The Model}{section*.2}% 7
-\BOOKMARK [1][-]{section*.8}{Analytical Results}{section*.2}% 8
-\BOOKMARK [1][-]{section*.9}{Computational Simulations}{section*.2}% 9
-\BOOKMARK [1][-]{section*.10}{Simulation Results}{section*.2}% 10
-\BOOKMARK [1][-]{section*.11}{Discussion}{section*.2}% 11
-\BOOKMARK [1][-]{section*.12}{Appendix A: Deriving molecular drag coefficients}{section*.2}% 12
-\BOOKMARK [1][-]{section*.13}{Appendix B: Simulation details}{section*.2}% 13
+\BOOKMARK [1][-]{section*.4}{Introduction}{section*.2}% 4
+\BOOKMARK [2][-]{section*.5}{Rheological Observations of Cross-link Dominated Response}{section*.4}% 5
+\BOOKMARK [2][-]{section*.6}{Overview of Theoretical Descriptions of Cross-linked Networks}{section*.4}% 6
+\BOOKMARK [1][-]{section*.7}{Explanation of Model}{section*.2}% 7
+\BOOKMARK [2][-]{section*.8}{Composite Cross-link \046 Filament Representation}{section*.7}% 8
+\BOOKMARK [2][-]{section*.9}{2D Network Formation}{section*.7}% 9
+\BOOKMARK [2][-]{section*.10}{Drag-like Coupling Between Overlapping Filaments}{section*.7}% 10
+\BOOKMARK [1][-]{section*.11}{Analytical Derivations}{section*.2}% 11
+\BOOKMARK [2][-]{section*.12}{Low Strain Approximation of Effective Viscosity}{section*.11}% 12
+\BOOKMARK [2][-]{section*.13}{Transient Softening from Filament Alignment}{section*.11}% 13
+\BOOKMARK [2][-]{section*.14}{Longterm Network Tearing}{section*.11}% 14
+\BOOKMARK [2][-]{section*.15}{Frequency Dependence of Elastic Modulus}{section*.11}% 15
+\BOOKMARK [1][-]{section*.16}{Analysis of Simulation Results}{section*.2}% 16
+\BOOKMARK [2][-]{section*.17}{Computational Simulation Method}{section*.16}% 17
+\BOOKMARK [2][-]{section*.18}{Behavior at Moderate Strains above Percolation Limit}{section*.16}% 18
+\BOOKMARK [2][-]{section*.19}{Behavior at High Shear Strain}{section*.16}% 19
+\BOOKMARK [3][-]{section*.20}{Compliant Network, Low Cross-link Slip}{section*.19}% 20
+\BOOKMARK [3][-]{section*.21}{Rigid Network, High Cross-link Slip}{section*.19}% 21
+\BOOKMARK [2][-]{section*.22}{Tearing Events During Extensional Strain}{section*.16}% 22
+\BOOKMARK [2][-]{section*.23}{Subnetwork Formation from Nonlinear Filament Extension}{section*.16}% 23
+\BOOKMARK [2][-]{section*.24}{Nonlinear Extension and Long-Lived Strain Memory}{section*.16}% 24
+\BOOKMARK [1][-]{section*.25}{Discussion}{section*.2}% 25
+\BOOKMARK [1][-]{section*.26}{Appendices}{section*.2}% 26
+\BOOKMARK [1][-]{section*.27}{Deriving Molecular Drag Coefficients}{section*.2}% 27
+\BOOKMARK [1][-]{section*.28}{Deriving Filament and Cross-Link Composite Extensional Modulus}{section*.2}% 28
+\BOOKMARK [1][-]{section*.29}{Semiflexibiliy}{section*.2}% 29
+\BOOKMARK [1][-]{section*.30}{Simulation details}{section*.2}% 30
+\BOOKMARK [1][-]{section*.31}{References}{section*.2}% 31
