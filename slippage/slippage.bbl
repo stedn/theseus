@@ -115,16 +115,36 @@ J.~Liu, G.~H. Koenderink, K.~E. Kasza, F.~C. MacKintosh, and D.~A. Weitz.
   fluctuations and nonlinear rheology of $f$-actin gels.
 \newblock {\em Phys. Rev. Lett.}, 98:198304, May 2007.
 
+\bibitem{cellmech_flows}
+Mirjam Mayer, Martin Depken, Justin~S. Bois, Frank Julicher, and Stephan~W.
+  Grill.
+\newblock Anisotropies in cortical tension reveal the physical basis of
+  polarizing cortical flows.
+\newblock {\em Nature}, 467(7315):617--621, 09 2010.
+
 \bibitem{theo_crosslinkslip2}
 Kei~W. M\"uller, Robijn~F. Bruinsma, Oliver Lieleg, Andreas~R. Bausch,
   Wolfgang~A. Wall, and Alex~J. Levine.
 \newblock Rheology of semiflexible bundle networks with transient linkers.
 \newblock {\em Phys. Rev. Lett.}, 112:238102, Jun 2014.
 
+\bibitem{rheo_2D1}
+Michael~P. Murrell and Margaret~L. Gardel.
+\newblock F-actin buckling coordinates contractility and severing in a
+  biomimetic actomyosin cortex.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  109(51):20820--20825, 2012.
+
 \bibitem{cellmech_review2}
 Guillaume Salbreux, Guillaume Charras, and Ewa Paluch.
 \newblock Actin cortex mechanics and cellular morphogenesis.
 \newblock {\em Trends in Cell Biology}, 22(10):536 -- 545, 2012.
+
+\bibitem{rheo_2D2}
+Tim Sanchez, Daniel T.~N. Chen, Stephen~J. DeCamp, Michael Heymann, and
+  Zvonimir Dogic.
+\newblock Spontaneous motion in hierarchically assembled active matter.
+\newblock {\em Nature}, 491(7424):431--434, 11 2012.
 
 \bibitem{theo_frictionSam}
 Evan Spruijt, Joris Sprakel, Marc Lemmers, Martien A.~Cohen Stuart, and Jasper

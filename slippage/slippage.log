@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  19 MAR 2015 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  23 MAR 2015 18:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -435,281 +435,12 @@ Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 20.
 \openout3 = `slippageNotes.bib'.
 
  [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./s
-lippage.toc
-Overfull \hbox (12.0027pt too wide) detected at line 6
- \OT1/cmr/m/n/12 I.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 6
- \OT1/cmr/m/n/12 2
- []
-
-
-Overfull \hbox (16.5721pt too wide) detected at line 7
- \OT1/cmr/m/n/12 A.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 7
- \OT1/cmr/m/n/12 2
- []
-
-
-Overfull \hbox (16.08461pt too wide) detected at line 8
- \OT1/cmr/m/n/12 B.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 8
- \OT1/cmr/m/n/12 2
- []
-
-
-Overfull \hbox (16.56793pt too wide) detected at line 9
- \OT1/cmr/m/n/12 II.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 9
- \OT1/cmr/m/n/12 3
- []
-
-
-Overfull \hbox (16.5721pt too wide) detected at line 10
- \OT1/cmr/m/n/12 A.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 10
- \OT1/cmr/m/n/12 3
- []
-
-
-Overfull \hbox (16.08461pt too wide) detected at line 11
- \OT1/cmr/m/n/12 B.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 11
- \OT1/cmr/m/n/12 4
- []
-
-
-Overfull \hbox (16.24988pt too wide) detected at line 12
- \OT1/cmr/m/n/12 C.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 12
- \OT1/cmr/m/n/12 5
- []
-
-
-Overfull \hbox (21.13316pt too wide) detected at line 13
- \OT1/cmr/m/n/12 III.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 13
- \OT1/cmr/m/n/12 6
- []
-
-
-Overfull \hbox (16.5721pt too wide) detected at line 14
- \OT1/cmr/m/n/12 A.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 14
- \OT1/cmr/m/n/12 6
- []
-
-
-Overfull \hbox (16.08461pt too wide) detected at line 15
- \OT1/cmr/m/n/12 B.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 15
- \OT1/cmr/m/n/12 7
- []
-
-
-Overfull \hbox (16.24988pt too wide) detected at line 16
- \OT1/cmr/m/n/12 C.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 16
- \OT1/cmr/m/n/12 7
- []
-
-
-Overfull \hbox (16.73738pt too wide) detected at line 17
- \OT1/cmr/m/n/12 D.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 17
- \OT1/cmr/m/n/12 8
- []
-
-
-Overfull \hbox (20.81094pt too wide) detected at line 18
- \OT1/cmr/m/n/12 IV.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 18
- \OT1/cmr/m/n/12 8
- []
-
-
-Overfull \hbox (16.5721pt too wide) detected at line 19
- \OT1/cmr/m/n/12 A.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 19
- \OT1/cmr/m/n/12 8
- []
-
-
-Overfull \hbox (16.08461pt too wide) detected at line 20
- \OT1/cmr/m/n/12 B.
- []
-
-
-Overfull \hbox (5.87494pt too wide) detected at line 20
- \OT1/cmr/m/n/12 9
- []
-
-
-Overfull \hbox (16.24988pt too wide) detected at line 21
- \OT1/cmr/m/n/12 C.
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 21
- \OT1/cmr/m/n/12 10
- []
-
-
-Overfull \hbox (13.6388pt too wide) detected at line 22
- \OT1/cmr/m/n/12 1.
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 22
- \OT1/cmr/m/n/12 10
- []
-
-
-Overfull \hbox (13.6388pt too wide) detected at line 23
- \OT1/cmr/m/n/12 2.
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 23
- \OT1/cmr/m/n/12 11
- []
-
-
-Overfull \hbox (16.73738pt too wide) detected at line 24
- \OT1/cmr/m/n/12 D.
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 24
- \OT1/cmr/m/n/12 11
- []
-
-
-Overfull \hbox (15.75822pt too wide) detected at line 25
- \OT1/cmr/m/n/12 E.
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 25
- \OT1/cmr/m/n/12 11
- []
-
-
-Overfull \hbox (15.43184pt too wide) detected at line 26
- \OT1/cmr/m/n/12 F.
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 26
- \OT1/cmr/m/n/12 11
- []
-
-
-Overfull \hbox (16.5721pt too wide) detected at line 27
- \OT1/cmr/m/n/12 V.
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 27
- \OT1/cmr/m/n/12 13
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 29
- \OT1/cmr/m/n/12 13
- []
-
-
-Overfull \hbox (16.5721pt too wide) detected at line 30
- \OT1/cmr/m/n/12 A.
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 30
- \OT1/cmr/m/n/12 14
- []
-
-
-Overfull \hbox (16.08461pt too wide) detected at line 31
- \OT1/cmr/m/n/12 B.
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 31
- \OT1/cmr/m/n/12 15
- []
-
-
-Overfull \hbox (16.24988pt too wide) detected at line 32
- \OT1/cmr/m/n/12 C.
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 32
- \OT1/cmr/m/n/12 15
- []
-
-
-Overfull \hbox (16.73738pt too wide) detected at line 33
- \OT1/cmr/m/n/12 D.
- []
-
-
-Overfull \hbox (11.74988pt too wide) detected at line 33
- \OT1/cmr/m/n/12 15
- []
-
-[2]
-Overfull \hbox (11.74988pt too wide) detected at line 34
- \OT1/cmr/m/n/12 15
- []
-
-)
+lippage.toc [2])
 \tf@toc=\write5
 \openout5 = `slippage.toc'.
 
  [3] [4] [5] [6] [7] [8]
+[9]
 Package epstopdf Info: Source file: <network_def.eps>
 (epstopdf)                    date: 2015-02-20 13:05:18
 (epstopdf)                    size: 1240270 bytes
@@ -718,38 +449,34 @@ Package epstopdf Info: Source file: <network_def.eps>
 (epstopdf)                    size: 107380 bytes
 (epstopdf)             Command: <repstopdf --outfile=network_def-eps-converted-
 to.pdf network_def.eps>
-(epstopdf)             \includegraphics on input line 193.
+(epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
-
-<network_def-eps-converted-to.pdf, id=294, 433.62pt x 224.84pt>
+ <network_def-eps-converted-to.pdf, id=313, 433.62pt x 224.84pt>
 File: network_def-eps-converted-to.pdf Graphic file (type pdf)
 
 <use network_def-eps-converted-to.pdf>
 Package pdftex.def Info: network_def-eps-converted-to.pdf used on input line 19
-3.
+9.
 (pdftex.def)             Requested size: 468.0pt x 242.67949pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9] <eff_vic_master.pdf, id=300, 718.685pt x 542.025pt>
+[10] <eff_vic_master.pdf, id=320, 718.685pt x 542.025pt>
 File: eff_vic_master.pdf Graphic file (type pdf)
 
 <use eff_vic_master.pdf>
-Package pdftex.def Info: eff_vic_master.pdf used on input line 208.
+Package pdftex.def Info: eff_vic_master.pdf used on input line 215.
 (pdftex.def)             Requested size: 468.0pt x 352.97372pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10 <./network_def-eps-converted-to.pdf>] [11 <./eff_vic_master.pdf>]
-
-LaTeX Warning: Reference `sec:greetings' on page 12 undefined on input line 235
-.
-
+[11 <./network_def-eps-converted-to.pdf>] [12 <./eff_vic_master.pdf>] [13]
 File: eff_vic_master.pdf Graphic file (type pdf)
+
 <use eff_vic_master.pdf>
-Package pdftex.def Info: eff_vic_master.pdf used on input line 239.
+Package pdftex.def Info: eff_vic_master.pdf used on input line 259.
 (pdftex.def)             Requested size: 468.0pt x 352.97372pt.
 
 
@@ -763,19 +490,18 @@ Package epstopdf Info: Source file: <sine.eps>
 (epstopdf)                    size: 13045 bytes
 (epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
 sine.eps>
-(epstopdf)             \includegraphics on input line 248.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
-<sine-eps-converted-to.pdf, id=323, 333.245pt x 191.71625pt>
+<sine-eps-converted-to.pdf, id=349, 333.245pt x 191.71625pt>
 File: sine-eps-converted-to.pdf Graphic file (type pdf)
 
 <use sine-eps-converted-to.pdf>
-Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 248.
+Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 268.
 (pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12] [13 <./sine-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <sine.eps>
 (epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 89506 bytes
@@ -784,12 +510,16 @@ Package epstopdf Info: Source file: <sine.eps>
 (epstopdf)                    size: 13045 bytes
 (epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
 sine.eps>
-(epstopdf)             \includegraphics on input line 259.
+(epstopdf)             \includegraphics on input line 279.
 Package epstopdf Info: Output file is already uptodate.
 File: sine-eps-converted-to.pdf Graphic file (type pdf)
- <use sine-eps-converted-to.pdf>
-Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 259.
+<use sine-eps-converted-to.pdf>
+Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 279.
 (pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <phase.eps>
 (epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 506852 bytes
@@ -798,47 +528,44 @@ Package epstopdf Info: Source file: <phase.eps>
 (epstopdf)                    size: 21071 bytes
 (epstopdf)             Command: <repstopdf --outfile=phase-eps-converted-to.pdf
  phase.eps>
-(epstopdf)             \includegraphics on input line 273.
+(epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
-
-<phase-eps-converted-to.pdf, id=340, 309.155pt x 328.22626pt>
+<phase-eps-converted-to.pdf, id=350, 309.155pt x 328.22626pt>
 File: phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use phase-eps-converted-to.pdf>
-Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 273.
+Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 293.
 (pdftex.def)             Requested size: 185.49442pt x 196.93727pt.
- [14 <./phase-eps-converted-to.pdf>]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15] (./slippage.bbl [16] [17] [18]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14] [15 <./sine-eps-converted-to.pdf>] [16 <./phase-eps-converted-to.pdf>]
+[17] (./slippage.bbl [18] [19] [20]
 Missing character: There is no Î in font cmr10!
 Missing character: There is no ± in font cmr10!
 Missing character: There is no Î in font cmr10!
 Missing character: There is no ± in font cmr10!
-) [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
+) [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
  (./slippage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 343.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 343.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
 Package rerunfilecheck Info: File `slippage.out' has not changed.
-(rerunfilecheck)             Checksum: 2B6262840F3923D823BC18C73DEC8316;2538.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: DD9CF975E044D46F90B3A1A8B8D384F0;2624.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8205 strings out of 493117
- 117874 string characters out of 6135433
- 218832 words of memory out of 5000000
- 11467 multiletter control sequences out of 15000+600000
+ 8225 strings out of 493117
+ 118180 string characters out of 6135433
+ 219995 words of memory out of 5000000
+ 11479 multiletter control sequences out of 15000+600000
  10893 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,10n,29p,1013b,593s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,10n,29p,1013b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -855,10 +582,10 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on slippage.pdf (19 pages, 373429 bytes).
+Output written on slippage.pdf (21 pages, 379497 bytes).
 PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
- 403 compressed objects within 5 object streams
- 104 named destinations out of 1000 (max. 500000)
- 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 480 PDF objects out of 1000 (max. 8388607)
+ 428 compressed objects within 5 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 
