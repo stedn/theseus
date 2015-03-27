@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 MAR 2015 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 MAR 2015 19:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -439,26 +439,7 @@ lippage.toc [2])
 \tf@toc=\write5
 \openout5 = `slippage.toc'.
 
- [3] [4] [5] [6] [7] [8]
-<shear_modes.pdf, id=323, 916.42375pt x 700.6175pt>
-File: shear_modes.pdf Graphic file (type pdf)
- <use shear_modes.pdf>
-Package pdftex.def Info: shear_modes.pdf used on input line 164.
-(pdftex.def)             Requested size: 468.0pt x 357.79128pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9] [10 <./shear_modes.pdf>]
-Overfull \hbox (8.43565pt too wide) in paragraph at lines 188--189
-[]\OT1/cmr/m/n/12 At this point even the mean fil-a-ment stretch be-comes aniso
-tropic $\OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 ^^NL=L\OMS/cmsy/m/n/12 i 6\OT1/cmr/m
-/n/12 = \OML/cmm/m/it/12 ^^M[]sin\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^R\OT1/cmr/
-m/n/12 )\OML/cmm/m/it/12 cos\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^R\OT1/cmr/m/n/1
-2 )$,
- []
-
-[11]
+ [3] [4] [5] [6] [7]
 Package epstopdf Info: Source file: <network_def.eps>
 (epstopdf)                    date: 2015-02-20 13:05:18
 (epstopdf)                    size: 1240270 bytes
@@ -467,34 +448,46 @@ Package epstopdf Info: Source file: <network_def.eps>
 (epstopdf)                    size: 107380 bytes
 (epstopdf)             Command: <repstopdf --outfile=network_def-eps-converted-
 to.pdf network_def.eps>
-(epstopdf)             \includegraphics on input line 234.
+(epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
- <network_def-eps-converted-to.pdf, id=350, 433.62pt x 224.84pt>
+
+<network_def-eps-converted-to.pdf, id=303, 433.62pt x 224.84pt>
 File: network_def-eps-converted-to.pdf Graphic file (type pdf)
 
 <use network_def-eps-converted-to.pdf>
-Package pdftex.def Info: network_def-eps-converted-to.pdf used on input line 23
-4.
+Package pdftex.def Info: network_def-eps-converted-to.pdf used on input line 17
+7.
 (pdftex.def)             Requested size: 468.0pt x 242.67949pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12] <eff_vic_master.pdf, id=357, 718.685pt x 542.025pt>
+ [8 <./network_def-eps-converted-to.pdf>] [9] <eff_vic_master.pdf, id=324, 718.
+685pt x 542.025pt>
 File: eff_vic_master.pdf Graphic file (type pdf)
 
 <use eff_vic_master.pdf>
-Package pdftex.def Info: eff_vic_master.pdf used on input line 250.
+Package pdftex.def Info: eff_vic_master.pdf used on input line 256.
 (pdftex.def)             Requested size: 468.0pt x 352.97372pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./network_def-eps-converted-to.pdf>] [14 <./eff_vic_master.pdf>] [15]
-File: eff_vic_master.pdf Graphic file (type pdf)
+[10] <shear_modes.pdf, id=335, 916.42375pt x 700.6175pt>
+File: shear_modes.pdf Graphic file (type pdf)
+ <use shear_modes.pdf>
+Package pdftex.def Info: shear_modes.pdf used on input line 273.
+(pdftex.def)             Requested size: 468.0pt x 357.79128pt.
 
-<use eff_vic_master.pdf>
-Package pdftex.def Info: eff_vic_master.pdf used on input line 294.
+[11 <./eff_vic_master.pdf>] [12 <./shear_modes.pdf>]
+Overfull \hbox (8.43565pt too wide) in paragraph at lines 297--298
+[]\OT1/cmr/m/n/12 At this point even the mean fil-a-ment stretch be-comes aniso
+tropic $\OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 ^^NL=L\OMS/cmsy/m/n/12 i 6\OT1/cmr/m
+/n/12 = \OML/cmm/m/it/12 ^^M[]sin\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^R\OT1/cmr/
+m/n/12 )\OML/cmm/m/it/12 cos\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^R\OT1/cmr/m/n/1
+2 )$,
+ []
+
+[13] [14] [15]
+File: eff_vic_master.pdf Graphic file (type pdf)
+ <use eff_vic_master.pdf>
+Package pdftex.def Info: eff_vic_master.pdf used on input line 428.
 (pdftex.def)             Requested size: 468.0pt x 352.97372pt.
 
 
@@ -508,13 +501,13 @@ Package epstopdf Info: Source file: <sine.eps>
 (epstopdf)                    size: 13045 bytes
 (epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
 sine.eps>
-(epstopdf)             \includegraphics on input line 303.
+(epstopdf)             \includegraphics on input line 437.
 Package epstopdf Info: Output file is already uptodate.
-<sine-eps-converted-to.pdf, id=385, 333.245pt x 191.71625pt>
+<sine-eps-converted-to.pdf, id=377, 333.245pt x 191.71625pt>
 File: sine-eps-converted-to.pdf Graphic file (type pdf)
 
 <use sine-eps-converted-to.pdf>
-Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 303.
+Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 437.
 (pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
 
 
@@ -528,11 +521,11 @@ Package epstopdf Info: Source file: <sine.eps>
 (epstopdf)                    size: 13045 bytes
 (epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
 sine.eps>
-(epstopdf)             \includegraphics on input line 314.
+(epstopdf)             \includegraphics on input line 448.
 Package epstopdf Info: Output file is already uptodate.
 File: sine-eps-converted-to.pdf Graphic file (type pdf)
 <use sine-eps-converted-to.pdf>
-Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 314.
+Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 448.
 (pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
 
 
@@ -546,13 +539,13 @@ Package epstopdf Info: Source file: <phase.eps>
 (epstopdf)                    size: 21071 bytes
 (epstopdf)             Command: <repstopdf --outfile=phase-eps-converted-to.pdf
  phase.eps>
-(epstopdf)             \includegraphics on input line 328.
+(epstopdf)             \includegraphics on input line 499.
 Package epstopdf Info: Output file is already uptodate.
-<phase-eps-converted-to.pdf, id=386, 309.155pt x 328.22626pt>
+<phase-eps-converted-to.pdf, id=378, 309.155pt x 328.22626pt>
 File: phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use phase-eps-converted-to.pdf>
-Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 328.
+Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 499.
 (pdftex.def)             Requested size: 185.49442pt x 196.93727pt.
 
 
@@ -564,26 +557,26 @@ Missing character: There is no Î in font cmr10!
 Missing character: There is no ± in font cmr10!
 Missing character: There is no Î in font cmr10!
 Missing character: There is no ± in font cmr10!
-) [23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 408.
+ [23]) [24]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 611.
  (./slippage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 408.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 408.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 611.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 611.
 Package rerunfilecheck Info: File `slippage.out' has not changed.
-(rerunfilecheck)             Checksum: 021EA5E8BB96E0CD494BA14D149089B3;2932.
+(rerunfilecheck)             Checksum: DC71DFC12CF7B795ED3D1C9273054585;2777.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8243 strings out of 493117
- 118419 string characters out of 6135433
- 219323 words of memory out of 5000000
- 11489 multiletter control sequences out of 15000+600000
+ 8248 strings out of 493117
+ 118580 string characters out of 6135433
+ 218341 words of memory out of 5000000
+ 11494 multiletter control sequences out of 15000+600000
  10893 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,10n,29p,1013b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,10n,29p,1013b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -600,10 +593,10 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on slippage.pdf (23 pages, 390768 bytes).
+Output written on slippage.pdf (24 pages, 393060 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 462 compressed objects within 5 object streams
+ 513 PDF objects out of 1000 (max. 8388607)
+ 457 compressed objects within 5 object streams
  119 named destinations out of 1000 (max. 500000)
- 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 
