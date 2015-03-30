@@ -1,4 +1,4 @@
-\documentclass[pre,preprint]{revtex4-1}
+\documentclass[pre,reprint]{revtex4-1}
 
 % preamble:
 \usepackage{appendix}
@@ -276,9 +276,19 @@ This derivation is only valid in the limit of moderate strains.  If filaments ha
 
 However, it isn't immediately clear how large these components of the strain will be or over what timescale they might take effect.  We next aim to determine the dependence of these effects on the microscopic parameters of our model.
 
-Assuming that no drastic filament alignment has occurred, then phase c will closely resemble our linear approximate, aside from a relatively minor geometrical factor due to the correlations between orientation and filament extension (See Appendix \ref{app:aargh}).  The effects of phase b and phase d are quite drastically different so owe approach their separately.
+Assuming that no drastic filament alignment has occurred, then phase c will closely resemble our linear approximate, aside from a relatively minor geometrical factor due to the correlations between orientation and filament extension (See Appendix \ref{app:aargh}).  The effects of phase b and phase d are quite drastically different so owe approach their analysis separately.
 
-\subsubsection{Transient Softening from Slow Filament Stretch}
+\subsubsection{Phase A: Mechanical Bending Alignment in Compliant Networks}
+If the elastic deformation of the network is larger than the deformation from cross-link slip, the system enters a regime of high network anisotropy.  Under these conditions, large scale reordering drives the network into a highly anisotropic distribution of filament orientations and lengths long before significant cross-link slip begins to occur.  This gives rise to a more complex relationship determining the number of effective cross-links that are connecting the network.  
+
+Perhaps more interestingly, we also see the interplay between filament stretching and cross-link slip give rise to a long timescale deviation from purely viscous behavior.  When cross-link slip is slow, we find this leads to two phases of filament stretching.  In the first phase, filaments undergo large-scale dilation or contraction depending on their orientation relative to the direction of shear.  However, some portion of the filament is still "under-stretched" due to local constraints from cross-links.  As the cross-link slip allows these constraints to be removed, the filament is able to stretch more slowly. y
+
+This occurs on a timescale similar to that off cross-link slip and causes the effective viscosity to decay back toward the rigid limit over a time on the scale of \_\_\_.  This gives rise to a less-than-linear creep response during times after the initial elastic relaxation but before full filament relaxation from cross-link slip.  In Figure , we show that the time dependent effective viscosity increases back toward the isotropic estimate as the slip-derived strain becomes of the same scale as that from pure mechanical stretching.
+
+We are still investigating how the mechanics that allows this reorientation to give rise to a transient softening.
+
+\subsubsection{Phase B: Transient Softening from Slow Filament Stretch}
+\label{sec:compliant}
 
 Our approximation was derived in the limit of rigid rods.  In the case of filaments with non negligible compliance, we might expect there to be some interplay between filament stretching and effective viscosity.  Indeed, our simulations below uncover a noticeable decrease in the short-term viscosity even beyond the timescale of relaxation to mechanical equilibrium.  This decrease in the observed viscosity actually decays away as filaments relax due to cross-link slip.  This leads to a less than linear time dependence in the creep response curves that lasts for long times.  
 
@@ -290,25 +300,17 @@ Eventually the strain rate from slow filament stretching will become negligible 
 
 
 
-\subsubsection{Filament Alignment And Network Tearing}
+
+
+
+
+
+\subsubsection{Phase D: Alignment at High Cross-link Slip and Network Tearing}
+
 
 This will remain valid as long as any ordering by the induced strain is still relatively small.  However, if the network reorganization is relatively fast due to high stresses, we find that our approximation no longer holds.  
 
 At this point even the mean filament stretch becomes anisotropic $\langle \delta L / L \rangle \neq \gamma_{xy}sin(\theta)cos(\theta)$, with a larger number of filaments aligning in the direction of extension rather than compression.  To the authors knowledge an exact derivation of the dependence of network connectedness on filament alignment has not been carried out, but Monte Carlo simulations have been used to show that alignment does indeed lead to lower connectedness\cite{model_percolationanisotropy}.
-
-
-
-\subsubsection{Compliant Network, Low Cross-link Slip}
-\label{sec:compliant}
-If the elastic deformation of the network is larger than the deformation from cross-link slip, the system enters a regime of high network anisotropy.  Under these conditions, large scale reordering drives the network into a highly anisotropic distribution of filament orientations and lengths long before significant cross-link slip begins to occur.  This gives rise to a more complex relationship determining the number of effective cross-links that are connecting the network.  
-
-Perhaps more interestingly, we also see the interplay between filament stretching and cross-link slip give rise to a long timescale deviation from purely viscous behavior.  When cross-link slip is slow, we find this leads to two phases of filament stretching.  In the first phase, filaments undergo large-scale dilation or contraction depending on their orientation relative to the direction of shear.  However, some portion of the filament is still "under-stretched" due to local constraints from cross-links.  As the cross-link slip allows these constraints to be removed, the filament is able to stretch more slowly. y
-
-This occurs on a timescale similar to that off cross-link slip and causes the effective viscosity to decay back toward the rigid limit over a time on the scale of \_\_\_.  This gives rise to a less-than-linear creep response during times after the initial elastic relaxation but before full filament relaxation from cross-link slip.  In Figure , we show that the time dependent effective viscosity increases back toward the isotropic estimate as the slip-derived strain becomes of the same scale as that from pure mechanical stretching.
-
-We are still investigating how the mechanics that allows this reorientation to give rise to a transient softening.
-
-\subsubsection{Rigid Network, High Cross-link Slip}
 
 If, on the other hand, our filament stiffness is very high, large scale scale strains manifest themselves in a very different way.   
 
@@ -417,10 +419,13 @@ This behavior is caused primarily by the low density network undergoing tearing 
 
 
 
-\section{Nonlinear Filament Extension and Strain Memory}
+\section{Nonlinear Extension and Long-Lived Strain Memory}
 
+\subsection{Subnetwork Formation}
 
-\subsection{Nonlinear Extension and Long-Lived Strain Memory}
+\subsection{Pull Release Simulations}
+
+\subsection{Strain Heterogeneity}
 Finally, we found an interesting behavior when we introduced non-linear extensional stiffness into our filaments.  This behavior mimics recent experiments in filamin cross-linked networks.  Filamin provides a high level of compliance to a network ($\gamma_0>0.5$) without substantial cross-link unbinding.  This allows large scale rearrangements to take place without driving very much cross-link slip, similar to the conditions in section \ref{sec:compliant}.  However, if we force individual filaments to undergo a strongly nonlinear stiffening at strains above 10\%, we find an interesting long term "strain storage."
 
 \begin{figure}[h!]

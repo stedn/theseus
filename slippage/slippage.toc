@@ -1,36 +1,37 @@
 \contentsline {title}{Effective viscosity, tearing rate, and strain memory of compliant filament networks with cross-link slip}{1}{section*.2}
 \contentsline {abstract}{Abstract}{1}{section*.1}
 \tocdepth@munge 
-\contentsline {section}{\numberline {}Contents}{2}{section*.3}
+\contentsline {section}{\numberline {}Contents}{1}{section*.3}
 \tocdepth@restore 
-\contentsline {section}{\numberline {I}Introduction}{3}{section*.4}
-\contentsline {subsection}{\numberline {A}Rheological Observations of Cross-link Dominated Response}{3}{section*.5}
-\contentsline {subsection}{\numberline {B}Overview of Theoretical Descriptions of Cross-linked Networks}{4}{section*.6}
-\contentsline {section}{\numberline {II}Explanation of Model}{4}{section*.7}
-\contentsline {subsection}{\numberline {A}Composite Cross-link \& Filament Representation}{4}{section*.8}
-\contentsline {subsection}{\numberline {B}2D Network Formation}{5}{section*.9}
-\contentsline {subsection}{\numberline {C}Drag-like Coupling Between Overlapping Filaments}{6}{section*.10}
-\contentsline {subsection}{\numberline {D}System of Equations for Applied Stress}{7}{section*.11}
-\contentsline {subsection}{\numberline {E}Computational Simulation Method}{7}{section*.12}
-\contentsline {section}{\numberline {III}Effective Viscosity under Shear Stress}{9}{section*.13}
-\contentsline {subsection}{\numberline {A}Low Strain Approximation of Effective Viscosity}{9}{section*.14}
-\contentsline {subsection}{\numberline {B}Effects from Large Strain}{11}{section*.15}
-\contentsline {subsubsection}{\numberline {1}Transient Softening from Slow Filament Stretch}{13}{section*.16}
-\contentsline {subsubsection}{\numberline {2}Filament Alignment And Network Tearing}{13}{section*.17}
-\contentsline {subsubsection}{\numberline {3}Compliant Network, Low Cross-link Slip}{14}{section*.18}
-\contentsline {subsubsection}{\numberline {4}Rigid Network, High Cross-link Slip}{14}{section*.19}
-\contentsline {subsection}{\numberline {C}Phase Diagram of Dominant Behvaior}{15}{section*.20}
-\contentsline {section}{\numberline {IV}Network Tearing under Extensional Stress}{15}{section*.21}
-\contentsline {subsection}{\numberline {A}Extensional Thinning and Network Tearing}{15}{section*.22}
-\contentsline {subsection}{\numberline {B}Tearing Events During Extensional Strain}{16}{section*.23}
-\contentsline {section}{\numberline {V}Nonlinear Filament Extension and Strain Memory}{16}{section*.24}
-\contentsline {subsection}{\numberline {A}Nonlinear Extension and Long-Lived Strain Memory}{16}{section*.25}
-\contentsline {section}{\numberline {VI}Discussion}{16}{section*.26}
+\contentsline {section}{\numberline {I}Introduction}{1}{section*.4}
+\contentsline {subsection}{\numberline {A}Rheological Observations of Cross-link Dominated Response}{1}{section*.5}
+\contentsline {subsection}{\numberline {B}Overview of Theoretical Descriptions of Cross-linked Networks}{2}{section*.6}
+\contentsline {section}{\numberline {II}Explanation of Model}{2}{section*.7}
+\contentsline {subsection}{\numberline {A}Composite Cross-link \& Filament Representation}{2}{section*.8}
+\contentsline {subsection}{\numberline {B}2D Network Formation}{2}{section*.9}
+\contentsline {subsection}{\numberline {C}Drag-like Coupling Between Overlapping Filaments}{3}{section*.10}
+\contentsline {subsection}{\numberline {D}System of Equations for Applied Stress}{3}{section*.11}
+\contentsline {subsection}{\numberline {E}Computational Simulation Method}{3}{section*.12}
+\contentsline {section}{\numberline {III}Effective Viscosity under Shear Stress}{4}{section*.13}
+\contentsline {subsection}{\numberline {A}Low Strain Approximation of Effective Viscosity}{4}{section*.14}
+\contentsline {subsection}{\numberline {B}Effects from Large Strain}{5}{section*.15}
+\contentsline {subsubsection}{\numberline {1}Phase A: Mechanical Bending Alignment in Compliant Networks}{5}{section*.16}
+\contentsline {subsubsection}{\numberline {2}Phase B: Transient Softening from Slow Filament Stretch}{6}{section*.17}
+\contentsline {subsubsection}{\numberline {3}Phase D: Alignment at High Cross-link Slip and Network Tearing}{6}{section*.18}
+\contentsline {subsection}{\numberline {C}Phase Diagram of Dominant Behvaior}{6}{section*.19}
+\contentsline {section}{\numberline {IV}Network Tearing under Extensional Stress}{6}{section*.20}
+\contentsline {subsection}{\numberline {A}Extensional Thinning and Network Tearing}{6}{section*.21}
+\contentsline {subsection}{\numberline {B}Tearing Events During Extensional Strain}{7}{section*.22}
+\contentsline {section}{\numberline {V}Nonlinear Extension and Long-Lived Strain Memory}{7}{section*.23}
+\contentsline {subsection}{\numberline {A}Subnetwork Formation}{7}{section*.24}
+\contentsline {subsection}{\numberline {B}Pull Release Simulations}{7}{section*.25}
+\contentsline {subsection}{\numberline {C}Strain Heterogeneity}{7}{section*.26}
+\contentsline {section}{\numberline {VI}Discussion}{7}{section*.27}
 \appendix 
-\contentsline {section}{Appendices}{16}{section*.27}
-\contentsline {section}{\numberline {A}Deriving Molecular Drag Coefficients}{17}{section*.28}
-\contentsline {section}{\numberline {B}Deriving Filament and Cross-Link Composite Extensional Modulus}{20}{section*.29}
-\contentsline {section}{\numberline {C}Rigid Rod Approximation with Non-Uniform Distributions of Length and Orientation}{20}{section*.30}
-\contentsline {section}{\numberline {D}Semiflexibiliy}{20}{section*.31}
-\contentsline {section}{\numberline {E}Simulation details}{20}{section*.32}
-\contentsline {section}{\numberline {}References}{20}{section*.33}
+\contentsline {section}{Appendices}{7}{section*.28}
+\contentsline {section}{\numberline {A}Deriving Molecular Drag Coefficients}{7}{section*.29}
+\contentsline {section}{\numberline {B}Deriving Filament and Cross-Link Composite Extensional Modulus}{8}{section*.30}
+\contentsline {section}{\numberline {C}Rigid Rod Approximation with Non-Uniform Distributions of Length and Orientation}{8}{section*.31}
+\contentsline {section}{\numberline {D}Semiflexibiliy}{8}{section*.32}
+\contentsline {section}{\numberline {E}Simulation details}{8}{section*.33}
+\contentsline {section}{\numberline {}References}{9}{section*.34}
