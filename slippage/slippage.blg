@@ -5,45 +5,45 @@ The style file: plain.bst
 Database file #1: slippageNotes.bib
 Database file #2: references.bib
 Warning--there's a month but no year in rheo_crosslink_nonlin3
-You've used 37 entries,
+You've used 38 entries,
             2118 wiz_defined-function locations,
-            740 strings with 11144 characters,
-and the built_in function-call counts, 14584 in all, are:
-= -- 1372
-> -- 890
+            748 strings with 11296 characters,
+and the built_in function-call counts, 14889 in all, are:
+= -- 1403
+> -- 897
 < -- 0
-+ -- 349
-- -- 312
-* -- 1298
-:= -- 2518
-add.period$ -- 111
-call.type$ -- 37
-change.case$ -- 267
++ -- 352
+- -- 314
+* -- 1321
+:= -- 2568
+add.period$ -- 114
+call.type$ -- 38
+change.case$ -- 271
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 407
-empty$ -- 985
-format.name$ -- 312
-if$ -- 2883
+cite$ -- 39
+duplicate$ -- 418
+empty$ -- 1014
+format.name$ -- 314
+if$ -- 2948
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 37
-newline$ -- 188
-num.names$ -- 74
-pop$ -- 194
+int.to.str$ -- 38
+missing$ -- 38
+newline$ -- 193
+num.names$ -- 76
+pop$ -- 196
 preamble$ -- 1
-purify$ -- 230
+purify$ -- 233
 quote$ -- 0
-skip$ -- 262
+skip$ -- 269
 stack$ -- 0
-substring$ -- 1025
-swap$ -- 37
+substring$ -- 1057
+swap$ -- 38
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
+type$ -- 152
 warning$ -- 1
-while$ -- 123
-width$ -- 39
-write$ -- 409
+while$ -- 126
+width$ -- 40
+write$ -- 420
 (There was 1 warning)

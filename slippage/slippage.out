@@ -2,33 +2,39 @@
 \BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
 \BOOKMARK [1][-]{section*.3}{Contents}{section*.2}% 3
 \BOOKMARK [1][-]{section*.4}{Introduction}{section*.2}% 4
-\BOOKMARK [2][-]{section*.5}{Rheological Observations of Cross-link Dominated Response}{section*.4}% 5
-\BOOKMARK [2][-]{section*.6}{Overview of Theoretical Descriptions of Cross-linked Networks}{section*.4}% 6
-\BOOKMARK [1][-]{section*.7}{Explanation of Model}{section*.2}% 7
-\BOOKMARK [2][-]{section*.8}{Composite Cross-link \046 Filament Representation}{section*.7}% 8
-\BOOKMARK [2][-]{section*.9}{2D Network Formation}{section*.7}% 9
-\BOOKMARK [2][-]{section*.10}{Drag-like Coupling Between Overlapping Filaments}{section*.7}% 10
-\BOOKMARK [2][-]{section*.11}{System of Equations for Applied Stress}{section*.7}% 11
-\BOOKMARK [2][-]{section*.12}{Computational Simulation Method}{section*.7}% 12
-\BOOKMARK [1][-]{section*.13}{Effective Viscosity under Shear Stress}{section*.2}% 13
-\BOOKMARK [2][-]{section*.14}{Low Strain Approximation of Effective Viscosity}{section*.13}% 14
-\BOOKMARK [2][-]{section*.15}{Effects from Large Strain}{section*.13}% 15
-\BOOKMARK [3][-]{section*.16}{Phase A: Mechanical Bending Alignment in Compliant Networks}{section*.15}% 16
-\BOOKMARK [3][-]{section*.17}{Phase B: Transient Softening from Slow Filament Stretch}{section*.15}% 17
-\BOOKMARK [3][-]{section*.18}{Phase D: Alignment at High Cross-link Slip and Network Tearing}{section*.15}% 18
-\BOOKMARK [2][-]{section*.19}{Phase Diagram of Dominant Behvaior}{section*.13}% 19
-\BOOKMARK [1][-]{section*.20}{Network Tearing under Extensional Stress}{section*.2}% 20
-\BOOKMARK [2][-]{section*.21}{Extensional Thinning and Network Tearing}{section*.20}% 21
-\BOOKMARK [2][-]{section*.22}{Tearing Events During Extensional Strain}{section*.20}% 22
-\BOOKMARK [1][-]{section*.23}{Nonlinear Extension and Long-Lived Strain Memory}{section*.2}% 23
-\BOOKMARK [2][-]{section*.24}{Subnetwork Formation}{section*.23}% 24
-\BOOKMARK [2][-]{section*.25}{Pull Release Simulations}{section*.23}% 25
-\BOOKMARK [2][-]{section*.26}{Strain Heterogeneity}{section*.23}% 26
-\BOOKMARK [1][-]{section*.27}{Discussion}{section*.2}% 27
-\BOOKMARK [1][-]{section*.28}{Appendices}{section*.2}% 28
-\BOOKMARK [1][-]{section*.29}{Deriving Molecular Drag Coefficients}{section*.2}% 29
-\BOOKMARK [1][-]{section*.30}{Deriving Filament and Cross-Link Composite Extensional Modulus}{section*.2}% 30
-\BOOKMARK [1][-]{section*.31}{Rigid Rod Approximation with Non-Uniform Distributions of Length and Orientation}{section*.2}% 31
-\BOOKMARK [1][-]{section*.32}{Semiflexibiliy}{section*.2}% 32
-\BOOKMARK [1][-]{section*.33}{Simulation details}{section*.2}% 33
-\BOOKMARK [1][-]{section*.34}{References}{section*.2}% 34
+\BOOKMARK [2][-]{section*.5}{Short Timescale Mechanics of Cross-linked Filament Networks}{section*.4}% 5
+\BOOKMARK [3][-]{section*.6}{Theories of Semi-flexible Filament Networks}{section*.5}% 6
+\BOOKMARK [3][-]{section*.7}{Incorporating Effects of Cross-link Compliance}{section*.5}% 7
+\BOOKMARK [2][-]{section*.8}{Long Timescale Stress Relaxation from Transient Cross-link Unbinding}{section*.4}% 8
+\BOOKMARK [3][-]{section*.9}{Fluid Theories of Cross-linked Networks}{section*.8}% 9
+\BOOKMARK [3][-]{section*.10}{Models of Stress Relaxation with Transient Cross-links}{section*.8}% 10
+\BOOKMARK [2][-]{section*.11}{Novelty of Cross-link Slip Approach}{section*.4}% 11
+\BOOKMARK [1][-]{section*.12}{Explanation of Model}{section*.2}% 12
+\BOOKMARK [2][-]{section*.13}{Composite Cross-link \046 Filament Representation}{section*.12}% 13
+\BOOKMARK [2][-]{section*.14}{2D Network Formation}{section*.12}% 14
+\BOOKMARK [2][-]{section*.15}{Drag-like Coupling Between Overlapping Filaments}{section*.12}% 15
+\BOOKMARK [2][-]{section*.16}{System of Equations for Applied Stress}{section*.12}% 16
+\BOOKMARK [2][-]{section*.17}{Computational Simulation Method}{section*.12}% 17
+\BOOKMARK [1][-]{section*.18}{Effective Viscosity under Shear Stress}{section*.2}% 18
+\BOOKMARK [2][-]{section*.19}{Low Strain Approximation of Effective Viscosity}{section*.18}% 19
+\BOOKMARK [2][-]{section*.20}{Effects from Large Strain}{section*.18}% 20
+\BOOKMARK [3][-]{section*.21}{Phase A: Mechanical Bending Alignment in Compliant Networks}{section*.20}% 21
+\BOOKMARK [3][-]{section*.22}{Phase B: Transient Softening from Slow Filament Stretch}{section*.20}% 22
+\BOOKMARK [3][-]{section*.23}{Phase C: Equilibrium Sliding}{section*.20}% 23
+\BOOKMARK [3][-]{section*.24}{Phase D: Alignment at High Cross-link Slip and Network Tearing}{section*.20}% 24
+\BOOKMARK [2][-]{section*.25}{Phase Diagram of Dominant Behvaior}{section*.18}% 25
+\BOOKMARK [1][-]{section*.26}{Network Tearing under Extensional Stress}{section*.2}% 26
+\BOOKMARK [2][-]{section*.27}{Extensional Thinning and Network Tearing}{section*.26}% 27
+\BOOKMARK [2][-]{section*.28}{Tearing Events During Extensional Strain}{section*.26}% 28
+\BOOKMARK [1][-]{section*.29}{Nonlinear Extension and Long-Lived Strain Memory}{section*.2}% 29
+\BOOKMARK [2][-]{section*.30}{Subnetwork Formation}{section*.29}% 30
+\BOOKMARK [2][-]{section*.31}{Pull Release Simulations}{section*.29}% 31
+\BOOKMARK [2][-]{section*.32}{Strain Heterogeneity}{section*.29}% 32
+\BOOKMARK [1][-]{section*.33}{Discussion}{section*.2}% 33
+\BOOKMARK [1][-]{section*.34}{Appendices}{section*.2}% 34
+\BOOKMARK [1][-]{section*.35}{Deriving Molecular Drag Coefficients}{section*.2}% 35
+\BOOKMARK [1][-]{section*.36}{Deriving Filament and Cross-Link Composite Extensional Modulus}{section*.2}% 36
+\BOOKMARK [1][-]{section*.37}{Rigid Rod Approximation with Non-Uniform Distributions of Length and Orientation}{section*.2}% 37
+\BOOKMARK [1][-]{section*.38}{Semiflexibiliy}{section*.2}% 38
+\BOOKMARK [1][-]{section*.39}{Simulation details}{section*.2}% 39
+\BOOKMARK [1][-]{section*.40}{References}{section*.2}% 40
