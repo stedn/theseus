@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 APR 2015 10:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 APR 2015 13:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,7 +7,7 @@ entering extended mode
 (./slippage.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/texmf-local/tex/latex/revtex/revtex4-1.cls
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revtex4-1.cls
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
@@ -69,7 +69,7 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 
 Class revtex4-1 Warning: No Society specified, using default society aps.
 
-(/usr/local/texlive/texmf-local/tex/latex/revtex/aps4-1.rtx
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps4-1.rtx
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
@@ -77,7 +77,7 @@ Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 Class revtex4-1 Info: Selecting journal pre on input line 7544.
 Class revtex4-1 Info: APS journal PRE selected on input line 7545.
 
-(/usr/local/texlive/texmf-local/tex/latex/revtex/aps10pt4-1.rtx
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
 File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
 Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
@@ -98,7 +98,7 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-(/usr/local/texlive/texmf-local/tex/latex/revtex/revsymb4-1.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revsymb4-1.sty
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
@@ -440,7 +440,7 @@ Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 20.
 
  [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] 
 [3]
-Overfull \hbox (14.5678pt too wide) detected at line 199
+Overfull \hbox (14.5678pt too wide) detected at line 193
 [] [] \OML/cmm/m/it/10 ds \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^P[] \OT1/cmr/m/n/
 10 + \OML/cmm/m/it/10 ^^X []\OT1/cmr/m/n/10 ([] \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr
 /m/n/10 ) \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/1
@@ -450,135 +450,139 @@ Overfull \hbox (14.5678pt too wide) detected at line 199
  []
 
 Package epstopdf Info: Source file: <network_def.eps>
-(epstopdf)                    date: 2015-03-30 23:47:07
+(epstopdf)                    date: 2015-02-20 13:05:18
 (epstopdf)                    size: 1240270 bytes
 (epstopdf)             Output file: <network_def-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-30 23:47:07
+(epstopdf)                    date: 2015-02-20 13:05:37
 (epstopdf)                    size: 107380 bytes
 (epstopdf)             Command: <repstopdf --outfile=network_def-eps-converted-
 to.pdf network_def.eps>
-(epstopdf)             \includegraphics on input line 220.
+(epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
-<network_def-eps-converted-to.pdf, id=334, 433.62pt x 224.84pt>
+<network_def-eps-converted-to.pdf, id=351, 433.62pt x 224.84pt>
 File: network_def-eps-converted-to.pdf Graphic file (type pdf)
 
 <use network_def-eps-converted-to.pdf>
-Package pdftex.def Info: network_def-eps-converted-to.pdf used on input line 22
-0.
+Package pdftex.def Info: network_def-eps-converted-to.pdf used on input line 21
+4.
 (pdftex.def)             Requested size: 246.0pt x 127.5563pt.
  [4 <./network_def-eps-converted-to.pdf>]
-Overfull \hbox (4.29337pt too wide) detected at line 279
+Overfull \hbox (4.29337pt too wide) detected at line 273
 []\OML/cmm/m/it/10 ^^[ \OT1/cmr/m/n/10 = [] [][] \OML/cmm/m/it/10 dx[] [][] [][
 ] \OMS/cmsy/m/n/10 ^^A [] ^^A \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] [] ^^R \OT1
 /cmr/m/n/10 + []\OML/cmm/m/it/10 cos[]^^R\OT1/cmr/m/n/10 )
  []
 
-<eff_vic_master.pdf, id=352, 718.685pt x 542.025pt>
+<eff_vic_master.pdf, id=369, 718.685pt x 542.025pt>
 File: eff_vic_master.pdf Graphic file (type pdf)
  <use eff_vic_master.pdf>
-Package pdftex.def Info: eff_vic_master.pdf used on input line 299.
+Package pdftex.def Info: eff_vic_master.pdf used on input line 293.
 (pdftex.def)             Requested size: 246.0pt x 185.52664pt.
 
-[5 <./eff_vic_master.pdf>] <shear_modes.pdf, id=369, 916.42375pt x 700.6175pt>
+[5 <./eff_vic_master.pdf>] <shear_modes.pdf, id=386, 916.42375pt x 700.6175pt>
 File: shear_modes.pdf Graphic file (type pdf)
 
 <use shear_modes.pdf>
-Package pdftex.def Info: shear_modes.pdf used on input line 316.
+Package pdftex.def Info: shear_modes.pdf used on input line 310.
 (pdftex.def)             Requested size: 246.0pt x 188.06812pt.
- [6 <./shear_modes.pdf>] [7]
+ [6 <./shear_modes.pdf>]
 File: eff_vic_master.pdf Graphic file (type pdf)
  <use eff_vic_master.pdf>
-Package pdftex.def Info: eff_vic_master.pdf used on input line 477.
+Package pdftex.def Info: eff_vic_master.pdf used on input line 471.
 (pdftex.def)             Requested size: 246.0pt x 185.52664pt.
+ [7]
 Package epstopdf Info: Source file: <sine.eps>
-(epstopdf)                    date: 2015-03-30 23:47:07
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 89506 bytes
 (epstopdf)             Output file: <sine-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-30 23:47:07
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 13045 bytes
 (epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
 sine.eps>
-(epstopdf)             \includegraphics on input line 486.
+(epstopdf)             \includegraphics on input line 480.
 Package epstopdf Info: Output file is already uptodate.
 
-<sine-eps-converted-to.pdf, id=394, 333.245pt x 191.71625pt>
+<sine-eps-converted-to.pdf, id=411, 333.245pt x 191.71625pt>
 File: sine-eps-converted-to.pdf Graphic file (type pdf)
 
 <use sine-eps-converted-to.pdf>
-Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 486.
+Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 480.
 (pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
 Package epstopdf Info: Source file: <sine.eps>
-(epstopdf)                    date: 2015-03-30 23:47:07
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 89506 bytes
 (epstopdf)             Output file: <sine-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-30 23:47:07
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 13045 bytes
 (epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
 sine.eps>
-(epstopdf)             \includegraphics on input line 497.
+(epstopdf)             \includegraphics on input line 491.
 Package epstopdf Info: Output file is already uptodate.
 File: sine-eps-converted-to.pdf Graphic file (type pdf)
  <use sine-eps-converted-to.pdf>
-Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 497.
+Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 491.
 (pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <phase.eps>
-(epstopdf)                    date: 2015-03-30 23:47:07
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 506852 bytes
 (epstopdf)             Output file: <phase-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-30 23:47:07
+(epstopdf)                    date: 2015-02-12 17:29:48
 (epstopdf)                    size: 21071 bytes
 (epstopdf)             Command: <repstopdf --outfile=phase-eps-converted-to.pdf
  phase.eps>
-(epstopdf)             \includegraphics on input line 548.
+(epstopdf)             \includegraphics on input line 542.
 Package epstopdf Info: Output file is already uptodate.
-
-<phase-eps-converted-to.pdf, id=395, 309.155pt x 328.22626pt>
+<phase-eps-converted-to.pdf, id=412, 309.155pt x 328.22626pt>
 File: phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use phase-eps-converted-to.pdf>
-Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 548.
+Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 542.
 (pdftex.def)             Requested size: 185.49442pt x 196.93727pt.
  [8 <./sine-eps-converted-to.pdf> <./phase-eps-converted-to.pdf>]
-Overfull \hbox (100.49698pt too wide) in paragraph at lines 650--650
+Overfull \hbox (100.49698pt too wide) in paragraph at lines 644--644
 []\OT1/cmtt/m/n/10 double y0 = 10; // example of declaration and assignment sta
 tement[] 
  []
 
 (./slippage.bbl [9]
-Underfull \hbox (badness 1062) in paragraph at lines 144--149
+Underfull \hbox (badness 1062) in paragraph at lines 197--202
  \OT1/cmr/m/n/9 buck-ling co-or-di-nates con-trac-til-ity and sev-er-ing in a
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 151--154
+Underfull \hbox (badness 2334) in paragraph at lines 204--207
  []\OT1/cmr/m/n/9 Guillaume Sal-breux, Guil-laume Char-ras, and Ewa
  []
 
-Missing character: There is no Î in font cmr9!
-Missing character: There is no ± in font cmr9!
 [10]
 Missing character: There is no Î in font cmr9!
 Missing character: There is no ± in font cmr9!
+Missing character: There is no Î in font cmr9!
+Missing character: There is no ± in font cmr9!
 ) [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 660.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 654.
  (./slippage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 660.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 660.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 654.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 654.
 Package rerunfilecheck Info: File `slippage.out' has not changed.
-(rerunfilecheck)             Checksum: 69F08FF190E7B474C9A7C21B59B5A7F8;3411.
+(rerunfilecheck)             Checksum: D2F25CFD6786D8756FA44A8304A0EBB4;3324.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8251 strings out of 493117
- 118623 string characters out of 6135433
- 242447 words of memory out of 5000000
- 11502 multiletter control sequences out of 15000+600000
+ 8292 strings out of 493117
+ 119470 string characters out of 6135433
+ 240591 words of memory out of 5000000
+ 11535 multiletter control sequences out of 15000+600000
  9380 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,10n,29p,1013b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,10n,29p,1013b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
@@ -599,10 +603,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on slippage.pdf (11 pages, 427348 bytes).
+Output written on slippage.pdf (11 pages, 430024 bytes).
 PDF statistics:
- 522 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
- 113 named destinations out of 1000 (max. 500000)
- 346 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 494 compressed objects within 5 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 338 words of extra memory for PDF output out of 10000 (max. 10000000)
 

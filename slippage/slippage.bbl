@@ -5,6 +5,18 @@ Shiladitya Banerjee, M.~Cristina Marchetti, and Kristian M\"uller-Nedebock.
 \newblock Motor-driven dynamics of cytoskeletal filaments in motility assays.
 \newblock {\em Phys. Rev. E}, 84:011914, Jul 2011.
 
+\bibitem{cell_rheo_exp}
+Andreas~R. Bausch, Florian Ziemann, Alexei~A. Boulbitch, Ken Jacobson, and
+  Erich Sackmann.
+\newblock Local measurements of viscoelastic parameters of adherent cell
+  surfaces by magnetic bead microrheometry.
+\newblock {\em Biophysical Journal}, 75(4):2038 -- 2049, 1998.
+
+\bibitem{cellmech_flows3}
+D~Bray and JG~White.
+\newblock Cortical flow in animal cells.
+\newblock {\em Science}, 239(4842):883--888, 1988.
+
 \bibitem{theo_crosslinknonlinear}
 C.~P. Broedersz, C.~Storm, and F.~C. MacKintosh.
 \newblock Effective-medium approach for stiff polymer networks with flexible
@@ -27,11 +39,29 @@ Preethi~L. Chandran and Mohammad R.~K. Mofrad.
 \newblock Averaged implicit hydrodynamic model of semiflexible filaments.
 \newblock {\em Phys. Rev. E}, 81:031920, Mar 2010.
 
+\bibitem{model_massive}
+Christian~J. Cyron, Kei~W. M{\"u}ller, Andreas~R. Bausch, and Wolfgang~A. Wall.
+\newblock Micromechanical simulations of biopolymer networks with finite
+  elements.
+\newblock {\em Journal of Computational Physics}, 244(0):236 -- 251, 2013.
+\newblock Multi-scale Modeling and Simulation of Biological Systems.
+
+\bibitem{theo_doi_ed}
+M.~Doi and S.~F. Edwards.
+\newblock {\em {The Theory of Polymer Dynamics}}.
+\newblock Oxford University Press, USA, November 1986.
+
 \bibitem{model_percolationanisotropy}
 Fangming Du, John~E. Fischer, and Karen~I. Winey.
 \newblock Effect of nanotube alignment on percolation conductivity in carbon
   nanotube/polymer composites.
 \newblock {\em Phys. Rev. B}, 72:121404, Sep 2005.
+
+\bibitem{rheo_fluid2}
+E~Evans and A~Yeung.
+\newblock Apparent viscosity and cortical tension of blood granulocytes
+  determined by micropipet aspiration.
+\newblock {\em Biophysical Journal}, 56(1):151--160, 07 1989.
 
 \bibitem{theo_molefric}
 A.~E. Filippov, J.~Klafter, and M.~Urbakh.
@@ -74,6 +104,17 @@ Claus Heussinger, Boris Schaefer, and Erwin Frey.
 \newblock Nonaffine rubber elasticity for stiff polymer networks.
 \newblock {\em Phys. Rev. E}, 76:031906, Sep 2007.
 
+\bibitem{cellmech_flows2}
+S~N Hird and J~G White.
+\newblock Cortical and cytoplasmic flow polarity in early embryonic cells of
+  caenorhabditis elegans.
+\newblock {\em The Journal of Cell Biology}, 121(6):1343--1355, 1993.
+
+\bibitem{rheo_fluid}
+Robert~M Hochmuth.
+\newblock Micropipette aspiration of living cells.
+\newblock {\em Journal of Biomechanics}, 33(1):15 -- 22, 2000.
+
 \bibitem{rheo_actingel}
 Paul~A. Janmey, Soren Hvidt, Jennifer Lamb, and Thomas~P. Stossel.
 \newblock Resemblance of actin-binding protein/actin gels to covalently
@@ -91,6 +132,13 @@ K.~E. Kasza, C.~P. Broedersz, G.~H. Koenderink, Y.~C. Lin, W.~Messner, E.~A.
 Taeyoon Kim, Wonmuk Hwang, and Roger~D Kamm.
 \newblock Dynamic role of cross-linking proteins in actin rheology.
 \newblock {\em Biophysical Journal}, 101(7):1597--1603, 10 2011.
+
+\bibitem{rheo_active}
+Gijsje~H Koenderink, Zvonimir Dogic, Fumihiko Nakamura, Poul~M Bendix,
+  Frederick~C MacKintosh, John~H Hartwig, Thomas~P Stossel, and David~A Weitz.
+\newblock An active biopolymer network controlled by molecular motors.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 106(36):15192--15197, 09 2009.
 
 \bibitem{rheo_crosslinkslip1}
 O.~Lieleg, M.~M. A.~E. Claessens, Y.~Luan, and A.~R. Bausch.
@@ -120,6 +168,11 @@ J.~Liu, G.~H. Koenderink, K.~E. Kasza, F.~C. MacKintosh, and D.~A. Weitz.
 \newblock Visualizing the strain field in semiflexible polymer networks: Strain
   fluctuations and nonlinear rheology of $f$-actin gels.
 \newblock {\em Phys. Rev. Lett.}, 98:198304, May 2007.
+
+\bibitem{mol_wlc}
+John~F. Marko and Eric~D. Siggia.
+\newblock Stretching dna.
+\newblock {\em Macromolecules}, 28(26):8759--8770, 1995.
 
 \bibitem{cellmech_flows}
 Mirjam Mayer, Martin Depken, Justin~S. Bois, Frank Julicher, and Stephan~W.
