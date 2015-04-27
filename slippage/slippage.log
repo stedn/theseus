@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 APR 2015 16:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  24 APR 2015 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -501,15 +501,45 @@ Package pdftex.def Info: glass_relax.pdf used on input line 329.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: Reference `fig:strain_coll' on page 6 undefined on input line 33
+5.
+
+File: glass_relax.pdf Graphic file (type pdf)
+<use glass_relax.pdf>
+Package pdftex.def Info: glass_relax.pdf used on input line 339.
+(pdftex.def)             Requested size: 246.0pt x 193.99577pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [6 <./shear_modes.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 344.
+ on input line 348.
 
+[7 <./glass_relax.pdf>]
 File: eff_vic_master.pdf Graphic file (type pdf)
-<use eff_vic_master.pdf>
-Package pdftex.def Info: eff_vic_master.pdf used on input line 463.
+ <use eff_vic_master.pdf>
+Package pdftex.def Info: eff_vic_master.pdf used on input line 468.
 (pdftex.def)             Requested size: 246.0pt x 185.52664pt.
+Package epstopdf Info: Source file: <sine.eps>
+(epstopdf)                    date: 2015-02-12 17:29:48
+(epstopdf)                    size: 89506 bytes
+(epstopdf)             Output file: <sine-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-02-12 17:29:48
+(epstopdf)                    size: 13045 bytes
+(epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
+sine.eps>
+(epstopdf)             \includegraphics on input line 477.
+Package epstopdf Info: Output file is already uptodate.
+
+<sine-eps-converted-to.pdf, id=419, 333.245pt x 191.71625pt>
+File: sine-eps-converted-to.pdf Graphic file (type pdf)
+
+<use sine-eps-converted-to.pdf>
+Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 477.
+(pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -522,32 +552,11 @@ Package epstopdf Info: Source file: <sine.eps>
 (epstopdf)                    size: 13045 bytes
 (epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
 sine.eps>
-(epstopdf)             \includegraphics on input line 472.
-Package epstopdf Info: Output file is already uptodate.
-<sine-eps-converted-to.pdf, id=399, 333.245pt x 191.71625pt>
-File: sine-eps-converted-to.pdf Graphic file (type pdf)
-
-<use sine-eps-converted-to.pdf>
-Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 472.
-(pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
- [7 <./glass_relax.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 475.
-
-Package epstopdf Info: Source file: <sine.eps>
-(epstopdf)                    date: 2015-02-12 17:29:48
-(epstopdf)                    size: 89506 bytes
-(epstopdf)             Output file: <sine-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-02-12 17:29:48
-(epstopdf)                    size: 13045 bytes
-(epstopdf)             Command: <repstopdf --outfile=sine-eps-converted-to.pdf 
-sine.eps>
-(epstopdf)             \includegraphics on input line 483.
+(epstopdf)             \includegraphics on input line 488.
 Package epstopdf Info: Output file is already uptodate.
 File: sine-eps-converted-to.pdf Graphic file (type pdf)
 <use sine-eps-converted-to.pdf>
-Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 483.
+Package pdftex.def Info: sine-eps-converted-to.pdf used on input line 488.
 (pdftex.def)             Requested size: 199.94853pt x 115.03062pt.
 
 
@@ -561,25 +570,21 @@ Package epstopdf Info: Source file: <phase.eps>
 (epstopdf)                    size: 21071 bytes
 (epstopdf)             Command: <repstopdf --outfile=phase-eps-converted-to.pdf
  phase.eps>
-(epstopdf)             \includegraphics on input line 534.
+(epstopdf)             \includegraphics on input line 539.
 Package epstopdf Info: Output file is already uptodate.
-<phase-eps-converted-to.pdf, id=419, 309.155pt x 328.22626pt>
+<phase-eps-converted-to.pdf, id=420, 309.155pt x 328.22626pt>
 File: phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use phase-eps-converted-to.pdf>
-Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 534.
+Package pdftex.def Info: phase-eps-converted-to.pdf used on input line 539.
 (pdftex.def)             Requested size: 185.49442pt x 196.93727pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8 <./sine-eps-converted-to.pdf> <./phase-eps-converted-to.pdf>]
-Overfull \hbox (100.49698pt too wide) in paragraph at lines 636--636
+ [8 <./sine-eps-converted-to.pdf> <./phase-eps-converted-to.pdf>]
+Overfull \hbox (100.49698pt too wide) in paragraph at lines 641--641
 []\OT1/cmtt/m/n/10 double y0 = 10; // example of declaration and assignment sta
 tement[] 
  []
 
-(./slippage.bbl [9]
+(./slippage.bbl [9] [10]
 Underfull \hbox (badness 1062) in paragraph at lines 203--208
  \OT1/cmr/m/n/9 buck-ling co-or-di-nates con-trac-til-ity and sev-er-ing in a
  []
@@ -589,18 +594,20 @@ Underfull \hbox (badness 2334) in paragraph at lines 210--213
  []\OT1/cmr/m/n/9 Guillaume Sal-breux, Guil-laume Char-ras, and Ewa
  []
 
-[10]
 Missing character: There is no Î in font cmr9!
 Missing character: There is no ± in font cmr9!
 Missing character: There is no Î in font cmr9!
 Missing character: There is no ± in font cmr9!
 ) [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 646.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 651.
  (./slippage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 646.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 646.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 651.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 651.
 Package rerunfilecheck Info: File `slippage.out' has not changed.
-(rerunfilecheck)             Checksum: 78809DFF5F31BEBAF0A032E7B5537598;3130.
+(rerunfilecheck)             Checksum: 5FA2F15854F78F58CC80AE9CE9105380;3130.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -608,12 +615,12 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  8302 strings out of 493117
- 119690 string characters out of 6135433
- 238781 words of memory out of 5000000
- 11544 multiletter control sequences out of 15000+600000
+ 119687 string characters out of 6135433
+ 244810 words of memory out of 5000000
+ 11543 multiletter control sequences out of 15000+600000
  9380 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,10n,29p,1013b,653s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,10n,29p,1013b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
@@ -634,10 +641,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on slippage.pdf (11 pages, 627348 bytes).
+Output written on slippage.pdf (11 pages, 627461 bytes).
 PDF statistics:
- 548 PDF objects out of 1000 (max. 8388607)
- 497 compressed objects within 5 object streams
- 121 named destinations out of 1000 (max. 500000)
+ 549 PDF objects out of 1000 (max. 8388607)
+ 498 compressed objects within 5 object streams
+ 122 named destinations out of 1000 (max. 500000)
  327 words of extra memory for PDF output out of 10000 (max. 10000000)
 
