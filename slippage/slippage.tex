@@ -346,11 +346,15 @@ Once the network is able to accumulate a large strain, the assumption of nearly 
 
 At this point the filament orientations become unevenly distributed $\langle \delta L / L \rangle \neq \gamma_{xy}sin(\theta)cos(\theta)$, with a larger number of filaments aligning in the direction of extension rather than compression.  Filament alignment, conceptually, causes the formation of subdomains that no longer span the space of the network. To the authors knowledge an exact derivation of the dependence of network connectedness on filament alignment has not been carried out, but Monte Carlo simulations have been used to show that alignment does indeed lead to lower connectedness\cite{model_percolationanisotropy}.
 
+Although a lengthy discussion of this behavior would be valuable, we've found the computational cost of exploring these kinds of alignment tearing networks to be prohibitive in their study at this time.  Instead we now focus on just a few examples to garner some understanding.
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\hsize]{tearer}
+\caption{\label{fig:tearer} A. Creep response of a network transitioning to phase D. Inset shows strain exponent as a function of strain (exponent passes 1).  B.  Traces for the relative angular dispersion and relative number of cross links corresponding to the same simulation as part A. }
+\end{figure}
 
-We find that over time, the orientational distribution of the filaments begins to peak around 45 degrees as the induced alignment .  this reorientation causes there to be fewer bonds bridging the network perpendicular to the line of strain, which results in a lower connectivity. 
-
-The rate at which this anisotropy appears is highly dependent on the level of strain previously induced from filament compliance.  In Figure ---, we illustrate the 
+We find that over time, the orientational distribution of the filaments begins to peak around 45 degrees as the large strain induces alignment.  In Figure \ref{fig:tearer}, we see that as the angular standard deviation falls, this reorientation eventually leads to be fewer bonds bridging the network perpendicular to the line of strain.  As this connectivity begins to noticeably decrease, the observed effective viscosity decreases as well, giving rise to supralinear creep.  From the inset of Figure \ref{fig:tearer} we can also see that the onset of phase D occurred before the network had completely reached phase C, leading to a rapid transition between sub-linear and super-linear creep response.  Finally, it should be noted that the end of this simulation resulted in the network tearing apart.  
 
 
 
@@ -381,32 +385,6 @@ Finally, we'd like to add a little phase diagram that shows an estimate of the d
 
 
 
-
-\section{Network Tearing under Extensional Stress}
-
-
-\subsection{Extensional Thinning and Network Tearing}
-
-For moderate extensional stresses, the rigid filament approximation of the effective viscosity simply picks up a different geometrical factor out front.  
-
-However, at higher stress and in the presence of different things happen.
-
-\begin{equation}
-\frac{\partial l_c}{dt}=l_c\dot \gamma =\frac{l_c \sigma}{\eta}\sim l_c^3\frac{ \sigma}{L^2 \xi}
-\end{equation}
-
-We can see that the rate of network thinning accelerates as we would expect.  When the network reaches some minimum connectivity we assume that it stops behaving as a continuum material and the network tears irreversibly.  
-
-\begin{equation}
-\tau_{break} = \frac{\eta_{eff}}{2\sigma}\cdot\left ( 1 -\frac{l_c^2}{l_{break}^2} \right )
-\end{equation}
-
-This provides us with an estimate of the timescale of catastrophic breakdown for a network with a given initial architecture and molecular drag.
-
-
-\subsection{Tearing Events During Extensional Strain}
-
-This behavior is caused primarily by the low density network undergoing tearing events that interrupt global connectedness.  
 
 
 
@@ -460,7 +438,7 @@ This behavior is caused primarily by the low density network undergoing tearing 
 
 \subsection{Pull Release Simulations}
 
-\subsection{Strain Heterogeneity}
+\subsection{Strain Memory}
 Finally, we found an interesting behavior when we introduced non-linear extensional stiffness into our filaments.  This behavior mimics recent experiments in filamin cross-linked networks.  Filamin provides a high level of compliance to a network ($\gamma_0>0.5$) without substantial cross-link unbinding.  This allows large scale rearrangements to take place without driving very much cross-link slip, similar to the conditions in section \ref{sec:compliant}.  However, if we force individual filaments to undergo a strongly nonlinear stiffening at strains above 10\%, we find an interesting long term "strain storage."
 
 \begin{figure}[h!]
@@ -529,27 +507,6 @@ Finally, we wished to explore the non-linear effects of reorientation of the fil
 
 
 
-\section{Discussion}
-
-{\color{blue}{Finally I wax philosophical}},
-{\color{green}{but}} {\color{cyan}{who is going to pay for the ink?}}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.6]{phase}
-\caption{\label{fig:sim}Phase diagram of network connectivity.}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -574,6 +531,34 @@ Finally, we wished to explore the non-linear effects of reorientation of the fil
 
 \appendix
 \addappheadtotoc
+
+\section{Network Tearing under Extensional Stress}
+
+
+\subsection{Extensional Thinning and Network Tearing}
+
+For moderate extensional stresses, the rigid filament approximation of the effective viscosity simply picks up a different geometrical factor out front.  
+
+However, at higher stress and in the presence of different things happen.
+
+\begin{equation}
+\frac{\partial l_c}{dt}=l_c\dot \gamma =\frac{l_c \sigma}{\eta}\sim l_c^3\frac{ \sigma}{L^2 \xi}
+\end{equation}
+
+We can see that the rate of network thinning accelerates as we would expect.  When the network reaches some minimum connectivity we assume that it stops behaving as a continuum material and the network tears irreversibly.  
+
+\begin{equation}
+\tau_{break} = \frac{\eta_{eff}}{2\sigma}\cdot\left ( 1 -\frac{l_c^2}{l_{break}^2} \right )
+\end{equation}
+
+This provides us with an estimate of the timescale of catastrophic breakdown for a network with a given initial architecture and molecular drag.
+
+
+\subsection{Tearing Events During Extensional Strain}
+
+This behavior is caused primarily by the low density network undergoing tearing events that interrupt global connectedness.  
+
+
 
 \section{Deriving Molecular Drag Coefficients}
 \label{app:drag}
