@@ -53,11 +53,11 @@ We describe a theoretical model for long timescale rates of deformation in semi-
 
 \section{Introduction}
 
-Cross-linked networks of semi-flexible polymers are a class of materials with poorly understood but highly interesting properties.  They have been a subject of great interest for many years largely due to their biological importance forming structural components of cells\cite{cellmech_review1,cellmech_review2}.  However, early studies of {\em in vitro} reconstitutions of semi-flexible polymer networks soon revealed novel, nonlinear rheology, spurring further interest from both materials scientists and soft-matter physicists\cite{megareview}.  
+Cross-linked networks of semi-flexible polymers are a class of materials with poorly understood but highly interesting properties.  They have been a subject of great interest for many years largely due to their biological importance forming structural components of cells\cite{cellmech_review1,cellmech_review2}.  However, early studies of {\em in vitro} reconstitutions of semi-flexible polymer networks soon revealed novel, nonlinear rheology, spurring further interest from materials scientists\cite{megareview}.  
 
 After many years of study, much of the intermediate timescale behavior (between 1-1000 seconds) of these networks has been well-described theoretically in terms of purely elastic mechanical responses.  However, on longer timescales, the network's elastic resistance begins to give way to a viscous relaxation of stored stress.   It is important to understand the mechanism behind this long timescale behavior of cross-linked polymer networks both for understanding their novel material properties as well as understanding how this effect may govern physiologically important cellular processes\cite{cell_rheo}.
 
-For {\em in vitro} reconstitutions, this viscous relaxation is thought to be a result of the transient unbinding and rebinding of intermolecular cross-links\cite{rheo_crosslinksmatter,theo_crosslinkslip1}. Despite this mechanism being suspected as the source of the viscous stress relaxation, there is still no clear understanding of the particular manner in which these local relaxations of network connectivity would give rise to a global viscous relaxation.  In our work, we wish to expand upon a micro-mechanical picture of cross-linked semi-flexible polymer networks to incorporate transient unbinding of cross-links over longer timescales.  
+For {\em in vitro} reconstitutions, this viscous relaxation is thought to be a result of the transient unbinding and rebinding of intermolecular cross-links\cite{rheo_crosslinksmatter,theo_crosslinkslip1}. Despite this mechanism being suspected as the source of the viscous stress relaxation, there is still no clear understanding of the particular manner in which these local relaxations of network connectivity would give rise to a global viscous relaxation.  In our work, we wish to expand upon a micro-mechanical picture of cross-linked semi-flexible polymer networks to incorporate slippage of cross-links over longer timescales.  
 
 
 \subsection{Short Timescale Mechanics of Cross-linked Filament Networks}
@@ -359,10 +359,13 @@ We find that over time, the orientational distribution of the filaments begins t
 
 
 \subsection{Phase Diagram of Dominant Behavior}
-Finally, we'd like to add a little phase diagram that shows an estimate of the dominant timescale for each of these as a function of effective viscosity and filament compliance.
+Finally, to explore the transitions between the various phases, we measured the creep response for a computationally tractable network ($L/l_c = 25$), as we varied the filament extensional modulus and the cross-link friction coefficient.  In Figure \ref{fig:phase_diag} , we can see the trends for the transitions between phases A, B, and C.  The line for the transition to D is still speculative at this time.
 
-
-
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\hsize]{phase_diag}
+\caption{\label{fig:phase_diag} phase diagram of creep response for different filament extension, $\mu$ and cross-link friction, $\delta$.  Yellow, green, and purple dots correspond to creep measurements $\gamma \sim t^\alpha$ with $\alpha<0.92$, $0.92<\alpha<0.98$, or $\alpha>0.98$ respectively.  Blue dots represent creep measurements where $\gamma_{total} < 2\gamma_{mechanical}$}
+\end{figure}
 
 
 
@@ -441,11 +444,7 @@ Finally, we'd like to add a little phase diagram that shows an estimate of the d
 \subsection{Strain Memory}
 Finally, we found an interesting behavior when we introduced non-linear extensional stiffness into our filaments.  This behavior mimics recent experiments in filamin cross-linked networks.  Filamin provides a high level of compliance to a network ($\gamma_0>0.5$) without substantial cross-link unbinding.  This allows large scale rearrangements to take place without driving very much cross-link slip, similar to the conditions in section \ref{sec:compliant}.  However, if we force individual filaments to undergo a strongly nonlinear stiffening at strains above 10\%, we find an interesting long term "strain storage."
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=\hsize]{eff_vic_master}
-\caption{\label{fig:align}Analysis of viscosity softening under large shear strain. Inset: time scaling of creep response vs relative filament compliance  }
-\end{figure}
+
 
 For moderate strains, this result is largely the same as the result for extensional stress.  However, at larger deformations, extensional networks tear apart
 To further explore the occurrence of tearing events ...
