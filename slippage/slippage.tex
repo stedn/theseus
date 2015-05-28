@@ -19,14 +19,14 @@
 
 \begin{document}
 
-\title{Effective viscosity of compliant filament networks with cross-link slip}
+\title{Effective viscosity and strain memory in compliant filament networks with cross-link slip}
 \author{William McFadden}
 \affiliation{University of Chicago, Biophysical Sciences Program, Chicago, IL 60615}
 
 \date{1 January 2015}
 
 \begin{abstract}
-We describe a theoretical model for long timescale rates of deformation in semi-flexible filament networks with transient cross-links.  We have addressed the problem using a mechanical picture where cross-linked filaments are allowed to slip past one another in a linear drag-like manner.  This model gives predictions for the long timescale effective viscosity of the medium that depends on network architecture and effective drag coefficient between filaments.  We use computational simulations to predict deviations from purely viscous creep when networks undergo large strains that drive them into anisotropic configurations.  Interestingly, under certain conditions, we find a phase of long-lived sub-linear creep, suggesting that our simple model can account for the broad relaxation timescales measured in biopolymer rheological experiments.
+We describe a theoretical model for long timescale rates of deformation in semi-flexible filament networks with transient cross-links.  We have addressed the problem using a mechanical picture where cross-linked filaments are allowed to slip past one another in a linear drag-like manner.  This model gives predictions for the long timescale effective viscosity of the medium that depends on network architecture and effective drag coefficient between filaments.  We use computational simulations to predict deviations from purely viscous creep when networks undergo large strains that drive them into anisotropic configurations.  Interestingly, under certain conditions, we find a phase of long-lived sub-linear creep, suggesting that our simple model can account for the broad relaxation timescales measured in biopolymer rheological experiments.  Finally, we extend our approach to include nonlinear springs and show that, in certain regimes, this property imbues networks with long-lived strain memory.
 \end{abstract}
 
 \maketitle
@@ -249,7 +249,7 @@ For computational simplicity in these models, unless otherwise mentioned we assu
 
 
 
-\section{Modes of deformation under Shear Stress}
+\section{Results (will be renamed)}
 
 
 \subsection{Low Strain Approximation of Effective Viscosity}
@@ -376,7 +376,20 @@ This section will include a figure on the frequency dependent modulus once I get
 
 
 
+\subsection{Strain Memory}
+Finally, we found an interesting behavior when we introduced non-linear extensional stiffness into our filaments.  When the network is allowed to relax to it's unstrained state, there is generally a time comparable to the period of strain storage over which the energy in the network is relaxed away.  
 
+We observed deviations from this behavior by applying stepwise stress pulses to simulated networks, and observing whether the network behaves identically upon reversal of the applied stress direction.  If the network has no strain memory then each reversal will result in an identically shaped creep curve.  However, when we include nonlinear filament extension in our model, we find that the mechanical strain can be stored for longer periods of time than it took to entrain the network.
+
+This behavior mimics recent experiments in filamin cross-linked networks.  Filamin provides a high level of compliance to a network ($\gamma_0>0.5$) without substantial cross-link unbinding.  This allows large scale rearrangements to take place without driving very much cross-link slip, similar to the conditions in section \ref{sec:compliant}.  However, if we force individual filaments to undergo a strongly nonlinear stiffening at strains above 5\%, we find an interesting long term "strain storage."
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\hsize]{strain_mem_weak}
+\caption{\label{fig:strain_mem_weak} Creep curves in the presence of reversing applied stress for (a) nonlinear extension or (b) linear extension.  Note that for linear filaments the induced strain returns to approximately 0 after a complete cycle, while in the nonlinear case the cycle is not completely reversible.}
+\end{figure}
+
+Figure \ref{fig:strain_mem_weak} shows that the strain storage occurs, but I will need time for further study to build the full analytical picture of where when and why this happens in my model.
 
 
 
@@ -466,26 +479,6 @@ This provides us with an estimate of the timescale of catastrophic breakdown for
 This behavior is caused primarily by the low density network undergoing tearing events that interrupt global connectedness.  
 
 
-
-\section{Nonlinear Extension and Long-Lived Strain Memory}
-
-\subsection{Subnetwork Formation}
-
-\subsection{Pull Release Simulations}
-
-\subsection{Strain Memory}
-Finally, we found an interesting behavior when we introduced non-linear extensional stiffness into our filaments.  This behavior mimics recent experiments in filamin cross-linked networks.  Filamin provides a high level of compliance to a network ($\gamma_0>0.5$) without substantial cross-link unbinding.  This allows large scale rearrangements to take place without driving very much cross-link slip, similar to the conditions in section \ref{sec:compliant}.  However, if we force individual filaments to undergo a strongly nonlinear stiffening at strains above 10\%, we find an interesting long term "strain storage."
-
-
-
-For moderate strains, this result is largely the same as the result for extensional stress.  However, at larger deformations, extensional networks tear apart
-To further explore the occurrence of tearing events ...
-
-
-We explored a mode of deformation highly relevant to cortical mechanics in vivo.  Under this deformation stress was applied between a region of extension and region of compression.  Interestingly, until nearing the point of breakdown, the network did not experience a significant change in effective viscosity.  This was due to the between the diminishing viscosity of the thinning domain and the increasing viscosity of the thickening domain.  
-
-
-Finally, we wished to explore the non-linear effects of reorientation of the filaments and non-linear network thinning/thickening.  To do so, we applied oscillatory shear 
 
 
 
