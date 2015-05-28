@@ -1,4 +1,4 @@
-\documentclass[pre,reprint]{revtex4-1}
+\documentclass[pre,preprint]{revtex4-1}
 
 % preamble:
 \usepackage{appendix}
@@ -19,14 +19,14 @@
 
 \begin{document}
 
-\title{Effective viscosity, tearing rate, and strain memory of compliant filament networks with cross-link slip}
+\title{Effective viscosity of compliant filament networks with cross-link slip}
 \author{William McFadden}
 \affiliation{University of Chicago, Biophysical Sciences Program, Chicago, IL 60615}
 
 \date{1 January 2015}
 
 \begin{abstract}
-We describe a theoretical model for long timescale rates of deformation in semi-flexible filament networks with transient cross-links.  We have addressed the problem using a mechanical picture where cross-linked filaments are allowed to slip past one another in a linear drag-like manner.  This model gives predictions for the long timescale effective viscosity of the medium that depends on network architecture and effective drag coefficient between filaments.  We use computational simulations to predict deviations from purely viscous creep when networks undergo large strains that drive them into anisotropic configurations.  Finally, we extend our model to include non-linear network compliance to demonstrate a novel explanation for a form of strain memory experimentally observed in filamin cross-linked actin networks.
+We describe a theoretical model for long timescale rates of deformation in semi-flexible filament networks with transient cross-links.  We have addressed the problem using a mechanical picture where cross-linked filaments are allowed to slip past one another in a linear drag-like manner.  This model gives predictions for the long timescale effective viscosity of the medium that depends on network architecture and effective drag coefficient between filaments.  We use computational simulations to predict deviations from purely viscous creep when networks undergo large strains that drive them into anisotropic configurations.  Interestingly, under certain conditions, we find a phase of long-lived sub-linear creep, suggesting that our simple model can account for the broad relaxation timescales measured in biopolymer rheological experiments.
 \end{abstract}
 
 \maketitle
@@ -249,7 +249,7 @@ For computational simplicity in these models, unless otherwise mentioned we assu
 
 
 
-\section{Effective Viscosity under Shear Stress}
+\section{Modes of deformation under Shear Stress}
 
 
 \subsection{Low Strain Approximation of Effective Viscosity}
@@ -368,6 +368,8 @@ Finally, to explore the transitions between the various phases, we measured the 
 \end{figure}
 
 
+\subsection{Frequency dependent modulus}
+This section will include a figure on the frequency dependent modulus once I get those.
 
 
 
@@ -389,6 +391,8 @@ Finally, to explore the transitions between the various phases, we measured the 
 
 
 
+\section{Summary and Conclusions}
+Conclusions I will draw after discussing the results with others.
 
 
 
@@ -410,107 +414,8 @@ Finally, to explore the transitions between the various phases, we measured the 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\section{Nonlinear Extension and Long-Lived Strain Memory}
-
-\subsection{Subnetwork Formation}
-
-\subsection{Pull Release Simulations}
-
-\subsection{Strain Memory}
-Finally, we found an interesting behavior when we introduced non-linear extensional stiffness into our filaments.  This behavior mimics recent experiments in filamin cross-linked networks.  Filamin provides a high level of compliance to a network ($\gamma_0>0.5$) without substantial cross-link unbinding.  This allows large scale rearrangements to take place without driving very much cross-link slip, similar to the conditions in section \ref{sec:compliant}.  However, if we force individual filaments to undergo a strongly nonlinear stiffening at strains above 10\%, we find an interesting long term "strain storage."
-
-
-
-For moderate strains, this result is largely the same as the result for extensional stress.  However, at larger deformations, extensional networks tear apart
-To further explore the occurrence of tearing events ...
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.6]{sine}
-\caption{\label{fig:tear}Tearing rate as a function of $L/l_c$.}
-\end{figure}
-
-We explored a mode of deformation highly relevant to cortical mechanics in vivo.  Under this deformation stress was applied between a region of extension and region of compression.  Interestingly, until nearing the point of breakdown, the network did not experience a significant change in effective viscosity.  This was due to the between the diminishing viscosity of the thinning domain and the increasing viscosity of the thickening domain.  
-
-
-Finally, we wished to explore the non-linear effects of reorientation of the filaments and non-linear network thinning/thickening.  To do so, we applied oscillatory shear 
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.6]{sine}
-\caption{\label{fig:freq}Frequency dependence of elastic moduli.}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\section{Acknowledgements}
+I'd like to thank Shiladitya Banerjee and Sayantan Majumdar for discussions on this topic.  Hopefully I can thank other people after I've spoken with them.
 
 
 
@@ -530,6 +435,9 @@ Finally, we wished to explore the non-linear effects of reorientation of the fil
 
 \appendix
 \addappheadtotoc
+
+
+
 
 \section{Network Tearing under Extensional Stress}
 
@@ -556,6 +464,28 @@ This provides us with an estimate of the timescale of catastrophic breakdown for
 \subsection{Tearing Events During Extensional Strain}
 
 This behavior is caused primarily by the low density network undergoing tearing events that interrupt global connectedness.  
+
+
+
+\section{Nonlinear Extension and Long-Lived Strain Memory}
+
+\subsection{Subnetwork Formation}
+
+\subsection{Pull Release Simulations}
+
+\subsection{Strain Memory}
+Finally, we found an interesting behavior when we introduced non-linear extensional stiffness into our filaments.  This behavior mimics recent experiments in filamin cross-linked networks.  Filamin provides a high level of compliance to a network ($\gamma_0>0.5$) without substantial cross-link unbinding.  This allows large scale rearrangements to take place without driving very much cross-link slip, similar to the conditions in section \ref{sec:compliant}.  However, if we force individual filaments to undergo a strongly nonlinear stiffening at strains above 10\%, we find an interesting long term "strain storage."
+
+
+
+For moderate strains, this result is largely the same as the result for extensional stress.  However, at larger deformations, extensional networks tear apart
+To further explore the occurrence of tearing events ...
+
+
+We explored a mode of deformation highly relevant to cortical mechanics in vivo.  Under this deformation stress was applied between a region of extension and region of compression.  Interestingly, until nearing the point of breakdown, the network did not experience a significant change in effective viscosity.  This was due to the between the diminishing viscosity of the thinning domain and the increasing viscosity of the thickening domain.  
+
+
+Finally, we wished to explore the non-linear effects of reorientation of the filaments and non-linear network thinning/thickening.  To do so, we applied oscillatory shear 
 
 
 
@@ -604,6 +534,8 @@ This molecular description assumed both a constant off-rate and linear force ext
 \label{app:compos}
 Section describing how you derive the extensional modulus.
 
+
+\begin{comment}
 \section{Rigid Rod Approximation with Non-Uniform Distributions of Length and Orientation}
 \label{app:aargh}
 Section describing how you derive the extensional modulus.
@@ -613,7 +545,6 @@ Section describing how you derive the extensional modulus.
 \section{Semiflexibiliy}
 
 Brief section showing that the results are not thoroughly flummoxed by semi flexibility.
-
 
 \section{Simulation details}
 
@@ -628,7 +559,7 @@ double t = 0;   // time
 double dt = 0.01; // time step
 double y = y0; // solved all problems
 \end{verbatim}
-
+\end{comment}
 \bibliographystyle{plain}
 \bibliography{references}
 
