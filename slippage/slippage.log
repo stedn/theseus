@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  28 MAY 2015 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  29 MAY 2015 13:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,7 +7,7 @@ entering extended mode
 (./slippage.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/texmf-local/tex/latex/revtex/revtex4-1.cls
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revtex4-1.cls
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
@@ -69,7 +69,7 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 
 Class revtex4-1 Warning: No Society specified, using default society aps.
 
-(/usr/local/texlive/texmf-local/tex/latex/revtex/aps4-1.rtx
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps4-1.rtx
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
@@ -77,7 +77,7 @@ Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 Class revtex4-1 Info: Selecting journal pre on input line 7544.
 Class revtex4-1 Info: APS journal PRE selected on input line 7545.
 
-(/usr/local/texlive/texmf-local/tex/latex/revtex/aps12pt4-1.rtx
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps12pt4-1.rtx
 File: aps12pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
 Class revtex4-1 Info: RevTeX pointsize 12pt selected on input line 30.
@@ -98,7 +98,7 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-(/usr/local/texlive/texmf-local/tex/latex/revtex/revsymb4-1.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revsymb4-1.sty
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
@@ -439,64 +439,64 @@ lippage.toc [2])
  [3] [4] [5] [6] [7] [8]
 [9]
 Package epstopdf Info: Source file: <network_def.eps>
-(epstopdf)                    date: 2015-03-30 23:47:07
+(epstopdf)                    date: 2015-02-20 13:05:18
 (epstopdf)                    size: 1240270 bytes
 (epstopdf)             Output file: <network_def-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-30 23:47:07
+(epstopdf)                    date: 2015-02-20 13:05:37
 (epstopdf)                    size: 107380 bytes
 (epstopdf)             Command: <repstopdf --outfile=network_def-eps-converted-
 to.pdf network_def.eps>
 (epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
- <network_def-eps-converted-to.pdf, id=339, 433.62pt x 224.84pt>
+ <network_def-eps-converted-to.pdf, id=340, 433.62pt x 224.84pt>
 File: network_def-eps-converted-to.pdf Graphic file (type pdf)
 
 <use network_def-eps-converted-to.pdf>
 Package pdftex.def Info: network_def-eps-converted-to.pdf used on input line 21
 6.
 (pdftex.def)             Requested size: 468.0pt x 242.67949pt.
- [10 <./network_def-eps-converted-to.pdf>] [11] <eff_vic_master.pdf, id=358, 71
+ [10 <./network_def-eps-converted-to.pdf>] [11] <eff_vic_master.pdf, id=359, 71
 8.685pt x 542.025pt>
 File: eff_vic_master.pdf Graphic file (type pdf)
 
 <use eff_vic_master.pdf>
-Package pdftex.def Info: eff_vic_master.pdf used on input line 295.
+Package pdftex.def Info: eff_vic_master.pdf used on input line 294.
 (pdftex.def)             Requested size: 468.0pt x 352.97372pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12] <shear_modes.pdf, id=370, 916.42375pt x 700.6175pt>
+[12] <shear_modes.pdf, id=371, 916.42375pt x 700.6175pt>
 File: shear_modes.pdf Graphic file (type pdf)
  <use shear_modes.pdf>
-Package pdftex.def Info: shear_modes.pdf used on input line 311.
+Package pdftex.def Info: shear_modes.pdf used on input line 310.
 (pdftex.def)             Requested size: 468.0pt x 357.79128pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13 <./eff_vic_master.pdf>] [14 <./shear_modes.pdf>]
-<glass_relax.pdf, id=436, 916.42375pt x 722.7pt>
+<glass_relax.pdf, id=437, 916.42375pt x 722.7pt>
 File: glass_relax.pdf Graphic file (type pdf)
  <use glass_relax.pdf>
-Package pdftex.def Info: glass_relax.pdf used on input line 331.
+Package pdftex.def Info: glass_relax.pdf used on input line 330.
 (pdftex.def)             Requested size: 468.0pt x 369.06836pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<strain_collapse.pdf, id=438, 755.82375pt x 794.97pt>
+<strain_collapse.pdf, id=439, 755.82375pt x 794.97pt>
 File: strain_collapse.pdf Graphic file (type pdf)
 
 <use strain_collapse.pdf>
-Package pdftex.def Info: strain_collapse.pdf used on input line 341.
+Package pdftex.def Info: strain_collapse.pdf used on input line 340.
 (pdftex.def)             Requested size: 468.0pt x 492.23341pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [15]
-Overfull \hbox (21.75218pt too wide) in paragraph at lines 349--350
+Overfull \hbox (21.75218pt too wide) in paragraph at lines 348--349
 []\OT1/cmr/m/n/12 At this point the fil-a-ment ori-en-ta-tions be-come un-evenl
 y dis-tributed $\OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 ^^NL=L\OMS/cmsy/m/n/12 i 6\O
 T1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^M[]sin\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^R\
@@ -504,31 +504,31 @@ OT1/cmr/m/n/12 )\OML/cmm/m/it/12 cos\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^R\OT1/c
 mr/m/n/12 )$,
  []
 
-[16 <./glass_relax.pdf>] <tearer.pdf, id=476, 755.82375pt x 803.0pt>
+[16 <./glass_relax.pdf>] <tearer.pdf, id=477, 755.82375pt x 803.0pt>
 File: tearer.pdf Graphic file (type pdf)
 
 <use tearer.pdf>
-Package pdftex.def Info: tearer.pdf used on input line 355.
+Package pdftex.def Info: tearer.pdf used on input line 354.
 (pdftex.def)             Requested size: 468.0pt x 497.20546pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [17 <./strain_collapse.pdf>] [18 <./tearer.pdf>]
-<phase_diag.pdf, id=508, 731.73375pt x 559.08875pt>
+<phase_diag.pdf, id=509, 731.73375pt x 559.08875pt>
 File: phase_diag.pdf Graphic file (type pdf)
  <use phase_diag.pdf>
-Package pdftex.def Info: phase_diag.pdf used on input line 368.
+Package pdftex.def Info: phase_diag.pdf used on input line 367.
 (pdftex.def)             Requested size: 468.0pt x 357.58524pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19] <strain_mem_weak.pdf, id=516, 731.73375pt x 559.08875pt>
+[19] <strain_mem_weak.pdf, id=517, 731.73375pt x 559.08875pt>
 File: strain_mem_weak.pdf Graphic file (type pdf)
 
 <use strain_mem_weak.pdf>
-Package pdftex.def Info: strain_mem_weak.pdf used on input line 390.
+Package pdftex.def Info: strain_mem_weak.pdf used on input line 389.
 (pdftex.def)             Requested size: 468.0pt x 357.58524pt.
 
 
@@ -542,16 +542,16 @@ Missing character: There is no ± in font cmr10!
 Missing character: There is no Î in font cmr10!
 Missing character: There is no ± in font cmr10!
 ) [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 561.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 560.
  (./slippage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 561.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 561.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 560.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 560.
 Package rerunfilecheck Info: File `slippage.out' has not changed.
 (rerunfilecheck)             Checksum: 52C2B3FA3E2EAF3CD2702A261752D02D;2758.
  ) 
 Here is how much of TeX's memory you used:
  8319 strings out of 493117
- 119851 string characters out of 6135433
+ 119887 string characters out of 6135433
  219602 words of memory out of 5000000
  11547 multiletter control sequences out of 15000+600000
  10724 words of font info for 38 fonts, out of 8000000 for 9000
@@ -572,10 +572,10 @@ ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on slippage.pdf (28 pages, 1258073 bytes).
+Output written on slippage.pdf (28 pages, 1258201 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 549 compressed objects within 6 object streams
+ 656 PDF objects out of 1000 (max. 8388607)
+ 550 compressed objects within 6 object streams
  135 named destinations out of 1000 (max. 500000)
  305 words of extra memory for PDF output out of 10000 (max. 10000000)
 
