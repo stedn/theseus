@@ -20,19 +20,17 @@
 \begin{document}
 
 \title{Effective viscosity and strain memory in compliant filament networks with cross-link slip}
-\author{William McFadden}
-\affiliation{University of Chicago, Biophysical Sciences Program, Chicago, IL 60615}
+\author{William McFadden, Edwin Munro}
+\affiliation{University of Chicago, Institute for Biophysical Dynamics, Chicago, IL 60615}
 
-\date{1 January 2015}
+\date{this day}
 
-**** Has time stood still???  ****
 
 \begin{abstract}
-Here we combine theoretical and computational approaches to explore mechanisns that govern  long timescale deformation in semi-flexible filament networks with transient cross-links.  We introduce a coarse-grained representation of cross-link dynamics in which cross-linked filaments slip past one another with an effective friction representing the time-averaged contributions of transient elastic cross-links.  For small strains, we obtain a theoretic predictions for the long timescale effective viscosity of the network that depends on network architecture and effective friction coefficient between filaments, and we confirm this prediction using numerical simulations.  We show computationally that network response deviates significantly from purely viscous creep when networks undergo large strains that drive them into anisotropic configurations.  Interestingly, under certain conditions, we find a phase of long-lived sub-linear creep, suggesting that our simple model can account for the broad relaxation timescales measured in biopolymer rheological experiments.  Finally, we extend our approach to include nonlinear extension of filaments and show that, in certain regimes, this property can endows networks with long-lived strain memory.
+Here we combine theoretical and computational approaches to explore mechanisns that govern  long timescale deformation in semi-flexible filament networks with transient cross-links.  We introduce a coarse-grained representation of cross-link dynamics in which cross-linked filaments slip past one another with an effective friction representing the time-averaged contributions of transient elastic cross-links.  For small strains, we obtain a theoretic predictions for the long timescale effective viscosity of the network that depends on network architecture and effective friction coefficient between filaments, and we confirm this prediction using numerical simulations.  We show computationally that network response deviates significantly from purely viscous creep when networks undergo large strains that drive them into anisotropic configurations.  Interestingly, under certain conditions, we find a phase of long-lived sub-linear creep, suggesting that our simple model may account for the broad relaxation timescales measured in biopolymer rheological experiments.  Finally, we extend our approach to include nonlinear extension of filaments and show that, in certain regimes, this property can endows networks with long-lived strain memory.
 \end{abstract}
 
 
-***** I donlt quite understand why long-lived sub-linear creep == broad relaxation timescales. Can you clarify? ****
 
 \maketitle
 
@@ -60,15 +58,9 @@ Here we combine theoretical and computational approaches to explore mechanisns t
 
 Cross-linked networks of semi-flexible polymers are a class of materials with poorly understood but highly interesting properties.    Early studies of semi-flexible polymer networks reconstituted {\em in vitro} revealed novel, nonlinear rheology, spurring interest from materials scientists\cite{megareview}.  Cross-linked networks of cytoskeletal polymers have been a subject of great interest to biologists  because of their importance as structural components of cells\cite{cellmech_review1,cellmech_review2}.
 
-**** Will, I don’t see how it makes sense to talk about an “intermediate timescale” in absolute units of time, unless you are already talking about a particular class of networks.  Can you define what you mean by this more clearly…?  Maybe you should add a few sentences here to define what is meant by “short timescale, intermediate time scale, and long timescale”…
-*****
 
+On shorter timescales, the response of cross-linked polymer networks to applied stress can be well-described theoretically in terms of purely elastic mechanical resistance.  On longer timescales, the network's elastic resistance begins to give way to a viscous relaxation of stored stress, but the mechanisms that govern this viscous relaxation remain poorly understood.   It is important to understand the mechanism behind this long timescale relaxation of cross-linked polymer networks both for understanding their novel material properties as well as understanding how this effect may govern physiologically important cellular processes\cite{cell_rheo}.
 
-On intermediate timescales (between 1-100 seconds), the response of cross-linked polymer networks to applied stress can be well-described theoretically in terms of purely elastic mechanical resistance.  On longer timescales, the network's elastic resistance begins to give way to a viscous relaxation of stored stress, but the mechanisms that govern this viscous relaxation remain poorly understood.   It is important to understand the mechanism behind this long timescale relaxation of cross-linked polymer networks both for understanding their novel material properties as well as understanding how this effect may govern physiologically important cellular processes\cite{cell_rheo}.
-
-**** 
-The last sentence on importance is too vague:  in effect you are saying “ it is important to study long timescale relaxation because it is important”  You need to say WHY it is important.  E.g. from a cell biology perspective, it is important because it allows cells to rapidly remodel or move or change shape.  From a materials science perspective it is important because ???
-*****
 
 For {\em in vitro} reconstitutions, this viscous relaxation is thought to result from transient unbinding and rebinding of intermolecular cross-links\cite{rheo_crosslinksmatter,theo_crosslinkslip1}. However, there is still no clear understanding of how local relaxations of network connectivity would give rise to a global viscous relaxation.  In our work, we wish to expand upon a well-established mechanical picture of cross-linked semi-flexible polymer networks to incorporate slippage of cross-links over longer timescales.  
 
@@ -77,7 +69,7 @@ For {\em in vitro} reconstitutions, this viscous relaxation is thought to result
 \subsection{Short Timescale Mechanics of Cross-linked Actin Filament Networks}
 
 
-Early {\em in vitro}  studies of biopolymer (Why not just say actin at this point;  all of the studies you cite are in actin right?) networks  revealed strikingly different elastic behaviors compared to the already well-understood flexible polymer gels \cite{rheo_bench}.  The complexity of these behaviors drove a surge in both experimental and theoretical studies of semi-flexible networks.  For a comprehensive review of this field we recommend \cite{megareview}, but we will shortly repeat some important milestones here.
+Early {\em in vitro}  studies of cross-linked actin filament networks revealed strikingly different elastic behaviors compared to the already well-understood flexible polymer gels \cite{rheo_bench}.  The complexity of these behaviors drove a surge in both experimental and theoretical studies of semi-flexible networks.  For a comprehensive review of this field we recommend \cite{megareview}, but we will shortly repeat some important milestones here.
 
 \subsubsection{Theories of Semi-flexible Filament Networks}
  
@@ -167,11 +159,9 @@ Here, we take the extensional and bending moduli as composite quantities related
 
 In the limit of highly rigid cross-links and flexible filaments, our model reduces to the pure semi-flexible filament models of \cite{theo_hlm,theo_hlm2}.  In the opposite regime of nearly rigid filaments and highly flexible cross links, our method is still largely similar to the model of \cite{theo_crosslinknonlinear} in small strain regimes before any nonlinear cross link stiffening.  However, in departure from those models, the magnitude of the force on interior cross-links in our model is still the same as those on the exterior.  This is a simplification of the varying levels of strain that would actually be present in these cross-linkers as addressed in \cite{theo_crosslinknonlinear}, but we choose to ignore the slight variation in favor of an approximated, global mean approach.  
 
-\begin{comment}Finally, in the event that the induced strain of the filament and the cross-linker are of comparable scales, our composite stiffness can be expressed by the approximation $huh$ as we shown in Appendix \ref{app:compos}.\end{comment}
+\begin{comment}Finally, in the event that the induced strain of the filament and the cross-linker are of comparable scales, our composite stiffness can be expressed by the approximation $huh$ as we shown in Appendix \ref{app:compos}.  In our simulations we explore the role that nonlinear stiffening of filaments or cross linkers would play, and what complications arise.\end{comment}
 
-In our simulations we explore the role that nonlinear stiffening of filaments or cross linkers would play, and what complications arise.
 
-**** The sentence above seems out of place here.  Is this supposed to be an overall summary/forecast of what you will use the simulations for or is a statement to the effect that in addition to what you have said above, you can also consider non-linear stiffening, and you will do so through simulations?  ****
 
 \subsection{2D Network Formation}
 
@@ -228,12 +218,10 @@ where $\mathbf{A }$ represents a coupling matrix between endpoints of filaments 
 
 We generate a network by laying down filaments with random position and orientation within a domain of size $2D$ by $D$ with periodic boundaries.  The external stress (shear or extensional/compressional) is applied to all filament endpoints falling within a fixed x-distance from the center of the domain.  Finally, filament endpoints falling within a fixed x-distance from the edges of the domain are constrained to be nonmoving.
 
-**** Will,  you MUST label your graphs properly.  This is scientific presentation 101.  Each panel should be labeled clearly.  The Figure legend should refer to these labels
-
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{network_def}
-\caption{\label{fig:sim}Two Simulation setups with $L=9 \mu m, D = 54 \mu m$ before and after 1000s of applied stress. a) low density $l_c=2 \mu m$, b) moderate density $l_c=1 \mu m$ }
+\caption{\label{fig:sim}Two Simulation setups with $L=9 \mu m, D = 54 \mu m$ before (top) and after  (bottom) 1000 seconds of applied stress. a) low density $l_c=2 \mu m$, b) moderate density $l_c=1 \mu m$ }
 \end{figure}
 
 The nominal units for length, force, and time are $\mu m$, nN, and s, respectively.  We explored parameters space around an estimate of biologically relevant parameter values, given in Table X. 
@@ -288,8 +276,6 @@ where $\mathbf{v_i(s)}-\mathbf{v_j(s)}$ is the difference between the velocity o
 
 Here we have introduced the variables $x_l$, and $\theta$ to describe the leftmost endpoint and the angular orientation of a given filament respectively.  Next, to perform the sum over all filaments we convert this to an integral over all orientations and endpoints that intersect our line of stress. We assume for simplicity that filament stretch and filament alignment are negligible in this low strain approximation.  Therefore, the max distance for the leftmost endpoint is the length of a filament, L, and the maximum angle as a function of endpoint is $\arccos(x_l/L)$.  The linear density of endpoints is the constant $D/l_cL$ so our integrals can be rewritten as this density over $x_l$ and $\theta$ between our maximum and minimum allowed bounds.
 
-**** Why say “we wish to” do something when you have already done it?****
-
 \begin{equation}
 \mathbf{\sigma} =  \frac{1}{D} \int_0^L dx_l \int_{-\arccos (\frac{x_l}{L})}^{\arccos (\frac{x_l}{L})}\frac{d\theta}{\pi} \frac{\xi \dot \gamma L}{l_c} \cdot \frac{D}{Ll_c}\cdot (x_l \cos \theta + \frac{L}{2} cos^2\theta)
 \end{equation}
@@ -324,16 +310,13 @@ In addition to changing the architecture and effective drag coefficient, we also
 
 Large scale reorientation of cross-linked filaments under strain is a subject of active research at the moment [Sayantan].  Therefore, we wished to use our computational approach to extend our understanding of generic filament networks in the regime of shear induced anisotropy.  Because we allowed variation in both the extensibility of individual filaments and the drag-like coupling between filaments, we found that we could induce reordering from high strain via either large filament compliance or large slip (or both).  
 
-In Figure \ref{fig:shear_modes}, we illustrate the four stereotyped phases of the general mechanical behavior that we observed in our networks.  A deforming network typically undergoes a rapid filament stretching, a slower relaxation of stretched constraints, a phase of cross-link slippage, and an eventual alignment and breakdown of network connectivity.
+In Figure \ref{fig:shear_modes}, we illustrate the four stereotyped phases of the general mechanical behavior that we observed in our networks.  A deforming network typically undergoes a rapid filament stretching, a slower relaxation of elastic constraints, a phase of purely viscous cross-link slippage, and an eventual alignment and breakdown of network connectivity.
 
-****  It is unclear here what you mean by “slower relaxation of stretched constraints” and why/how this is distinct from cross-link slippage. Isn’t cross-link slippage one way to relax stretched constraints?  If so,  what makes pahse 2 and 3 distinct?  Need to be more clear..
-
-****
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{shear_modes}
-\caption{\label{fig:shear_modes}Schematic of the general creep response of compliant filament networks illustrating the 4 phases of deformation: a) rapid mechanical response, b) combination of slow filament stretching and cross-link slip, c) cross-link slip dominated, d) network tearing from filament alignment.}
+\caption{ \label{fig:shear_modes} Schematic of the general creep response of compliant filament networks illustrating the 4 phases of deformation: a) rapid mechanical response, b) combination of slow filament stretching and cross-link slip, c) cross-link slip dominated, d) network tearing from filament alignment.}
 \end{figure}
 
 However, it isn't immediately clear how large these components of the strain will be or over what timescale they might take effect.  If the filaments are highly rigid, there many be no significant stretching of filaments and the system may enter immediately into the cross-link slippage phase.  If cross-link slippage is fast, the network may almost immediately align and tear apart.
@@ -346,19 +329,13 @@ In general, filament stretch plays a part in two separate mechanical responses. 
 
 Perhaps more interestingly, in the presence of cross-link slip, the interplay between filament stretching and cross-link slip gives rise to a second relaxation phase that deviates from both purely elastic and purely viscous behavior.  During the first phase, filaments underwent large-scale dilation or contraction depending on their orientation relative to the direction of shear.  However, some fraction of the filaments are still "under-stretched" due to local constraints from cross-links.  These filaments are able to stretch farther as constraints from the cross-linking points slip,  leading to an apparent viscous dissipation that decays away as filaments reach their stressed equilibrium length. 
 
-We see a broadening of the filament stretch distribution away from the affine approximation $\langle \delta L/L\rangle_0 = \gamma_{xy}sin(\theta)cos(\theta)$.  Assuming that this broadening is randomly distributed throughout the network we have $\delta L/L = \langle \delta L/L\rangle_0 + \epsilon(t)\cdot\mathcal{N}$. 
+We see a broadening of the filament stretch distribution away from the affine approximation $\langle \delta L/L\rangle_0 = \gamma_{xy}sin(\theta)cos(\theta)$.  Assuming that this broadening appears as a normally distributed variation in filament stretched length throughout the network ($\mathcal{N}$) with a time varying standard deviation, $\sigma(t)$, we have $\delta L/L = \langle \delta L/L\rangle_0 + \sigma(t)\cdot\mathcal{N}$. 
 
-**** where e[silon is xxx and N is yyyy****
-
- This has an effect on the total mechanical energy stored in the network ${\cal H} \sim  \langle\delta L/L\rangle^2 = \langle\delta L/L\rangle_0^2 +\epsilon(t)^2 $.  Thus, the network will appear less viscous while some strain energy is being stored in the further stretching filaments.  
+ This has an effect on the total mechanical energy stored in the network ${\cal H} \sim  \langle\delta L/L\rangle^2 = \langle\delta L/L\rangle_0^2 +\sigma(t)^2 $.  Thus, the network will appear less viscous while some strain energy is being stored in the further stretching filaments.  
 
 
 In Figure \ref{fig:glass_relax}, we illustrate using different compliance conditions that long-lived sub-viscous creep occurs when the increase in the dispersion of filament extension, $\epsilon$, is long-lived.
 
-
-**** Will, you need to expand this section a bit and explain stuff more clearly.  It is not clear to me exactly what your definition of dispersion is and how you have measured it.  What is N in the equation above?****
-
-**** In Figure 4, (and every other Figure!!!) you need to label things more clearly.  Panels A and B are not labelled.  I have no idea what the vertical label for Panel A means, or what the dashed lines refer to.  For this and all other figures, you need either a full paragraph in the Figure legend that explains what the elements of the figure are and what they mean, or the main text should do so, with clear references to the individual figure elements
 
 
 
@@ -366,20 +343,19 @@ In Figure \ref{fig:glass_relax}, we illustrate using different compliance condit
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{glass_relax}
-\caption{\label{fig:glass_relax} A. Creep response of networks and filament extension for different filament compliances.  B. Variation from mean filament extension for the networks in A. }
+\caption{\label{fig:glass_relax} Creep response of networks and filament extension for different filament compliances.  A.  Plot of total strain normalized by the strain from affine mechanical stretching, $\delta L/L$.  Dashed lines show the amount of strain from affine mechanical stretching.   B. Standard deviation of filament extension for the networks in A. Note that the creep compliance in A becomes constant (slope 1) only after the spread in filament extension in B stops increasing.}
 \end{figure}
 
 
 
 
-Eventually the contribution from slow filament stretching will become negligible compared to that from pure cross-link slip on rigid rods.  This occurs on a timescale similar to that of cross-link slip and causes the effective viscosity to decay back toward the rigid limit.  This gives rise to a less-than-linear creep response during times after the initial elastic relaxation but before full filament relaxation from cross-link slip.   The transition begins to take place as the ratio of slip-derived strain reaches moves from 10 to 100 times the scale as that from pure mechanical stretching.  As shown in Figure 5, this feature is  independent of the overall strain rate Figure \ref{fig:strain_coll}.
+Eventually the contribution from slow filament stretching will become negligible compared to that from pure cross-link slip on rigid rods.  This occurs on a timescale similar to that of cross-link slip and causes the effective viscosity to decay back toward the rigid limit.  This gives rise to a less-than-linear creep response during times after the initial elastic relaxation but before full filament relaxation from cross-link slip.   The transition begins to take place as network strain reaches reaches 10 to 100 times the strain from pure mechanical stretching, $\delta L / L$.  As shown in Figure \ref{fig:strain_coll}, this feature is dependent only on the overall strain. 
 
-**** The last two sentences in the paragraph above make very little sense to me.  Can you try to reword?  Define clearly what is the strain due to mechanical stretching?  What is slip-derived strain?  Also, same comment about Figure 5 as above.  What do the individual colored curves in this Figure represent?  Presumably they represent different choices of parameter, but you need to say so    ****
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{strain_collapse}
-\caption{\label{fig:strain_coll} A. Dependence of strain rate exponent as a function of strain relative to pure mechanical strain.  B.  Corresponding dispersion in filament strain, $\epsilon$, as a function of strain relative to pure mechanical strain. }
+\caption{\label{fig:strain_coll} A. Dependence of strain rate exponent as a function of strain relative to pure mechanical strain, $\delta L/L$.  Individual colored lines represent individual strain simulations with varying simulation parameters.  B.  Corresponding standard deviation in filament strain, $\sigma$, as a function of strain relative to pure mechanical strain. }
 \end{figure}
 
 \subsubsection{Phase D: Alignment at High Strain and Network Tearing}
