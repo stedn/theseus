@@ -18,19 +18,19 @@
 \contentsline {subsection}{\numberline {E}Computational Simulation Method}{9}{section*.16}
 \contentsline {section}{\numberline {III}Results (will be broken up)}{10}{section*.17}
 \contentsline {subsection}{\numberline {A}Low Strain Approximation of Effective Viscosity}{10}{section*.18}
-\contentsline {subsection}{\numberline {B}Effects from Large Strain}{13}{section*.19}
-\contentsline {subsubsection}{\numberline {1}Phase B: Transient Softening from Slow Filament Stretch}{13}{section*.20}
-\contentsline {subsubsection}{\numberline {2}Phase D: Alignment at High Strain and Network Tearing}{16}{section*.21}
-\contentsline {subsection}{\numberline {C}Phase Diagram of Dominant Behavior}{18}{section*.22}
+\contentsline {subsection}{\numberline {B}Effects from Large Strain}{12}{section*.19}
+\contentsline {subsubsection}{\numberline {1}Phase B: Transient Softening from Slow Filament Stretch}{14}{section*.20}
+\contentsline {subsubsection}{\numberline {2}Phase D: Alignment at High Strain and Network Tearing}{15}{section*.21}
+\contentsline {subsection}{\numberline {C}Phase Diagram of Dominant Behavior}{19}{section*.22}
 \contentsline {subsection}{\numberline {D}Frequency dependent modulus}{19}{section*.23}
-\contentsline {subsection}{\numberline {E}Strain Memory}{20}{section*.24}
+\contentsline {subsection}{\numberline {E}Strain Memory}{19}{section*.24}
 \contentsline {section}{\numberline {IV}Summary and Conclusions}{20}{section*.25}
-\contentsline {section}{\numberline {V}Acknowledgements}{20}{section*.26}
+\contentsline {section}{\numberline {V}Acknowledgements}{21}{section*.26}
 \appendix 
-\contentsline {section}{Appendices}{20}{section*.27}
+\contentsline {section}{Appendices}{21}{section*.27}
 \contentsline {section}{\numberline {A}Network Tearing under Extensional Stress}{21}{section*.28}
 \contentsline {subsection}{\numberline {1}Extensional Thinning and Network Tearing}{21}{section*.29}
 \contentsline {subsection}{\numberline {2}Tearing Events During Extensional Strain}{22}{section*.30}
 \contentsline {section}{\numberline {B}Deriving Molecular Drag Coefficients}{22}{section*.31}
-\contentsline {section}{\numberline {C}Deriving Filament and Cross-Link Composite Extensional Modulus}{23}{section*.32}
-\contentsline {section}{\numberline {}References}{23}{section*.33}
+\contentsline {section}{\numberline {C}Deriving Filament and Cross-Link Composite Extensional Modulus}{24}{section*.32}
+\contentsline {section}{\numberline {}References}{24}{section*.33}
