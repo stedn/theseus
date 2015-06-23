@@ -16,20 +16,19 @@
 \contentsline {subsection}{\numberline {C}Drag-like Coupling Between Overlapping Filaments}{8}{section*.14}
 \contentsline {subsection}{\numberline {D}System of Equations for Applied Stress}{8}{section*.15}
 \contentsline {subsection}{\numberline {E}Computational Simulation Method}{9}{section*.16}
-\contentsline {section}{\numberline {III}Results (will be broken up)}{11}{section*.17}
-\contentsline {subsection}{\numberline {A}Low Strain Approximation of Effective Viscosity}{11}{section*.18}
-\contentsline {subsection}{\numberline {B}Effects from Large Strain}{12}{section*.19}
-\contentsline {subsubsection}{\numberline {1}Phase B: Transient Softening from Slow Filament Stretch}{14}{section*.20}
-\contentsline {subsubsection}{\numberline {2}Phase D: Alignment at High Strain and Network Tearing}{16}{section*.21}
-\contentsline {subsection}{\numberline {C}Phase Diagram of Dominant Behavior}{18}{section*.22}
-\contentsline {subsection}{\numberline {D}Frequency dependent modulus}{18}{section*.23}
-\contentsline {section}{\numberline {IV}Summary and Conclusions}{18}{section*.24}
-\contentsline {section}{\numberline {V}Acknowledgements}{19}{section*.25}
+\contentsline {section}{\numberline {III}Results}{11}{section*.17}
+\contentsline {subsection}{\numberline {A}Steady-state Approximation of Effective Viscosity}{11}{section*.18}
+\contentsline {subsection}{\numberline {B}Effects of Filament Compliance}{12}{section*.19}
+\contentsline {subsection}{\numberline {C}Alignment at High Strain and Network Tearing}{15}{section*.20}
+\contentsline {subsection}{\numberline {D}Phase Diagram of Dominant Behavior}{19}{section*.21}
+\contentsline {subsection}{\numberline {E}Frequency dependent modulus}{19}{section*.22}
+\contentsline {section}{\numberline {IV}Summary and Conclusions}{19}{section*.23}
+\contentsline {section}{\numberline {V}Acknowledgements}{19}{section*.24}
 \appendix 
-\contentsline {section}{Appendices}{19}{section*.26}
-\contentsline {section}{\numberline {A}Network Tearing under Extensional Stress}{20}{section*.27}
-\contentsline {subsection}{\numberline {1}Extensional Thinning and Network Tearing}{20}{section*.28}
-\contentsline {subsection}{\numberline {2}Tearing Events During Extensional Strain}{22}{section*.29}
-\contentsline {section}{\numberline {B}Deriving Molecular Drag Coefficients}{22}{section*.30}
-\contentsline {section}{\numberline {C}Deriving Filament and Cross-Link Composite Extensional Modulus}{23}{section*.31}
-\contentsline {section}{\numberline {}References}{23}{section*.32}
+\contentsline {section}{Appendices}{19}{section*.25}
+\contentsline {section}{\numberline {A}Network Tearing under Extensional Stress}{20}{section*.26}
+\contentsline {subsection}{\numberline {1}Extensional Thinning and Network Tearing}{20}{section*.27}
+\contentsline {subsection}{\numberline {2}Tearing Events During Extensional Strain}{22}{section*.28}
+\contentsline {section}{\numberline {B}Deriving Molecular Drag Coefficients}{22}{section*.29}
+\contentsline {section}{\numberline {C}Deriving Filament and Cross-Link Composite Extensional Modulus}{23}{section*.30}
+\contentsline {section}{\numberline {}References}{23}{section*.31}
