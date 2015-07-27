@@ -28,6 +28,6 @@
 \contentsline {section}{\numberline {A}Network Tearing under Extensional Stress}{8}{section*.25}
 \contentsline {subsection}{\numberline {1}Extensional Thinning and Network Tearing}{8}{section*.26}
 \contentsline {subsection}{\numberline {2}Tearing Events During Extensional Strain}{8}{section*.27}
-\contentsline {section}{\numberline {B}Deriving Molecular Drag Coefficients}{8}{section*.28}
+\contentsline {section}{\numberline {B}Deriving Molecular Drag Coefficients}{9}{section*.28}
 \contentsline {section}{\numberline {C}Deriving Filament and Cross-Link Composite Extensional Modulus}{9}{section*.29}
 \contentsline {section}{\numberline {}References}{9}{section*.30}
