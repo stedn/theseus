@@ -1,4 +1,4 @@
-\documentclass[pre,reprint]{revtex4-1}
+\documentclass[pre,preprint]{revtex4-1}
 
 % preamble:
 \usepackage{appendix}
@@ -155,9 +155,7 @@ where, $\mu$ represents an extensional modulus of a filament, and $\kappa$ repre
 \nabla{\cal H}_i =|F_{i,i+1}|_{\parallel} + |F_{i,i+2}|_{\perp}
 \end{equation}
 
-Here, we take the extensional modulus as a composite quantities related to both filament and cross-linker compliance in a manner similar to a recently proposed effective medium theory\cite{theo_crosslinknonlinear}.  We provide a molecular level derivation of this composite compliance in Appendix \ref{app:compos}. Here, we highlight the main features.  
-
-In the limit of highly rigid cross-links and flexible filaments, our model reduces to the pure semi-flexible filament models of \cite{theo_hlm,theo_hlm2}.  In the opposite regime of nearly rigid filaments and highly flexible cross links, our method is still largely similar to the model of \cite{theo_crosslinknonlinear} in small strain regimes before any nonlinear cross link stiffening.  However, in departure from those models, the magnitude of the force on interior cross-links in our model is still the same as those on the exterior.  This is a simplification of the varying levels of strain that would actually be present in these cross-linkers as addressed in \cite{theo_crosslinknonlinear}, but we choose to ignore the slight variation in favor of an approximated, global mean approach.  
+Here, we take the extensional modulus as a composite quantities related to both filament and cross-linker compliance in a manner similar to a recently proposed effective medium theory\cite{theo_crosslinknonlinear}.  In the limit of highly rigid cross-links and flexible filaments, our model reduces to the pure semi-flexible filament models of \cite{theo_hlm,theo_hlm2}.  In the opposite regime of nearly rigid filaments and highly flexible cross links, our method is still largely similar to the model of \cite{theo_crosslinknonlinear} in small strain regimes before any nonlinear cross link stiffening.  However, in departure from those models, the magnitude of the force on interior cross-links in our model is still the same as those on the exterior.  This is a simplification of the varying levels of strain that would actually be present in these cross-linkers as addressed in \cite{theo_crosslinknonlinear}, but we choose to ignore the slight variation in favor of an approximated, global mean approach.  
 
 \begin{comment}Finally, in the event that the induced strain of the filament and the cross-linker are of comparable scales, our composite stiffness can be expressed by the approximation $huh$ as we shown in Appendix \ref{app:compos}.  In our simulations we explore the role that nonlinear stiffening of filaments or cross linkers would play, and what complications arise.\end{comment}
 
@@ -216,7 +214,7 @@ We discretize the filaments such that the equations of motion becomes a coupled 
 
 where $\mathbf{A }$ represents a coupling matrix between endpoints of filaments that overlap, and $\mathbf{f(x)}$ is the spring force between pairs of filament segment endpoints.  We can then numerically integrate this system of equations to find the time evolution of the positions of all filament endpoints.
 
-We generate a network by laying down filaments with random position and orientation within a domain of size $2D$ by $D$ with periodic boundaries.  The external stress (shear or extensional/compressional) is applied to all filament endpoints falling within a fixed x-distance from the center of the domain.  Finally, filament endpoints falling within a fixed x-distance from the edges of the domain are constrained to be nonmoving.
+We generate a network by laying down filaments with random position and orientation within a domain of size $2D$ by $D$ with periodic boundaries in the y-dimension.  The external stress (shear or extensional/compressional) is applied to all filament endpoints falling within a fixed x-distance from the center of the domain.  Finally, filament endpoints falling within a fixed x-distance from the edges of the domain are constrained to be nonmoving.
 
 \begin{figure}[h!]
 \centering
@@ -364,7 +362,7 @@ Approximating this broadening as a normally distributed variation in filament st
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{glass_relax_illustrate}
-\caption{\label{fig:glass_relax} Network and filament strain for different filament drag coefficient parameters.  A.  Plot of total strain normalized by the final mean filament strain, $\delta L/L$.  Dashed lines show the amount of strain from affine mechanical stretching.   B. Standard deviation of filament extension for the networks in A. Note that the creep compliance in A becomes constant (slope 1) only after the spread in filament extension in B stops increasing.}
+\caption{\label{fig:glass_relax} Network and filament strain for different filament drag coefficient parameters.  (top) Plot of total strain normalized by the final mean filament strain, $\delta L/L$.  Dashed lines show the amount of strain from affine mechanical stretching.   (bottom) Standard deviation of filament extension for the networks in A. Note that the creep compliance in A becomes constant (slope 1) only after the spread in filament extension in B stops increasing.  Colors indicate unique experimental conditions. }
 \end{figure}
 
 
@@ -374,7 +372,7 @@ Eventually the contribution from slow filament stretching will become negligible
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{collapse}
-\caption{\label{fig:strain_coll} A. Dependence of strain rate exponent as a function of strain relative to pure mechanical strain, $\gamma_0$.  Individual colored lines represent individual strain simulations with varying simulation parameters.  B.  Corresponding standard deviation in filament strain, $\sigma$, as a function of strain relative to pure mechanical strain. }
+\caption{\label{fig:strain_coll} Sublinear network strain ends as change in filament strain decays. (top) Change in standard deviation of filament strain, $\sigma$, as a function of strain relative to pure mechanical strain. (bottom)   Dependence of strain rate exponent as a function of strain relative to pure mechanical strain, $\gamma_0$.  Colors indicate unique experimental conditions. }
 \end{figure}
 
 
@@ -471,13 +469,13 @@ Figure \ref{fig:strain_mem_weak} shows that the strain storage occurs, but I wil
 
 
 \section{Summary and Conclusions}
-We have proposed a simplified effective friction model for understanding 2D cross-linked networks. Our model extends previous Mikado and lattice models to include effects of cross-link relaxation. This model is well-suited to address questions o network stress relaxation in quasi-2D networks such as those found in \textit{in vitro} actin monolayer experiments as well as in eukaryotic actomyosin cortices.  
+We have proposed a simplified effective friction model for understanding 2D cross-linked networks. Our model extends previous Mikado and lattice models to include effects of cross-link relaxation. We expect that our model can confer insights into mechanisms of network stress relaxation in quasi-2D networks such as those found in \textit{in vitro} actin monolayer experiments\cite{rheo_2D1} as well as in eukaryotic actomyosin cortices\cite{cellmech_flows}.   
 
 Our model is the first to address the plausible dependence of network effective viscosity on network structural properties.  This led to a derivation of an estimate for the long timescale creep rate of networks under constant stress.  Although this derivation neglects possible frequency dependence at short timescales, this finding offers a potential framework for addressing the dependence of network deformation rate on filament concentration and length.
 
-Additionally, our simulations suggest that, in the presence of constant shear stress, cross-link friction will also produce a long-lived phase of sublinear creep as filaments relax from their affine stretched position. While this phase may transiently resemble more explicit 3D models such as \cite{theo_crosslinkslip1}, it is clear that our model differs by predicting that network will achieve a constant effective viscosity more rapidly.  The relaxation will in fact occur at a similar rate to the rate of cross-link slip derived strain and will therefore be negligible after the network has slipped by roughly ten times the magnitude of the purely affine mechanical deformation.
+Additionally, our simulations suggest that, in the presence of constant shear stress, cross-link friction will also produce a long-lived phase of sublinear creep as filaments relax from their affine stretched position. While this phase may transiently resemble more explicit 3D models such as \cite{theo_crosslinkslip1}, it is clear that our model differs by predicting that network will achieve a constant effective viscosity more rapidly.  In particular, we predict that this relaxation will occur at a rate similar to that of rate of cross-link slip derived strain and will therefore be negligible after the network has slipped by roughly ten times the magnitude of the purely affine mechanical deformation.  
 
-In building our !model we have neglected any other sources of potential mechanical relaxation in order to simplify out analysis. In the future we hope to extend our model to include biochemically driven forms of relaxation such as filament turnover or regulated cross-link unbinding.
+In building our model we have neglected any other sources of potential mechanical relaxation in order to simplify out analysis. In the future, we hope to extend our model to include biochemically driven forms of relaxation such as filament turnover or regulated cross-link unbinding.
 
 This model forms a basis for addressing 2D filament network deformation, and it proposes a simplified formulation of important qualitative properties. In this way we are able to address potentially general phases of network deformation and delineate what network properties may give rise to them.  This may provide an important starting point for addressing the general importance of network structure in more complex networks containing active elements. 
 
@@ -522,7 +520,7 @@ I'd like to thank Shiladitya Banerjee and Sayantan Majumdar for discussions on t
 \addappheadtotoc
 
 
-
+\begin{comment}
 
 \section{Network Tearing under Extensional Stress}
 
@@ -550,7 +548,7 @@ This provides us with an estimate of the timescale of catastrophic breakdown for
 
 This behavior is caused primarily by the low density network undergoing tearing events that interrupt global connectedness.  
 
-
+\end{comment}
 
 
 
@@ -560,7 +558,7 @@ Thus far, the idea of a molecular drag coefficient was taken as a phenomenologic
 
 To do this we'll imagine the simplified case of two cross linkers sliding past each other in one dimension.  In this case, assume that we have an equilibrium number of bound cross-linkers, $n_B$, each of which is displaced from its equilibrium length by some distance $x$.  Each cross linker unbinds with rate $k_{off}$ and rebinds at it's relaxed position ($x=0$) with rate $k_{on}$.  At the same time, all the cross linkers are being pulled from their relaxed position at a rate, $v$, which is simply the rate at which the filaments are sliding past each other.  
 
-We can right down an equation for the change in the density of cross-links at displacement $x$ as they are pulled upon, bind, and unbind.
+We can write the differential equation for the change in the density of cross-links, $\rho$, at displacement $x$ as they are pulled upon, bind, and unbind.
 
 \begin{equation}
 \frac{\partial \rho}{\partial t} = -k_{off}\rho(x) - v\frac{\partial \rho}{\partial x} + k_{on}\delta(x)
@@ -578,7 +576,7 @@ If each cross-link has a spring constant $\mu_c$, then we can equate the force o
 \int_{0}^{\infty}\rho(x)\mu_cx dx = v \frac{\mu_c n_B}{k_{off}}= F_{app}
 \end{equation}a
 
-Therefore, the term next to v, (i.e. $\tfrac{\mu_c n_B}{k_{off}}$) would be equal to our molecular drag coefficient, $\xi$.  assuming, approximately 1-5 cross links per filament overlap, and using the following table of estimates pulled from Ferrer et al., we can chart the accuracy of this simple predictive model.
+Therefore, the term next to v, (i.e. $\tfrac{\mu_c n_B}{k_{off}}$) would be equal to our molecular drag coefficient, $\xi$.  Assuming approximately 1 cross link per filament overlap, and using parameter estimates culled from Ferrer et al., we build the following table of estimates for $\xi$.
 
 \begin{table}[h]
 \begin{tabular}{| l | c | c |}
@@ -586,7 +584,7 @@ Therefore, the term next to v, (i.e. $\tfrac{\mu_c n_B}{k_{off}}$) would be equa
 \textbf{cross-linker type} & $\alpha$-actinin & filamin-A  \\ \cline{1-1}
 \textbf{dissociation constant ($s^{-1}$)} & 0.4 & 0.6 \\ \cline{1-1}
 \textbf{spring constant ($nN / \mu m$)} & 455 & 820 \\ \cline{1-1}
-\textbf{drag coefficient ($\tfrac{nN \cdot s}{\mu m}$)} & 200-1000 & 500-2500 \\ 
+\textbf{drag coefficient, $\xi$ ($\tfrac{nN \cdot s}{\mu m}$)} & 182 & 492 \\ 
 \hline
 \end{tabular}
 \end{table}
@@ -595,12 +593,14 @@ Therefore, the term next to v, (i.e. $\tfrac{\mu_c n_B}{k_{off}}$) would be equa
 
 This molecular description assumed both a constant off-rate and linear force extension of cross-links.  In the event that binding kinetics are regulated by the state of extension, we would expect (based on Rf) to find a region that exhibits a stick-slip behavior instead of the smooth.  Depending on the nature of any coupling between cross-links local stick-slip could either give rise to a global stick-slip behavior or a heterogenous mixture of stuck and sliding cross-links.  It would be interesting to explore this topic further in the future, but in the present analysis, we choose to ignore complications from these nonlinear effects.
 
+
+
+\begin{comment}
 \section{Deriving Filament and Cross-Link Composite Extensional Modulus}
 \label{app:compos}
 Section describing how you derive the extensional modulus.
 
 
-\begin{comment}
 \section{Rigid Rod Approximation with Non-Uniform Distributions of Length and Orientation}
 \label{app:aargh}
 Section describing how you derive the extensional modulus.
