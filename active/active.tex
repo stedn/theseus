@@ -19,7 +19,7 @@
 
 \begin{document}
 
-\title{Phases of deformation in filament networks with cross-link slip}
+\title{Phases of deformation in filament networks with active cross-link slip}
 \author{William McFadden, Edwin Munro}
 \affiliation{University of Chicago, Institute for Biophysical Dynamics, Chicago, IL 60615}
 
@@ -201,64 +201,22 @@ Finally, we add a 0 velocity constraint at the far edges of our domain of intere
 subject to constraints such that $\mathbf{v_i(x)}$ is 0 with $x=0$.  This results in an implicit differential equation for filament segments which can be discretized and integrated in time to produce a solution for the motion of the system.
 
 
-\subsection{Computational Simulation Method}
 
-We tested our analytical conclusions on a computational model.  More technical details of the model can be found in the Appendix, but we summarize the main modeling points here.
 
-We discretize the filaments such that the equations of motion becomes a coupled system of equations for the velocities of filament endpoints, $\mathbf{x}$.  The drag-like force between overlapping filaments results in a coupling of the velocities of endpoints.  
 
-\begin{equation}
-\mathbf{A \cdot \dot x} = \mathbf{f(x)}
-\end{equation}
 
-where $\mathbf{A }$ represents a coupling matrix between endpoints of filaments that overlap, and $\mathbf{f(x)}$ is the spring force between pairs of filament segment endpoints.  We can then numerically integrate this system of equations to find the time evolution of the positions of all filament endpoints.
+\subsection{Incorporating Activity at Cross-link Points}
 
-We generate a network by laying down filaments with random position and orientation within a domain of size $2D$ by $D$ with periodic boundaries in the y-dimension.  The external stress (shear or extensional/compressional) is applied to all filament endpoints falling within a fixed x-distance from the center of the domain.  Finally, filament endpoints falling within a fixed x-distance from the edges of the domain are constrained to be nonmoving.
+Discuss the modifications to the equations to add a motile force at points of overlap.
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=\hsize]{network_def}
-\caption{\label{fig:sim}Two Simulation setups with $L=9 \mu m, D = 54 \mu m$ before (top) and after  (bottom) 1000 seconds of applied stress. a) low density $l_c=2 \mu m$, b) moderate density $l_c=1 \mu m.  $ Scale bar $ 20 \mu m$}
-\end{figure}
 
-The nominal units for length, force, and time are $\mu m$, nN, and s, respectively.  We explored parameter space around an estimate of biologically relevant parameter values, given in Table \ref{table:para}. 
 
-\begin{table}[h]
-\centering
-\caption{Simulation Parameter Values}
-\label{table:para}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-{\bf parameter}             & {\bf symbol} & {\bf physiological estimate}          \\ \hline
-extensional modulus         & $\mu$        & $1 nN $                                               \\
-bending modulus             & $\kappa$     & $ 10^{-3} nN \cdot \mu m$                           \\
-cross-link drag coefficient & $\xi$      & $unknown $              \\
-medium drag coefficient     & $\zeta$        & $0.0005 \frac{nN s}{\mu m^2} $      \\
-filament length             & L            & $5 \mu m$                                          \\
-cross-link spacing          & $l_c$        & $0.5 \mu m$                                         \\
-domain size                 & D            & $10-50 \mu m$                                 \\ \hline
-\end{tabular}
-\end{table}
 
-\begin{comment}
-\begin{table}[h]
-\centering
-\caption{Simulation Parameter Values}
-\label{table:para}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-{\bf parameter}             & {\bf symbol} & {\bf estimated physiological value} & {\bf smallest value}           & {\bf largest value}          \\ \hline
-extensional modulus         & $\mu$        & $1 nN $                             & $0.01 nN $                     & $10 nN $                     \\
-bending modulus             & $\kappa$     & $ 10^{-3} nN \cdot \mu m$           & -                              & -                            \\
-cross-link drag coefficient & $\xi$      & $unknown $             & $1 \frac{nN s}{\mu m} $        & $10000 \frac{nN s}{\mu m} $  \\
-medium drag coefficient     & $\zeta$        & $0.0005 \frac{nN s}{\mu m^2} $      & $0.0005 \frac{nN s}{\mu m^2} $ & $0.01 \frac{nN s}{\mu m^2} $ \\
-filament length             & L            & $5 \mu m$                           & $ 1\mu m$                      & $10 \mu m$                   \\
-cross-link spacing          & $l_c$        & $0.5 \mu m$                         & $0.1 \mu m$                    & $2 \mu m$                    \\
-domain size                 & D            & $10-50 \mu m$                       & $4\cdot L$                      & $10\cdot L$                   \\ \hline
-\end{tabular}
-\end{table}
-\end{comment}
-For computational simplicity in these models, unless otherwise mentioned we assume that the bending rigidity, $\kappa$, is infinite. This allows us to model filaments as non-bending springs of rest length, $L$, and spring modulus $\mu$.  In the appendix, we show that our result is not significantly different from the result for semi-flexible polymers.
+\subsection{Generating Activity Gradients}
+
+
+
+
 
 
 
@@ -592,6 +550,70 @@ Therefore, the term next to v, (i.e. $\tfrac{\mu_c n_B}{k_{off}}$) would be equa
 
 This molecular description assumed both a constant off-rate and linear force extension of cross-links.  In the event that binding kinetics are regulated by the state of extension, we would expect (based on Rf) to find a region that exhibits a stick-slip behavior instead of the smooth.  Depending on the nature of any coupling between cross-links local stick-slip could either give rise to a global stick-slip behavior or a heterogenous mixture of stuck and sliding cross-links.  It would be interesting to explore this topic further in the future, but in the present analysis, we choose to ignore complications from these nonlinear effects.
 
+
+
+
+
+
+
+\section{Computational Simulation Method}
+
+We tested our analytical conclusions on a computational model.  More technical details of the model can be found in the Appendix, but we summarize the main modeling points here.
+
+We discretize the filaments such that the equations of motion becomes a coupled system of equations for the velocities of filament endpoints, $\mathbf{x}$.  The drag-like force between overlapping filaments results in a coupling of the velocities of endpoints.  
+
+\begin{equation}
+\mathbf{A \cdot \dot x} = \mathbf{f(x)}
+\end{equation}
+
+where $\mathbf{A }$ represents a coupling matrix between endpoints of filaments that overlap, and $\mathbf{f(x)}$ is the spring force between pairs of filament segment endpoints.  We can then numerically integrate this system of equations to find the time evolution of the positions of all filament endpoints.
+
+We generate a network by laying down filaments with random position and orientation within a domain of size $2D$ by $D$ with periodic boundaries in the y-dimension.  The external stress (shear or extensional/compressional) is applied to all filament endpoints falling within a fixed x-distance from the center of the domain.  Finally, filament endpoints falling within a fixed x-distance from the edges of the domain are constrained to be nonmoving.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\hsize]{network_def}
+\caption{\label{fig:sim}Two Simulation setups with $L=9 \mu m, D = 54 \mu m$ before (top) and after  (bottom) 1000 seconds of applied stress. a) low density $l_c=2 \mu m$, b) moderate density $l_c=1 \mu m.  $ Scale bar $ 20 \mu m$}
+\end{figure}
+
+The nominal units for length, force, and time are $\mu m$, nN, and s, respectively.  We explored parameter space around an estimate of biologically relevant parameter values, given in Table \ref{table:para}. 
+
+\begin{table}[h]
+\centering
+\caption{Simulation Parameter Values}
+\label{table:para}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+{\bf parameter}             & {\bf symbol} & {\bf physiological estimate}          \\ \hline
+extensional modulus         & $\mu$        & $1 nN $                                               \\
+bending modulus             & $\kappa$     & $ 10^{-3} nN \cdot \mu m$                           \\
+cross-link drag coefficient & $\xi$      & $unknown $              \\
+medium drag coefficient     & $\zeta$        & $0.0005 \frac{nN s}{\mu m^2} $      \\
+filament length             & L            & $5 \mu m$                                          \\
+cross-link spacing          & $l_c$        & $0.5 \mu m$                                         \\
+domain size                 & D            & $10-50 \mu m$                                 \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{comment}
+\begin{table}[h]
+\centering
+\caption{Simulation Parameter Values}
+\label{table:para}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+{\bf parameter}             & {\bf symbol} & {\bf estimated physiological value} & {\bf smallest value}           & {\bf largest value}          \\ \hline
+extensional modulus         & $\mu$        & $1 nN $                             & $0.01 nN $                     & $10 nN $                     \\
+bending modulus             & $\kappa$     & $ 10^{-3} nN \cdot \mu m$           & -                              & -                            \\
+cross-link drag coefficient & $\xi$      & $unknown $             & $1 \frac{nN s}{\mu m} $        & $10000 \frac{nN s}{\mu m} $  \\
+medium drag coefficient     & $\zeta$        & $0.0005 \frac{nN s}{\mu m^2} $      & $0.0005 \frac{nN s}{\mu m^2} $ & $0.01 \frac{nN s}{\mu m^2} $ \\
+filament length             & L            & $5 \mu m$                           & $ 1\mu m$                      & $10 \mu m$                   \\
+cross-link spacing          & $l_c$        & $0.5 \mu m$                         & $0.1 \mu m$                    & $2 \mu m$                    \\
+domain size                 & D            & $10-50 \mu m$                       & $4\cdot L$                      & $10\cdot L$                   \\ \hline
+\end{tabular}
+\end{table}
+\end{comment}
+For computational simplicity in these models, unless otherwise mentioned we assume that the bending rigidity, $\kappa$, is infinite. This allows us to model filaments as non-bending springs of rest length, $L$, and spring modulus $\mu$.  In the appendix, we show that our result is not significantly different from the result for semi-flexible polymers.
 
 
 \begin{comment}
