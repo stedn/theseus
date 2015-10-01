@@ -1,28 +1,21 @@
-\contentsline {title}{Phases of deformation in filament networks with active cross-link slip}{1}{section*.2}
-\contentsline {abstract}{Abstract}{1}{section*.1}
+\contentsline {title}{Phases of deformation in filament networks with active cross-link slip}{1}{section*.1}
 \tocdepth@munge 
-\contentsline {section}{\numberline {}Contents}{2}{section*.3}
+\contentsline {section}{\numberline {}Contents}{2}{section*.2}
 \tocdepth@restore 
-\contentsline {section}{\numberline {I}Introduction}{2}{section*.4}
-\contentsline {subsection}{\numberline {A}Short Timescale Mechanics of Cross-linked Actin Filament Networks}{3}{section*.5}
-\contentsline {subsubsection}{\numberline {1}Theories of Semi-flexible Filament Networks}{3}{section*.6}
-\contentsline {subsubsection}{\numberline {2}Incorporating Effects of Cross-link Compliance}{4}{section*.7}
-\contentsline {subsection}{\numberline {B}Long Timescale Stress Relaxation from Transient Cross-link Unbinding}{4}{section*.8}
-\contentsline {subsubsection}{\numberline {1}Models of Stress Relaxation with Transient Cross-links}{5}{section*.9}
-\contentsline {subsubsection}{\numberline {2}Novelty of Cross-link Slip Approach}{5}{section*.10}
-\contentsline {section}{\numberline {II}Explanation of Model}{6}{section*.11}
-\contentsline {subsection}{\numberline {A}Composite Cross-link \& Filament Representation}{6}{section*.12}
-\contentsline {subsection}{\numberline {B}2D Network Formation}{7}{section*.13}
-\contentsline {subsection}{\numberline {C}Drag-like Coupling Between Overlapping Filaments}{7}{section*.14}
-\contentsline {subsection}{\numberline {D}System of Equations for Applied Stress}{8}{section*.15}
-\contentsline {subsection}{\numberline {E}Computational Simulation Method}{9}{section*.16}
-\contentsline {section}{\numberline {III}Results}{10}{section*.17}
-\contentsline {subsection}{\numberline {A}Steady-state Approximation of Effective Viscosity}{10}{section*.18}
-\contentsline {subsection}{\numberline {B}Effects of Filament Compliance}{13}{section*.19}
-\contentsline {subsection}{\numberline {C}Alignment at High Strain and Network Tearing}{16}{section*.20}
-\contentsline {subsection}{\numberline {D}Phase Diagram of Dominant Behavior}{16}{section*.21}
-\contentsline {section}{\numberline {IV}Summary and Conclusions}{17}{section*.22}
-\contentsline {section}{\numberline {V}Acknowledgements}{20}{section*.23}
+\contentsline {section}{\numberline {I}Introduction}{2}{section*.3}
+\contentsline {section}{\numberline {II}Explanation of Model}{2}{section*.4}
+\contentsline {subsection}{\numberline {A}Composite Cross-link \& Filament Representation}{2}{section*.5}
+\contentsline {subsection}{\numberline {B}2D Network Formation}{3}{section*.6}
+\contentsline {subsection}{\numberline {C}Drag-like Coupling Between Overlapping Filaments}{4}{section*.7}
+\contentsline {subsection}{\numberline {D}System of Equations for Applied Stress}{5}{section*.8}
+\contentsline {subsection}{\numberline {E}Incorporating Activity at Cross-link Points}{5}{section*.9}
+\contentsline {subsection}{\numberline {F}Generating Activity Gradients}{5}{section*.10}
+\contentsline {section}{\numberline {III}Results}{5}{section*.11}
+\contentsline {subsection}{\numberline {A}Steady-state Approximation of Effective Viscosity}{5}{section*.12}
+\contentsline {section}{\numberline {IV}Summary and Conclusions}{7}{section*.13}
+\contentsline {section}{\numberline {V}Acknowledgements}{9}{section*.14}
 \appendix 
-\contentsline {section}{Appendices}{20}{section*.24}
-\contentsline {section}{\numberline {A}Deriving Molecular Drag Coefficients}{20}{section*.25}
+\contentsline {section}{Appendices}{9}{section*.15}
+\contentsline {section}{\numberline {A}Deriving Molecular Drag Coefficients}{9}{section*.16}
+\contentsline {section}{\numberline {B}Computational Simulation Method}{10}{section*.17}
+\contentsline {section}{\numberline {}References}{12}{section*.18}
