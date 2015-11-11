@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  29 JUL 2015 13:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 OCT 2015 13:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -432,207 +432,7 @@ Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 20.
 \openout3 = `slippageNotes.bib'.
 
  [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./s
-lippage.toc
-Overfull \hbox (0.87492pt too wide) detected at line 6
- \OT1/cmr/m/n/12 1
- []
-
-
-Overfull \hbox (1.65541pt too wide) detected at line 7
- \OT1/cmr/m/n/12 A.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 7
- \OT1/cmr/m/n/12 1
- []
-
-
-Overfull \hbox (1.361pt too wide) detected at line 8
- \OT1/cmr/m/n/12 1.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 8
- \OT1/cmr/m/n/12 2
- []
-
-
-Overfull \hbox (1.361pt too wide) detected at line 9
- \OT1/cmr/m/n/12 2.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 9
- \OT1/cmr/m/n/12 2
- []
-
-
-Overfull \hbox (1.16792pt too wide) detected at line 10
- \OT1/cmr/m/n/12 B.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 10
- \OT1/cmr/m/n/12 2
- []
-
-
-Overfull \hbox (1.361pt too wide) detected at line 11
- \OT1/cmr/m/n/12 1.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 11
- \OT1/cmr/m/n/12 2
- []
-
-
-Overfull \hbox (1.361pt too wide) detected at line 12
- \OT1/cmr/m/n/12 2.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 12
- \OT1/cmr/m/n/12 2
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 13
- \OT1/cmr/m/n/12 3
- []
-
-
-Overfull \hbox (1.65541pt too wide) detected at line 14
- \OT1/cmr/m/n/12 A.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 14
- \OT1/cmr/m/n/12 3
- []
-
-
-Overfull \hbox (1.16792pt too wide) detected at line 15
- \OT1/cmr/m/n/12 B.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 15
- \OT1/cmr/m/n/12 3
- []
-
-
-Overfull \hbox (1.33319pt too wide) detected at line 16
- \OT1/cmr/m/n/12 C.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 16
- \OT1/cmr/m/n/12 3
- []
-
-
-Overfull \hbox (1.8207pt too wide) detected at line 17
- \OT1/cmr/m/n/12 D.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 17
- \OT1/cmr/m/n/12 4
- []
-
-
-Overfull \hbox (0.84154pt too wide) detected at line 18
- \OT1/cmr/m/n/12 E.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 18
- \OT1/cmr/m/n/12 4
- []
-
-
-Overfull \hbox (2.46646pt too wide) detected at line 19
- \OT1/cmr/m/n/12 III.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 19
- \OT1/cmr/m/n/12 5
- []
-
-
-Overfull \hbox (1.65541pt too wide) detected at line 20
- \OT1/cmr/m/n/12 A.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 20
- \OT1/cmr/m/n/12 5
- []
-
-
-Overfull \hbox (1.16792pt too wide) detected at line 21
- \OT1/cmr/m/n/12 B.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 21
- \OT1/cmr/m/n/12 6
- []
-
-
-Overfull \hbox (1.33319pt too wide) detected at line 22
- \OT1/cmr/m/n/12 C.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 22
- \OT1/cmr/m/n/12 6
- []
-
-
-Overfull \hbox (1.8207pt too wide) detected at line 23
- \OT1/cmr/m/n/12 D.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 23
- \OT1/cmr/m/n/12 7
- []
-
-
-Overfull \hbox (2.14424pt too wide) detected at line 24
- \OT1/cmr/m/n/12 IV.
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 24
- \OT1/cmr/m/n/12 7
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 25
- \OT1/cmr/m/n/12 8
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 27
- \OT1/cmr/m/n/12 8
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 28
- \OT1/cmr/m/n/12 8
- []
-
-
-Overfull \hbox (0.87492pt too wide) detected at line 29
- \OT1/cmr/m/n/12 9
- []
-
-)
+lippage.toc)
 \tf@toc=\write5
 \openout5 = `slippage.toc'.
 
@@ -645,7 +445,7 @@ Package epstopdf Info: Source file: <network_def.eps>
 (epstopdf)                    size: 279156 bytes
 (epstopdf)             Command: <repstopdf --outfile=network_def-eps-converted-
 to.pdf network_def.eps>
-(epstopdf)             \includegraphics on input line 221.
+(epstopdf)             \includegraphics on input line 220.
 Package epstopdf Info: Output file is already uptodate.
 
 <network_def-eps-converted-to.pdf, id=296, 433.62pt x 224.84pt>
@@ -653,7 +453,7 @@ File: network_def-eps-converted-to.pdf Graphic file (type pdf)
 
 <use network_def-eps-converted-to.pdf>
 Package pdftex.def Info: network_def-eps-converted-to.pdf used on input line 22
-1.
+0.
 (pdftex.def)             Requested size: 468.0pt x 242.67949pt.
 
 
@@ -666,7 +466,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <eff_vic_master.pdf, id=339, 718.685pt x 542.025pt>
 File: eff_vic_master.pdf Graphic file (type pdf)
  <use eff_vic_master.pdf>
-Package pdftex.def Info: eff_vic_master.pdf used on input line 335.
+Package pdftex.def Info: eff_vic_master.pdf used on input line 334.
 (pdftex.def)             Requested size: 468.0pt x 352.97372pt.
 
 
@@ -677,7 +477,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: glass_relax_illustrate.pdf Graphic file (type pdf)
 
 <use glass_relax_illustrate.pdf>
-Package pdftex.def Info: glass_relax_illustrate.pdf used on input line 364.
+Package pdftex.def Info: glass_relax_illustrate.pdf used on input line 363.
 (pdftex.def)             Requested size: 468.0pt x 442.0067pt.
 
 
@@ -686,14 +486,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <collapse.pdf, id=392, 903.375pt x 853.1875pt>
 File: collapse.pdf Graphic file (type pdf)
  <use collapse.pdf>
-Package pdftex.def Info: collapse.pdf used on input line 374.
+Package pdftex.def Info: collapse.pdf used on input line 373.
 (pdftex.def)             Requested size: 468.0pt x 442.0067pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (21.75218pt too wide) in paragraph at lines 401--402
+Overfull \hbox (21.75218pt too wide) in paragraph at lines 400--401
 []\OT1/cmr/m/n/12 At this point the fil-a-ment ori-en-ta-tions be-come un-evenl
 y dis-tributed $\OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 ^^NL=L\OMS/cmsy/m/n/12 i 6\O
 T1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^M[]sin\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^R\
@@ -704,7 +504,7 @@ mr/m/n/12 )$,
 <tearer.pdf, id=394, 903.375pt x 853.1875pt>
 File: tearer.pdf Graphic file (type pdf)
  <use tearer.pdf>
-Package pdftex.def Info: tearer.pdf used on input line 405.
+Package pdftex.def Info: tearer.pdf used on input line 404.
 (pdftex.def)             Requested size: 468.0pt x 442.0067pt.
 
 
@@ -714,7 +514,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <shear_modes_b.pdf, id=431, 903.375pt x 853.1875pt>
 File: shear_modes_b.pdf Graphic file (type pdf)
  <use shear_modes_b.pdf>
-Package pdftex.def Info: shear_modes_b.pdf used on input line 418.
+Package pdftex.def Info: shear_modes_b.pdf used on input line 417.
 (pdftex.def)             Requested size: 468.0pt x 442.0067pt.
 
 [16 <./collapse.pdf>]
@@ -724,7 +524,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <phase_diag.pdf, id=449, 903.375pt x 853.1875pt>
 File: phase_diag.pdf Graphic file (type pdf)
  <use phase_diag.pdf>
-Package pdftex.def Info: phase_diag.pdf used on input line 427.
+Package pdftex.def Info: phase_diag.pdf used on input line 426.
 (pdftex.def)             Requested size: 468.0pt x 442.0067pt.
  [17 <./tearer.pdf>]
 
@@ -741,26 +541,21 @@ Missing character: There is no ± in font cmr10!
 Missing character: There is no Î in font cmr10!
 Missing character: There is no ± in font cmr10!
 ) [26]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 631.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 630.
  (./slippage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 631.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 631.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 630.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 630.
 Package rerunfilecheck Info: File `slippage.out' has not changed.
 (rerunfilecheck)             Checksum: 27CDFCF333B385CA9DFD461E0D662FC7;2096.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
- 8300 strings out of 493117
- 119625 string characters out of 6135433
- 221094 words of memory out of 5000000
- 11540 multiletter control sequences out of 15000+600000
+ 8295 strings out of 493117
+ 119524 string characters out of 6135433
+ 221092 words of memory out of 5000000
+ 11536 multiletter control sequences out of 15000+600000
  10724 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,10n,29p,1162b,693s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,10n,29p,1162b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -777,10 +572,10 @@ ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on slippage.pdf (26 pages, 1788335 bytes).
+Output written on slippage.pdf (26 pages, 1788116 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
- 124 named destinations out of 1000 (max. 500000)
+ 619 PDF objects out of 1000 (max. 8388607)
+ 521 compressed objects within 6 object streams
+ 123 named destinations out of 1000 (max. 500000)
  244 words of extra memory for PDF output out of 10000 (max. 10000000)
 
