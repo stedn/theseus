@@ -1,0 +1,340 @@
+\begin{thebibliography}{10}
+
+\bibitem{megareview}
+Broedersz P C~\, MacKintosh C F~\.
+\newblock Modeling semiflexible polymer networks.
+\newblock Rev Mod Phys. 2014 Jul;86:995--1036.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/RevModPhys.86.995}.
+
+\bibitem{cellmech_review1}
+Fletcher DA, Mullins RD.
+\newblock Cell mechanics and the cytoskeleton.
+\newblock Nature. 2010 01;463(7280):485--492.
+\newblock Available from: \url{http://dx.doi.org/10.1038/nature08908}.
+
+\bibitem{cellmech_review2}
+Salbreux G, Charras G, Paluch E.
+\newblock Actin cortex mechanics and cellular morphogenesis.
+\newblock Trends in Cell Biology. 2012;22(10):536 -- 545.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0962892412001110}.
+
+\bibitem{cell_rheo}
+Stamenovic D.
+\newblock Cell Mechanics: Two regimes, maybe three?
+\newblock Nat Mater. 2006 08;5(8):597--598.
+\newblock Available from: \url{http://dx.doi.org/10.1038/nmat1700}.
+
+\bibitem{rheo_crosslinksmatter}
+Wachsstock DH, Schwarz WH, Pollard TD.
+\newblock Cross-linker dynamics determine the mechanical properties of actin
+  gels.
+\newblock Biophysical Journal. 1994;66(3, Part 1):801 -- 809.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0006349594808562}.
+
+\bibitem{theo_crosslinkslip1}
+Broedersz CP, Depken M, Yao NY, Pollak MR, Weitz DA, MacKintosh FC.
+\newblock Cross-Link-Governed Dynamics of Biopolymer Networks.
+\newblock Phys Rev Lett. 2010 Nov;105:238101.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.105.238101}.
+
+\bibitem{rheo_bench}
+Tharmann R, Claessens MMAE, Bausch AR.
+\newblock Viscoelasticity of Isotropically Cross-Linked Actin Networks.
+\newblock Phys Rev Lett. 2007 Feb;98:088103.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.98.088103}.
+
+\bibitem{rheo_marge}
+Gardel ML, Shin JH, MacKintosh FC, Mahadevan L, Matsudaira P, Weitz DA.
+\newblock Elastic Behavior of Cross-Linked and Bundled Actin Networks.
+\newblock Science. 2004;304(5675):1301--1305.
+\newblock Available from:
+  \url{http://www.sciencemag.org/content/304/5675/1301.abstract}.
+
+\bibitem{mol_wlc}
+Marko JF, Siggia ED.
+\newblock Stretching DNA.
+\newblock Macromolecules. 1995;28(26):8759--8770.
+\newblock Available from: \url{http://dx.doi.org/10.1021/ma00130a008}.
+
+\bibitem{theo_doi_ed}
+Doi M, Edwards SF.
+\newblock {The Theory of Polymer Dynamics}.
+\newblock Oxford University Press, USA; 1986.
+\newblock Available from:
+  \url{http://www.amazon.com/exec/obidos/redirect?tag=citeulike07-20\&path=ASIN/0198520336}.
+
+\bibitem{theo_morse}
+Morse DC.
+\newblock Viscoelasticity of Concentrated Isotropic Solutions of Semiflexible
+  Polymers. 2. Linear Response.
+\newblock Macromolecules. 1998;31(20):7044--7067.
+\newblock Available from: \url{http://dx.doi.org/10.1021/ma980304u}.
+
+\bibitem{theo_hlm}
+Head DA, Levine AJ, MacKintosh FC.
+\newblock Deformation of Cross-Linked Semiflexible Polymer Networks.
+\newblock Phys Rev Lett. 2003 Sep;91:108102.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.91.108102}.
+
+\bibitem{theo_hlm2}
+Wilhelm J, Frey E.
+\newblock Elasticity of Stiff Polymer Networks.
+\newblock Phys Rev Lett. 2003 Sep;91:108103.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.91.108103}.
+
+\bibitem{theo_best}
+Storm C, Pastore JJ, MacKintosh FC, Lubensky TC, Janmey PA.
+\newblock Nonlinear elasticity in biological gels.
+\newblock Nature. 2005 05;435(7039):191--194.
+\newblock Available from: \url{http://dx.doi.org/10.1038/nature03521}.
+
+\bibitem{rheo_crosslinkcompare}
+Ward SMV, Weins A, Pollak MR, Weitz DA.
+\newblock Dynamic Viscoelasticity of Actin Cross-Linked with Wild-Type and
+  Disease-Causing Mutant alpha-Actinin-4.
+\newblock Biophysical Journal. 2008;95(10):4915 -- 4923.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0006349508786302}.
+
+\bibitem{rheo_crosslinkreview}
+Lieleg O, Claessens MMAE, Bausch AR.
+\newblock Structure and dynamics of cross-linked actin networks.
+\newblock Soft Matter. 2010;6:218--225.
+\newblock Available from: \url{http://dx.doi.org/10.1039/B912163N}.
+
+\bibitem{rheo_crosslink_nonlin1}
+Gardel ML, Nakamura F, Hartwig J, Crocker JC, Stossel TP, Weitz DA.
+\newblock Stress-Dependent Elasticity of Composite Actin Networks as a Model
+  for Cell Behavior.
+\newblock Phys Rev Lett. 2006 Mar;96:088102.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.96.088102}.
+
+\bibitem{rheo_crosslink_nonlin2}
+Gardel ML, Nakamura F, Hartwig JH, Crocker JC, Stossel TP, Weitz DA.
+\newblock Prestressed F-actin networks cross-linked by hinged filamins
+  replicate mechanical properties of cells.
+\newblock Proceedings of the National Academy of Sciences of the United States
+  of America. 2006;103(6):1762--1767.
+\newblock Available from:
+  \url{http://www.pnas.org/content/103/6/1762.abstract}.
+
+\bibitem{rheo_crosslink_nonlin3}
+Kasza KE, Broedersz CP, Koenderink GH, Lin YC, Messner W, Millman EA, et~al.
+\newblock Actin Filament Length Tunes Elasticity of Flexibly Cross-Linked Actin
+  Networks.
+\newblock Biophysical Journal. 2015/03/12;99(4):1091--1100.
+\newblock Available from:
+  \url{http://www.cell.com/biophysj/abstract/S0006-3495(10)00737-X}.
+
+\bibitem{rheo_crosslink_notactin}
+Lin YC, Broedersz CP, Rowat AC, Wedig T, Herrmann H, MacKintosh FC, et~al.
+\newblock Divalent Cations Crosslink Vimentin Intermediate Filament Tail
+  Domains to Regulate Network Mechanics.
+\newblock Journal of Molecular Biology. 2010;399(4):637 -- 644.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0022283610004420}.
+
+\bibitem{theo_crosslinkslip2}
+M\"uller KW, Bruinsma RF, Lieleg O, Bausch AR, Wall WA, Levine AJ.
+\newblock Rheology of Semiflexible Bundle Networks with Transient Linkers.
+\newblock Phys Rev Lett. 2014 Jun;112:238102.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.112.238102}.
+
+\bibitem{model_massive}
+Cyron CJ, M{\"u}ller KW, Bausch AR, Wall WA.
+\newblock Micromechanical simulations of biopolymer networks with finite
+  elements.
+\newblock Journal of Computational Physics. 2013;244(0):236 -- 251.
+\newblock Multi-scale Modeling and Simulation of Biological Systems.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0021999112006262}.
+
+\bibitem{rheo_active}
+Koenderink GH, Dogic Z, Nakamura F, Bendix PM, MacKintosh FC, Hartwig JH,
+  et~al.
+\newblock An active biopolymer network controlled by molecular motors.
+\newblock Proceedings of the National Academy of Sciences of the United States
+  of America. 2009 09;106(36):15192--15197.
+\newblock Available from:
+  \url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2741227/}.
+
+\bibitem{theo_nonaffine2}
+Heussinger C, Schaefer B, Frey E.
+\newblock Nonaffine rubber elasticity for stiff polymer networks.
+\newblock Phys Rev E. 2007 Sep;76:031906.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevE.76.031906}.
+
+\bibitem{theo_floppy}
+Wyart M, Liang H, Kabla A, Mahadevan L.
+\newblock Elasticity of Floppy and Stiff Random Networks.
+\newblock Phys Rev Lett. 2008 Nov;101:215501.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.101.215501}.
+
+\bibitem{theo_crosslinknonlinear}
+Broedersz CP, Storm C, MacKintosh FC.
+\newblock Effective-medium approach for stiff polymer networks with flexible
+  cross-links.
+\newblock Phys Rev E. 2009 Jun;79:061914.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevE.79.061914}.
+
+\bibitem{cellmech_flows}
+Mayer M, Depken M, Bois JS, Julicher F, Grill SW.
+\newblock Anisotropies in cortical tension reveal the physical basis of
+  polarizing cortical flows.
+\newblock Nature. 2010 09;467(7315):617--621.
+\newblock Available from: \url{http://dx.doi.org/10.1038/nature09376}.
+
+\bibitem{cellmech_flows2}
+Hird SN, White JG.
+\newblock Cortical and cytoplasmic flow polarity in early embryonic cells of
+  Caenorhabditis elegans.
+\newblock The Journal of Cell Biology. 1993;121(6):1343--1355.
+\newblock Available from:
+  \url{http://jcb.rupress.org/content/121/6/1343.abstract}.
+
+\bibitem{cellmech_flows3}
+Bray D, White J.
+\newblock Cortical flow in animal cells.
+\newblock Science. 1988;239(4842):883--888.
+\newblock Available from:
+  \url{http://www.sciencemag.org/content/239/4842/883.abstract}.
+
+\bibitem{rheo_fluid}
+Hochmuth RM.
+\newblock Micropipette aspiration of living cells.
+\newblock Journal of Biomechanics. 2000;33(1):15 -- 22.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S002192909900175X}.
+
+\bibitem{rheo_fluid2}
+Evans E, Yeung A.
+\newblock Apparent viscosity and cortical tension of blood granulocytes
+  determined by micropipet aspiration.
+\newblock Biophysical Journal. 1989 07;56(1):151--160.
+\newblock Available from:
+  \url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1280460/}.
+
+\bibitem{cell_rheo_exp}
+Bausch AR, Ziemann F, Boulbitch AA, Jacobson K, Sackmann E.
+\newblock Local Measurements of Viscoelastic Parameters of Adherent Cell
+  Surfaces by Magnetic Bead Microrheometry.
+\newblock Biophysical Journal. 1998;75(4):2038 -- 2049.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0006349598776465}.
+
+\bibitem{rheo_crosslinkslip1}
+Lieleg O, Claessens MMAE, Luan Y, Bausch AR.
+\newblock Transient Binding and Dissipation in Cross-Linked Actin Networks.
+\newblock Phys Rev Lett. 2008 Sep;101:108101.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.101.108101}.
+
+\bibitem{rheo_crosslinkslip2}
+Lieleg O, Schmoller KM, Claessens MMAE, Bausch AR.
+\newblock Cytoskeletal Polymer Networks: Viscoelastic Properties are Determined
+  by the Microscopic Interaction Potential of Cross-links.
+\newblock Biophysical Journal. 2009 6;96(11):4725--4732.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0006349509007589}.
+
+\bibitem{rheo_crosslinkslip3}
+Yao NY, Becker DJ, Broedersz CP, Depken M, MacKintosh FC, Pollak MR, et~al.
+\newblock Nonlinear Viscoelasticity of Actin Transiently Cross-linked with
+  Mutant alpha-Actinin-4.
+\newblock Journal of Molecular Biology. 2011;411(5):1062 -- 1071.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0022283611007376}.
+
+\bibitem{rheo_nonaffine}
+Liu J, Koenderink GH, Kasza KE, MacKintosh FC, Weitz DA.
+\newblock Visualizing the Strain Field in Semiflexible Polymer Networks: Strain
+  Fluctuations and Nonlinear Rheology of $F$-Actin Gels.
+\newblock Phys Rev Lett. 2007 May;98:198304.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.98.198304}.
+
+\bibitem{model_taeyoon}
+Kim T, Hwang W, Kamm RD.
+\newblock Dynamic Role of Cross-Linking Proteins in Actin Rheology.
+\newblock Biophysical Journal. 2011 10;101(7):1597--1603.
+\newblock Available from:
+  \url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3183755/}.
+
+\bibitem{theo_crosslinkslip3}
+Lieleg O, Bausch AR.
+\newblock Cross-Linker Unbinding and Self-Similarity in Bundled Cytoskeletal
+  Networks.
+\newblock Phys Rev Lett. 2007 Oct;99:158105.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.99.158105}.
+
+\bibitem{theo_friction}
+Vanossi A, Manini N, Urbakh M, Zapperi S, Tosatti E.
+\newblock \textit{Colloquium} : Modeling friction: From nanoscale to mesoscale.
+\newblock Rev Mod Phys. 2013 Apr;85:529--552.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/RevModPhys.85.529}.
+
+\bibitem{theo_frictionSam}
+Spruijt E, Sprakel J, Lemmers M, Stuart MAC, van~der Gucht J.
+\newblock Relaxation Dynamics at Different Time Scales in Electrostatic
+  Complexes: Time-Salt Superposition.
+\newblock Phys Rev Lett. 2010 Nov;105:208301.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.105.208301}.
+
+\bibitem{theo_molefric}
+Filippov AE, Klafter J, Urbakh M.
+\newblock Friction through Dynamical Formation and Rupture of Molecular Bonds.
+\newblock Phys Rev Lett. 2004 Mar;92:135503.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.92.135503}.
+
+\bibitem{mol_fric}
+Ward A, Hilitski F, Schwenger W, Welch D, Lau AWC, Vitelli V, et~al.
+\newblock Solid friction between soft filaments.
+\newblock Nat Mater. 2015 03;advance online publication:--.
+\newblock Available from: \url{http://dx.doi.org/10.1038/nmat4222}.
+
+\bibitem{theo_hydroish2}
+Chandran PL, Mofrad MRK.
+\newblock Averaged implicit hydrodynamic model of semiflexible filaments.
+\newblock Phys Rev E. 2010 Mar;81:031920.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevE.81.031920}.
+
+\bibitem{theo_frictionShila}
+Banerjee S, Marchetti MC, M\"uller-Nedebock K.
+\newblock Motor-driven dynamics of cytoskeletal filaments in motility assays.
+\newblock Phys Rev E. 2011 Jul;84:011914.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevE.84.011914}.
+
+\bibitem{rheo_2D1}
+Murrell MP, Gardel ML.
+\newblock F-actin buckling coordinates contractility and severing in a
+  biomimetic actomyosin cortex.
+\newblock Proceedings of the National Academy of Sciences.
+  2012;109(51):20820--20825.
+\newblock Available from:
+  \url{http://www.pnas.org/content/109/51/20820.abstract}.
+
+\bibitem{rheo_2D2}
+Sanchez T, Chen DTN, DeCamp SJ, Heymann M, Dogic Z.
+\newblock Spontaneous motion in hierarchically assembled active matter.
+\newblock Nature. 2012 11;491(7424):431--434.
+\newblock Available from: \url{http://dx.doi.org/10.1038/nature11591}.
+
+\end{thebibliography}
