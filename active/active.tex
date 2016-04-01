@@ -258,28 +258,25 @@ Importantly, this simplification allows us to extend our single polymer models t
 We consider individual filaments as chains of springs with relaxed length $l_s$.  The orientations of neighboring springs are linearly coupled. Filaments can therefore be represented as a sequence of nodes with positions $\mathbf{x_i}$ and nearest neighbor interactions of the form
 
 \begin{equation}
-|F_{i,i+1}|_{\parallel} = -\mu\cdot\frac{|\mathbf{x_{i+1}}-\mathbf{x_i}|-l_s}{l_s} 
+|F_{i,i+1}|_{e} = -\mu_e\cdot\frac{|\mathbf{x_{i+1}}-\mathbf{x_i}|-l_s}{l_s} 
 \end{equation}
 
 \begin{equation}
-|F_{i,i+2}|_{\perp} = -\frac{\kappa}{l_s^2}\cdot acos\left (\frac{\mathbf{x_{i+2}}-\mathbf{x_{i+1}}}{|\mathbf{x_{i+2}}-\mathbf{x_{i+1}}|} \cdot\frac{\mathbf{x_{i+1}}-\mathbf{x_i}}{|\mathbf{x_{i+1}}-\mathbf{x_i}|} \right ) 
+|F_{i,i+1}|_{c} = -\mu_c\cdot\frac{|\mathbf{x_{i+1}}-\mathbf{x_i}|-l_s}{l_s} 
 \end{equation}
+
 
 
 where, $\mu$ represents an extensional modulus of a filament, and $\kappa$ represents a bending modulus.   This is essentially a discretized equivalent to a model of filaments with separable extensional and bending moduli as in \cite{theo_hlm}.  We define the totally elastic force on a node as
 
-\begin{equation}
-\nabla{\cal H}_i =|F_{i,i+1}|_{\parallel} + |F_{i,i+2}|_{\perp}
-\end{equation}
-
-Here, we take the extensional modulus as a composite quantities related to both filament and cross-linker compliance in a manner similar to a recently proposed effective medium theory\cite{theo_crosslinknonlinear}.  In the limit of highly rigid cross-links and flexible filaments, our model reduces to the pure semi-flexible filament models of \cite{theo_hlm,theo_hlm2}.  In the opposite regime of nearly rigid filaments and highly flexible cross links, our method is still largely similar to the model of \cite{theo_crosslinknonlinear} in small strain regimes before any nonlinear cross link stiffening.  However, in departure from those models, the magnitude of the force on interior cross-links in our model is still the same as those on the exterior.  This is a simplification of the varying levels of strain that would actually be present in these cross-linkers as addressed in \cite{theo_crosslinknonlinear}, but we choose to ignore the slight variation in favor of an approximated, global mean approach.  
+Here, we take the extensional modulus as a composite quantities related to both filament and cross-linker compliance in a manner similar to a proposed effective medium theory\cite{theo_crosslinknonlinear}.  In the limit of highly rigid cross-links and flexible filaments, our model reduces to the pure semi-flexible filament models of \cite{theo_hlm,theo_hlm2}.  In the opposite regime of nearly rigid filaments and highly flexible cross links, our method is still largely similar to the model of \cite{theo_crosslinknonlinear} in small strain regimes before any nonlinear cross link stiffening.  However, in departure from those models, the magnitude of the force on interior cross-links in our model is still the same as those on the exterior.  This is a simplification of the varying levels of strain that would actually be present in these cross-linkers as addressed in \cite{theo_crosslinknonlinear}, but we choose to ignore the slight variation in favor of an approximated, global mean approach.  
 
 
 
 
 \subsection*{2D Network Formation}
 
-We choose to focus our attention on 2D networks both for their tractability as well as their relevance in the quasi-2D cytoskeletal cortex of many eukaryotic cells\cite{cellmech_flows}.  In addition, recent developments in 2D {\em in vitro} systems\cite{rheo_2D1,rheo_2D2}, make 2D models all the more interesting as a renewed focus of study.
+We choose to focus our attention on 2D networks both for their tractability as well as their relevance in the quasi-2D cytoskeletal cortex of many eukaryotic cells\cite{cellmech_flows}.  In addition, recent developments in 2D {\em in vitro} systems\cite{rheo_2D1,rheo_2D2}, make 2D disordered models all the more interesting as a renewed focus of study.
 
 We follow a mikado model approach by initializing a minimal network of connected unstressed linear filaments in a rectangular 2D domain.  We generate 2D networks of these semi-flexible filaments by laying down straight lines of length, $L$, with random position and orientation. We then assume that some fixed fraction of overlapping filaments become cross-linked (defined in \ref{exp_drag}) at their point of overlap.
 
@@ -365,7 +362,13 @@ domain size                 & D            & $10-50 \mu m$                      
 % Results and Discussion can be combined.
 \section*{Results and Discussion}
 
+\subsection*{Actin turnover and actomyosin contraction play crucial roles in preserving sustained cortical flows in C. elegans embryos}
 
+\subsection*{Filament recycling prevents cortical tearing and modulates the viscous stress relaxation of filament networks under external stress}
+
+\subsection*{Filament recycling allows persistent active stress buildup in active networks}
+
+\subsection*{Filament recycling modulates the balance between active stress buildup and viscous stress relaxation to set the flow rate in polarized networks}
 
 
 
