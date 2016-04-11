@@ -145,6 +145,15 @@ Kim T, Gardel ML, Munro E.
 \newblock Available from:
   \url{http://www.sciencedirect.com/science/article/pii/S0006349513058487}.
 
+\bibitem{rheo_2D1}
+Murrell MP, Gardel ML.
+\newblock F-actin buckling coordinates contractility and severing in a
+  biomimetic actomyosin cortex.
+\newblock Proceedings of the National Academy of Sciences.
+  2012;109(51):20820--20825.
+\newblock Available from:
+  \url{http://www.pnas.org/content/109/51/20820.abstract}.
+
 \bibitem{1367-2630-14-3-033037}
 Lenz M, Gardel ML, Dinner AR.
 \newblock Requirements for contractility in disordered cytoskeletal bundles.
@@ -194,15 +203,6 @@ Koenderink GH, Dogic Z, Nakamura F, Bendix PM, MacKintosh FC, Hartwig JH,
   of America. 2009 09;106(36):15192--15197.
 \newblock Available from:
   \url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2741227/}.
-
-\bibitem{rheo_2D1}
-Murrell MP, Gardel ML.
-\newblock F-actin buckling coordinates contractility and severing in a
-  biomimetic actomyosin cortex.
-\newblock Proceedings of the National Academy of Sciences.
-  2012;109(51):20820--20825.
-\newblock Available from:
-  \url{http://www.pnas.org/content/109/51/20820.abstract}.
 
 \bibitem{10.1371/journal.pone.0000696}
 Zumdieck A, Kruse K, Bringmann H, Hyman AA, J{\"u}licher F.
@@ -255,25 +255,18 @@ Filippov AE, Klafter J, Urbakh M.
 \newblock Available from:
   \url{http://link.aps.org/doi/10.1103/PhysRevLett.92.135503}.
 
-\bibitem{mol_fric}
-Ward A, Hilitski F, Schwenger W, Welch D, Lau AWC, Vitelli V, et~al.
-\newblock Solid friction between soft filaments.
-\newblock Nat Mater. 2015 03;advance online publication:--.
-\newblock Available from: \url{http://dx.doi.org/10.1038/nmat4222}.
-
-\bibitem{theo_hydroish2}
-Chandran PL, Mofrad MRK.
-\newblock Averaged implicit hydrodynamic model of semiflexible filaments.
-\newblock Phys Rev E. 2010 Mar;81:031920.
-\newblock Available from:
-  \url{http://link.aps.org/doi/10.1103/PhysRevE.81.031920}.
-
 \bibitem{theo_frictionShila}
 Banerjee S, Marchetti MC, M\"uller-Nedebock K.
 \newblock Motor-driven dynamics of cytoskeletal filaments in motility assays.
 \newblock Phys Rev E. 2011 Jul;84:011914.
 \newblock Available from:
   \url{http://link.aps.org/doi/10.1103/PhysRevE.84.011914}.
+
+\bibitem{rheo_2D2}
+Sanchez T, Chen DTN, DeCamp SJ, Heymann M, Dogic Z.
+\newblock Spontaneous motion in hierarchically assembled active matter.
+\newblock Nature. 2012 11;491(7424):431--434.
+\newblock Available from: \url{http://dx.doi.org/10.1038/nature11591}.
 
 \bibitem{theo_crosslinknonlinear}
 Broedersz CP, Storm C, MacKintosh FC.
@@ -297,10 +290,17 @@ Wilhelm J, Frey E.
 \newblock Available from:
   \url{http://link.aps.org/doi/10.1103/PhysRevLett.91.108103}.
 
-\bibitem{rheo_2D2}
-Sanchez T, Chen DTN, DeCamp SJ, Heymann M, Dogic Z.
-\newblock Spontaneous motion in hierarchically assembled active matter.
-\newblock Nature. 2012 11;491(7424):431--434.
-\newblock Available from: \url{http://dx.doi.org/10.1038/nature11591}.
+\bibitem{mol_fric}
+Ward A, Hilitski F, Schwenger W, Welch D, Lau AWC, Vitelli V, et~al.
+\newblock Solid friction between soft filaments.
+\newblock Nat Mater. 2015 03;advance online publication:--.
+\newblock Available from: \url{http://dx.doi.org/10.1038/nmat4222}.
+
+\bibitem{theo_hydroish2}
+Chandran PL, Mofrad MRK.
+\newblock Averaged implicit hydrodynamic model of semiflexible filaments.
+\newblock Phys Rev E. 2010 Mar;81:031920.
+\newblock Available from:
+  \url{http://link.aps.org/doi/10.1103/PhysRevE.81.031920}.
 
 \end{thebibliography}
