@@ -256,10 +256,10 @@ We choose to focus our attention on 2D networks both for their tractability as w
 
 
 \subsection*{Asymmetric Filament Compliance}
-We model individual filaments as chains of springs with relaxed length $l_s$.  Filaments can therefore be represented as a sequence of nodes with positions $\mathbf{x_i}$ and nearest neighbor force interactions, $\mathbf{F_i}$, of the form
+We model individual filaments as chains of springs with relaxed length $l_s$.  Filaments can therefore be represented as a sequence of nodes with positions $\mathbf{x_i}$ and nearest neighbor force interactions, $\mathbf{F^{\mu}_i}$, of the form
 
 \begin{equation}
-|F_i| = \mu\cdot\frac{|\mathbf{x_{i+1}}-\mathbf{x_i}|-l_s}{l_s} +\mu\cdot\frac{|\mathbf{x_{i-1}}-\mathbf{x_i}|-l_s}{l_s}
+|F^{\mu}_i| = \mu\cdot\frac{|\mathbf{x_{i+1}}-\mathbf{x_i}|-l_s}{l_s} +\mu\cdot\frac{|\mathbf{x_{i-1}}-\mathbf{x_i}|-l_s}{l_s}
 \end{equation}
 
 
@@ -274,14 +274,14 @@ where, $\mu$ represents an extensional modulus of a filament.   Here, we take th
 \label{exp_drag}
 Cross-link binding and unbinding is an important element of the overall stress relaxation of a network.  In contrast to previous models, we allow relaxation of the network's stored stress by letting the attachment points slip.  We do this by replacing an elastic interaction between pairs of points along filament segments with a drag-like coupling between segments.
 \begin{equation}
-\mathbf{F_{drag}} = \xi \cdot \int ds \: (\mathbf{v_i(s)}-\mathbf{v_j(s)}) \: p_{ij}(s)
+\mathbf{F^{\xi}_i} = \xi \cdot \int^{s_{i+1}}_{s_{i-1}} ds \frac{l_s-|s-s_i|}{l_s} \: (\mathbf{v_i}-\mathbf{v_j}) \: p_{ij}(s)
 \end{equation}
 
-Where $p_{ij}(s)$ represents the locational distribution of cross-link points (equal to 1 at locations of cross-links and 0 elsewhere) and $\mathbf{v_i(s)}$ and $\mathbf{v_j(s)}$ represent the the velocities of the $i$th and $j$th filament segment.  This model assumes a linear relation between applied force and the velocity difference between attached segments.  This drag-like coupling has been shown to be an adequate approximation in the case of ionic cross-linking of actin\cite{mol_fric,theo_hydroish2}, and can be found in the theoretical basis of force-velocity curves for myosin bound filaments\cite{theo_frictionShila}. Although non-linearities can arise through force dependent detachment kinetics and/or non-linear force extension of cross-links, we assume that inhomogeneities from non-linear effects are of second or higher order. With this assumption, the motion for the entire network is governed by a dynamical equation of the form
+Where $p_{ij}(s)$ represents the locational distribution of cross-link points (equal to 1 at locations of cross-links and 0 elsewhere) and $\mathbf{v_i}$ and $\mathbf{v_j}$ represent the the velocities of the $i$th and $j$th filament segment.  This model assumes a linear relation between applied force and the velocity difference between attached segments.  This drag-like coupling has been shown to be an adequate approximation in the case of ionic cross-linking of actin\cite{mol_fric,theo_hydroish2}, and can be found in the theoretical basis of force-velocity curves for myosin bound filaments\cite{theo_frictionShila}. Although non-linearities can arise through force dependent detachment kinetics and/or non-linear force extension of cross-links, we assume that inhomogeneities from non-linear effects are of second or higher order. With this assumption, the motion for the entire network is governed by a dynamical equation of the form
 
 \begin{equation}
 \label{eqn:syst}
-\int ds \: (\mathbf{\zeta v_i(s)} + \xi \sum _j(\mathbf{v_i(s)}-\mathbf{v_j(s)}) \: p_{ij}(s))= \mathbf{F_i}
+L\zeta\mathbf{ v_i} +\mathbf{F^{\xi}_i}= \mathbf{F^{\mu}_i}
 \end{equation}
 
 Here, the first term in the integral is the filament's intrinsic drag through its embedding fluid, $\zeta$, while the second comes from the drag-like coupling between filaments, $\xi$.  
@@ -292,11 +292,17 @@ To add motor activity we select a subset of cross-linked points and impart an ad
 
 \begin{equation}
 \label{eqn:syst}
-\int ds \: (\mathbf{\zeta v_i(s)} + \xi \sum _j(\mathbf{v_i(s)}-\mathbf{v_j(s)}) \: p_{ij}(s))= \mathbf{F_i}+\mathbf{u_i}\cdot\upsilon\int ds \sum _j \: p_{ij}(s)q_{ij}(s)
+\mathbf{F^{\upsilon}_i}= \mathbf{\hat{u}_i}\cdot\upsilon\int ds \sum _j \:  \frac{l_s-|s-s_i|}{l_s} p_{ij}q_{ij}
 \end{equation}
 
-In this formulation, only at the subset of points where  $p_{ij}(s)=1$ and $q_{ij}(s)=1$ will there be a force imparted.  In our simulations we let $q_{ij}$ be selected randomly such that $\bar{q}=\phi$, where $\bar{q}$ indicates the mean of $q$.
 
+
+In this formulation, only at the subset of points where  $p_{ij}=1$ and $q_{ij}=1$ will there be a force imparted.  In our simulations we let $q_{ij}$ be selected randomly such that $\bar{q}=\phi$, where $\bar{q}$ indicates the mean of $q$.
+
+\begin{equation}
+\label{eqn:syst}
+L\zeta\mathbf{ v_i} +\mathbf{F^{\xi}_i}= \mathbf{F^{\mu}_i}+\mathbf{F^{\upsilon}_i}
+\end{equation}
 
 \subsection*{2D Network Formation}
 
@@ -311,7 +317,7 @@ We model our full network as a coupled system of differential equations satisfyi
 Finally, we add a 0 velocity constraint at the far edges of our domain of interest.  We assume that our network is in the "dry," low Reynold's number limit, where inertial effects are so small that we can equate our total force to 0.  Therefore, we have a dynamical system of wormlike chain filaments satisfying
 
 \begin{equation}
-\int ds \: (\zeta\mathbf{v_i(s)} + \xi \sum _j(\mathbf{v_i(s)}-\mathbf{v_j(s)}) \: p_{ij}(s)) = \mathbf{F_i}+\mathbf{u_i}\cdot\upsilon\int ds \sum _j \: p_{ij}(s)q_{ij}(s) + \sigma\mathbf{\hat{u}(x_i)}
+L\zeta\mathbf{ v_i} +\mathbf{F^{\xi}_i(v_i)}= \mathbf{F^{\mu}_i(x_i)}+\mathbf{F^{\upsilon}_i(x_i)} + \sigma\mathbf{\hat{u}(x_i)}
 \end{equation}
 
 subject to constraints such that $\mathbf{v_i(x)}$ is 0 with $x=0$.  This results in an implicit differential equation for filament segments which can be discretized and integrated in time to produce a solution for the motion of the system.
@@ -334,8 +340,7 @@ We discretize the filaments such that the equations of motion becomes a coupled 
 
 where $\mathbf{A }$ represents a coupling matrix between endpoints of filaments that overlap, and $\mathbf{f(x)}$ is the spring force between pairs of filament segment endpoints.  We can then numerically integrate this system of equations to find the time evolution of the positions of all filament endpoints.
 
-We generate a network by laying down filaments with random position and orientation within a domain of size $D_x$ by $D_y$ with periodic boundaries in the y-dimension.  The external stress (shear or extensional/compressional) is applied to all filament endpoints falling within a fixed x-distance from the center of the domain.  Finally, filament endpoints falling within a fixed x-distance from the edges of the domain are constrained to be nonmoving.
-
+We generate a network by laying down filaments with random position and orientation within a domain of size $D_x$ by $D_y$ with periodic boundaries in the y-dimension.  The external stress (shear or extensional/compressional) is applied to all filament endpoints falling within a fixed x-distance from the center of the domain.  Finally, filament endpoints falling within a fixed x-distance from the edges of the domain are constrained to be nonmoving.  All filament interactions, force fields, and constraints are smoothed over small regions such that the equations will contain no sharp discontinuities.
 
 
 The nominal units for length, force, and time are $\mu m$, nN, and s, respectively.  We explored parameter space around an estimate of biologically relevant parameter values, given in Table \ref{table:para}. 
