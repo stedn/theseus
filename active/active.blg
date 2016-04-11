@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: active.aux
 The style file: plos2015.bst
-Illegal, another \bibstyle command---line 73 of file active.aux
+Illegal, another \bibstyle command---line 66 of file active.aux
  : \bibstyle
  :          {plos2015}
 I'm skipping whatever remains of this command
@@ -12,75 +12,69 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: slippage.bib
 Database file #2: active.bib
-I was expecting a `,' or a `}'---line 368 of file active.bib
- : 
- : @article{doi:10.2976/1.3054712,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 616 of file active.bib
+Repeated entry---line 1001 of file active.bib
  : @article{cellmech_flows3
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 633 of file active.bib
+Repeated entry---line 1018 of file active.bib
  : @article{cellmech_flows2
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 650 of file active.bib
+Repeated entry---line 1035 of file active.bib
  : @article{rheo_active
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 677 of file active.bib
+Repeated entry---line 1062 of file active.bib
  : @article{rheo_2D1
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 694 of file active.bib
+Repeated entry---line 1079 of file active.bib
  : @article{cellmech_flows
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 716 of file active.bib
+Repeated entry---line 1101 of file active.bib
  : @article{theo_frictionShila
  :                            ,
 I'm skipping whatever remains of this entry
-Warning--there's a month but no year in rheo_crosslink_nonlin3
-You've used 46 entries,
+You've used 41 entries,
             3170 wiz_defined-function locations,
-            1032 strings with 16774 characters,
-and the built_in function-call counts, 88030 in all, are:
-= -- 11153
-> -- 700
+            986 strings with 15424 characters,
+and the built_in function-call counts, 74549 in all, are:
+= -- 9428
+> -- 592
 < -- 0
-+ -- 525
-- -- 175
-* -- 7282
-:= -- 9427
-add.period$ -- 230
-call.type$ -- 46
-change.case$ -- 1
++ -- 402
+- -- 148
+* -- 6118
+:= -- 8017
+add.period$ -- 204
+call.type$ -- 41
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 7464
-empty$ -- 8425
-format.name$ -- 218
-if$ -- 20773
+cite$ -- 41
+duplicate$ -- 6366
+empty$ -- 7133
+format.name$ -- 187
+if$ -- 17593
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 540
-newline$ -- 280
-num.names$ -- 46
-pop$ -- 918
+int.to.str$ -- 41
+missing$ -- 473
+newline$ -- 248
+num.names$ -- 41
+pop$ -- 813
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 858
+skip$ -- 744
 stack$ -- 0
-substring$ -- 16572
-swap$ -- 1193
+substring$ -- 13903
+swap$ -- 1039
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 460
-width$ -- 48
-write$ -- 601
-(There were 8 error messages)
+warning$ -- 0
+while$ -- 401
+width$ -- 43
+write$ -- 532
+(There were 7 error messages)
