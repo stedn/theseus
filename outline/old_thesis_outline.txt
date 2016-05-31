@@ -1,0 +1,53 @@
+Part 1 - General Introduction
+	A) Biological background
+		i) actomyosin networks
+		ii) cortical flows
+		iii) filament recycling
+	B) polymer network background
+		i) mackintosh models
+		ii) tae yoon's model
+	C) Pattern formation in active fluids
+		i) active matter theory
+		ii) bois model and connection to cortical flows
+	D) Experimental active matter
+		i) murell and sam (network tearing)
+		ii) dogic lab (swirling)
+	E) Importance of thesis relative to existing literature
+
+Part 2 - 2D network flows in the C. elegans actomyosin cortex
+	A) Measuring sustained flows in C. elegans establishment and maintenance phases
+		i) describe mayer and grill fitting technique
+		ii) plot maintenance phase flow profile and state fit parameters
+	B) Measuring actin recycling in C. elegans embryos
+		i) describe single molecule technique
+		ii) plot actin off rates in various conditions
+
+Part 3 - network remodeling and passive effective viscosity in crosslinked filament networks 
+	A) Effective viscosity of semiflexible polymer networks in the presence of friction-like crosslink slippage
+		i) connectivity of networks depends on network slippage
+		ii) timescale of effective viscosity is architecture dependent
+		iii) characteristic domain size of network tearing
+		iv) similar response to local perturbation
+	B) Effective viscosity of semiflexible polymer networks in the presence of filament recycling 
+		i) rapid filament recycling produces effectively disconnected networks
+		ii) timescale of effective viscosity is architecture dependent
+		iii) network refresh rate
+		iv) stress relaxation is global
+
+	\/ ——— Not baked yet ——— \/
+
+Part 4 - network tearing and active stress from molecular motors
+	A) Characterizing filament motion induced from active crosslinks
+		i) global activity produces swirling 
+		ii) rigid rods do not buckle and simply swirl around
+		iii) semiflexibility and non-uniform activity allow for tearing and contraction
+		iv) density dependence of tearing rate
+
+Part 5 - A balance of tearing and healing drives active matter flow
+	A) Show a tearing to flowing transition upon increased recycling
+	B) Activity gradients produce steady state flows
+
+Appendix 1 - Modeling with net_remodel
+Appendix 2 - Modeling with activnet
+Appendix 3 - Deriving simulation parameters from microscopic models
+Appendix 4 - Competing timescales of stress relaxation from local and global sources of network remodeling
