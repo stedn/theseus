@@ -370,10 +370,11 @@ We used our model to tease apart the complex interdependence of passive and acti
 
 \subsection*{Filament recycling prevents cortical tearing and modulates the viscous stress relaxation of passive filament networks}
  
+\paragraph{Networks with passive cross-links and no filament turnover undergo three stages of deformation in response to an extensional force.} We first probed the network's passive response by imposing an external force on our simulated network in the absence of recycling.   As shown in Figure \ref{fig:passive_ex}.a, by applying a force at the boundary of a patch of network, we induced a rightward deformation of the network.  The deformation occurred in three phases corresponding to the three example networks in Figure \ref{fig:passive_ex}.a.  On short timescales the networked quickly responded by elastically approaching a fixed strain $\gamma_0$, similar to that predicted by \cite{theo_hlm}.  On longer timescales, we found that the network continued deforming more slowly as filaments were able to slip past each other.  Finally, as the network continued to dilate viscously, the connectivity of the network decreased.  Eventually connected patches became isolated and the network teared, resulting in the highly heterogeneous network structure shown in the t=440 example of Figure \ref{fig:passive_ex}.a.  
 
-We first probed the effect of filament recycling on the network's passive response by imposing an external force on our simulated network in the absence of recycling.   As shown in Figure \ref{fig:passive_ex} part a), by applying a force at the boundary of a patch of network, we induced a rightward deformation of the network.  On short timescales the networked responded mostly elastically by approaching a fixed strain $\gamma_0$, similar to that predicted by \cite{theo_hlm}.  On times longer than $\tau_c$, we found that the network approached a steady linear strain, characterized by an effective viscosity, $\eta = \sigma/$.  This 
+We next analyzed the force and velocity data of the network at individual time points to determine what kind of deformation the material was undergoing.  As shown by the data in Figure \ref{fig:passive_ex}.b corresponding to the simulation at time t=88s, during this stage, the stress profile (blue) is nearly constant throughout the material while the velocity profile (orange) is linear in space.  These are two indications that a purely viscous description is adequate for this stage of deformation.  By measuring the mean material stress and strain rate ($\overline{v_i/x_i}$) at every time point, we generated a measurement of the material strain through time as shown in Figure \ref{fig:passive_ex}.c.  From this figure, we can see the three phases of deformation outlined in Figure \ref{fig:passive_ex}.a.  It's clear that there are two phases in the stress and strain profile: one characterized by a rapid buildup of internal stress and strain, and one where the internal stress remains constant and the strain increases more slowly.  We define the transition time between this fast, elastic response and the slower, viscous response as $\tau_c$. For times longer than $\tau_c$ the material underwent a steady continuous straining at a nearly constant rate.  This linear relationship between strain and time characterizes a material with an effective viscosity, $\eta$, given by the ratio of the applied stress to the strain rate (i.e $\sigma/\dot{\gamma}$).  At very long times, this constant strain rate behavior begins to break down.   As the network strains beyond 10\% or so, network connectivity decreases, and the strain rate of the network begins to increase.  This strain thinning behavior can be seen in the hockey-stick shape of the inset of Figure \ref{fig:passive_ex}.c.
 
-As the network continues to dilate viscously, the connectivity of the network decreases.  As network connectivity decreases, the strain rate of the network increases beyond the .  Eventually connected patches become isolated and the network tears, resulting in the highly heterogeneous network structure shown in panel c.  
+DISCUSS
 
 \begin{figure}[h!]
 \centering
@@ -382,16 +383,7 @@ As the network continues to dilate viscously, the connectivity of the network de
 \end{figure}
 
 
-
-
-Across the parameter space of importance to us, the cell spends most of it's time undergoing viscous deformation with a nearly constant effective viscosity.  We were able to develop a simple theoretical description that captured the observed dependence.
-
-\begin{equation}
-\label{eqn:eff_vic}
-\eta_c = \xi\left (\frac{L}{l_c}-1\right )^2
-\end{equation}
-
-The ratio of $G_0$ to $\eta_c$ is a general indicator of the transition timescale from elastic to viscous behavior in a viscoelastic material.  Using the approximation of the equation from \cite{theo_hlm}, $G_0 \approx \mu/l_c$, we predict a crossover time, $\tau_c \approx L^2\xi/l_c\mu$ 
+\paragraph{Network architecture sets the rate and timescales of deformation.}  To better understand the origins of the timescale of viscous behavior and the effective viscosity, we measured these features for a variety of network setups and applied stresses.  Across a wide swath of parameter space, the network is always capable of reaching a point of viscous deformation with an effective viscosity.  By measuring the rate of deformation during the phase of constant strain rate, we could measure the effective viscosity and determining which network parameters were responsible for setting the value.  From our observations, we were able to determine that the effective viscosity of a network was proportional to the friction coefficient of the individual cross-links, $\xi$, as well as the square of the number of cross-links on a given filament $(L/l_c-1)^2$.  A simple theoretical derivation (See Supp.) allowed us to estimate a numerical constant of proportionality of $\pi/4$. As shown in Figure \ref{fig:passive_form}.a, the theoretical prediction agrees very well with the measured values form the simulation.  
 
 \begin{figure}[h!]
 \centering
@@ -399,10 +391,12 @@ The ratio of $G_0$ to $\eta_c$ is a general indicator of the transition timescal
 \caption{\label{fig:passive_form} Network architecture sets the rate and timescales of deformation. \textbf{a)} The effective viscosity depends on the drag coefficient and the density of the network. Data points are the normalized effective viscosity from simulations (effective viscosity measured in fluid phase divided by the cross link friction coefficient) vs the number of cross links per filament (L/lc - 1).  Dotted line indicates the relationship predicted by a simple theory, $\eta_c = \xi(L/l_c-1)^2$ \textbf{b)} The transition to viscous behavior occurs at a characteristic time, $\tau_c$, that is set by the ratio of the elastic modulus predicted in \cite{theo_hlm} (i.e. $G_0 \approx \mu/l_c$) to the effective viscosity, $\eta_c$.  }
 \end{figure}
 
-As shown in Figure \ref{fig:passive}, we find that the crossover time, $\tau_c$ is in general agreement with our prediction.
+We were also interested in determining what sets the timescale of the transition from elastic to viscous behavior.  In many simple viscoelastic materials, the ratio of the elastic modulus, $G_0$, to the viscosity, $\eta_c$ is a general indicator of the transition timescale from elastic to viscous behavior.  Using the approximation of the equation for elastic modulus from \cite{theo_hlm}, $G_0 \approx \mu/l_c$, we predict a crossover time, $\tau_c \approx L^2\xi/l_c\mu$.  By measuring the time at which the strain rate of the became nearly constant we were able to determine an estimate of this time for a wide variety of simulation parameters as well.  Indeed, as shown in Figure \ref{fig:passive_form}.b, our approximation is in good agreement with the observed transition time.  This served as a good indication that our model was consistent with known models for viscoelastic semi flexible polymer networks.
 
 
 
+
+\paragraph{Filament recycling rescues network tearing and modulates effective viscosity.}
 
 
 
@@ -416,7 +410,6 @@ As shown in Figure \ref{fig:passive}, we find that the crossover time, $\tau_c$ 
 
 
 
-Although this simplification still lacks the complexity involved in internal stress generation, this investigation presented us with an understanding of
 
 
 \subsection*{Filament recycling allows persistent stress buildup in active networks}
