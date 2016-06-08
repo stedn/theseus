@@ -376,7 +376,8 @@ We next analyzed the force and velocity data of the network at individual time p
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{figures/figure3a}
-\caption{\label{fig:passive_ex}  Networks with passive cross-links and no filament turnover undergo three stages of deformation in response to an extensional force.   \textbf{a)} Three successive time points from a simulation of a $4\times10\: \mu m$ network deforming under an applied extensional stress of 0.005 $nN/\mu m$. In this and all subsequent figures, filaments are color-coded with respect state of stress (blue = tension, red = compression).  Network parameters: $L=1\: \mu m$, $l_c=0.3\: \mu m$, $\xi=100\: nN\cdot s$. \textbf{b)} Mean filament stress and velocity profiles for the  network in (a) at t=88s. Note that the stress is nearly constant and the velocity is nearly linear as predicted for a viscous fluid under extension.  \textbf{c)} Plots of the mean stress and strainvs time for the simulation in (a), illustrating the three stages of deformation: (i) A fast initial phase accompanies rapid buildup of internal network stress; (ii) after a characteristic time $\tau_c$ s (indicated by vertical dotted line) the network deforms like a material with a constant effective viscosity, $\eta_c$, as indicated by the slope of the dashed line.  (inset) At long times, the strain accelerates as the network undergoes strain thinning and eventually tears. }
+\caption{\label{fig:passive_ex}  Networks with passive cross-links and no filament turnover undergo three stages of deformation in response to an extensional force.   \textbf{a)} Three successive time points from a simulation of a $4\times10\: \mu m$ network deforming under an applied extensional stress of 0.005 $nN/\mu m$. In this and all subsequent figures, filaments are color-coded with respect state of stress (blue = tension, red = compression).  Network parameters: $L=1\: \mu m$, $l_c=0.3\: \mu m$, $\xi=100\: nN\cdot s$. \textbf{b)} Mean filament stress and velocity profiles for the  network in (a) at t=88s. Note that the stress is nearly constant and the velocity is nearly linear as predicted for a viscous fluid under extension.  \textbf{c)} Plots of the mean stress and strain
+vs time for the simulation in (a), illustrating the three stages of deformation: (i) A fast initial phase accompanies rapid buildup of internal network stress; (ii) after a characteristic time $\tau_c$ s (indicated by vertical dotted line) the network deforms like a material with a constant effective viscosity, $\eta_c$, as indicated by the slope of the dashed line.  (inset) At long times, the strain accelerates as the network undergoes strain thinning and eventually tears. }
 \end{figure}
 
 % Viscosity and timescale parameter dependence
@@ -404,7 +405,7 @@ As is also made clear by Figure \ref{fig:passive_rec}.b, we found that the prese
 \end{figure}
 
 %Discuss
-Taken together, our results for the passive network under extension suggest that the passive stress relaxation of our network model is modified strongly by the presence of filament recycling.  Given high enough levels of recycling, we find that network tearing can be prevented and that a steady state effective viscosity is established.  Our model also suggests a simple microscopic derivation of viscosity which depends on the strength of inter filament cross-linking, the networks architecture, and the timescale of filament recycling.  Finally, these findings point to the possibility that different phases of network behavior have possible depending on the relative timescales of competing processes.
+Taken together, our results for the passive network under extension suggest that the passive stress relaxation of our network model is modified strongly by the presence of filament recycling.  Given high enough levels of recycling, we find that network tearing can be prevented and that a steady state effective viscosity is established.  Our model also suggests a simple microscopic derivation of viscosity which depends on the strength of inter filament cross-linking, the networks architecture, and the timescale of filament recycling.  Finally, these findings point to the possibility that different phases of network behavior are possible depending on the relative timescales of competing processes.
 
 
 
@@ -419,43 +420,58 @@ Taken together, our results for the passive network under extension suggest that
 \subsection*{Filament recycling allows persistent stress buildup in active networks}
 
 \paragraph{In the absence of filament recycling, active networks with free boundaries contract and then stall against passive resistance to network compression.}
-Next we tackled the case of a network with spatially isotropic motor activity.  We found that our simulation axioms were able to produce transient contraction of a patch of free-floating network.  As shown in Figure \ref{fig:active} a, the contraction extent was strongly dependent on the magnitudes of both the filament asymmetry and the motor activity scale.  Additionally, contraction would only occur when there was fractional motor activity, $\phi<1$, (see supplement).  The contraction was able to take place over a time scale, $\tau_c$, but on time scales much longer the contraction would stall and polarity sorting would begin to dominate.
 
 
-\paragraph{In the absence of filament recycling, active networks can only exert a transient force against a fixed boundary.}
+We found that our simulation axioms were able to produce transient contraction of a patch of free-floating network.  As shown in Figure \ref{fig:active_con}.a, when an intitially unstrained network has internal motor activity "switched on" at $t=0$, the .  By 100 s, the network has contracted by 40\%, and many internal filaments can be seen to have reached a compressed state (indicated by orange).  By 150 s, the compression has stalled, but filament sliding has begun to force some filaments away from the center. Over long time periods, this filament sorting actually rearranges the entire network, undoing the initial contraction (see supplemental video).
 
-Due to the long term polarity sorting and the fact that filament recycling would be difficult to incorporate into a moving material, we additionally analyzed the stress buildup in a patch that was constrained to maintain its original area.  As shown in Figure \ref{fig:active} b, the results showed a period of net stress due to an imbalance between larger stresses from extended filaments and smaller stresses from compressed filaments.  After a characteristic timescale $\tau_a$, the extensional stress peaks and begins to decrease while the compressive stresses continue to build up resulting in the extensional and compressive stresses beginning to cancel each other.  After another time period, $\tau_{eq}$, the internal stresses become balanced and the net stress drops to approximately 0. The timescale and magnitude of the peak stresses agree with a qualitative expectation discussed later.
+By monitoring both the network and individual filament strains, as in Figure \ref{fig:active_con}.b, we see that the networks macroscopic deformation can be explained entirely by a buildup of internal compression on individual filaments.  Due to the strong stiffness assymetry, there is far more compressive strain than there is extension in the network. It is this asymmetry that generates the net contraction in a disordered network despite myosin activity being equally capable of generating both.  The network contraction stalled over the same timescale as individual filaments, further indicating the essential role of filament compression in generating contractility.  
 
+The final contraction extent was strongly dependent on the magnitudes of both the filament stiffness asymmetry (i.e. the ratio of the extensional and compressive stiffnesses $\mu_e/\mu_c$) and the motor activity scale ($\upsilon$).  As shown in Figure \ref{fig:active_con}.c, small stiffness asymmetries lead to less overall contraction, while larger asymmetries appear to reach asymptotic once they reach a ratio of $\sim 100$.  Additionally, contraction would only occur when there was fractional motor activity, $0<\phi<1$, (see supplement).  Finally, we found that the contraction consistently stalled over a time scale, $\tau_m=$ (see supplement), indicating that the network architecture also plays a role in setting the timescale of contraction.  These findings of the minimal requirements for contractility are all in direct accordance with the theoretical predictions of \cite{1367-2630-14-3-033037} and \cite{PhysRevX.4.041002}.  In fact, we find that removing any single factor from this simulation framework leads to a loss of contraction, suggesting that this system may represent a minimal model of contractility. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\hsize]{figures/figure4a}
+	\caption{\label{fig:active_con} In the absence of filament recycling, active networks with free boundaries contract and then stall against passive resistance to network compression. \textbf{a)}  Example of an active network contracting. Note the buildup of compressive stress as contraction approaches stall between 100 s and 150 s.  Network parameters: $L=5\: \mu m$, $l_c=0.3\: \mu m$, $\xi=100\: nN\cdot s$, $\upsilon=0.1\: nN$.  \textbf{b)} Plots showing time evolution of total network strain and  the average extensional (blue) or compressive (red) strain on individual filaments.   \textbf{c)} The network's ability to deform requires asymmetric filament compliance.  Total network strain also increases with the applied myosin force $\upsilon$.}
+\end{figure}
+
+\paragraph{Active networks can only exert a transient force against a fixed boundary in the absence of filament recycling.}
+
+Due to the complication of making measurements in the presence of such large-scale rearrangements of the network, we decided to additionally analyzed the stress buildup in a patch that was constrained to maintain its original area.  The results from Figure \ref{fig:active_str}.a echo those from Figure \ref{fig:active_con}.a, with a consistent buildup of internal filament strain (represented by the colored lines) that stabilizes and persists indefinitely.  However, in contrast the network in Figure \ref{fig:active_str}.a doesn't demonstrate any apparent large-scale rearrangement as any net deformation is impossible since the patch sets in a domain with periodic boundaries.
+
+Under these conditions, we found that a net stress was generated throughout the material, but that the net stress could not be maintained .and would decay after  characteristic time.  As shown in Figure \ref{fig:active_str}.b, the results showed a period of net stress due to an imbalance between larger stresses from extended filaments and smaller stresses from compressed filaments.  After a characteristic timescale $\tau_a$, the extensional stress peaks and begins to decrease while the compressive stresses continue to build up resulting in the extensional and compressive stresses beginning to cancel each other.  After this peak, the internal stresses become balanced and the net stress drops to approximately 0.  Finally, we measured the time of peak stress and found it consistently occurred with a characteristic time, $\tau_a=\xi/l_c\sqrt{\mu\upsilon}$, as shown in Figure \ref{fig:active_str}.c. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\hsize]{figures/figure4b}
+	\caption{\label{fig:active_str} In the absence of filament recycling, active networks can only exert a transient force against a fixed boundary.  \textbf{a)} Simulation of an active network with fixed boundaries illustrating progressive buildup of internal stress through local filament rearrangement and deformation. Note the progressive buildup of compressive stress on individual filaments. Network parameters: $L=5\: \mu m$, $l_c=0.3\: \mu m$, $\xi=100\: nN\cdot s$, $\upsilon=0.1\: nN$.  \textbf{b)} Plots of total network stress and the average extensional (blue) and compressive (red) stress on individual filaments for the simulation shown in (a). Rapid buildup of extensional stress allows the network transiently to exert force on its boundary, but this force is dissipated at longer times as   as internal extensional and compressive stresses become balanced. \textbf{c}. Measurement and prediction of the characteristic time ($\tau_a$) at which the maximum stress is achieved. }
+\end{figure}
 
 \paragraph{Filament recycling allows network to exert sustained stress on a fixed boundary.}
-Upon the addition of filament recycling, we were able to find that the network maintained a nonzero net stress for times much longer than $\tau_eq$.  We refer to this as the steady state stress because based on our simulations it doesn't appear that this stress ever subsides, and duh.  For similar network parameters as illustrated in Figure \ref{fig:active} c iii, we found that the steady state stress was well predicted by the comparison between the timescale of recycling, $\tau_r$ and that of peak activity, $\tau_a$. 
+We next added filament recycling to the simulation setup with and found that the presence of recycling allowed for persistent.  Similar to the mechanism for preserving integrity in passive networks, the recycling appears to refresh the network such that subsets of filaments are continually transitioning from an unstressed to their stressed state before being recycled back to the unstressed state.  The presence of recycling therefore both repaired structural inhomogeneities and reset the net strain of individual filaments. The panels in \ref{fig:active_rec}.a show the differences in structure for identical starting architectures in the presence of different recycling timescales.  Clearly, longer recycling times allow the network to reach a more strongly reorganized and internally stressed network.
 
-
-\paragraph{Filament recycling allows network to exert sustained stress on a fixed boundary.}
-
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=\hsize]{figures/figure4a}
-\caption{\label{fig:active_con} In the absence of filament recycling, active networks with free boundaries contract and then stall against passive resistance to network compression. \textbf{a)}  Example of an active network contracting. Note the buildup of compressive stress as contraction approaches stall between 100 s and 150 s.  Network parameters: $L=5\: \mu m$, $l_c=0.3\: \mu m$, $\xi=100\: nN\cdot s$, $\upsilon=0.1\: nN$.  \textbf{b)} Plots showing time evolution of total network strain and  the average extensional (blue) or compressive (red) strain on individual filaments.   \textbf{c)} The network's ability to deform requires asymmetric filament compliance.  Total network strain also increases with the applied myosin force $\upsilon$.}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=\hsize]{figures/figure4b}
-\caption{\label{fig:active_str} In the absence of filament recycling, active networks can only exert a transient force against a fixed boundary.  \textbf{a)} Simulation of an active network with fixed boundaries illustrating progressive buildup of internal stress through local filament rearrangement and deformation. Note the progressive buildup of compressive stress on individual filaments. Network parameters: $L=5\: \mu m$, $l_c=0.3\: \mu m$, $\xi=100\: nN\cdot s$, $\upsilon=0.1\: nN$.  \textbf{b)} Plots of total network stress and the average extensional (blue) and compressive (red) stress on individual filaments for the simulation shown in (a). Rapid buildup of extensional stress allows the network transiently to exert force on its boundary, but this force is dissipated at longer times as   as internal extensional and compressive stresses become balanced. \textbf{c}. Measurement and prediction of the characteristic time ($\tau_a$) at which the maximum stress is achieved. }
-\end{figure}
+Upon the addition of filament recycling, we found that the network maintained a nonzero net stress for timescales much longer than $\tau_a$.  We refer to this as the steady state stress because, based on our simulations, it doesn't appear that this stress ever subsides.   As can be seen in Figure \ref{fig:active_rec}.b, The profile of stress buildup changes dramatically by changing the recycling timescale in identical networks corresponding to those in Figure \ref{fig:active_rec}.a.  It's important to notice that the effect of changing recycling time is not an entirely simple dependence.  As the recycling time is decreased from 333 to 33.3, we can see that the long-term steady state increases from nearly 0.05 to a closer to 0.15.  Nevertheless, the final steady state is still lower than the peak stress for those curves.  In contrast, for the faster recycling rates (3.33, 0.33, 0.033), the final steady state decreases monotonically with decreasing recycling time.  In addition, for these shorter timescales, the stress never reaches a peak but rather rises immediately to its steady state level.  We attribute this to the strain resetting whereby individual filaments repeatedly are set to an unstrained state and then transition too having more strain until they are again reset.
 
 
 \begin{figure}[h!]
-\centering
-\includegraphics[width=\hsize]{figures/figure5b}
-\caption{\label{fig:active_rec}  Filament recycling allows network to exert sustained stress on a fixed boundary. \textbf{a)}  Example simulations of active networks and fixed boundaries for different timescales of filament recycling. Network parameters are the same as in Figure 6, except that the active force (v = 1) has been increased to emphasize the effects of internal network remodeling under stress. Note that significant remodeling occurs for longer recycling times.  \textbf{b)} Plots of net stress for different recycling times; for long-lived filaments, stress is built rapidly, but then dissipates.  Increasing filament turnover rates reduces stress dissipation by recycling compressed filaments; however, very short recycling times prevent any stress from being built up in the first place. }
+	\centering
+	\includegraphics[width=\hsize]{figures/figure5b}
+	\caption{\label{fig:active_rec}  Filament recycling allows network to exert sustained stress on a fixed boundary. \textbf{a)}  Example simulations of active networks and fixed boundaries for different timescales of filament recycling. Network parameters are the same as in Figure 6, except that the active force (v = 1) has been increased to emphasize the effects of internal network remodeling under stress. Note that significant remodeling occurs for longer recycling times.  \textbf{b)} Plots of net stress for different recycling times; for long-lived filaments, stress is built rapidly, but then dissipates.  Increasing filament turnover rates reduces stress dissipation by recycling compressed filaments; however, very short recycling times prevent any stress from being built up in the first place. }
 \end{figure}
 
 
-\subsection*{Filament recycling modulates the balance between active stress buildup and viscous stress relaxation}
 
+
+
+
+
+
+
+
+
+\subsection*{Filament recycling tunes the balance between active stress buildup and viscous stress relaxation}
+
+
+we found that the steady state stress was well predicted by the comparison between the timescale of recycling, $\tau_r$ and that of peak activity, $\tau_a$. 
 
 \begin{figure}[h!]
 \centering
@@ -464,8 +480,7 @@ Upon the addition of filament recycling, we were able to find that the network m
 \end{figure}
 
 
-\subsection*{Filament recycling tunes the flow rate in polarized networks}
-
+\paragraph{and tunes the flow rate in polarized networks}
 
 \begin{figure}[h!]
 \centering
