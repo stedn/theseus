@@ -501,12 +501,17 @@ To understand the time progression of the flow profile, we measured the average 
 \paragraph{Filament recycling enables macroscopic flows and introduces filament length control over flow rate.}
 We repeated the above analysis for many more network simulation conditions. As shown in Figure \ref{fig:flow_form}a, as the recycling timescale approaches the timescale of maximum stress buildup ($\tau_a$), all networks approach a steady state strain rate.  This further supports the hypothesis that once one attains sufficiently rapid recycling, the network may remain buffered to achieving a constant flow rate.
 
-As a final point, we wished to point out what happens when filament recycling is held constant and other parameters are changed.  Interestingly, we found surprising architectural dependence for network architectures very closely poised to our physiological estimates.  In that regime, filament length was able to tune networks between a low flow and a high flow mode with close to $1/L$ dependence.
+As a final point, we wished to mention what happens when filament recycling is held constant and other parameters are changed.  Interestingly, we found surprising architectural dependence for network architectures very closely poised to our physiological estimates.  In that regime, filament length was able to tune networks between a low flow and a high flow mode with close to $1/L$ dependence.  We believe this may be due to the difference in dependence between the the timescales of effective viscosity and stress buildup. 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{figures/figure6b}
-\caption{\label{fig:flow_form}  }
+\caption{\label{fig:flow_form}  Filament recycling enables macroscopic flows and introduces filament length control over flow rate. \textbf{a)}  Graph of network long-term strain rate as a function of recycling timescale across a wide range of parameter space.  Note that networks only begin to maintain long-term flows when the recycling time is less than $100\tau_a$. \textbf{b)} For a fixed filament recoiling time, filament length tuned network deformation rate.}
 \end{figure}
+
+\section*{Conclusion}
+Our work aimed to create a simulation framework that would allow us to analyze the origins of macroscopic flow in terms of a handful of physiologically relevant microscopic parameters.  Toward this aim we developed a minimalist model of a 2D filament network and analyzed the network's reaction to a variety of situations.  We found mathematical relationships that determined both the passive effective viscosity and the active stress generation of networks with and without recycling.  From these relationships we were able to make predictions about the .  
+
+Importantly, our work brings a theoretical understanding to the importance of actomysoin turnover in producing and maintaining long-term large scale flows.  This is not entirely surprising due to the abundance of physiological mechanisms for generating network turnover.  We propose the concept of "filament recycling" to refer to the multitude of biochemical interactions which can give rise to the piece by piece architectural resetting of filament networks.  We believe that our analysis of networks in the presence of this filament recycling will be useful in further developing the qualitative and quantitative understanding the deformation of these complex networks.
 
 \section*{Supporting Information}
 
