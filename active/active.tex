@@ -473,11 +473,11 @@ Upon the addition of filament recycling, we found that the network maintained a 
 
 
 \subsection*{Filament recycling tunes the balance between active stress buildup and viscous stress relaxation to generate flows}
-We have shown that filament recycling has a strong impact on both passive and active properties of networks.  However, we ultimately wish to show how filament recycling governs flows. Active fluid theories propose that flow can be explained in terms of the interplay between active stress and effective viscosity. Therefore, we next tested whether we could measure the effect of recycling on flow in networks with both an active and a passive domain.
+We have shown that filament recycling has a strong impact on both passive and active properties of networks.  We ultimately wish to show how filament recycling impacts flows.  Active fluid theories propose that flow can be explained in terms of the interplay between active stress and effective viscosity. Therefore, we next tested whether we could measure the effect of recycling on flow in networks with both an active and a passive domain.
  
 
 \paragraph{Filament recycling tunes the magnitudes of both effective viscosity and steady state stress.}  
-To begin, we repeated the single domain (passive or active) simulations while varying all of our networks microscopic parameters.   By exploring the effect of these parameters on the output variables we were able to determine the general form of the dependence . In Figure  \ref{fig:rec_form}, we illustrate the data collapse of all our simulation results (See Supp. for details of parameter exploration).  Interestingly, both the viscosity and stress show different behaviors on either side of their respective governing timescales ($\tau_c$ for viscosity and $\tau_a$ for active stress).  Effective viscosity was found to be independent of recycling time until recycling time became of the same order as the elastic to viscous crossover timescale, at which point it decreased with decreasing recycling time.  Similarly, the steady state stress increases with increasing recycling time until it reaches the point of peak stress buildup.  From that point it decreases with increasing recycling time.
+To begin, we repeated the single domain (passive or active) simulations while varying all of our networks microscopic parameters.   By exploring the effect of these parameters on the output variables we were able to determine the general form of the dependence. In Figure \ref{fig:rec_form}, we illustrate the data collapse of all our simulation results (See Supp. for details of parameter exploration).  Interestingly, both the viscosity (in Figure \ref{fig:rec_form}a) and stress (in Figure \ref{fig:rec_form}b) show changes in behaviors on either side of their respective governing timescales ($\tau_c$ for viscosity and $\tau_a$ for active stress).  Effective viscosity was found to be independent of recycling time until recycling time became of the same order as the elastic to viscous crossover timescale, at which point it decreased with decreasing recycling time.  Similarly, the steady state stress increases with increasing recycling time until it reaches the point of peak stress buildup.  From that point it decreases with increasing recycling time.
 
 
 \begin{figure}[h!]
@@ -488,6 +488,9 @@ To begin, we repeated the single domain (passive or active) simulations while va
 
 
 \paragraph{Filament recycling allows sustained flows in networks with non-isotropic activity.}
+To clearly interrogate the mutual dependencies of effective viscosity and active stress, we next combined passive and active elements in the same simulations.  As illustrated in Figure \ref{fig:flow_ex}a, we generated networks where the left side of the domain contained only passive cross-linkers, while the right side contained a mix of active and passive cross-links.  In these, network we observed a sharp dependence on filament recycling rate.  In the $\tau_r=1000$ s case, filaments deformed more extensively (orange lines), and the network developed noticeable spatial heterogeneity.  On the other hand for shorter recycling time of $\tau_r=33$ s, the network remained much more connected and filaments underwent less total compressional strain.  We measured the flow profile across the entire simulation and observed that in both cases the flow field converged on the region at the (See Supp.) in a manner highly similar to physiological flow profiles found in e.g. \textit{C. elegant} embryos.  However, there were large differences in the magnitude and duration of the resulting flows which depended on the recycling time.
+
+To understand the time progression of the flow profile, we measured the average network strain over time.  From this measurement, we could see a sharp dependence of the behavior on the recycling time, as shown in Figure \ref{fig:rec_form}b.  For very long recycling times ($\tau_r=1000$, dark blue line), the network showed a rapid initial deformation that quickly reached its limit and stalled.  However, with decreasing filament recycling times, we found the network was able to sustain its deformation and that the long term strain rate rose toward an asymptotic limit.  At the shortest recycling timescales measured, we still saw the effective viscosity remaining relatively high, indicating that for sufficiently short recycling times the effective viscosity may approach an asymptotic flow rate.
 
 \begin{figure}[h!]
 \centering
@@ -495,10 +498,10 @@ To begin, we repeated the single domain (passive or active) simulations while va
 \caption{\label{fig:flow_ex}  Filament recycling allows sustained flows in networks with non-isotropic activity. \textbf{a)} Example simulations of non-isotropic networks with long ($\tau_r=1000$) and short ($\tau_r=33$) recycling timescales. In these networks the left half of the network is passive while the right half is active.  Network parameters: $L=5\: \mu m$, $l_c=0.3\: \mu m$, $\xi=100\: nN\cdot s$, $\upsilon=1\: nN$. \textbf{b)} Graph of strain for identical networks varying recycling timescales.  With long recycling times, the network stalls; reducing the recycling timescale allows the network to persist in its deformation.  However, for the shortest recycling timescales, the steady state strain appears to approach an asymptotic limit. }
 \end{figure}
 
-\paragraph{Filament recycling enables flows and buffers changes in flow rate.}
+\paragraph{Filament recycling enables macroscopic flows and introduces filament length control over flow rate.}
+We repeated the above analysis for many more network simulation conditions. As shown in Figure \ref{fig:flow_form}a, as the recycling timescale approaches the timescale of maximum stress buildup ($\tau_a$), all networks approach a steady state strain rate.  This further supports the hypothesis that once one attains sufficiently rapid recycling, the network may remain buffered to achieving a constant flow rate.
 
-\paragraph{Filament recycling allows sustained flows in networks with non-isotropic activity.}
-
+As a final point, we wished to point out what happens when filament recycling is held constant and other parameters are changed.  Interestingly, we found surprising architectural dependence for network architectures very closely poised to our physiological estimates.  In that regime, filament length was able to tune networks between a low flow and a high flow mode with close to $1/L$ dependence.
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{figures/figure6b}
