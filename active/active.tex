@@ -245,10 +245,11 @@ Significantly, {\em in vitro} models for disordered actomyosin networks have use
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{figures/fig2/fig2}
-\caption{\label{fig:sim} Schematic of modeling framework. a) Filaments are represented as connected chains of spring-like segments with asymmetric compliance.segments have a smaller spring constant for compression than for extension. b) Cross-linking is represented as filament coupling by an effective drag, such that their relative motion is proportional to any applied force. c) Motor activity manifests as a basal sliding rate even in the absence of an external force. d) Only a subset of filament cross-links are active, resulting in differential force exertion along the filament.  e)  Filaments are turned over at a constant rate, leading to a refreshing in the strain state of all filaments after a characteristic timescale.}
+\caption{\label{fig:sim} Schematic of modeling framework. a) Asymmetric filament compliance.Filaments have smaller spring constant for compression than for extension. b) Cross-link slip. Cross-links are coupled by an effective drag, such that their relative motion is
+proportional to any applied force. c) Motor activity. Filament activity manifests as a basal sliding rate even in the absence of an external force. d) Fractional activity. Only a subset of filament cross-links are active, resulting in differential force exertion along the filament. e) Filament recycling. Filaments are turned over at a constant rate, leading to a refreshing in the strain state of all filaments after a characteristic timescale.}
 \end{figure}
 
-We choose to focus our attention on 2D networks both for their tractability as well as their relevance in the quasi-2D cytoskeletal cortex of many eukaryotic cells\cite{cellmech_flows}.  In addition, recent developments in 2D {\em in vitro} systems\cite{rheo_2D1,rheo_2D2}, make 2D disordered models all the more interesting as a renewed focus of study.  In the rest of this section, we underline the key points necessary for understanding our modeling framework and the key assumptions we have made in generating our equations of motion for the system.
+Our goal was to model essential microscope features of cross-linked actomyosin networks (semi flexible actin filaments with asymmetric compliance, dynamic cross-links, active motors and and continuous filament recycling), in a way that is simple enough to allow systematic exploration of how tuning these microscopic features controls macroscopic network deformation and flow. We focus on 2D networks for computational tractability and because they capture a reasonable approximation of the quasi-2D cortical actomyosin networks that govern flow and deformation in many eukaryotic cells\cite{cellmech_flows}, or the quasi-2D networks used in recent in vitro studies\cite{rheo_2D1,rheo_2D2}.
 
 
 \subsection*{Asymmetric Filament Compliance}
@@ -262,18 +263,18 @@ We model individual filaments as chains of springs with relaxed length $l_s$.  F
 
 
 
-where, $\mu$ represents an extensional modulus of a filament.   Here, we take the modulus, $\mu$, to have a different value depending on whether $|\mathbf{x_{i-1}}-\mathbf{x_i}|-l_s$ is greater or less than 0.  This moduli is a composite quantity related to both filament and cross-linker compliance in a manner similar to a proposed effective medium theory\cite{theo_crosslinknonlinear}.  In the limit of highly rigid cross-links and flexible filaments, our model reduces to the pure semi-flexible filament models of \cite{theo_hlm,theo_hlm2}.  In the opposite regime of nearly rigid filaments and highly flexible cross links, our method is still largely similar to the model of \cite{theo_crosslinknonlinear} in small strain regimes before any nonlinear cross link stiffening.  However, in departure from those models, the magnitude of the force on interior cross-links in our model is still the same as those on the exterior.  This is a simplification of the varying levels of strain that would actually be present in these cross-linkers as addressed in \cite{theo_crosslinknonlinear}, but we choose to ignore the slight variation in favor of an approximated, global mean approach.  
+where the modulus, $\mu$, is a composite quantity representing both filament and cross-linker compliance in a manner similar to a proposed effective medium theory \cite{theo_crosslinknonlinear}.   To model asymmetric filament compliance, we assign the modulus $\mu$, a different value depending on whether $|\mathbf{x_{i-1}}-\mathbf{x_i}|-l_s$ (the strain) is greater or less than 0. In the limit of highly rigid cross-links and flexible filaments, our model reduces to the pure semi-flexible filament models of \cite{theo_hlm,theo_hlm2}.  In the opposite regime of nearly rigid filaments and highly flexible cross links, our method is still largely similar to the model of \cite{theo_crosslinknonlinear} in small strain regimes before any nonlinear cross link stiffening.  In a departure from those models, we assume here that the magnitude of the force on interior cross-links is the same as those on the exterior.  This approach ignores the variation in strain on these two sets of cross-links as addressed in \cite{theo_crosslinknonlinear}, but we choose to ignore this variation in favor of an approximated, global mean approach.  
 
 
 
 \subsection*{Drag-like Coupling Between Overlapping Filaments}
 \label{exp_drag}
-Cross-link binding and unbinding is an important element of the overall stress relaxation of a network.  In contrast to previous models, we allow relaxation of the network's stored stress by letting the attachment points slip.  We do this by replacing an elastic interaction between pairs of points along filament segments with a drag-like coupling between segments.
+Previous models represent cross-linkers as elastic connections between pairs of points on neighboring filaments that appear and disappear with either fixed or strain-dependent probabilities (ref).  Here, we introduce a simpler coarse-grained model for dynamic cross-links by replacing many transient elastic interactions with an effective drag-like coupling between every pair of overlapping segments.
 \begin{equation}
 \mathbf{F^{\xi}_i} = \xi \cdot \int^{s_{i+1}}_{s_{i-1}} ds \frac{l_s-|s-s_i|}{l_s} \: (\mathbf{v_i}-\mathbf{v_j}) \: p_{ij}(s)
 \end{equation}
 
-Where $p_{ij}(s)$ represents the locational distribution of cross-link points (equal to 1 at locations of cross-links and 0 elsewhere) and $\mathbf{v_i}$ and $\mathbf{v_j}$ represent the the velocities of the $i$th and $j$th filament segment.  This model assumes a linear relation between applied force and the velocity difference between attached segments.  This drag-like coupling has been shown to be an adequate approximation in the case of ionic cross-linking of actin\cite{mol_fric,theo_hydroish2}, and can be found in the theoretical basis of force-velocity curves for myosin bound filaments\cite{theo_frictionShila}. Although non-linearities can arise through force dependent detachment kinetics and/or non-linear force extension of cross-links, we assume that inhomogeneities from non-linear effects are of second or higher order. With this assumption, the motion for the entire network is governed by a dynamical equation of the form
+Where $p_{ij}(s)$ represents the locational distribution of cross-link points (equal to 1 at locations of cross-links and 0 elsewhere) and $\mathbf{v_i}$ and $\mathbf{v_j}$ represent the velocities of the $i$th and $j$th filament segment.  This model assumes a linear relation between applied force and the velocity difference between attached segments.  This drag-like coupling has been shown to be an adequate approximation in the case of ionic cross-linking of actin\cite{mol_fric,theo_hydroish2}, and can be found in the theoretical basis of force-velocity curves for myosin bound filaments\cite{theo_frictionShila}. Although non-linearities can arise through force dependent detachment kinetics and/or non-linear force extension of cross-links, we assume that inhomogeneities from non-linear effects are of second or higher order. With this assumption, the motion of filaments can be described by a dynamical equation of the form
 
 \begin{equation}
 \label{eqn:syst}
@@ -291,24 +292,22 @@ To add motor activity we select a subset of cross-linked points and impart an ad
 \mathbf{F^{\upsilon}_i}= \mathbf{\hat{u}_i}\cdot\upsilon\int ds \sum _j \:  \frac{l_s-|s-s_i|}{l_s} p_{ij}q_{ij}
 \end{equation}
 
-
-
 In this formulation, only at the subset of points where  $p_{ij}=1$ and $q_{ij}=1$ will there be a force imparted.  In our simulations we let $q_{ij}$ be selected randomly such that $\bar{q}=\phi$, where $\bar{q}$ indicates the mean of $q$.
+
+Finally, for each active force, $\mathbf{F^{\upsilon}_j}$, imparted by filament $j$, we must also impart the opposite force onto the filament $i$ as well.  Therefore, the entire force balance equation with activity will appear as
 
 \begin{equation}
 \label{eqn:syst}
-L\zeta\mathbf{ v_i} +\mathbf{F^{\xi}_i}= \mathbf{F^{\mu}_i}+\mathbf{F^{\upsilon}_i}
+L\zeta\mathbf{ v_i} +\mathbf{F^{\xi}_i}= \mathbf{F^{\mu}_i}+\mathbf{F^{\upsilon}_i} - \sum_{j}\mathbf{F^{\upsilon}_j}p_{ij}q_{ij}
 \end{equation}
 
 \subsection*{2D Network Formation}
 
-We follow a mikado model approach by initializing a minimal network of connected unstressed linear filaments in a rectangular 2D domain.  We generate 2D networks of these semi-flexible filaments by laying down straight lines of length, $L$, with random position and orientation. We then assume that some fixed fraction of overlapping filaments become cross-linked (defined in \ref{exp_drag}) at their point of overlap.
-
-Although real cytoskeletal networks may form with non-negligible anisotropy,  we  focus on isotropically initialized networks for simplicity.  We define the density using the average distance between cross-links along a filament, $l_c$. A simple geometrical argument can then be used to derive the number of filaments filling a domain as a function of $L$ and $l_c$\cite{theo_hlm}.  Here, we use the approximation that the number of filaments needed to tile a rectangular domain of size $W \times H$  is $2WH/Ll_c$, and that the length density is therefore $1/l_c$. In the absence of cross-link slip, we expect the network to form a connected solid with a well defined elastic modulus\cite{theo_hlm,theo_hlm2}.  
+We used a M??ikado model approach (reference???) to initialize a minimal network of connected unstressed linear filaments in a rectangular 2D domain. We generate 2D networks of these semi-flexible filaments by laying down straight lines of length, L, with random position and orientation. We then assume that some fixed fraction of overlapping filaments become cross-linked (defined in ) at their point of overlap. Although real cytoskeletal networks may form with non-negligible anisotropy, we focus on isotropically initialized networks for simplicity. We define the density using the average distance between cross-links along a filament, $l_c$. A simple geometrical argument can then be used to derive the number of filaments filling a domain as a function of $L$ and $l_c$\cite{theo_hlm}.  Here, we use the approximation that the number of filaments needed to tile a rectangular domain of size $W \times H$  is $2WH/Ll_c$, and that the length density is therefore simply, $1/l_c$. In the absence of cross-link slip, we expect the network to form a connected solid with a well defined elastic modulus\cite{theo_hlm,theo_hlm2}.  
 
 
 \subsection*{System of Equations for Applied Stress}
-We model our full network as a coupled system of differential equations satisfying \ref{eqn:syst}.  Although the general mechanical response of this system may be very complex, we focus our attention on low frequency deformations and the steady-state creep response of the system to an applied stress.  To do this we introduce a fixed stress, $\sigma$ along one edge of the network.  The stress is applied by applying individual forces to the filaments lying within a patch of size $D_w$ such that the sum of individual forces is equal to the applied stress times the height of the domain.  These forces points in the direction, $\mathbf{\hat{x}}$, producing and extension of the patch.
+We model our full network as a coupled system of differential equations satisfying \ref{eqn:syst}.  Although the general mechanical response of this system may be very complex, we focus our attention on low frequency deformations and the steady-state creep response of the system to an applied stress.  To do this we introduce a fixed stress, $\sigma$ along one edge of the network.  The stress is applied via individual forces to the filaments lying within a patch of size $D_w$ such that the sum of individual forces is equal to the applied stress times the height of the domain.  These forces points in the direction, $\mathbf{\hat{x}}$, producing and extension of the patch.
 
 Finally, we add a 0 velocity constraint at the other edge of our domain of interest.  We assume that our network is in the "dry," low Reynold's number limit, where inertial effects are so small that we can equate our total force to 0.  Therefore, we have a dynamical system of wormlike chain filaments satisfying
 
@@ -321,25 +320,23 @@ subject to constraints such that $\mathbf{v_i(x)}$ is 0 with $x=0$.  This result
 
 \subsection*{Filament Recycling as a model for rapid filament turnover}
 
-To simplify the complex biochemical changes that can give rise to actin filament polymerization and depolymerization, we chose to use simple filament appearance and disappearance as a lowest order model of filament recycling.  In this sense the average lifetime of a filament between it's appearance and disappearance would be $\tau_r$.  In order to do this without causing an unnecessary bias in the results, at a regularized interval $\tau_s < 0.01\cdot\tau_r$, we selected $\tau_s/\tau_r$ filaments, reset their extension or compression to 0, and relocated them to a random position and orientation.  This has the effect of creating an approximately exponential decay in the number of old filaments over time.
+In living cells, actin filament assembly is governed by multiple factors that control nucleation, elongation and filament branching. Likewise filament disassembly is governed by multiple factors that promote filament severing and monomer dissociation at filament ends. Here, we focus on a lowest order model for filament recycling in which entire filaments appear with a fixed probability per unit area and per unit time and they disappear with a fixed probability per filament per unit time. With this assumption, in the absence of network deformation, the density of filaments will equilibrate to a steady state density with time constant $\tau_r = 1/r_{diss}$.   In deforming networks, the density will be set by a competition between strain thinning or thickening, and density equilibration via turnover. To implement this assumption, at fixed time interval $\tau_s < 0.01\cdot\tau_r$ (i.e. 1\% of the equilibration time), we selected a fraction ($\tau_s/\tau_r$) of existing filaments for “degredation” and allowed (number) new unstrained filaments to appear within the network at random positions. This has the effect of creating an  approximately exponential decay in the number of old filaments over time.
 
 
 \subsection*{Computational Simulation Method}
 
-We tested our analytical conclusions on a computational model.  More technical details of the model can be found in the Appendix, but we summarize the main modeling points here.
-
-We discretize the filaments such that the equations of motion becomes a coupled system of equations for the velocities of filament endpoints, $\mathbf{x}$.  The drag-like force between overlapping filaments results in a coupling of the velocities of endpoints.  
+Details of our simulation approach can be found in the Appendix. Briefly, Equations xxx (refer to appropriate equations above) define a coupled system of ordinary differential equations for the velocities of the endpoints of filament segments, $\mathbf{x}$.  These equations are coupled by the effective cross-link friction on segment overlap points, yielding a system of the form:
 
 \begin{equation}
 \mathbf{A \cdot \dot x} = \mathbf{f(x)}
 \end{equation}
 
-where $\mathbf{A }$ represents a coupling matrix between endpoints of filaments that overlap, and $\mathbf{f(x)}$ is the spring force between pairs of filament segment endpoints.  We can then numerically integrate this system of equations to find the time evolution of the positions of all filament endpoints.
-
-We generate a network by laying down filaments with random position and orientation within a domain of size $D_x$ by $D_y$ with periodic boundaries in the y-dimension.  The external stress (shear or extensional/compressional) is applied to all filament endpoints falling within a fixed x-distance from the center of the domain.  Finally, filament endpoints falling within a fixed x-distance from the edges of the domain are constrained to be nonmoving.  All filament interactions, force fields, and constraints are smoothed over small regions such that the equations will contain no sharp discontinuities.
+where $\mathbf{A }$ represents a coupling matrix between endpoints of filaments that overlap, and $\mathbf{f(x)}$ is the spring force between pairs of filament segment endpoints.   We numerically integrated this system of equations to find the time evolution of the positions of all filament endpoints. We generate a network of filaments with random positions and orientations as described above within a domain of size $D_x$ by $D_y$.  For all simulations, we imposed periodic boundaries in the y-dimension. To impose an extensional stress, we constrained all filament segment endpoints within a fixed distance $0.05\cdot Dx$ from the left edge of the domain to be non-moving, then we imposed a rightwards force on all segment endpoints within a distance $0.05\cdot Dx$ from the left edge of the patch.   To simulation free contraction, we removed all constraints at boundaries; to assess buildup of contractile stress under isometricc conditions, we pinned both left and right edges of the network as described above.
 
 
-The nominal units for length, force, and time are $\mu m$, nN, and s, respectively.  We explored parameter space around an estimate of biologically relevant parameter values, given in Table \ref{table:para}. 
+
+
+We smoothed all filament interactions, force fields, and constraints over small regions such that the equations contained no sharp discontinuities. The nominal units for length, force, and time are $\mu m$, nN, and s, respectively.  We explored parameter space around an estimate of biologically relevant parameter values given in Table \ref{table:para}. 
 
 \begin{table}[h]
 \centering
