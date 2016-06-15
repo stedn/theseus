@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 JUN 2016 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 JUN 2016 13:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1053,28 +1053,23 @@ e 363.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
  [7]
 Package epstopdf Info: Source file: <figures/figure3a.eps>
-(epstopdf)                    date: 2016-06-15 13:03:26
-(epstopdf)                    size: 345144 bytes
+(epstopdf)                    date: 2016-06-15 13:10:30
+(epstopdf)                    size: 345122 bytes
 (epstopdf)             Output file: <figures/figure3a-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-03 16:41:32
-(epstopdf)                    size: 45552 bytes
+(epstopdf)                    date: 2016-06-15 13:10:39
+(epstopdf)                    size: 49984 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure3a-eps-conve
 rted-to.pdf figures/figure3a.eps>
 (epstopdf)             \includegraphics on input line 379.
-runsystem(repstopdf --outfile=figures/figure3a-eps-converted-to.pdf figures/fig
-ure3a.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <figures/figure3a-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-15 13:04:10
-(epstopdf)                    size: 49991 bytes.
-
-<figures/figure3a-eps-converted-to.pdf, id=314, 506.89375pt x 316.18124pt>
+<figures/figure3a-eps-converted-to.pdf, id=314, 511.9125pt x 329.23pt>
 File: figures/figure3a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure3a-eps-converted-to.pdf>
 Package pdftex.def Info: figures/figure3a-eps-converted-to.pdf used on input li
 ne 379.
-(pdftex.def)             Requested size: 379.4175pt x 236.67218pt.
+(pdftex.def)             Requested size: 379.4175pt x 244.01822pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1474,7 +1469,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 550.
 Here is how much of TeX's memory you used:
  10793 strings out of 493117
  163395 string characters out of 6135433
- 302697 words of memory out of 5000000
+ 302693 words of memory out of 5000000
  13884 multiletter control sequences out of 15000+600000
  10482 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1496,7 +1491,7 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on active.pdf (20 pages, 1517785 bytes).
+Output written on active.pdf (20 pages, 1517753 bytes).
 PDF statistics:
  642 PDF objects out of 1000 (max. 8388607)
  500 compressed objects within 5 object streams
