@@ -256,6 +256,7 @@ Our goal was to model essential microscope features of cross-linked actomyosin n
 We model individual filaments as chains of springs with relaxed length $l_s$.  Filaments can therefore be represented as a sequence of nodes with positions $\mathbf{x_i}$ and nearest neighbor force interactions, $\mathbf{F^{\mu}_i}$, of the form
 
 \begin{equation}
+\label{eqn:spring}
 |F^{\mu}_i| = \mu\cdot\frac{|\mathbf{x_{i+1}}-\mathbf{x_i}|-l_s}{l_s} +\mu\cdot\frac{|\mathbf{x_{i-1}}-\mathbf{x_i}|-l_s}{l_s}
 \end{equation}
 
@@ -271,13 +272,14 @@ where the modulus, $\mu$, is a composite quantity representing both filament and
 \label{exp_drag}
 Previous models represent cross-linkers as elastic connections between pairs of points on neighboring filaments that appear and disappear with either fixed or strain-dependent probabilities (ref).  Here, we introduce a simpler coarse-grained model for dynamic cross-links by replacing many transient elastic interactions with an effective drag-like coupling between every pair of overlapping segments.
 \begin{equation}
+\label{eqn:drag}
 \mathbf{F^{\xi}_i} = \xi \cdot \int^{s_{i+1}}_{s_{i-1}} ds \frac{l_s-|s-s_i|}{l_s} \: (\mathbf{v_i}-\mathbf{v_j}) \: p_{ij}(s)
 \end{equation}
 
 Where $p_{ij}(s)$ represents the locational distribution of cross-link points (equal to 1 at locations of cross-links and 0 elsewhere) and $\mathbf{v_i}$ and $\mathbf{v_j}$ represent the velocities of the $i$th and $j$th filament segment.  This model assumes a linear relation between applied force and the velocity difference between attached segments.  This drag-like coupling has been shown to be an adequate approximation in the case of ionic cross-linking of actin\cite{mol_fric,theo_hydroish2}, and can be found in the theoretical basis of force-velocity curves for myosin bound filaments\cite{theo_frictionShila}. Although non-linearities can arise through force dependent detachment kinetics and/or non-linear force extension of cross-links, we assume that inhomogeneities from non-linear effects are of second or higher order. With this assumption, the motion of filaments can be described by a dynamical equation of the form
 
 \begin{equation}
-\label{eqn:syst}
+\label{eqn:syst1}
 L\zeta\mathbf{ v_i} +\mathbf{F^{\xi}_i}= \mathbf{F^{\mu}_i}
 \end{equation}
 
@@ -288,7 +290,7 @@ Here, the first term in the integral is the filament's intrinsic drag through it
 To add motor activity we select a subset of cross-linked points and impart an additional force of magnitude $\upsilon$ directed in the orientations of the individual filaments, $\mathbf{u_i}$.  This leads to a modification of the equation of motion to
 
 \begin{equation}
-\label{eqn:syst}
+\label{eqn:moto}
 \mathbf{F^{\upsilon}_i}= \mathbf{\hat{u}_i}\cdot\upsilon\int ds \sum _j \:  \frac{l_s-|s-s_i|}{l_s} p_{ij}q_{ij}
 \end{equation}
 
@@ -297,21 +299,22 @@ In this formulation, only at the subset of points where  $p_{ij}=1$ and $q_{ij}=
 Finally, for each active force, $\mathbf{F^{\upsilon}_j}$, imparted by filament $j$, we must also impart the opposite force onto the filament $i$ as well.  Therefore, the entire force balance equation with activity will appear as
 
 \begin{equation}
-\label{eqn:syst}
+\label{eqn:syst3}
 L\zeta\mathbf{ v_i} +\mathbf{F^{\xi}_i}= \mathbf{F^{\mu}_i}+\mathbf{F^{\upsilon}_i} - \sum_{j}\mathbf{F^{\upsilon}_j}p_{ij}q_{ij}
 \end{equation}
 
 \subsection*{2D Network Formation}
 
-We used a M??ikado model approach (reference???) to initialize a minimal network of connected unstressed linear filaments in a rectangular 2D domain. We generate 2D networks of these semi-flexible filaments by laying down straight lines of length, L, with random position and orientation. We then assume that some fixed fraction of overlapping filaments become cross-linked (defined in ) at their point of overlap. Although real cytoskeletal networks may form with non-negligible anisotropy, we focus on isotropically initialized networks for simplicity. We define the density using the average distance between cross-links along a filament, $l_c$. A simple geometrical argument can then be used to derive the number of filaments filling a domain as a function of $L$ and $l_c$\cite{theo_hlm}.  Here, we use the approximation that the number of filaments needed to tile a rectangular domain of size $W \times H$  is $2WH/Ll_c$, and that the length density is therefore simply, $1/l_c$. In the absence of cross-link slip, we expect the network to form a connected solid with a well defined elastic modulus\cite{theo_hlm,theo_hlm2}.  
+We used a mikado model approach \cite{Unterberger2014} to initialize a minimal network of connected unstressed linear filaments in a rectangular 2D domain. We generate 2D networks of these semi-flexible filaments by laying down straight lines of length, L, with random position and orientation. We then assume that overlapping filaments become cross-linked at their point of overlap. Although real cytoskeletal networks may form with non-negligible anisotropy, we focus on isotropically initialized networks for simplicity. We define the density using the average distance between cross-links along a filament, $l_c$. A simple geometrical argument can then be used to derive the number of filaments filling a domain as a function of $L$ and $l_c$\cite{theo_hlm}.  Here, we use the approximation that the number of filaments needed to tile a rectangular domain of size $W \times H$  is $2WH/Ll_c$, and that the length density is therefore simply, $1/l_c$. In the absence of cross-link slip, we expect the network to form a connected solid with a well defined elastic modulus\cite{theo_hlm,theo_hlm2}.  
 
 
 \subsection*{System of Equations for Applied Stress}
-We model our full network as a coupled system of differential equations satisfying \ref{eqn:syst}.  Although the general mechanical response of this system may be very complex, we focus our attention on low frequency deformations and the steady-state creep response of the system to an applied stress.  To do this we introduce a fixed stress, $\sigma$ along one edge of the network.  The stress is applied via individual forces to the filaments lying within a patch of size $D_w$ such that the sum of individual forces is equal to the applied stress times the height of the domain.  These forces points in the direction, $\mathbf{\hat{x}}$, producing and extension of the patch.
+We model our full network as a coupled system of differential equations satisfying \ref{eqn:syst3}.  Although the general mechanical response of this system may be very complex, we focus our attention on low frequency deformations and the steady-state creep response of the system to an applied stress.  To do this we introduce a fixed stress, $\sigma$ along one edge of the network.  The stress is applied via individual forces to the filaments lying within a patch of size $D_w$ such that the sum of individual forces is equal to the applied stress times the height of the domain.  These forces points in the direction, $\mathbf{\hat{x}}$, producing and extension of the patch.
 
 Finally, we add a 0 velocity constraint at the other edge of our domain of interest.  We assume that our network is in the "dry," low Reynold's number limit, where inertial effects are so small that we can equate our total force to 0.  Therefore, we have a dynamical system of wormlike chain filaments satisfying
 
 \begin{equation}
+\label{eqn:systfull}
 L\zeta\mathbf{ v_i} +\mathbf{F^{\xi}_i(v_i)}= \mathbf{F^{\mu}_i(x_i)}+\mathbf{F^{\upsilon}_i(x_i)} + \sigma\mathbf{\hat{u}(x_i)}
 \end{equation}
 
@@ -325,13 +328,13 @@ In living cells, actin filament assembly is governed by multiple factors that co
 
 \subsection*{Computational Simulation Method}
 
-Details of our simulation approach can be found in the Appendix. Briefly, Equations xxx (refer to appropriate equations above) define a coupled system of ordinary differential equations for the velocities of the endpoints of filament segments, $\mathbf{x}$.  These equations are coupled by the effective cross-link friction on segment overlap points, yielding a system of the form:
+Details of our simulation approach can be found in the Appendix. Briefly, equations \ref{eqn:spring},\ref{eqn:drag},\ref{eqn:moto} and \ref{eqn:systfull} define a coupled system of ordinary differential equations for the velocities of the endpoints of filament segments, $\mathbf{x}$.  These equations are coupled by the effective cross-link friction on segment overlap points, yielding a system of the form:
 
 \begin{equation}
 \mathbf{A \cdot \dot x} = \mathbf{f(x)}
 \end{equation}
 
-where $\mathbf{A }$ represents a coupling matrix between endpoints of filaments that overlap, and $\mathbf{f(x)}$ is the spring force between pairs of filament segment endpoints.   We numerically integrated this system of equations to find the time evolution of the positions of all filament endpoints. We generate a network of filaments with random positions and orientations as described above within a domain of size $D_x$ by $D_y$.  For all simulations, we imposed periodic boundaries in the y-dimension. To impose an extensional stress, we constrained all filament segment endpoints within a fixed distance $0.05\cdot Dx$ from the left edge of the domain to be non-moving, then we imposed a rightwards force on all segment endpoints within a distance $0.05\cdot Dx$ from the left edge of the patch.   To simulation free contraction, we removed all constraints at boundaries; to assess buildup of contractile stress under isometricc conditions, we pinned both left and right edges of the network as described above.
+where $\mathbf{A }$ represents a coupling matrix between endpoints of filaments that overlap, and $\mathbf{f(x)}$ is the spring force between pairs of filament segment endpoints.   We numerically integrated this system of equations to find the time evolution of the positions of all filament endpoints. We generate a network of filaments with random positions and orientations as described above within a domain of size $D_x$ by $D_y$.  For all simulations, we imposed periodic boundaries in the y-dimension. To impose an extensional stress, we constrained all filament segment endpoints within a fixed distance $0.05\cdot D_x$ from the left edge of the domain to be non-moving, then we imposed a rightwards force on all segment endpoints within a distance $0.05\cdot D_x$ from the left edge of the patch.   To simulation free contraction, we removed all constraints at boundaries; to assess buildup of contractile stress under isometricc conditions, we pinned both left and right edges of the network as described above.
 
 
 
@@ -423,11 +426,11 @@ Taken together, our results for the passive network under extension suggest that
 \paragraph{In the absence of filament recycling, active networks with free boundaries contract and then stall against passive resistance to network compression.}
 
 
-We found that our simulation axioms were able to produce transient contraction of a patch of free-floating network.  As shown in Figure \ref{fig:active_con}a, when an intitially unstrained network has internal motor activity "switched on" at $t=0$, the .  By 100 s, the network has contracted by 40\%, and many internal filaments can be seen to have reached a compressed state (indicated by orange).  By 150 s, the compression has stalled, but filament sliding has begun to force some filaments away from the center. Over long time periods, this filament sorting actually rearranges the entire network, undoing the initial contraction (see supplemental video).
+We found that our simulation axioms were able to produce transient contraction of a patch of free-floating network.  As shown in Figure \ref{fig:active_con}a, when an initially unstrained network has internal motor activity "switched on" at $t=0$, the area of the patch begins to decrease.  By 100 s, the network has contracted by 40\%, and many internal filaments can be seen to have reached a compressed state (indicated by orange).  By 150 s, the compression has stalled, but filament sliding has begun to force some filaments away from the center. Over long time periods, this filament sorting actually rearranges the entire network, undoing the initial contraction (see supplemental video).
 
-By monitoring both the network and individual filament strains, as in Figure \ref{fig:active_con}b, we see that the networks macroscopic deformation can be explained entirely by a buildup of internal compression on individual filaments.  Due to the strong stiffness assymetry, there is far more compressive strain than there is extension in the network. It is this asymmetry that generates the net contraction in a disordered network despite myosin activity being equally capable of generating both.  The network contraction stalled over the same timescale as individual filaments, further indicating the essential role of filament compression in generating contractility.  
+By monitoring both the network and individual filament strains, as in Figure \ref{fig:active_con}b, we see that the networks macroscopic deformation can be explained entirely by a buildup of inward compression on individual filaments.  Due to the strong stiffness asymmetry, there is far more compressive strain than there is extension in the network. It is this asymmetry that generates the net contraction in a disordered network despite myosin activity being equally capable of generating both.  The network contraction stalled over the same timescale as individual filaments, further indicating the essential role of filament compression in generating contractility.  
 
-The final contraction extent was strongly dependent on the magnitudes of both the filament stiffness asymmetry (i.e. the ratio of the extensional and compressive stiffnesses $\mu_e/\mu_c$) and the motor activity scale ($\upsilon$).  As shown in Figure \ref{fig:active_con}c, small stiffness asymmetries lead to less overall contraction, while larger asymmetries appear to reach asymptotic once they reach a ratio of $\sim 100$.  Additionally, contraction would only occur when there was fractional motor activity, $0<\phi<1$, (see supplement).  Finally, we found that the contraction consistently stalled over a time scale, $\tau_m=$ (see supplement), indicating that the network architecture also plays a role in setting the timescale of contraction.  These findings of the minimal requirements for contractility are all in direct accordance with the theoretical predictions of \cite{1367-2630-14-3-033037} and \cite{PhysRevX.4.041002}.  In fact, we find that removing any single factor from this simulation framework leads to a loss of contraction, suggesting that this system may represent a minimal model of contractility. 
+The final contraction extent was strongly dependent on the magnitudes of both the filament stiffness asymmetry (i.e. the ratio of the extensional and compressive stiffnesses $\mu_e/\mu_c$) and the motor activity strength ($\upsilon$).  As shown in Figure \ref{fig:active_con}c, small stiffness asymmetries lead to less overall contraction, while larger asymmetries appear to approach some asymptotic limit once they reach a ratio of $\sim 100$.  Additionally, contraction would only occur when there was fractional motor activity, $0<\phi<1$, (see supplement).  Finally, we found that the contraction consistently stalled over a time scale, $\tau_m=$ (see supplement), indicating that the network architecture also plays a role in setting the timescale of contraction.  These findings of the minimal requirements for contractility are all in direct accordance with the theoretical predictions of \cite{1367-2630-14-3-033037} and \cite{PhysRevX.4.041002}.  In fact, we find that removing any single factor from this simulation framework leads to a loss of contraction, suggesting that this system may represent a minimal model of contractility. 
 
 \begin{figure}[h!]
 	\centering
@@ -437,9 +440,11 @@ The final contraction extent was strongly dependent on the magnitudes of both th
 
 \paragraph{Active networks can only exert a transient force against a fixed boundary in the absence of filament recycling.}
 
-Due to the complication of making measurements in the presence of such large-scale rearrangements of the network, we decided to additionally analyzed the stress buildup in a patch that was constrained to maintain its original area.  The results from Figure \ref{fig:active_str}a echo those from Figure \ref{fig:active_con}a, with a consistent buildup of internal filament strain (represented by the colored lines) that stabilizes and persists indefinitely.  However, in contrast the network in Figure \ref{fig:active_str}a doesn't demonstrate any apparent large-scale rearrangement as any net deformation is impossible since the patch sets in a domain with periodic boundaries.
+Due to the complication of making measurements in the presence of such large-scale rearrangements of the network, we decided to additionally analyzed the stress buildup in a patch that was constrained to maintain its original area.  The results from Figure \ref{fig:active_str}a echo those from Figure \ref{fig:active_con}a, with a consistent buildup of internal filament strain (represented by the colored lines) that stabilizes and persists indefinitely.  In contrast, the network in Figure \ref{fig:active_str}a doesn't demonstrate any apparent large-scale rearrangement as any net deformation is impossible since the patch sets in a domain with periodic boundaries.
 
-Under these conditions, we found that a net stress was generated throughout the material, but that the net stress could not be maintained .and would decay after  characteristic time.  As shown in Figure \ref{fig:active_str}b, the results showed a period of net stress due to an imbalance between larger stresses from extended filaments and smaller stresses from compressed filaments.  After a characteristic timescale $\tau_a$, the extensional stress peaks and begins to decrease while the compressive stresses continue to build up resulting in the extensional and compressive stresses beginning to cancel each other.  After this peak, the internal stresses become balanced and the net stress drops to approximately 0.  Finally, we measured the time of peak stress and found it consistently occurred with a characteristic time, $\tau_a=\xi/l_c\sqrt{\mu\upsilon}$, as shown in Figure \ref{fig:active_str}c. 
+Under these conditions, we found that a net stress was generated throughout the material, but similar to the results for contraction in Figure \ref{fig:active_con}, the net stress could not be maintained.  As shown in Figure \ref{fig:active_str}b, the net stress (black line) initially increases to a maximum $\sigma_a$, but then decays back to 0 over longer times. However, the internal compressive and extensional stresses do not decay away entirely.  Instead, after the peak stress is reached, the internal stresses become balanced leading to an apparent net stress of approximately 0 despite a nonzero internal stress.  
+
+Finally, we measured the time of peak stress and found it consistently occurred with a characteristic time, $\tau_a=\xi/l_c\sqrt{\mu\upsilon}$, as shown in Figure \ref{fig:active_str}c. 
 
 \begin{figure}[h!]
 	\centering
@@ -450,7 +455,7 @@ Under these conditions, we found that a net stress was generated throughout the 
 \paragraph{Filament recycling allows network to exert sustained stress on a fixed boundary.}
 We next added filament recycling to the simulation setup with and found that the presence of recycling allowed for persistent.  Similar to the mechanism for preserving integrity in passive networks, the recycling appears to refresh the network such that subsets of filaments are continually transitioning from an unstressed to their stressed state before being recycled back to the unstressed state.  The presence of recycling therefore both repaired structural inhomogeneities and reset the net strain of individual filaments. The panels in \ref{fig:active_rec}a show the differences in structure for identical starting architectures in the presence of different recycling timescales.  Clearly, longer recycling times allow the network to reach a more strongly reorganized and internally stressed network.
 
-Upon the addition of filament recycling, we found that the network maintained a nonzero net stress for timescales much longer than $\tau_a$.  We refer to this as the steady state stress because, based on our simulations, it doesn't appear that this stress ever subsides.   As can be seen in Figure \ref{fig:active_rec}b, The profile of stress buildup changes dramatically by changing the recycling timescale in identical networks corresponding to those in Figure \ref{fig:active_rec}a.  It's important to notice that the effect of changing recycling time is not an entirely simple dependence.  As the recycling time is decreased from 333 to 33.3, we can see that the long-term steady state increases from nearly 0.05 to a closer to 0.15.  Nevertheless, the final steady state is still lower than the peak stress for those curves.  In contrast, for the faster recycling rates (3.33, 0.33, 0.033), the final steady state decreases monotonically with decreasing recycling time.  In addition, for these shorter timescales, the stress never reaches a peak but rather rises immediately to its steady state level.  We attribute this to the strain resetting whereby individual filaments repeatedly are set to an unstrained state and then transition too having more strain until they are again reset.
+Upon the addition of filament recycling, we found that the network maintained a nonzero net stress for timescales much longer than $\tau_a$.  We refer to this as the steady state stress because, based on our simulations, it doesn't appear that this stress ever subsides.   As can be seen in Figure \ref{fig:active_rec}b, The profile of stress buildup changes dramatically by changing the recycling timescale in identical networks corresponding to those in Figure \ref{fig:active_rec}a.  It's important to notice that the effect of changing recycling time is not entirely straightforward.  As the recycling time is decreased from 333 to 33.3, we can see that the long-term steady state increases from nearly 0.05 to a closer to 0.15.  Nevertheless, the final steady state is still lower than the peak stress for those curves.  In contrast, for the faster recycling rates (3.33, 0.33, 0.033), the final steady state decreases monotonically with decreasing recycling time.  In addition, for these shorter timescales, the stress never reaches a peak but rather rises immediately to its steady state level.  We attribute this to the strain resetting whereby individual filaments repeatedly are set to an unstrained state and then transition to having more strain until they are again reset.
 
 
 \begin{figure}[h!]
@@ -458,15 +463,6 @@ Upon the addition of filament recycling, we found that the network maintained a 
 	\includegraphics[width=\hsize]{figures/figure5b}
 	\caption{\label{fig:active_rec}  Filament recycling allows network to exert sustained stress on a fixed boundary. \textbf{a)}  Example simulations of active networks and fixed boundaries for different timescales of filament recycling. Network parameters are the same as in Figure 6, except that the active force (v = 1) has been increased to emphasize the effects of internal network remodeling under stress. Note that significant remodeling occurs for longer recycling times.  \textbf{b)} Plots of net stress for different recycling times; for long-lived filaments, stress is built rapidly, but then dissipates.  Increasing filament turnover rates reduces stress dissipation by recycling compressed filaments; however, very short recycling times prevent any stress from being built up in the first place. }
 \end{figure}
-
-
-
-
-
-
-
-
-
 
 
 \subsection*{Filament recycling tunes the balance between active stress buildup and viscous stress relaxation to generate flows}
@@ -498,7 +494,7 @@ To understand the time progression of the flow profile, we measured the average 
 \paragraph{Filament recycling enables macroscopic flows and introduces filament length control over flow rate.}
 We repeated the above analysis for many more network simulation conditions. As shown in Figure \ref{fig:flow_form}a, as the recycling timescale approaches the timescale of maximum stress buildup ($\tau_a$), all networks approach a steady state strain rate.  This further supports the hypothesis that once one attains sufficiently rapid recycling, the network may remain buffered to achieving a constant flow rate.
 
-As a final point, we wished to mention what happens when filament recycling is held constant and other parameters are changed.  Interestingly, we found surprising architectural dependence for network architectures very closely poised to our physiological estimates.  In that regime, filament length was able to tune networks between a low flow and a high flow mode with close to $1/L$ dependence.  We believe this may be due to the difference in dependence between the the timescales of effective viscosity and stress buildup. 
+As a final point, we wished to mention what happens when filament recycling is held constant and other parameters are changed.  Interestingly, we found surprising architectural dependence for network architectures very closely poised to our physiological estimates.  In that regime, filament length was able to tune networks between a low flow and a high flow mode with close to $1/L$ dependence.  We believe this may be due to the difference in $L$ dependence between the timescales of effective viscosity and stress buildup. 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{figures/figure6b}
