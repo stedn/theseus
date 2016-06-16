@@ -1,0 +1,542 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.7.8)  15 DEC 2015 12:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**datacenter_energy.tex
+(./datacenter_energy.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 4 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./usenix.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/endnotes/endnotes.sty
+\c@endnote=\count88
+\endnotesep=\dimen107
+\@enotes=\write3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2014/07/16 v1.15 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count89
+\calc@Bcount=\count90
+\calc@Adimen=\dimen108
+\calc@Bdimen=\dimen109
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count91
+\calc@Cskip=\skip45
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen110
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen111
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen112
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks16
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks17
+\eqnshift@=\dimen113
+\alignsep@=\dimen114
+\tagshift@=\dimen115
+\tagwidth@=\dimen116
+\totwidth@=\dimen117
+\lineht@=\dimen118
+\@envbody=\toks18
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count104
+\l_MT_multwidth_dim=\dimen119
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen120
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen121
+\l_MT_above_intertext_sep=\dimen122
+\l_MT_below_intertext_sep=\dimen123
+\l_MT_above_shortintertext_sep=\dimen124
+\l_MT_below_shortintertext_sep=\dimen125
+)
+(./datacenter_energy.aux)
+\openout1 = `datacenter_energy.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 25.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen126
+\scratchbox=\box28
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen127
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks21
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 45
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 45
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 45
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 45
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+
+
+LaTeX Warning: No \author given.
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 58--59
+\OT1/ptm/m/n/10 of 34 large coal-fired power plants.[[]] These same
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+<pwr_model_ins.pdf, id=1, 578.16pt x 289.08pt>
+File: pwr_model_ins.pdf Graphic file (type pdf)
+ <use pwr_model_ins.pdf>
+Package pdftex.def Info: pwr_model_ins.pdf used on input line 62.
+(pdftex.def)             Requested size: 219.70308pt x 109.85153pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+Underfull \hbox (badness 2181) in paragraph at lines 71--72
+\OT1/ptm/m/n/10 Load Re-sponse (VLR) pro-grams, which en-cour-age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./pwr_model_ins.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+<ray_fig.pdf, id=53, 794.97pt x 614.295pt>
+File: ray_fig.pdf Graphic file (type pdf)
+ <use ray_fig.pdf>
+Package pdftex.def Info: ray_fig.pdf used on input line 92.
+(pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
+
+Overfull \hbox (74.15625pt too wide) in paragraph at lines 93--93
+ [] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+[2 <./ray_fig.pdf, page is rotated 90 degrees>]
+<usage_viz4.pdf, id=78, 433.62pt x 216.81pt>
+File: usage_viz4.pdf Graphic file (type pdf)
+ <use usage_viz4.pdf>
+Package pdftex.def Info: usage_viz4.pdf used on input line 124.
+(pdftex.def)             Requested size: 238.49173pt x 119.24586pt.
+
+Overfull \hbox (12.64798pt too wide) in paragraph at lines 124--128
+ [] 
+ []
+
+<power_viz.pdf, id=79, 433.62pt x 289.08pt>
+File: power_viz.pdf Graphic file (type pdf)
+ <use power_viz.pdf>
+Package pdftex.def Info: power_viz.pdf used on input line 135.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
+
+Overfull \hbox (12.64798pt too wide) in paragraph at lines 135--139
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+[]\OT1/ptm/m/n/10 If we can freely choose $\OML/ztmcm/m/it/10 n[]$ \OT1/ptm/m/n
+/10 to op-ti-mize
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+\OT1/ptm/m/n/10 cost, then when-ever $\OT1/ztmcm/m/n/10 (^^A\OML/ztmcm/m/it/10 
+pu[] \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 p[]u[]\OT1/ztmcm/m/n/10 )(\OML/zt
+mcm/m/it/10 T \OMS/ztmcm/m/n/10 ^^@ \OML/ztmcm/m/it/10 t[]\OT1/ztmcm/m/n/10 ) \
+OML/ztmcm/m/it/10 >
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 177--178
+\OML/ztmcm/m/it/10 p[]T \OT1/ztmcm/m/n/10 + \OML/ztmcm/m/it/10 min\OT1/ztmcm/m/
+n/10 (\OML/ztmcm/m/it/10 p[]u[]t[]; p[]u[]t[]\OT1/ztmcm/m/n/10 )$\OT1/ptm/m/n/1
+0 , we would in-crease $\OML/ztmcm/m/it/10 n[]$
+ []
+
+[3 <./usage_viz4.pdf> <./power_viz.pdf
+
+pdfTeX warning: pdflatex (file ./power_viz.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+>] <down_v_pow.pdf, id=149, 433.62pt x 289.08pt>
+File: down_v_pow.pdf Graphic file (type pdf)
+ <use down_v_pow.pdf>
+Package pdftex.def Info: down_v_pow.pdf used on input line 182.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
+
+Overfull \hbox (12.64798pt too wide) in paragraph at lines 182--186
+ [] 
+ []
+
+<down_v_wait.pdf, id=150, 433.62pt x 289.08pt>
+File: down_v_wait.pdf Graphic file (type pdf)
+ <use down_v_wait.pdf>
+Package pdftex.def Info: down_v_wait.pdf used on input line 194.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
+
+Overfull \hbox (12.64798pt too wide) in paragraph at lines 194--198
+ [] 
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+LaTeX Warning: Reference `usage_viz' on page 4 undefined on input line 223.
+
+[4 <./down_v_pow.pdf> <./down_v_wait.pdf
+
+pdfTeX warning: pdflatex (file ./down_v_wait.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+>] <pwr_proc.pdf, id=241, 433.62pt x 216.81pt>
+File: pwr_proc.pdf Graphic file (type pdf)
+ <use pwr_proc.pdf>
+Package pdftex.def Info: pwr_proc.pdf used on input line 232.
+(pdftex.def)             Requested size: 238.49173pt x 119.24586pt.
+
+<pwr_proc_c.pdf, id=242, 433.62pt x 216.81pt>
+File: pwr_proc_c.pdf Graphic file (type pdf)
+ <use pwr_proc_c.pdf>
+Package pdftex.def Info: pwr_proc_c.pdf used on input line 233.
+(pdftex.def)             Requested size: 238.49173pt x 119.24586pt.
+
+Overfull \hbox (12.64798pt too wide) in paragraph at lines 232--237
+ [] 
+ []
+
+
+Overfull \hbox (12.64798pt too wide) in paragraph at lines 232--237
+ [] 
+ []
+
+<ipmi_v_cdu.pdf, id=243, 433.62pt x 289.08pt>
+File: ipmi_v_cdu.pdf Graphic file (type pdf)
+ <use ipmi_v_cdu.pdf>
+Package pdftex.def Info: ipmi_v_cdu.pdf used on input line 244.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
+
+Overfull \hbox (12.64798pt too wide) in paragraph at lines 244--248
+ [] 
+ []
+
+[5 <./pwr_proc.pdf> <./pwr_proc_c.pdf
+
+pdfTeX warning: pdflatex (file ./pwr_proc_c.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+> <./ipmi_v_cdu.pdf
+
+pdfTeX warning: pdflatex (file ./ipmi_v_cdu.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+>] <final.pdf, id=382, 433.62pt x 289.08pt>
+File: final.pdf Graphic file (type pdf)
+ <use final.pdf>
+Package pdftex.def Info: final.pdf used on input line 274.
+(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 284.
+
+(./datacenter_energy.bbl) (./datacenter_energy.ent
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+) [6 <./final.pdf>]
+(./datacenter_energy.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2935 strings out of 494977
+ 42173 string characters out of 6180184
+ 106148 words of memory out of 5000000
+ 6077 multiletter control sequences out of 15000+600000
+ 44083 words of font info for 90 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 38i,8n,23p,1321b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/sy
+mbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on datacenter_energy.pdf (6 pages, 658216 bytes).
+PDF statistics:
+ 462 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+
