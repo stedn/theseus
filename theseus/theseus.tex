@@ -1,0 +1,266 @@
+%
+% File: thesisexample.tex   Version 1.8   May 6, 1999
+%
+% This is an example document for easychithesis, a 
+% LaTeX2e style for formating theses at the University of
+% Chicago.The easychithesis style was written by Bryan Clair and 
+% Nathan Dunfield.  It contains detailed instructions for using
+% easychithesis.
+%
+%  HINTS:
+%
+%  1. To get appendices, you don't do anything different from a normal
+%     report document.  That means, put the command \appendix before
+%     you begin your first appendix, then do each appendix with a
+%     \chapter command.  Note that if you have only one appendix, it is
+%     customary to leave it unnumbered.  Do this with \chapter*.
+%
+%  2.  If you use \chapter*, which produces unnumbered chapters, you 
+%       have to add that chapter to the table of contents by hand, e.g.
+%
+%         \chapter*{Appendix}
+%         \addcontentsline{toc}{chapter}{Appendix}
+%
+%  3.  If you get errors about
+%   
+%    Undefined control sequence.
+%         \setspace@size ...rrsize \normalsize \@normalsize \else \@currsize \fi 
+%
+%     You need a newer version of the file ``setspace.sty''.
+%
+%  4.  Problems with math formulas in chapter headings:
+% 
+%         a.  Any lowercase letters in the formula are converted to
+%         uppercase, e.g. f(x) becomes F(X).   If you really need
+%         lowercase math letters in your chapter titles, use the
+%         option plainchapterheads (and, if you want, type your
+%         chapter titles in ALL CAPS so that the appearance doesn't
+%         change).  Note there is no problem 
+%         for section or subsection headings in either case.  (Options
+%         such as plainchapterheads are given as part of the 
+%         \documentclass command, see below under ``Document Options'').
+%
+%         b.  Some perfectly reasonable math commands when used in
+%         \chapter give the error
+%          ``LATEX ERROR: \command  ALLOWED ONLY IN MATH MODE.''
+%         The solution to this is to do
+%        
+%              \newcommand{\mymath}{problem math goes here}
+%       
+%         and then
+%        
+%              \chapter{All about \protect\mymath}
+%
+%         also, the option plainchapterheads will fix this too.
+%
+%  5. If your References section doesn't show up in the table of
+%     contents, you need to add the line \addcontentsline...
+%     as done at end of this file.   Make sure that you include the 
+%     page break command as done there or else you may end up
+%     with the wrong page number in your table of contents. 
+
+
+\documentclass{easychithesis}
+% Document Options: 
+%
+% Note if you want to save paper when printing drafts, replace the
+% above line by
+% 
+%   \documentclass[singlespace]{easychithesis}
+% 
+% or 
+% 
+%   \documentclass[onehalfspace]{easychithesis}
+%
+% Also the ``double spacing'' provided by this style is not ``true''
+% doublespacing as defined by setspace.sty.  Instead, it is the same
+% as on the old LaTeX 2.09 thesis style ``chithesis''.  If you want 
+% ``true'' doublespacing (if there is such a thing), give the option 
+% truedoublespace.  The increase in tree murder will be on your 
+% conscience, not mine.
+%
+%  Similarly, if you need to use the plainchapterheads option, you do
+%   
+%  \documentclass[plainchapterheads]{easychithesis}
+%
+% You can give more than one option, if you desire.
+
+\begin{document}
+
+% Create the official title
+\title{Big Ass Waste of Time} 
+\author{Will McFadden}
+\date{Sept 2016}
+\department{Biophysical Science}
+\division{Physical Sciences} 
+\degree{Doctor  of Philosophy} 
+\maketitle
+
+% \dedication : Use for a dedication, copyright, or epigraph.
+%               Produces a page with no number for the text which follows
+%               If you want centering, do it yourself with 
+%               \begin{center} and \end{center}.  You can have more
+%               than one `dedication'.
+\dedication
+\begin{center}
+        To 
+\end{center}
+
+
+% \topmatter : Things like Abstract, Acknowledgements.
+% For the abstract, you can also do 
+%      \begin{abstract} ...text... \end{abstract}
+% if you prefer.
+
+\topmatter{Abstract}
+This paper concerns the ridiculous Yes song, ``Cans And Brahms''.
+We investigate what could possibly have prompted Rick Wakeman to
+cover the classic Brahms piano piece with his cheesy Moog synth.
+We explore the relationship between his solo and the other solo
+endeavors on the \emph{Fragile} album.
+
+\topmatter{Acknowledgements}
+I'd like to thank Jason Bermack, who unknowingly played
+\emph{Big Generator} for me in his car, when we were both in high 
+school, thus ensuring a long and fruitful relationship with Yes music 
+throughout my college days.
+
+I'd also like to thank Dave Moulton, who likes Yes too, and 
+accompanied me to my first ever rock concert - Yes in the Oakland 
+Coliseum.  They played ``Awaken'' for 20 minutes.  Wow.
+
+%
+% Table Of Contents
+%
+
+\tableofcontents
+
+%
+% List of figures
+% 
+
+\listoffigures
+
+% 
+% List of tables
+% 
+
+\listoftables
+
+%
+% Begin Body
+%
+\mainmatter
+
+%
+% Body Chapters
+%
+\chapter{Introduction}
+
+
+\chapter{Main Work}
+
+\chapter{Other Solos on Fragile}
+
+\chapter{Yes Excesses Over Time}
+
+%
+% Appendices
+%
+\appendix
+\chapter{Incomplete Discography I}
+Here's a table of some Yes Albums I can think of, in something that's 
+close to but certainly not in chronological order.
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|c|}\hline
+        Time And A Word\\
+        \hline
+        Fragile\\
+        \hline
+        The Yes Album\\
+        \hline 
+        Close To The Edge\\
+        \hline 
+        Tales From Topographic Oceans\\
+        \hline
+        Drama\\
+        \hline
+        Tormato\\
+        \hline 
+        Relayer\\
+        \hline
+        Going For The One\\
+        \hline
+        90125\\
+        \hline 
+        Big Generator\\
+        \hline
+        Union\\
+        \hline 
+        Talk\\
+        \hline
+\end{tabular}
+\caption{Some Yes Albums}
+\end{center}
+\end{table}
+
+\chapter{Yes Members}
+Of course, nobody can keep track of the various members of the band 
+over the years, though Jon and Chris form the backbone and I believe 
+have appeared on every album.  Except maybe Chris missed one in there 
+somewhere.  Anyway, here's some of the other members, with their main 
+instruments.  Pretty much everyone (but Bill?) sings at some point, if 
+only for harmony.
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|c|c|}
+        \hline
+        Jon Anderson & vocals \\
+        Bill Bruford & drums \\
+        Steve Howe & guitar\\
+        Tony Kaye & keyboard\\
+        Trevor Rabin & guitar\\
+        Rick Wakeman & keyboard\\
+        Alan White &drums\\
+        \hline
+\end{tabular}
+\caption{Yes Members}
+\end{center}
+\end{table}
+
+\chapter{Useless figures}
+Here's a pointless figure:
+\begin{figure}[htbp]
+  \begin{center}
+    {\Huge Yes!}
+    \caption{Yes}
+  \end{center}
+\end{figure}
+and another:
+\begin{figure}[htbp]
+   \begin{center}
+     {\Huge No!}
+     \caption{No}
+    \end{center}
+\end{figure}
+
+%
+% References (the thesis office prefers that to Bibliography...)
+%
+% They also prefer that it be single spaced.
+% The pagebreak command is necessary inorder to insure that 
+%  the page number that appears in the table of contents is
+%  the correct one.   
+
+\singlespacing
+\pagebreak
+\addcontentsline{toc}{chapter}{References}
+
+\begin{thebibliography}{99}
+   % the 99 is as wide or wider than any bibliography labels.
+\bibitem{fragile}Anderson, Bruford, Squire, Wakeman.  \emph{Fragile}.
+  Atlantic, 1973.
+\end{thebibliography}
+
+\end{document}

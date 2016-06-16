@@ -1,0 +1,10 @@
+\contentsline {chapter}{Abstract}{iii}
+\contentsline {chapter}{Acknowledgements}{iv}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {chapter}{\numberline {2}Main Work}{2}
+\contentsline {chapter}{\numberline {3}Other Solos on Fragile}{3}
+\contentsline {chapter}{\numberline {4}Yes Excesses Over Time}{4}
+\contentsline {chapter}{\numberline {A}Incomplete Discography I}{5}
+\contentsline {chapter}{\numberline {B}Yes Members}{6}
+\contentsline {chapter}{\numberline {C}Useless figures}{7}
+\contentsline {chapter}{References}{8}
