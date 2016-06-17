@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  17 JUN 2016 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  17 JUN 2016 11:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1380,17 +1380,12 @@ Package epstopdf Info: Source file: <figures/figure6b.eps>
 (epstopdf)                    date: 2016-06-17 11:41:50
 (epstopdf)                    size: 294959 bytes
 (epstopdf)             Output file: <figures/figure6b-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-17 11:40:01
-(epstopdf)                    size: 19570 bytes
+(epstopdf)                    date: 2016-06-17 11:42:10
+(epstopdf)                    size: 19578 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure6b-eps-conve
 rted-to.pdf figures/figure6b.eps>
 (epstopdf)             \includegraphics on input line 511.
-runsystem(repstopdf --outfile=figures/figure6b-eps-converted-to.pdf figures/fig
-ure6b.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/figure6b-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-17 11:42:10
-(epstopdf)                    size: 19578 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <figures/figure6b-eps-converted-to.pdf, id=486, 510.90875pt x 424.58624pt>
 File: figures/figure6b-eps-converted-to.pdf Graphic file (type pdf)
@@ -1503,29 +1498,26 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 580.
+(epstopdf)             \includegraphics on input line 570.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 580.
+e 570.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
  [21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 580.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 580.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
  (./active.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 580.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 580.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
 Package rerunfilecheck Info: File `active.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 580.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 570.
  ) 
 Here is how much of TeX's memory you used:
  10818 strings out of 493117
