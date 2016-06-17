@@ -481,7 +481,7 @@ We have shown that filament recycling has a strong impact on both passive and ac
  
 
 \paragraph{Filament recycling tunes the magnitudes of both effective viscosity and steady state stress.}  
-To begin, we repeated the single domain (passive or active) simulations while varying all of our networks microscopic parameters.   By exploring the effect of these parameters on the output variables we were able to determine the general form of the dependence. In Figure \ref{fig:rec_form}, we illustrate the data collapse of all our simulation results (See Supp. for details of parameter exploration).  Interestingly, both the viscosity (in Figure \ref{fig:rec_form}a) and stress (in Figure \ref{fig:rec_form}b) show changes in behaviors on either side of their respective governing timescales ($\tau_c$ for viscosity and $\tau_a$ for active stress).  Effective viscosity was found to be independent of recycling time until recycling time became of the same order as the elastic to viscous crossover timescale, at which point it decreased with decreasing recycling time.  Similarly, the steady state stress increases with increasing recycling time until it reaches the point of peak stress buildup.  From that point it decreases with increasing recycling time.
+To begin, we repeated the single domain (passive or active) simulations while varying all of our networks microscopic parameters.   By exploring the effect of these parameters on the output variables we were able to determine the general form of the dependence. In Figure \ref{fig:rec_form}, we illustrate the data collapse of all our simulation results (See \nameref{fig:S1_Table} for details of parameter exploration).  Interestingly, both the viscosity (in Figure \ref{fig:rec_form}a) and stress (in Figure \ref{fig:rec_form}b) show changes in behaviors on either side of their respective governing timescales ($\tau_c$ for viscosity and $\tau_a$ for active stress).  Effective viscosity was found to be independent of recycling time until recycling time became of the same order as the elastic to viscous crossover timescale, at which point it decreased with decreasing recycling time.  Similarly, the steady state stress increases with increasing recycling time until it reaches the point of peak stress buildup.  From that point it decreases with increasing recycling time.
 
 
 \begin{figure}[h!]
@@ -492,7 +492,7 @@ To begin, we repeated the single domain (passive or active) simulations while va
 
 
 \paragraph{Filament recycling allows sustained flows in networks with non-isotropic activity.}
-To clearly interrogate the mutual dependencies of effective viscosity and active stress, we next combined passive and active elements in the same simulations.  As illustrated in Figure \ref{fig:flow_ex}a, we generated networks where the left side of the domain contained only passive cross-linkers, while the right side contained a mix of active and passive cross-links.  In these, network we observed a sharp dependence on filament recycling rate.  In the $\tau_r=1000$ s case, filaments deformed more extensively (orange lines), and the network developed noticeable spatial heterogeneity.  On the other hand for shorter recycling time of $\tau_r=33$ s, the network remained much more connected and filaments underwent less total compressional strain.  We measured the flow profile across the entire simulation and observed that in both cases the flow field converged on the region at the (See Supp.) in a manner highly similar to physiological flow profiles found in e.g. \textit{C. elegant} embryos.  However, there were large differences in the magnitude and duration of the resulting flows which depended on the recycling time.
+To clearly interrogate the mutual dependencies of effective viscosity and active stress, we next combined passive and active elements in the same simulations.  As illustrated in Figure \ref{fig:flow_ex}a, we generated networks where the left side of the domain contained only passive cross-linkers, while the right side contained a mix of active and passive cross-links.  In these networks, we observed a sharp dependence of flow behavior on filament recycling rate.  In the $\tau_r=1000 s$ case, filaments deformed more extensively (orange lines), and the network developed noticeable spatial heterogeneity.  On the other hand for shorter recycling time of $\tau_r=33$ s, the network remained much more connected and filaments underwent less total compressional strain.  We measured the flow profile across the entire simulation and observed that in both cases the flow field converged on the region at the midline (See \nameref{fig:S6_Fig}) in a manner highly similar to physiological flow profiles found in e.g. \textit{C. elegant} embryos.  However, there were large differences in the magnitude and duration of the resulting flows which depended on the recycling time.
 
 To understand the time progression of the flow profile, we measured the average network strain over time.  From this measurement, we could see a sharp dependence of the behavior on the recycling time, as shown in Figure \ref{fig:rec_form}b.  For very long recycling times ($\tau_r=1000$, dark blue line), the network showed a rapid initial deformation that quickly reached its limit and stalled.  However, with decreasing filament recycling times, we found the network was able to sustain its deformation and that the long term strain rate rose toward an asymptotic limit.  At the shortest recycling timescales measured, we still saw the effective viscosity remaining relatively high, indicating that for sufficiently short recycling times the effective viscosity may approach an asymptotic flow rate.
 
@@ -523,11 +523,26 @@ As a final point, we wished to mention what happens when filament recycling is h
 \section*{Conclusion}
 Our work aimed to create a simulation framework that would allow us to analyze the origins of macroscopic flow in terms of a handful of physiologically relevant microscopic parameters.  Toward this aim we developed a minimalist model of a 2D filament network and analyzed the network's reaction to a variety of situations.  We found mathematical relationships that determined both the passive effective viscosity and the active stress generation of networks with and without recycling.  From these relationships we were able to make predictions about the .  
 
-Importantly, our work brings a theoretical understanding to the importance of actomysoin turnover in producing and maintaining long-term large scale flows.  This is not entirely surprising due to the abundance of physiological mechanisms for generating network turnover.  We propose the concept of "filament recycling" to refer to the multitude of biochemical interactions which can give rise to the piece by piece architectural resetting of filament networks.  We believe that our analysis of networks in the presence of this filament recycling will be useful in further developing the qualitative and quantitative understanding the deformation of these complex networks.
+Importantly, our work brings a theoretical understanding to the importance of actomyosin turnover in producing and maintaining long-term large scale flows.  This is not entirely surprising due to the abundance of physiological mechanisms for generating network turnover.  We propose the concept of "filament recycling" to refer to the multitude of biochemical interactions which can give rise to the piece by piece architectural resetting of filament networks.  We believe that our analysis of networks in the presence of this filament recycling will be useful in further developing the qualitative and quantitative understanding the deformation of these complex networks.
 
 \section*{Supporting Information}
 
 % Include only the SI item label in the subsection heading. Use the \nameref{label} command to cite SI items in the text.
+\paragraph*{S1 Fig.}
+\label{S1_Fig}
+{\bf Bold the title sentence.} Add descriptive text after the title of the item (optional).
+
+\paragraph*{S6 Fig.}
+\label{fig:S6_Fig}
+{\bf Spatial velocity profile of networks containing passive and active domains.} 
+
+\paragraph*{S1 Table.}
+\label{S1_Table}
+{\bf Lorem Ipsum.}  Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
+
+\paragraph*{S1 Video.}
+\label{S1_Video}
+{\bf Lorem Ipsum.}  Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
 
 \section*{Acknowledgments}
 We would like to thank Shiladitya Banerjee and Patrick McCall for stimulating discussions.
