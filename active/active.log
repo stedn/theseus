@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 JUN 2016 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 JUN 2016 14:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1359,7 +1359,7 @@ rted-to.pdf figures/figure6b.eps>
 (epstopdf)             \includegraphics on input line 517.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure6b-eps-converted-to.pdf, id=543, 510.90875pt x 424.58624pt>
+<figures/figure6b-eps-converted-to.pdf, id=545, 510.90875pt x 424.58624pt>
 File: figures/figure6b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure6b-eps-converted-to.pdf>
@@ -1494,7 +1494,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 572.
 Here is how much of TeX's memory you used:
  10823 strings out of 493117
  163766 string characters out of 6135433
- 304758 words of memory out of 5000000
+ 304769 words of memory out of 5000000
  13900 multiletter control sequences out of 15000+600000
  10590 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1516,10 +1516,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on active.pdf (22 pages, 1530586 bytes).
+Output written on active.pdf (22 pages, 1530508 bytes).
 PDF statistics:
- 698 PDF objects out of 1000 (max. 8388607)
- 552 compressed objects within 6 object streams
+ 700 PDF objects out of 1000 (max. 8388607)
+ 554 compressed objects within 6 object streams
  128 named destinations out of 1000 (max. 500000)
  12856 words of extra memory for PDF output out of 14400 (max. 10000000)
 
