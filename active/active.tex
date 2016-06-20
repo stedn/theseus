@@ -400,7 +400,13 @@ vs time for the simulation in (a), illustrating the three stages of deformation:
 
 An intuitive explanation for this effect is that rapid recycling increases the network?s ability to sustain the faster deformation rate that occurs during the initial viscoelastic response to applied stress. By constantly turning over strained network elements and replacing them with unstrained filaments, the network is able to dissipate stored elastic stress to maintain itself indefinitely within the viscoelastic response regime.  
 
-To confirm this relationship more generally, we plotted the normalized effective viscosity (ratio of effective viscosity with recycling to effective viscosity without recycling, $\eta_c$) vs a normalized recycling rate (recycling time scaled by $\tau_c$) for a large range of different network parameters and filament recycling times (Figure \ref{fig:rec_form}). Indeed, for a large range of network parameters, the normalized effective viscosity begins to decrease when the recycling time falls below $\tau_c$ and below this value the effective viscosity falls off linearly with recycling time.
+To confirm this relationship more generally, we plotted the normalized effective viscosity (ratio of effective viscosity with recycling to effective viscosity without recycling, $\eta_c$) vs a normalized recycling rate (recycling time scaled by $\tau_c$) for a large range of different network parameters and filament recycling times (Figure \ref{fig:rec_form}). Indeed, for a large range of network parameters, the normalized effective viscosity begins to decrease when the recycling time falls below $\tau_c$ and below this value the effective viscosity falls off linearly with recycling time.  To describe this we introduce (based on linear viscoelastic models of \cite{mccrum1997principles}) an effective recycling viscosity, $\eta_r$, which can be tuned between the constant and linear regimes, depending on the value of the recycling timescale.
+
+\begin{equation}
+\frac{1}{\eta_r} = \frac{1}{\eta_c}  + \frac{1}{G_0\tau_c}e^{-\tau_r/\tau_c}
+\end{equation}
+
+In long $\tau_r\gg\tau_c$ limit, this simplifies to $\eta_r=\eta_c$, while in the short $\tau_r\ll\tau_c$ limit, this simplifies to $\eta_r\sim\tau_r$, which matches qualitatively with our estimate as found in Figure \ref{fig:rec_form}.
 
 \begin{figure}[h!]
 \centering
