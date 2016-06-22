@@ -396,7 +396,24 @@ vs time for the simulation in (a), illustrating the three stages of deformation:
 
 
 % Passive Recycling
-\paragraph{Filament recycling rescues network tearing and modulates effective viscosity.}  To explore how the passive network response to an applied force changed in the presence of filament recycling, we ran a series of simulations with identical filament lengths and network densities and crosslink drag coefficients, while varying the rate of filament recycling. Increasing  filament recycling rates produced two  striking changes in the long time response of the network. \ref{fig:passive_rec} illustrates the results for a particular set of network parameters.  In the absence of filament recycling, strain thinning and network tearing  lead to a rapid increase in strain rate above a critical strain of $\sim40\%$. In contrast, when filaments are made to recycle with an average lifetime of 10 s, the same network, in response to the same level of applied stress, can sustain effectively viscous deformation, at a much higher strain rate (i.e. a much lower effective viscosity), for an indefinite period of time.  Plotting effective viscosity as a function of decreasing recycling times for this choice of network parameters revealed sharp decrease in effective viscosity as the recycling time exceeded $\tau_c$, the characteristic time for transition to viscous deformation.  
+\paragraph{Filament recycling rescues network tearing.}  To explore how the passive network response to an applied force changed in the presence of filament recycling, we ran a series of simulations with identical filament lengths and network densities and cross-link drag coefficients, while varying the rate of filament recycling. Figure \ref{fig:passive_rec} illustrates the results for a particular set of network parameters.  In the absence of filament recycling, strain thinning and network tearing lead to a rapid increase in strain rate above a critical strain of $\sim40\%$. In contrast, when filaments are made to recycle with an average lifetime of 10 s, the same network, in response to the same level of applied stress, can sustain effectively viscous deformation.  
+
+The prevention of tearing is directly due to the replenishment of strain thinning in the patch by filaments being recycled back into the domain of applied force.  Therefore, we can find the level of filament recycling required to maintain an indefinite viscous flow by analyzing the balance of density lost to straining vs the filament replenished by recycling.  The equation for the change in filament length density, $\rho$, depends both on filament recycling ($k_{app}-k_{diss}\rho$)and strain thinning ($-\dot{\gamma}\rho$).  These terms can be rewritten to give the following 
+
+\begin{equation}
+\frac{d \rho}{dt} = \frac{\rho_0-\rho}{\tau_r}  - \frac{\sigma}{\xi \eta_c(\rho)} \rho
+\end{equation}
+
+For our networks, the effective viscosity, $\eta_c$, is dependent on the filament density (through $l_c$) so this dependence must be included in the equation. Solving this equation for its steady states, and replacing the initial density, $\rho_0$, with the length density approximation, $1/l_c$, we find that a steady state density only exists under the condition $\tau_r<\eta_c/4\sigma$.  This establishes as shown in Figure \label{fig:passive_rec}, 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\hsize]{figures/figure5a}
+\caption{\label{fig:passive_rec}  Filament recycling rescues network tearing and modulates effective viscosity.  \textbf{a)} Examples of $20 \times 12 \mu m$ network under 0.001 $nN/\mu m$ extensional stress with recycling ($\tau_r=10 s$) and without, ($\tau_r=\infty$).  Both images are taken when the patches had reached a net strain of 0.4.  The network with recycling doesn't appear to change shape because its components have been recycled to remain in the original domain.  Network parameters: $L=3\: \mu m$, $l_c=0.5\: \mu m$, $\xi=10\: nN\cdot s$.  \textbf{b)}  Strain buildup for networks with parameters as in a) in the presence of different filament recycling rates. Dotted line indicates the strain state at which the snapshots in panel a) were taken.  Note that the strain rate for $\tau_r=1000$ is essentially identical to that of $\tau_r=\infty$, indicating that recycling does not govern the relaxation rate if the recycling time is above a threshold.}
+\end{figure}
+
+\paragraph{Filament recycling modulates effective viscosity in two regimes.}
+Plotting effective viscosity as a function of decreasing recycling times for this choice of network parameters revealed sharp decrease in effective viscosity as the recycling time exceeded $\tau_c$, the characteristic time for transition to viscous deformation.  
 
 An intuitive explanation for this effect is that rapid recycling increases the network?s ability to sustain the faster deformation rate that occurs during the initial viscoelastic response to applied stress. By constantly turning over strained network elements and replacing them with unstrained filaments, the network is able to dissipate stored elastic stress to maintain itself indefinitely within the viscoelastic response regime.  
 
@@ -408,11 +425,7 @@ To confirm this relationship more generally, we plotted the normalized effective
 
 In long $\tau_r\gg\tau_c$ limit, this simplifies to $\eta_r=\eta_c$, while in the short $\tau_r\ll\tau_c$ limit, this simplifies to $\eta_r\sim\tau_r$, which matches qualitatively with our estimate as found in Figure \ref{fig:rec_form}.
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=\hsize]{figures/figure5a}
-\caption{\label{fig:passive_rec}  Filament recycling rescues network tearing and modulates effective viscosity.  \textbf{a)} Examples of $20 \times 12 \mu m$ network under 0.001 $nN/\mu m$ extensional stress with recycling ($\tau_r=10 s$) and without, ($\tau_r=\infty$).  Both images are taken when the patches had reached a net strain of 0.4.  The network with recycling doesn't appear to change shape because its components have been recycled to remain in the original domain.  Network parameters: $L=3\: \mu m$, $l_c=0.5\: \mu m$, $\xi=10\: nN\cdot s$.  \textbf{b)}  Strain buildup for networks with parameters as in a) in the presence of different filament recycling rates. Dotted line indicates the strain state at which the snapshots in panel a) were taken.  Note that the strain rate for $\tau_r=1000$ is essentially identical to that of $\tau_r=\infty$, indicating that recycling does not govern the relaxation rate if the recycling time is above a threshold.}
-\end{figure}
+
 
 %Discuss
 Taken together, our results for the passive network under extension suggest that the passive stress relaxation of our network model is modified strongly by the presence of filament recycling. Given high enough levels of recycling, we find that network tearing can be prevented and that a steady state effective viscosity is established. For a particular network architecture, tuning recycling rates allows the same network to undergo continuous viscous deformation, for long times, without tearing, for a wide range of different effective viscosities and deformation rates.  Furthermore, filament recycling can tune the network to operate in either of two regimes.  At long recycling timescales, the deformation is limited by effective cross-link friction, governed by a simple microscopic derivation of viscosity which depends on the strength of inter-filament cross-linking and the network's architecture. For recycling times below $\tau_c$, the deformation is strongly governed by the viscoelastic strain response of network filaments, which causes the effective viscosity to be strongly dependent on recycling time.  
