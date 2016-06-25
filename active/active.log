@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 JUN 2016 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 JUN 2016 09:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1115,7 +1115,7 @@ rted-to.pdf figures/figure3b.eps>
 (epstopdf)             \includegraphics on input line 393.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure3b-eps-converted-to.pdf, id=362, 487.8225pt x 249.93375pt>
+<figures/figure3b-eps-converted-to.pdf, id=360, 487.8225pt x 249.93375pt>
 File: figures/figure3b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure3b-eps-converted-to.pdf>
@@ -1150,7 +1150,7 @@ rted-to.pdf figures/figure5a.eps>
 (epstopdf)             \includegraphics on input line 411.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure5a-eps-converted-to.pdf, id=384, 531.9875pt x 207.77625pt>
+<figures/figure5a-eps-converted-to.pdf, id=382, 531.9875pt x 207.77625pt>
 File: figures/figure5a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure5a-eps-converted-to.pdf>
@@ -1201,7 +1201,7 @@ rted-to.pdf figures/figure4a.eps>
 (epstopdf)             \includegraphics on input line 456.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure4a-eps-converted-to.pdf, id=435, 519.9425pt x 325.215pt>
+<figures/figure4a-eps-converted-to.pdf, id=433, 519.9425pt x 325.215pt>
 File: figures/figure4a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure4a-eps-converted-to.pdf>
@@ -1236,7 +1236,7 @@ rted-to.pdf figures/figure4b.eps>
 (epstopdf)             \includegraphics on input line 470.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure4b-eps-converted-to.pdf, id=464, 525.965pt x 326.21875pt>
+<figures/figure4b-eps-converted-to.pdf, id=462, 525.965pt x 326.21875pt>
 File: figures/figure4b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure4b-eps-converted-to.pdf>
@@ -1271,7 +1271,7 @@ rted-to.pdf figures/figure5b.eps>
 (epstopdf)             \includegraphics on input line 484.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure5b-eps-converted-to.pdf, id=498, 499.8675pt x 234.8775pt>
+<figures/figure5b-eps-converted-to.pdf, id=496, 499.8675pt x 234.8775pt>
 File: figures/figure5b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure5b-eps-converted-to.pdf>
@@ -1309,7 +1309,7 @@ Package epstopdf Info: Source file: <figures/figure5S.eps>
 rted-to.pdf figures/figure5S.eps>
 (epstopdf)             \includegraphics on input line 508.
 Package epstopdf Info: Output file is already uptodate.
-<figures/figure5S-eps-converted-to.pdf, id=519, 484.81125pt x 182.6825pt>
+<figures/figure5S-eps-converted-to.pdf, id=517, 484.81125pt x 182.6825pt>
 File: figures/figure5S-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure5S-eps-converted-to.pdf>
@@ -1344,7 +1344,7 @@ rted-to.pdf figures/figure6a.eps>
 (epstopdf)             \includegraphics on input line 520.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure6a-eps-converted-to.pdf, id=542, 514.92375pt x 261.97874pt>
+<figures/figure6a-eps-converted-to.pdf, id=540, 514.92375pt x 261.97874pt>
 File: figures/figure6a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure6a-eps-converted-to.pdf>
@@ -1362,7 +1362,7 @@ rted-to.pdf figures/figure6b.eps>
 (epstopdf)             \includegraphics on input line 530.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure6b-eps-converted-to.pdf, id=546, 510.90875pt x 424.58624pt>
+<figures/figure6b-eps-converted-to.pdf, id=544, 510.90875pt x 424.58624pt>
 File: figures/figure6b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure6b-eps-converted-to.pdf>
@@ -1497,7 +1497,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 585.
 Here is how much of TeX's memory you used:
  10825 strings out of 493117
  163789 string characters out of 6135433
- 304808 words of memory out of 5000000
+ 304843 words of memory out of 5000000
  13900 multiletter control sequences out of 15000+600000
  10590 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1519,10 +1519,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on active.pdf (22 pages, 1532345 bytes).
+Output written on active.pdf (22 pages, 1532583 bytes).
 PDF statistics:
- 702 PDF objects out of 1000 (max. 8388607)
- 556 compressed objects within 6 object streams
+ 700 PDF objects out of 1000 (max. 8388607)
+ 554 compressed objects within 6 object streams
  130 named destinations out of 1000 (max. 500000)
  12856 words of extra memory for PDF output out of 14400 (max. 10000000)
 
