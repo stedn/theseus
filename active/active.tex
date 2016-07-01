@@ -271,7 +271,7 @@ where the modulus, $\mu$, is a composite quantity representing both filament and
 
 \subsection*{Drag-like Coupling Between Overlapping Filaments}
 \label{exp_drag}
-Previous models represent cross-linkers as elastic connections between pairs of points on neighboring filaments that appear and disappear with either fixed or strain-dependent probabilities \cite{model_taeyoontheo_crosslinknonlinear}.  Here, we introduce a simpler coarse-grained model for dynamic cross-links by replacing many transient elastic interactions with an effective drag-like coupling between every pair of overlapping segments.
+Previous models represent cross-linkers as elastic connections between pairs of points on neighboring filaments that appear and disappear with either fixed or strain-dependent probabilities \cite{model_taeyoon,theo_crosslinknonlinear}.  Here, we introduce a simpler coarse-grained model for dynamic cross-links by replacing many transient elastic interactions with an effective drag-like coupling between every pair of overlapping segments.
 \begin{equation}
 \label{eqn:drag}
 \mathbf{F^{\xi}_i} = \xi \cdot \int^{s_{i+1}}_{s_{i-1}} ds \frac{l_s-|s-s_i|}{l_s} \: (\mathbf{v_i}-\mathbf{v_j}) \: p_{ij}(s)

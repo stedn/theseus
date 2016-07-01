@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  1 JUL 2016 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  1 JUL 2016 15:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -994,10 +994,6 @@ Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
 e 256.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
  [4 <./figures/fig2/fig2.pdf>]
-
-LaTeX Warning: Citation `model_taeyoontheo_crosslinknonlinear' on page 5 undefi
-ned on input line 274.
-
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1009,6 +1005,7 @@ ted-to.pdf PLOS-submission.eps>
 (epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
+
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
 e 292.
@@ -1078,7 +1075,7 @@ rted-to.pdf figures/figure3a.eps>
 (epstopdf)             \includegraphics on input line 381.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure3a-eps-converted-to.pdf, id=336, 511.9125pt x 329.23pt>
+<figures/figure3a-eps-converted-to.pdf, id=338, 511.9125pt x 329.23pt>
 File: figures/figure3a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure3a-eps-converted-to.pdf>
@@ -1113,7 +1110,7 @@ rted-to.pdf figures/figure3b.eps>
 (epstopdf)             \includegraphics on input line 390.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure3b-eps-converted-to.pdf, id=366, 487.8225pt x 249.93375pt>
+<figures/figure3b-eps-converted-to.pdf, id=368, 487.8225pt x 249.93375pt>
 File: figures/figure3b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure3b-eps-converted-to.pdf>
@@ -1131,7 +1128,7 @@ rted-to.pdf figures/figure5a.eps>
 (epstopdf)             \includegraphics on input line 400.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure5a-eps-converted-to.pdf, id=368, 530.98375pt x 376.40625pt>
+<figures/figure5a-eps-converted-to.pdf, id=370, 530.98375pt x 376.40625pt>
 File: figures/figure5a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure5a-eps-converted-to.pdf>
@@ -1201,7 +1198,7 @@ rted-to.pdf figures/figure4a.eps>
 (epstopdf)             \includegraphics on input line 454.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure4a-eps-converted-to.pdf, id=428, 519.9425pt x 325.215pt>
+<figures/figure4a-eps-converted-to.pdf, id=430, 519.9425pt x 325.215pt>
 File: figures/figure4a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure4a-eps-converted-to.pdf>
@@ -1236,7 +1233,7 @@ rted-to.pdf figures/figure4b.eps>
 (epstopdf)             \includegraphics on input line 477.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure4b-eps-converted-to.pdf, id=470, 525.965pt x 326.21875pt>
+<figures/figure4b-eps-converted-to.pdf, id=472, 525.965pt x 326.21875pt>
 File: figures/figure4b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure4b-eps-converted-to.pdf>
@@ -1274,7 +1271,7 @@ rted-to.pdf figures/figure5b.eps>
 (epstopdf)             \includegraphics on input line 493.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure5b-eps-converted-to.pdf, id=492, 501.875pt x 430.60875pt>
+<figures/figure5b-eps-converted-to.pdf, id=494, 501.875pt x 430.60875pt>
 File: figures/figure5b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure5b-eps-converted-to.pdf>
@@ -1328,7 +1325,7 @@ rted-to.pdf figures/figure6a.eps>
 (epstopdf)             \includegraphics on input line 529.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure6a-eps-converted-to.pdf, id=545, 514.92375pt x 461.725pt>
+<figures/figure6a-eps-converted-to.pdf, id=547, 514.92375pt x 461.725pt>
 File: figures/figure6a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure6a-eps-converted-to.pdf>
@@ -1370,7 +1367,7 @@ rted-to.pdf figures/figure6b.eps>
 (epstopdf)             \includegraphics on input line 543.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure6b-eps-converted-to.pdf, id=561, 498.86375pt x 203.76125pt>
+<figures/figure6b-eps-converted-to.pdf, id=563, 498.86375pt x 203.76125pt>
 File: figures/figure6b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure6b-eps-converted-to.pdf>
@@ -1503,10 +1500,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 613.
  ) 
 Here is how much of TeX's memory you used:
- 10827 strings out of 493117
- 163735 string characters out of 6135433
- 304005 words of memory out of 5000000
- 13900 multiletter control sequences out of 15000+600000
+ 10826 strings out of 493117
+ 163697 string characters out of 6135433
+ 303969 words of memory out of 5000000
+ 13899 multiletter control sequences out of 15000+600000
  10590 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,15n,43p,2223b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1527,10 +1524,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on active.pdf (23 pages, 1482874 bytes).
+Output written on active.pdf (23 pages, 1482870 bytes).
 PDF statistics:
- 730 PDF objects out of 1000 (max. 8388607)
- 583 compressed objects within 6 object streams
+ 732 PDF objects out of 1000 (max. 8388607)
+ 585 compressed objects within 6 object streams
  133 named destinations out of 1000 (max. 500000)
  12851 words of extra memory for PDF output out of 14400 (max. 10000000)
 
