@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 JUL 2016 09:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 JUL 2016 09:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -781,11 +781,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(./active.aux
-
-LaTeX Warning: Label `eqn:simple_sigma' multiply defined.
-
-)
+No file active.aux.
 \openout1 = `active.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
@@ -803,7 +799,7 @@ LaTeX Font Info:    ... okay on input line 158.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 158.
 
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 158.
@@ -849,7 +845,6 @@ Package hyperref Info: Link coloring OFF on input line 158.
 LaTeX Info: Redefining \ref on input line 158.
 LaTeX Info: Redefining \pageref on input line 158.
 LaTeX Info: Redefining \nameref on input line 158.
-(./active.out) (./active.out)
 \@outlinefile=\write3
 \openout3 = `active.out'.
 
@@ -863,7 +858,6 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
@@ -910,6 +904,53 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+
+LaTeX Warning: Citation `cellmech_flows3' on page 1 undefined on input line 223
+.
+
+
+LaTeX Warning: Citation `cellmech_flows2' on page 1 undefined on input line 223
+.
+
+
+LaTeX Warning: Citation `Salbreux2012536' on page 1 undefined on input line 223
+.
+
+
+LaTeX Warning: Citation `Munro2004413' on page 1 undefined on input line 223.
+
+
+LaTeX Warning: Citation `cellmech_flows' on page 1 undefined on input line 225.
+
+
+
+LaTeX Warning: Citation `PhysRevLett.106.028103' on page 1 undefined on input l
+ine 225.
+
+
+LaTeX Warning: Citation `cellmech_flows' on page 1 undefined on input line 225.
+
+
+
+LaTeX Warning: Citation `Turlier2014114' on page 1 undefined on input line 225.
+
+
+
+LaTeX Warning: Citation `PhysRevLett.103.058102' on page 1 undefined on input l
+ine 225.
+
+
+LaTeX Warning: Citation `Keren:2009aa' on page 1 undefined on input line 225.
+
+
+LaTeX Warning: Citation `RevModPhys.85.1143' on page 1 undefined on input line 
+225.
+
+
+LaTeX Warning: Citation `Heisenberg2013948' on page 1 undefined on input line 2
+25.
+
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -920,8 +961,7 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 ted-to.pdf PLOS-submission.eps>
 (epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
-
-<PLOS-submission-eps-converted-to.pdf, id=16, 216.81pt x 35.13126pt>
+<PLOS-submission-eps-converted-to.pdf, id=4, 216.81pt x 35.13126pt>
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 
 <use PLOS-submission-eps-converted-to.pdf>
@@ -935,10 +975,137 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 226.
+
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./PLOS-
 submission-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `cellmech_flows' on page 2 undefined on input line 229.
+
+
+
+LaTeX Warning: Citation `cellmech_flows2' on page 2 undefined on input line 229
+.
+
+
+LaTeX Warning: Citation `cellmech_flows3' on page 2 undefined on input line 229
+.
+
+
+LaTeX Warning: Citation `rheo_fluid' on page 2 undefined on input line 229.
+
+
+LaTeX Warning: Citation `rheo_fluid2' on page 2 undefined on input line 229.
+
+
+LaTeX Warning: Citation `cell_rheo_exp' on page 2 undefined on input line 229.
+
+
+LaTeX Warning: Citation `rheo_crosslinksmatter' on page 2 undefined on input li
+ne 229.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip1' on page 2 undefined on input line
+ 229.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip2' on page 2 undefined on input line
+ 229.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip3' on page 2 undefined on input line
+ 229.
+
+
+LaTeX Warning: Citation `rheo_nonaffine' on page 2 undefined on input line 229.
+
+
+
+LaTeX Warning: Citation `Robin:2014aa' on page 2 undefined on input line 229.
+
+
+LaTeX Warning: Citation `theo_crosslinkslip1' on page 2 undefined on input line
+ 229.
+
+
+LaTeX Warning: Citation `theo_crosslinkslip2' on page 2 undefined on input line
+ 229.
+
+
+LaTeX Warning: Citation `model_taeyoon' on page 2 undefined on input line 229.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip2' on page 2 undefined on input line
+ 229.
+
+
+LaTeX Warning: Citation `theo_crosslinkslip3' on page 2 undefined on input line
+ 229.
+
+
+LaTeX Warning: Citation `Mak:2016aa' on page 2 undefined on input line 229.
+
+
+LaTeX Warning: Citation `rheo_2D1' on page 2 undefined on input line 231.
+
+
+LaTeX Warning: Citation `1367-2630-14-3-033037' on page 2 undefined on input li
+ne 231.
+
+
+LaTeX Warning: Citation `PhysRevX.4.041002' on page 2 undefined on input line 2
+31.
+
+
+LaTeX Warning: Citation `PhysRevX.4.041002' on page 2 undefined on input line 2
+31.
+
+
+LaTeX Warning: Citation `10.1371/journal.pone.0039869' on page 2 undefined on i
+nput line 231.
+
+
+LaTeX Warning: Citation `Alvarado:2013aa' on page 2 undefined on input line 231
+.
+
+
+LaTeX Warning: Citation `C0SM00494D' on page 2 undefined on input line 231.
+
+
+LaTeX Warning: Citation `0295-5075-85-1-18007' on page 2 undefined on input lin
+e 231.
+
+
+LaTeX Warning: Citation `rheo_active' on page 2 undefined on input line 231.
+
+
+LaTeX Warning: Citation `Alvarado:2013aa' on page 2 undefined on input line 233
+.
+
+
+LaTeX Warning: Citation `Ndlec:1997aa' on page 2 undefined on input line 233.
+
+
+LaTeX Warning: Citation `Surrey1167' on page 2 undefined on input line 233.
+
+
+LaTeX Warning: Citation `2015arXiv150706182H' on page 2 undefined on input line
+ 233.
+
+
+LaTeX Warning: Citation `Mak:2016aa' on page 2 undefined on input line 233.
+
+
+LaTeX Warning: Citation `10.1371/journal.pone.0000696' on page 2 undefined on i
+nput line 233.
+
+
+LaTeX Warning: Citation `PhysRevLett.113.148102' on page 2 undefined on input l
+ine 233.
+
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -947,15 +1114,33 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 232.
+(epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
- <use PLOS-submission-eps-converted-to.pdf>
+<use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 232.
+e 234.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
 
-[2] <figures/fig2/fig2.pdf, id=120, 366.03851pt x 429.10312pt>
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 234.
+
+[2]
+
+LaTeX Warning: Citation `theo_friction' on page 3 undefined on input line 237.
+
+
+LaTeX Warning: Citation `theo_frictionSam' on page 3 undefined on input line 23
+7.
+
+
+LaTeX Warning: Citation `theo_molefric' on page 3 undefined on input line 237.
+
+
+LaTeX Warning: Citation `theo_frictionShila' on page 3 undefined on input line 
+237.
+
+<figures/fig2/fig2.pdf, id=28, 366.03851pt x 429.10312pt>
 File: figures/fig2/fig2.pdf Graphic file (type pdf)
 
 <use figures/fig2/fig2.pdf>
@@ -965,39 +1150,34 @@ Package pdftex.def Info: figures/fig2/fig2.pdf used on input line 247.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package epstopdf Info: Source file: <PLOS-submission.eps>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 283246 bytes
-(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 2399 bytes
-(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
-ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 255.
-Package epstopdf Info: Output file is already uptodate.
-File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-<use PLOS-submission-eps-converted-to.pdf>
-Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 255.
-(pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [3]
-Package epstopdf Info: Source file: <PLOS-submission.eps>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 283246 bytes
-(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 2399 bytes
-(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
-ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 257.
-Package epstopdf Info: Output file is already uptodate.
-File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 
-<use PLOS-submission-eps-converted-to.pdf>
-Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 257.
-(pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [4 <./figures/fig2/fig2.pdf>]
+LaTeX Warning: Citation `cellmech_flows' on page 3 undefined on input line 252.
+
+
+
+LaTeX Warning: Citation `rheo_2D1' on page 3 undefined on input line 252.
+
+
+LaTeX Warning: Citation `rheo_2D2' on page 3 undefined on input line 252.
+
+
+LaTeX Warning: Citation `theo_crosslinknonlinear' on page 3 undefined on input 
+line 267.
+
+
+LaTeX Warning: Citation `theo_hlm' on page 3 undefined on input line 267.
+
+
+LaTeX Warning: Citation `theo_hlm2' on page 3 undefined on input line 267.
+
+
+LaTeX Warning: Citation `theo_crosslinknonlinear' on page 3 undefined on input 
+line 267.
+
+
+LaTeX Warning: Citation `theo_crosslinknonlinear' on page 3 undefined on input 
+line 267.
+
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1006,15 +1186,18 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 295.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 295.
+e 268.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [5]
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 268.
+
+[3]
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1023,15 +1206,49 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 327.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-
-<use PLOS-submission-eps-converted-to.pdf>
+ <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 327.
+e 268.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [6]
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 268.
+
+[4 <./figures/fig2/fig2.pdf>]
+
+LaTeX Warning: Citation `model_taeyoon' on page 5 undefined on input line 273.
+
+
+LaTeX Warning: Citation `theo_crosslinknonlinear' on page 5 undefined on input 
+line 273.
+
+
+LaTeX Warning: Citation `mol_fric' on page 5 undefined on input line 279.
+
+
+LaTeX Warning: Citation `theo_hydroish2' on page 5 undefined on input line 279.
+
+
+
+LaTeX Warning: Citation `theo_frictionShila' on page 5 undefined on input line 
+279.
+
+
+LaTeX Warning: Citation `Unterberger2014' on page 5 undefined on input line 308
+.
+
+
+LaTeX Warning: Citation `theo_hlm' on page 5 undefined on input line 308.
+
+
+LaTeX Warning: Citation `theo_hlm' on page 5 undefined on input line 308.
+
+
+LaTeX Warning: Citation `theo_hlm2' on page 5 undefined on input line 308.
+
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1040,15 +1257,107 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 364.
+(epstopdf)             \includegraphics on input line 309.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 364.
+e 309.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [7]
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 309.
+
+[5]
+
+LaTeX Warning: Reference `eqn:syst3' on page 6 undefined on input line 312.
+
+Package epstopdf Info: Source file: <PLOS-submission.eps>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 283246 bytes
+(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 2399 bytes
+(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
+ted-to.pdf PLOS-submission.eps>
+(epstopdf)             \includegraphics on input line 329.
+Package epstopdf Info: Output file is already uptodate.
+File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
+<use PLOS-submission-eps-converted-to.pdf>
+Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
+e 329.
+(pdftex.def)             Requested size: 144.54pt x 23.42201pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 329.
+
+[6]
+
+LaTeX Warning: Reference `eqn:spring' on page 7 undefined on input line 331.
+
+
+LaTeX Warning: Reference `eqn:drag' on page 7 undefined on input line 331.
+
+
+LaTeX Warning: Reference `eqn:moto' on page 7 undefined on input line 331.
+
+
+LaTeX Warning: Reference `eqn:systfull' on page 7 undefined on input line 331.
+
+
+LaTeX Warning: Reference `table:para' on page 7 undefined on input line 342.
+
+
+LaTeX Warning: Reference `fig:passive_ex' on page 7 undefined on input line 373
+.
+
+Package epstopdf Info: Source file: <PLOS-submission.eps>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 283246 bytes
+(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 2399 bytes
+(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
+ted-to.pdf PLOS-submission.eps>
+(epstopdf)             \includegraphics on input line 374.
+Package epstopdf Info: Output file is already uptodate.
+File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
+<use PLOS-submission-eps-converted-to.pdf>
+Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
+e 374.
+(pdftex.def)             Requested size: 144.54pt x 23.42201pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 374.
+
+[7]
+
+LaTeX Warning: Reference `fig:passive_ex' on page 8 undefined on input line 375
+.
+
+
+LaTeX Warning: Reference `fig:passive_ex' on page 8 undefined on input line 377
+.
+
+
+LaTeX Warning: Citation `theo_hlm' on page 8 undefined on input line 377.
+
+
+LaTeX Warning: Reference `fig:passive_ex' on page 8 undefined on input line 377
+.
+
+
+LaTeX Warning: Reference `fig:passive_ex' on page 8 undefined on input line 377
+.
+
+
+LaTeX Warning: Reference `fig:passive_ex' on page 8 undefined on input line 377
+.
+
+
+LaTeX Warning: Reference `fig:passive_ex' on page 8 undefined on input line 377
+.
+
 Package epstopdf Info: Source file: <figures/figure3a.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 345122 bytes
@@ -1059,8 +1368,7 @@ Package epstopdf Info: Source file: <figures/figure3a.eps>
 rted-to.pdf figures/figure3a.eps>
 (epstopdf)             \includegraphics on input line 381.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/figure3a-eps-converted-to.pdf, id=327, 511.9125pt x 329.23pt>
+<figures/figure3a-eps-converted-to.pdf, id=163, 511.9125pt x 329.23pt>
 File: figures/figure3a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure3a-eps-converted-to.pdf>
@@ -1071,39 +1379,51 @@ ne 381.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package epstopdf Info: Source file: <PLOS-submission.eps>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 283246 bytes
-(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 2399 bytes
-(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
-ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 387.
-Package epstopdf Info: Output file is already uptodate.
-File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-<use PLOS-submission-eps-converted-to.pdf>
-Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 387.
-(pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [8]
-Package epstopdf Info: Source file: <PLOS-submission.eps>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 283246 bytes
-(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 2399 bytes
-(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
-ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 387.
-Package epstopdf Info: Output file is already uptodate.
-File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 
+LaTeX Warning: Reference `S1_Table' on page 8 undefined on input line 386.
+
+
+LaTeX Warning: Citation `theo_hlm' on page 8 undefined on input line 386.
+
+
+LaTeX Warning: Reference `fig:passive_supp' on page 8 undefined on input line 3
+86.
+
+
+LaTeX Warning: Reference `S1_Text' on page 8 undefined on input line 386.
+
+
+LaTeX Warning: Reference `fig:passive_form' on page 8 undefined on input line 3
+86.
+
+
+LaTeX Warning: Citation `mccrum1997principles' on page 8 undefined on input lin
+e 386.
+
+
+LaTeX Warning: Reference `fig:passive_form' on page 8 undefined on input line 3
+86.
+
+Package epstopdf Info: Source file: <PLOS-submission.eps>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 283246 bytes
+(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 2399 bytes
+(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
+ted-to.pdf PLOS-submission.eps>
+(epstopdf)             \includegraphics on input line 387.
+Package epstopdf Info: Output file is already uptodate.
+File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
 e 387.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [9 <./figures/figure3a-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 387.
+
+[8]
 Package epstopdf Info: Source file: <figures/figure3b.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 138579 bytes
@@ -1114,14 +1434,20 @@ Package epstopdf Info: Source file: <figures/figure3b.eps>
 rted-to.pdf figures/figure3b.eps>
 (epstopdf)             \includegraphics on input line 391.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/figure3b-eps-converted-to.pdf, id=370, 487.8225pt x 249.93375pt>
+ <figures/figure3b-eps-converted-to.pdf, id=171, 487.8225pt x 249.93375pt>
 File: figures/figure3b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure3b-eps-converted-to.pdf>
 Package pdftex.def Info: figures/figure3b-eps-converted-to.pdf used on input li
 ne 391.
 (pdftex.def)             Requested size: 379.4175pt x 194.39455pt.
+
+
+LaTeX Warning: Citation `theo_hlm' on page 9 undefined on input line 392.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <figures/figure5a.eps>
 (epstopdf)                    date: 2016-07-13 09:18:24
 (epstopdf)                    size: 616880 bytes
@@ -1132,8 +1458,7 @@ Package epstopdf Info: Source file: <figures/figure5a.eps>
 rted-to.pdf figures/figure5a.eps>
 (epstopdf)             \includegraphics on input line 401.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/figure5a-eps-converted-to.pdf, id=372, 530.98375pt x 376.40625pt>
+<figures/figure5a-eps-converted-to.pdf, id=172, 530.98375pt x 376.40625pt>
 File: figures/figure5a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure5a-eps-converted-to.pdf>
@@ -1142,7 +1467,19 @@ ne 401.
 (pdftex.def)             Requested size: 379.4175pt x 268.9676pt.
 
 
+LaTeX Warning: Reference `eqn:simple_eta' on page 9 undefined on input line 402
+.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:passive_rec' on page 9 undefined on input line 40
+5.
+
+
+LaTeX Warning: Reference `fig:passive_rec' on page 9 undefined on input line 40
+7.
 
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
@@ -1152,14 +1489,18 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 412.
+(epstopdf)             \includegraphics on input line 409.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 412.
+e 409.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [10 <./figures/figure3b-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 409.
+
+[9 <./figures/figure3a-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1171,11 +1512,64 @@ ted-to.pdf PLOS-submission.eps>
 (epstopdf)             \includegraphics on input line 417.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
- <use PLOS-submission-eps-converted-to.pdf>
+
+<use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
 e 417.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [11 <./figures/figure5a-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 417.
+
+[10 <./figures/figure3b-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:passive_rec' on page 11 undefined on input line 4
+19.
+
+
+LaTeX Warning: Reference `fig:passive_rec' on page 11 undefined on input line 4
+19.
+
+
+LaTeX Warning: Citation `mccrum1997principles' on page 11 undefined on input li
+ne 421.
+
+
+LaTeX Warning: Reference `fig:passive_rec' on page 11 undefined on input line 4
+30.
+
+Package epstopdf Info: Source file: <PLOS-submission.eps>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 283246 bytes
+(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 2399 bytes
+(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
+ted-to.pdf PLOS-submission.eps>
+(epstopdf)             \includegraphics on input line 431.
+Package epstopdf Info: Output file is already uptodate.
+File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
+<use PLOS-submission-eps-converted-to.pdf>
+Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
+e 431.
+(pdftex.def)             Requested size: 144.54pt x 23.42201pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 431.
+
+[11 <./figures/figure5a-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `Kim2014526' on page 12 undefined on input line 437.
+
+
+LaTeX Warning: Citation `Kim2014526' on page 12 undefined on input line 437.
+
+
+LaTeX Warning: Citation `Kim2014526' on page 12 undefined on input line 437.
+
+
+LaTeX Warning: Citation `Kim2014526' on page 12 undefined on input line 437.
+
 Package epstopdf Info: Source file: <figures/figure4a.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 480961 bytes
@@ -1186,8 +1580,7 @@ Package epstopdf Info: Source file: <figures/figure4a.eps>
 rted-to.pdf figures/figure4a.eps>
 (epstopdf)             \includegraphics on input line 451.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/figure4a-eps-converted-to.pdf, id=421, 519.9425pt x 325.215pt>
+<figures/figure4a-eps-converted-to.pdf, id=230, 519.9425pt x 325.215pt>
 File: figures/figure4a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure4a-eps-converted-to.pdf>
@@ -1198,22 +1591,45 @@ ne 451.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package epstopdf Info: Source file: <PLOS-submission.eps>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 283246 bytes
-(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 2399 bytes
-(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
-ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 456.
-Package epstopdf Info: Output file is already uptodate.
-File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-<use PLOS-submission-eps-converted-to.pdf>
-Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 456.
-(pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [12]
+
+LaTeX Warning: Citation `1367-2630-14-3-033037' on page 12 undefined on input l
+ine 455.
+
+
+LaTeX Warning: Citation `rheo_2D1' on page 12 undefined on input line 455.
+
+
+LaTeX Warning: Citation `rheo_active' on page 12 undefined on input line 455.
+
+
+LaTeX Warning: Citation `Ndlec:1997aa' on page 12 undefined on input line 455.
+
+
+LaTeX Warning: Citation `Surrey1167' on page 12 undefined on input line 455.
+
+
+LaTeX Warning: Reference `active_con_video' on page 12 undefined on input line 
+455.
+
+
+LaTeX Warning: Reference `fig:active_con' on page 12 undefined on input line 45
+8.
+
+
+LaTeX Warning: Citation `1367-2630-14-3-033037' on page 12 undefined on input l
+ine 458.
+
+
+LaTeX Warning: Citation `PhysRevX.4.041002' on page 12 undefined on input line 
+458.
+
+
+LaTeX Warning: Citation `rheo_2D1' on page 12 undefined on input line 458.
+
+
+LaTeX Warning: Reference `fig:active_supp' on page 12 undefined on input line 4
+58.
+
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1225,12 +1641,23 @@ ted-to.pdf PLOS-submission.eps>
 (epstopdf)             \includegraphics on input line 459.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
 e 459.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [13 <./figures/figure4a-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 459.
+
+[12]
+
+LaTeX Warning: Reference `fig:active_con' on page 13 undefined on input line 46
+0.
+
+
+LaTeX Warning: Reference `fig:active_supp' on page 13 undefined on input line 4
+60.
+
 Package epstopdf Info: Source file: <figures/figure4b.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 591150 bytes
@@ -1241,14 +1668,25 @@ Package epstopdf Info: Source file: <figures/figure4b.eps>
 rted-to.pdf figures/figure4b.eps>
 (epstopdf)             \includegraphics on input line 467.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/figure4b-eps-converted-to.pdf, id=471, 525.965pt x 326.21875pt>
+<figures/figure4b-eps-converted-to.pdf, id=237, 525.965pt x 326.21875pt>
 File: figures/figure4b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure4b-eps-converted-to.pdf>
 Package pdftex.def Info: figures/figure4b-eps-converted-to.pdf used on input li
 ne 467.
 (pdftex.def)             Requested size: 379.4175pt x 235.33525pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:active_str' on page 13 undefined on input line 47
+1.
+
+
+LaTeX Warning: Reference `fig:active_str' on page 13 undefined on input line 47
+1.
+
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1260,12 +1698,19 @@ ted-to.pdf PLOS-submission.eps>
 (epstopdf)             \includegraphics on input line 472.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
 e 472.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [14 <./figures/figure4b-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 472.
+
+[13 <./figures/figure4a-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:active_str' on page 14 undefined on input line 47
+3.
+
 Package epstopdf Info: Source file: <figures/figure5b.eps>
 (epstopdf)                    date: 2016-07-13 09:22:14
 (epstopdf)                    size: 660406 bytes
@@ -1276,8 +1721,7 @@ Package epstopdf Info: Source file: <figures/figure5b.eps>
 rted-to.pdf figures/figure5b.eps>
 (epstopdf)             \includegraphics on input line 483.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/figure5b-eps-converted-to.pdf, id=505, 503.8825pt x 430.60875pt>
+<figures/figure5b-eps-converted-to.pdf, id=257, 503.8825pt x 430.60875pt>
 File: figures/figure5b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure5b-eps-converted-to.pdf>
@@ -1286,41 +1730,99 @@ ne 483.
 (pdftex.def)             Requested size: 379.4175pt x 324.24358pt.
 
 
+LaTeX Warning: Reference `eqn:simple_sigma' on page 14 undefined on input line 
+484.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package epstopdf Info: Source file: <PLOS-submission.eps>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 283246 bytes
-(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 2399 bytes
-(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
-ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 503.
-Package epstopdf Info: Output file is already uptodate.
-File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-<use PLOS-submission-eps-converted-to.pdf>
-Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 503.
-(pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [15]
-Package epstopdf Info: Source file: <PLOS-submission.eps>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 283246 bytes
-(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-06-28 09:50:08
-(epstopdf)                    size: 2399 bytes
-(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
-ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 511.
-Package epstopdf Info: Output file is already uptodate.
-File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 
+LaTeX Warning: Reference `fig:active_str' on page 14 undefined on input line 48
+7.
+
+
+LaTeX Warning: Reference `fig:tear_supp' on page 14 undefined on input line 487
+.
+
+Package epstopdf Info: Source file: <PLOS-submission.eps>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 283246 bytes
+(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 2399 bytes
+(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
+ted-to.pdf PLOS-submission.eps>
+(epstopdf)             \includegraphics on input line 488.
+Package epstopdf Info: Output file is already uptodate.
+File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 511.
+e 488.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [16 <./figures/figure5b-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 488.
+
+[14 <./figures/figure4b-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:active_rec' on page 15 undefined on input line 48
+9.
+
+
+LaTeX Warning: Reference `fig:active_rec' on page 15 undefined on input line 48
+9.
+
+
+LaTeX Warning: Reference `fig:active_rec' on page 15 undefined on input line 48
+9.
+
+Package epstopdf Info: Source file: <PLOS-submission.eps>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 283246 bytes
+(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 2399 bytes
+(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
+ted-to.pdf PLOS-submission.eps>
+(epstopdf)             \includegraphics on input line 490.
+Package epstopdf Info: Output file is already uptodate.
+File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
+<use PLOS-submission-eps-converted-to.pdf>
+Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
+e 490.
+(pdftex.def)             Requested size: 144.54pt x 23.42201pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 490.
+
+[15 <./figures/figure5b-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `eqn:simple_eta' on page 16 undefined on input line 49
+2.
+
+
+LaTeX Warning: Reference `fig:active_rec' on page 16 undefined on input line 49
+9.
+
+
+LaTeX Warning: Reference `eqn:simple_sigma' on page 16 undefined on input line 
+499.
+
+
+LaTeX Warning: Reference `fig:passive_rec' on page 16 undefined on input line 5
+02.
+
+
+LaTeX Warning: Reference `S1_Table' on page 16 undefined on input line 502.
+
+
+LaTeX Warning: Reference `fig:passive_rec' on page 16 undefined on input line 5
+02.
+
+
+LaTeX Warning: Reference `fig:active_rec' on page 16 undefined on input line 50
+2.
+
 Package epstopdf Info: Source file: <figures/figure6a.eps>
 (epstopdf)                    date: 2016-07-05 12:12:38
 (epstopdf)                    size: 582189 bytes
@@ -1331,14 +1833,41 @@ Package epstopdf Info: Source file: <figures/figure6a.eps>
 rted-to.pdf figures/figure6a.eps>
 (epstopdf)             \includegraphics on input line 519.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/figure6a-eps-converted-to.pdf, id=543, 514.92375pt x 461.725pt>
+<figures/figure6a-eps-converted-to.pdf, id=301, 514.92375pt x 461.725pt>
 File: figures/figure6a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure6a-eps-converted-to.pdf>
 Package pdftex.def Info: figures/figure6a-eps-converted-to.pdf used on input li
 ne 519.
 (pdftex.def)             Requested size: 379.4175pt x 340.22685pt.
+
+
+LaTeX Warning: Reference `fig:active_str' on page 16 undefined on input line 52
+0.
+
+
+LaTeX Warning: Reference `fig:active_rec' on page 16 undefined on input line 52
+0.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:flow_ex' on page 16 undefined on input line 523.
+
+
+LaTeX Warning: Reference `fig:flow_ex' on page 16 undefined on input line 523.
+
+
+LaTeX Warning: Reference `fig:combo_prof' on page 16 undefined on input line 52
+3.
+
+
+LaTeX Warning: Reference `fig:flow_ex' on page 16 undefined on input line 523.
+
+
+LaTeX Warning: Reference `fig:flow_ex' on page 16 undefined on input line 523.
+
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1350,12 +1879,35 @@ ted-to.pdf PLOS-submission.eps>
 (epstopdf)             \includegraphics on input line 524.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
 e 524.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [17 <./figures/figure6a-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 524.
+
+[16]
+Package epstopdf Info: Source file: <PLOS-submission.eps>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 283246 bytes
+(epstopdf)             Output file: <PLOS-submission-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 2399 bytes
+(epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
+ted-to.pdf PLOS-submission.eps>
+(epstopdf)             \includegraphics on input line 524.
+Package epstopdf Info: Output file is already uptodate.
+File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
+ <use PLOS-submission-eps-converted-to.pdf>
+Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
+e 524.
+(pdftex.def)             Requested size: 144.54pt x 23.42201pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 524.
+
+[17 <./figures/figure6a-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/figure_theor.eps>
 (epstopdf)                    date: 2016-07-13 09:27:20
 (epstopdf)                    size: 104070 bytes
@@ -1368,13 +1920,30 @@ onverted-to.pdf figures/figure_theor.eps>
 (epstopdf)             \includegraphics on input line 536.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure_theor-eps-converted-to.pdf, id=580, 509.905pt x 337.26pt>
+<figures/figure_theor-eps-converted-to.pdf, id=337, 509.905pt x 337.26pt>
 File: figures/figure_theor-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure_theor-eps-converted-to.pdf>
 Package pdftex.def Info: figures/figure_theor-eps-converted-to.pdf used on inpu
 t line 536.
 (pdftex.def)             Requested size: 379.4175pt x 250.96309pt.
+
+
+LaTeX Warning: Reference `fig:passive_rec' on page 18 undefined on input line 5
+49.
+
+
+LaTeX Warning: Reference `fig:active_rec' on page 18 undefined on input line 54
+9.
+
+
+LaTeX Warning: Reference `fig:flow_theo' on page 18 undefined on input line 549
+.
+
+
+LaTeX Warning: Reference `fig:flow_theo' on page 18 undefined on input line 549
+.
+
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1383,15 +1952,18 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 543.
+(epstopdf)             \includegraphics on input line 550.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 543.
+e 550.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [18 <./figures/figure_theor-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 550.
+
+[18 <./figures/figure_theor-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/figure6b.eps>
 (epstopdf)                    date: 2016-07-01 14:30:33
 (epstopdf)                    size: 260835 bytes
@@ -1403,7 +1975,7 @@ rted-to.pdf figures/figure6b.eps>
 (epstopdf)             \includegraphics on input line 557.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/figure6b-eps-converted-to.pdf, id=607, 498.86375pt x 203.76125pt>
+<figures/figure6b-eps-converted-to.pdf, id=357, 498.86375pt x 203.76125pt>
 File: figures/figure6b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure6b-eps-converted-to.pdf>
@@ -1418,15 +1990,28 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 562.
+(epstopdf)             \includegraphics on input line 577.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 562.
+e 577.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [19 <./figures/figure6b-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 577.
+
+[19 <./figures/figure6b-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:passive_ex' on page 20 undefined on input line 61
+1.
+
+
+LaTeX Warning: Reference `fig:active_con' on page 20 undefined on input line 61
+5.
+
+(./active.bbl
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1435,14 +2020,18 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 617.
+(epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
  <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 617.
+e 19.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [20] (./active.bbl
+
+
+LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 19.
+
+[20]
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1451,15 +2040,18 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 86.
+(epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-
-<use PLOS-submission-eps-converted-to.pdf>
+ <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 86.
+e 109.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [21]
+
+
+LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 109.
+
+[21]
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1468,19 +2060,21 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-
-<use PLOS-submission-eps-converted-to.pdf>
+ <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 172.
+e 196.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [22]
+
+
+LaTeX Warning: Reference `LastPage' on page 22 undefined on input line 196.
+
+[22]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 198.
 
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -1493,15 +2087,22 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    size: 2399 bytes
 (epstopdf)             Command: <repstopdf --outfile=PLOS-submission-eps-conver
 ted-to.pdf PLOS-submission.eps>
-(epstopdf)             \includegraphics on input line 260.
+(epstopdf)             \includegraphics on input line 282.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 
 <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
-e 260.
+e 282.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [23])
+
+
+LaTeX Warning: Reference `LastPage' on page 23 undefined on input line 282.
+
+[23])
+
+Package lastpage Warning: Rerun to get the references right on input line 632.
+
 
 AED: lastpage setting LastPage
 Package epstopdf Info: Source file: <PLOS-submission.eps>
@@ -1519,28 +2120,41 @@ File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
 e 632.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
- [24]
+
+
+LaTeX Warning: Reference `LastPage' on page 24 undefined on input line 632.
+
+[24]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 632.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 632.
  (./active.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 632.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 632.
-Package rerunfilecheck Info: File `active.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `active.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `active.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 632.
  ) 
 Here is how much of TeX's memory you used:
- 10839 strings out of 493117
- 164007 string characters out of 6135433
- 307498 words of memory out of 5000000
+ 10833 strings out of 493117
+ 163941 string characters out of 6135433
+ 292372 words of memory out of 5000000
  13906 multiletter control sequences out of 15000+600000
  10590 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,16n,43p,2093b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,15n,43p,2093b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
@@ -1558,10 +2172,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on active.pdf (24 pages, 1495996 bytes).
+Output written on active.pdf (24 pages, 1489258 bytes).
 PDF statistics:
- 754 PDF objects out of 1000 (max. 8388607)
- 601 compressed objects within 7 object streams
+ 555 PDF objects out of 1000 (max. 8388607)
+ 404 compressed objects within 5 object streams
  138 named destinations out of 1000 (max. 500000)
  12856 words of extra memory for PDF output out of 14400 (max. 10000000)
 
