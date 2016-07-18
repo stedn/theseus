@@ -51,6 +51,13 @@ Chandran, P.~L. and Mofrad, M. R.~K. (2010).
 \newblock Averaged implicit hydrodynamic model of semiflexible filaments.
 \newblock {\em Phys. Rev. E}, 81:031920.
 
+\bibitem[Chugh et~al., 2016]{salbreuxbphs}
+Chugh, P., Clark, A.~G., Smith, M.~B., Cassani, D. A.~D., Charras, G.,
+  Salbreux, G., and Paluch, E.~K. (2016).
+\newblock Nanoscale organization of the actomyosin cortex during the cell
+  cycle.
+\newblock {\em Biophysical Journal}, 110(3):198a.
+
 \bibitem[Dierkes et~al., 2014]{PhysRevLett.113.148102}
 Dierkes, K., Sumi, A., Solon, J., and Salbreux, G. (2014).
 \newblock Spontaneous oscillations of elastic contractile materials with
@@ -200,6 +207,11 @@ Munro, E., Nance, J., and Priess, J.~R. (2004).
   c. elegans embryo.
 \newblock {\em Developmental Cell}, 7(3):413 -- 424.
 
+\bibitem[Murrell and Gardel, 2014]{Murrell15062014}
+Murrell, M. and Gardel, M.~L. (2014).
+\newblock Actomyosin sliding is attenuated in contractile biomimetic cortices.
+\newblock {\em Molecular Biology of the Cell}, 25(12):1845--1853.
+
 \bibitem[Murrell and Gardel, 2012]{rheo_2D1}
 Murrell, M.~P. and Gardel, M.~L. (2012).
 \newblock F-actin buckling coordinates contractility and severing in a
@@ -207,8 +219,8 @@ Murrell, M.~P. and Gardel, M.~L. (2012).
 \newblock {\em Proceedings of the National Academy of Sciences},
   109(51):20820--20825.
 
-\bibitem[Ndlec et~al., 1997]{Ndlec:1997aa}
-Ndlec, F.~J., Surrey, T., Maggs, A.~C., and Leibler, S. (1997).
+\bibitem[Nedelec et~al., 1997]{Ndlec:1997aa}
+Nedelec, F.~J., Surrey, T., Maggs, A.~C., and Leibler, S. (1997).
 \newblock Self-organization of microtubules and motors.
 \newblock {\em Nature}, 389(6648):305--308.
 
