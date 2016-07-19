@@ -263,16 +263,16 @@ We model individual filaments as chains of springs with relaxed length $l_s$.  F
 
 where the modulus, $\mu$, is a composite quantity representing both filament and cross-linker compliance in a manner similar to a proposed effective medium theory \cite{theo_crosslinknonlinear}.   To model asymmetric filament compliance, we assign the modulus $\mu$, a different value depending on whether $(|\mathbf{x_{i-1}}-\mathbf{x_i}|-l_s)/l_s$ (the strain) is greater or less than 0. In the limit of highly rigid cross-links and flexible filaments, our model reduces to the pure semi-flexible filament models of \cite{theo_hlm,theo_hlm2}.  In the opposite regime of nearly rigid filaments and highly flexible cross links, our method is still largely similar to the model of \cite{theo_crosslinknonlinear} in small strain regimes before any nonlinear cross link stiffening.  In a departure from those models, we assume here that the magnitude of the force on interior cross-links is the same as those on the exterior.  This approach ignores the variation in strain on these two sets of cross-links as addressed in \cite{theo_crosslinknonlinear}, but we choose to ignore this variation in favor of an approximated, global mean approach.  
 
-Because we are dealing with semi-flexible filaments we also introduce a bending modulus between our filament segments such that the restoring force is proportional to the angle between the filament segments.   
+Because we are dealing with semi-flexible filaments we also introduce a bending modulus between our filament segments such that the restoring force is proportional to the angle between the filament segments and points in the direction orthogonal to the filament direction, $\mathbf{u_i}=(\mathbf{x_{i-1}}-\mathbf{x_{i}})/|\mathbf{x_{i-1}}-\mathbf{x_{i}}|$.   
 
 \begin{equation}
 \label{eqn:bend_spring}
-\mathbf{F^{\kappa}_{i-1,i,i+1}} = \frac{\kappa}{l_s} acos \left(\frac{(\mathbf{x_{i+1}}-\mathbf{x_i})\cdot (\mathbf{x_{i-1}}-\mathbf{x_i})}{l_s^2}\right)\left(\frac{\mathbf{x_{i+1}}-\mathbf{x_{i-1}}}{l_s}\right)_\perp
+\mathbf{F^{\kappa}_{i-1,i,i+1}} = \frac{\kappa}{l_s} acos \left(\frac{(\mathbf{x_{i+1}}-\mathbf{x_i})\cdot (\mathbf{x_{i-1}}-\mathbf{x_i})}{|\mathbf{x_{i+1}}-\mathbf{x_i}|\cdot |\mathbf{x_{i-1}}-\mathbf{x_i}|}\right)\mathbf{u_i}_\perp
 \end{equation}
 
-However, this introduces another mode of asymmetric compliance since filaments under compression are able to bend outward at their centers.  For this reason, in the majority of the work in this paper, we have selected to set $l_s=L$ to simplify away the dependence on bending driven asymmetries.  We show in our supplemental figures (TBA) that the major points of the paper are still valid when we set $l_s<L$ under the condition that $\kappa/l_s\gg\mu_c$.
+However, this introduces another mode of asymmetric compliance since filaments under compression are able to bend outward at their centers.  For this reason, in the majority of the work in this paper, we have selected to set $l_s=L$ to simplify away the dependence on bending driven asymmetries.  We show in our supplemental figures (TBA) that the major points of the paper are still valid when we set $l_s<L$ under the condition that $\kappa/l_s\gg\mu_c$.  Therefore, in the majority of the paper we limit our focus to filaments that are constrained not to bend.
 
-Together these forces 
+Together these forces combine into a single term denoting all the internal forces of the filament mechanics.
 
 \begin{equation}
 \label{eqn:internal}
@@ -298,18 +298,18 @@ This model assumes a linear relation between applied force and the velocity diff
 
 \begin{equation}
 \label{eqn:syst1}
-0 = -l_s\zeta\mathbf{ v_i} -\mathbf{F^{coup}_i}= \mathbf{F^{int}_i}
+0 = -l_s\zeta\mathbf{ v_i} -\mathbf{F^{coup}_i}+ \mathbf{F^{int}_i}
 \end{equation}
 
 Here, the first term in the integral is the filament's intrinsic drag through its embedding fluid, $\zeta$, while the second comes from the drag-like coupling between filaments, $\xi$.  
 
 \subsection*{Active coupling for motor driven filament interactions}
 
-To add motor activity we select a subset of cross-linked points and impart an additional force of magnitude $\upsilon$ directed in the orientations of the individual filaments, $\mathbf{u_i}$.  This leads to a modification of the equation of motion to
+To add motor activity we select a subset of cross-linked points and impart an additional force of magnitude $\upsilon$ directed in the orientations of the individual filaments, $\mathbf{u_i}=(\mathbf{x_{i-1}}-\mathbf{x_{i}})/|\mathbf{x_{i-1}}-\mathbf{x_{i}}|$.  This leads to a modification of the equation of motion to
 
 \begin{equation}
 \label{eqn:moto}
-\mathbf{F^{\upsilon}_{i-1,i}}=\upsilon \left(\frac{\mathbf{x_{i-1}}-\mathbf{x_{i}}}{l_s}\right)\sum_j \frac{l_s-|s_{ij}-s_i|}{l_s}q_{ij}
+\mathbf{F^{\upsilon}_{i-1,i}}=\upsilon \mathbf{u_i}\sum_j \frac{l_s-|s_{ij}-s_i|}{l_s}q_{ij}
 \end{equation}
 
 where $q_{ij}$ can be 0 or 1 depending on whether there is an ``active'' cross-linker at this location.  In this formulation, only at the subset of points where $q_{ij}=1$ will there be a force imparted.  In our simulations we let $q_{ij}$ be selected randomly such that $\bar{q}=\phi$, where $\bar{q}$ indicates the mean of $q$.
@@ -391,7 +391,7 @@ domain size                 & $D_x\times D_y$            & $20\times 50 \mu m$  
 
 % Results and Discussion can be combined.
 \section*{Results and Discussion}
-The goal of this work was to characterize how rates and patterns of cortical flow are shaped by complex dependencies of active stress generation and passive stress dissipation on network architecture, local coupling (active and passive) between filaments and filament recycling.  We approached this in three steps: First, we analyzed the passive deformations of cross-linked networks (absent active motors) in response to a constant external force. Then, we analyzed the dynamics of internal stress buildup and dissipation in the same networks, but with active motors, as they contract freely or build force against fixed external boundaries. Finally, we consider the dynamic interplay of internal stress buildup, contraction, and stress relaxation in networks that undergo steady state flow in response to spatial gradients of motor activity.
+We aim to characterize how rates and patterns of cortical flow are shaped by complex dependencies of active stress generation and passive stress dissipation on network architecture, local coupling (active and passive) between filaments and filament recycling.  We approached this in three steps: First, we analyzed the passive deformations of cross-linked networks (absent active motors) in response to a constant external force. Then, we analyzed the dynamics of internal stress buildup and dissipation in the same networks, but with active motors, as they contract freely or build force against fixed external boundaries. Finally, we consider the dynamic interplay of internal stress buildup, contraction, and stress relaxation in networks that undergo steady state flow in response to spatial gradients of motor activity.
 
 % PASSIVE SECTION
 \subsection*{Filament recycling prevents cortical tearing and modulates the viscous stress relaxation of passive filament networks}
