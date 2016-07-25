@@ -30,12 +30,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Average core usage for a 244 node shared HPC partition in the Midway cluster. Insert shows usage statistics histogram.}}{63}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Energy monitoring framework.}}{65}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Diagram of job scheduling during a four node temporary shutdown experiment. Each colored rectangle displays the execution time of a single LAMPPS test job running for approximately 5 minutes.}}{66}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Total power consumed during experiments where variable numbers of machines were shut down during simulated peak pricing.}}{67}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Energy usage of test cluster during partial shutdown experiments. Solid lines indicate power usage during the shutdown, while dashed lines indicate power usage after returning to full operation.}}{68}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Maximum (solid) and mean (dashed) job wait times during partial shutdown experiments.}}{69}
-\contentsline {figure}{\numberline {C.7}{\ignorespaces Power data for test cluster (top) and production cluster (bottom) nodes in presence of variable usage. The slope and intercept of the line are used to determine $u_v$ and $u_0$ respectively. }}{71}
-\contentsline {figure}{\numberline {C.8}{\ignorespaces Comparison between node level IPMI measurements and rack level CDU measurements. Best fit shows the model relationship used to convert IPMI data to estimated total power draw.}}{72}
-\contentsline {figure}{\numberline {C.9}{\ignorespaces Estimated savings from partial cluster shutdowns. }}{73}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Average core usage for a 244 node shared HPC partition in the Midway cluster. Insert shows usage statistics histogram.}}{117}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Energy monitoring framework.}}{119}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Diagram of job scheduling during a four node temporary shutdown experiment. Each colored rectangle displays the execution time of a single LAMPPS test job running for approximately 5 minutes.}}{120}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Total power consumed during experiments where variable numbers of machines were shut down during simulated peak pricing.}}{121}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Energy usage of test cluster during partial shutdown experiments. Solid lines indicate power usage during the shutdown, while dashed lines indicate power usage after returning to full operation.}}{122}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Maximum (solid) and mean (dashed) job wait times during partial shutdown experiments.}}{123}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Power data for test cluster (top) and production cluster (bottom) nodes in presence of variable usage. The slope and intercept of the line are used to determine $u_v$ and $u_0$ respectively. }}{125}
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Comparison between node level IPMI measurements and rack level CDU measurements. Best fit shows the model relationship used to convert IPMI data to estimated total power draw.}}{126}
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Estimated savings from partial cluster shutdowns. }}{127}
