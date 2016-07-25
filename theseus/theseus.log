@@ -1,20 +1,21 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.7.8)  16 JUN 2016 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 JUL 2016 16:05
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **theseus.tex
 (./theseus.tex
 LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 4 languages loaded.
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (./easychithesis.cls
 Document Class: easychithesis 1999/10/20 Chicago Thesis Class For LaTeX
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -28,55 +29,240 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)) (./theseus.aux)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))))
+\c@section@level=\count88
+LaTeX Info: Redefining \ref on input line 353.
+LaTeX Info: Redefining \pageref on input line 353.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks16
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(./theseus.aux (./introduction/introduction.aux)
+
+LaTeX Warning: Label `eqn:drag' multiply defined.
+
+
+LaTeX Warning: Label `fig:passive_supp' multiply defined.
+
+
+LaTeX Warning: Label `fig:active_supp' multiply defined.
+
+
+LaTeX Warning: Label `fig:active_supp' multiply defined.
+
+
+LaTeX Warning: Label `fig:combo_prof' multiply defined.
+
+)
 \openout1 = `theseus.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen114
+\scratchbox=\box28
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen115
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
 
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
 
 ] [3
 
 ] [4
 
-]
-(./theseus.toc)
+] (./theseus.toc
+Overfull \hbox (11.92679pt too wide) in paragraph at lines 35--35
+ [][] []\OT1/cmr/m/n/12 Filament re-cy-cling tunes the bal-ance be-tween ac-tiv
+e stress buildup 
+ []
+
+[5
+
+])
 \tf@toc=\write3
 \openout3 = `theseus.toc'.
 
- [5
+ [6] (./theseus.lof [7
 
-] (./theseus.lof
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
-)
+] [8]
+Overfull \hbox (1.87416pt too wide) in paragraph at lines 12--12
+ [][] []\OT1/cmr/m/n/12 Filament re-cy-cling al-lows sus-tained flows in net-wo
+rks with non-isotropic 
+ []
+
+[9] [10] [11])
 \tf@lof=\write4
 \openout4 = `theseus.lof'.
 
- [6
-
-] (./theseus.lot)
+ [12] (./theseus.lot)
 \tf@lot=\write5
 \openout5 = `theseus.lot'.
 
- [7
+ [13
 
 ]
 Chapter 1.
@@ -84,48 +270,1175 @@ Chapter 1.
 
 
 ]
-Chapter 2.
+\openout2 = `introduction/introduction.aux'.
+
+ (./introduction/introduction.tex
+
+LaTeX Warning: Citation `megareview' on page 2 undefined on input line 24.
+
+
+LaTeX Warning: Citation `cellmech_review1' on page 2 undefined on input line 24
+.
+
+
+LaTeX Warning: Citation `cellmech_review2' on page 2 undefined on input line 24
+.
+
+
+LaTeX Warning: Citation `cell_rheo' on page 2 undefined on input line 27.
+
+
+LaTeX Warning: Citation `rheo_crosslinksmatter' on page 2 undefined on input li
+ne 30.
+
+
+LaTeX Warning: Citation `theo_crosslinkslip1' on page 2 undefined on input line
+ 30.
+
+
+LaTeX Warning: Citation `rheo_bench' on page 2 undefined on input line 36.
+
+
+LaTeX Warning: Citation `megareview' on page 2 undefined on input line 36.
+
+
+LaTeX Warning: Citation `rheo_marge' on page 2 undefined on input line 40.
+
 [2
 
 ]
-Chapter 3.
-[3
+
+LaTeX Warning: Citation `mol_wlc' on page 3 undefined on input line 42.
+
+
+LaTeX Warning: Citation `theo_doi_ed' on page 3 undefined on input line 42.
+
+
+LaTeX Warning: Citation `theo_morse' on page 3 undefined on input line 42.
+
+
+LaTeX Warning: Citation `theo_hlm' on page 3 undefined on input line 42.
+
+
+LaTeX Warning: Citation `theo_hlm2' on page 3 undefined on input line 42.
+
+
+LaTeX Warning: Citation `theo_best' on page 3 undefined on input line 42.
+
+
+LaTeX Warning: Citation `rheo_crosslinkcompare' on page 3 undefined on input li
+ne 46.
+
+
+LaTeX Warning: Citation `rheo_crosslinkreview' on page 3 undefined on input lin
+e 46.
+
+
+LaTeX Warning: Citation `rheo_crosslink_nonlin1' on page 3 undefined on input l
+ine 46.
+
+
+LaTeX Warning: Citation `rheo_crosslink_nonlin2' on page 3 undefined on input l
+ine 46.
+
+
+LaTeX Warning: Citation `rheo_crosslink_nonlin3' on page 3 undefined on input l
+ine 46.
+
+
+LaTeX Warning: Citation `rheo_crosslink_notactin' on page 3 undefined on input 
+line 46.
+
+
+LaTeX Warning: Citation `theo_crosslinkslip2' on page 3 undefined on input line
+ 46.
+
+
+LaTeX Warning: Citation `model_massive' on page 3 undefined on input line 46.
+
+
+LaTeX Warning: Citation `rheo_active' on page 3 undefined on input line 46.
+
+
+LaTeX Warning: Citation `theo_nonaffine2' on page 3 undefined on input line 48.
+
+
+
+LaTeX Warning: Citation `theo_floppy' on page 3 undefined on input line 48.
+
+
+LaTeX Warning: Citation `theo_crosslinknonlinear' on page 3 undefined on input 
+line 48.
+
+
+LaTeX Warning: Citation `cellmech_flows' on page 3 undefined on input line 52.
+
+
+LaTeX Warning: Citation `cellmech_flows2' on page 3 undefined on input line 52.
+
+
+
+LaTeX Warning: Citation `cellmech_flows3' on page 3 undefined on input line 52.
+
+
+
+LaTeX Warning: Citation `rheo_fluid' on page 3 undefined on input line 52.
+
+
+LaTeX Warning: Citation `rheo_fluid2' on page 3 undefined on input line 52.
+
+
+LaTeX Warning: Citation `cell_rheo_exp' on page 3 undefined on input line 52.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip1' on page 3 undefined on input line
+ 52.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip2' on page 3 undefined on input line
+ 52.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip3' on page 3 undefined on input line
+ 52.
+
+
+LaTeX Warning: Citation `rheo_nonaffine' on page 3 undefined on input line 52.
+
+
+LaTeX Warning: Citation `rheo_crosslinksmatter' on page 3 undefined on input li
+ne 52.
+
+[3]
+
+LaTeX Warning: Citation `theo_crosslinkslip2' on page 4 undefined on input line
+ 56.
+
+
+LaTeX Warning: Citation `theo_crosslinkslip1' on page 4 undefined on input line
+ 58.
+
+
+LaTeX Warning: Citation `theo_crosslinkslip2' on page 4 undefined on input line
+ 58.
+
+
+LaTeX Warning: Citation `model_taeyoon' on page 4 undefined on input line 58.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip2' on page 4 undefined on input line
+ 58.
+
+
+LaTeX Warning: Citation `theo_crosslinkslip3' on page 4 undefined on input line
+ 58.
+
+
+LaTeX Warning: Citation `theo_friction' on page 4 undefined on input line 64.
+
+
+LaTeX Warning: Citation `theo_frictionSam' on page 4 undefined on input line 64
+.
+
+
+LaTeX Warning: Citation `theo_molefric' on page 4 undefined on input line 64.
+
+
+LaTeX Warning: Citation `mol_fric' on page 4 undefined on input line 64.
+
+
+LaTeX Warning: Citation `theo_hydroish2' on page 4 undefined on input line 64.
+
+
+LaTeX Warning: Citation `theo_frictionShila' on page 4 undefined on input line 
+64.
+
+[4]
+
+LaTeX Warning: Citation `cellmech_flows3' on page 5 undefined on input line 104
+.
+
+
+LaTeX Warning: Citation `cellmech_flows2' on page 5 undefined on input line 104
+.
+
+
+LaTeX Warning: Citation `Salbreux2012536' on page 5 undefined on input line 104
+.
+
+
+LaTeX Warning: Citation `Munro2004413' on page 5 undefined on input line 104.
+
+
+Overfull \hbox (26.03918pt too wide) in paragraph at lines 104--105
+\OT1/cmr/m/n/12 der-lies cell po-lar-iza-tion, cell di-vi-sion, cell crawl-ing 
+and mul-ti-cel-lu-lar tis-sue morphogenesis[[],
+ []
+
+
+LaTeX Warning: Citation `cellmech_flows' on page 5 undefined on input line 106.
+
+
+
+LaTeX Warning: Citation `PhysRevLett.106.028103' on page 5 undefined on input l
+ine 106.
+
+
+LaTeX Warning: Citation `cellmech_flows' on page 5 undefined on input line 106.
+
+
+
+LaTeX Warning: Citation `Turlier2014114' on page 5 undefined on input line 106.
+
+
+
+LaTeX Warning: Citation `PhysRevLett.103.058102' on page 5 undefined on input l
+ine 106.
+
+
+LaTeX Warning: Citation `Keren:2009aa' on page 5 undefined on input line 106.
+
+
+LaTeX Warning: Citation `RevModPhys.85.1143' on page 5 undefined on input line 
+106.
+
+
+LaTeX Warning: Citation `Heisenberg2013948' on page 5 undefined on input line 1
+06.
+
+[5]
+
+LaTeX Warning: Citation `cellmech_flows' on page 6 undefined on input line 110.
+
+
+
+LaTeX Warning: Citation `cellmech_flows2' on page 6 undefined on input line 110
+.
+
+
+LaTeX Warning: Citation `cellmech_flows3' on page 6 undefined on input line 110
+.
+
+
+LaTeX Warning: Citation `rheo_fluid' on page 6 undefined on input line 110.
+
+
+LaTeX Warning: Citation `rheo_fluid2' on page 6 undefined on input line 110.
+
+
+LaTeX Warning: Citation `cell_rheo_exp' on page 6 undefined on input line 110.
+
+
+LaTeX Warning: Citation `rheo_crosslinksmatter' on page 6 undefined on input li
+ne 110.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip1' on page 6 undefined on input line
+ 110.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip2' on page 6 undefined on input line
+ 110.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip3' on page 6 undefined on input line
+ 110.
+
+
+LaTeX Warning: Citation `rheo_nonaffine' on page 6 undefined on input line 110.
+
+
+
+LaTeX Warning: Citation `Robin:2014aa' on page 6 undefined on input line 110.
+
+
+LaTeX Warning: Citation `theo_crosslinkslip1' on page 6 undefined on input line
+ 110.
+
+
+LaTeX Warning: Citation `theo_crosslinkslip2' on page 6 undefined on input line
+ 110.
+
+
+LaTeX Warning: Citation `model_taeyoon' on page 6 undefined on input line 110.
+
+
+LaTeX Warning: Citation `rheo_crosslinkslip2' on page 6 undefined on input line
+ 110.
+
+
+LaTeX Warning: Citation `theo_crosslinkslip3' on page 6 undefined on input line
+ 110.
+
+
+LaTeX Warning: Citation `Mak:2016aa' on page 6 undefined on input line 110.
+
+[6]
+
+LaTeX Warning: Citation `rheo_2D1' on page 7 undefined on input line 112.
+
+
+LaTeX Warning: Citation `1367-2630-14-3-033037' on page 7 undefined on input li
+ne 112.
+
+
+LaTeX Warning: Citation `PhysRevX.4.041002' on page 7 undefined on input line 1
+12.
+
+
+LaTeX Warning: Citation `PhysRevX.4.041002' on page 7 undefined on input line 1
+12.
+
+
+LaTeX Warning: Citation `10.1371/journal.pone.0039869' on page 7 undefined on i
+nput line 112.
+
+
+LaTeX Warning: Citation `Alvarado:2013aa' on page 7 undefined on input line 112
+.
+
+
+LaTeX Warning: Citation `C0SM00494D' on page 7 undefined on input line 112.
+
+
+LaTeX Warning: Citation `0295-5075-85-1-18007' on page 7 undefined on input lin
+e 112.
+
+
+LaTeX Warning: Citation `rheo_active' on page 7 undefined on input line 112.
+
+
+LaTeX Warning: Citation `Alvarado:2013aa' on page 7 undefined on input line 114
+.
+
+
+LaTeX Warning: Citation `Murrell15062014' on page 7 undefined on input line 114
+.
+
+
+LaTeX Warning: Citation `Ndlec:1997aa' on page 7 undefined on input line 114.
+
+
+LaTeX Warning: Citation `Surrey1167' on page 7 undefined on input line 114.
+
+
+LaTeX Warning: Citation `2015arXiv150706182H' on page 7 undefined on input line
+ 114.
+
+
+LaTeX Warning: Citation `Mak:2016aa' on page 7 undefined on input line 114.
+
+
+LaTeX Warning: Citation `10.1371/journal.pone.0000696' on page 7 undefined on i
+nput line 114.
+
+
+LaTeX Warning: Citation `PhysRevLett.113.148102' on page 7 undefined on input l
+ine 114.
+
+
+LaTeX Warning: Citation `theo_friction' on page 7 undefined on input line 118.
+
+
+LaTeX Warning: Citation `theo_frictionSam' on page 7 undefined on input line 11
+8.
+
+
+LaTeX Warning: Citation `theo_molefric' on page 7 undefined on input line 118.
+
+
+LaTeX Warning: Citation `theo_frictionShila' on page 7 undefined on input line 
+118.
+
+) [7] [8]
+Chapter 2.
+[9
+
 
 ]
+Chapter 3.
+(./model/active.tex
+<model/figures/fig2/fig2.pdf, id=79, 366.03851pt x 429.10312pt>
+File: model/figures/fig2/fig2.pdf Graphic file (type pdf)
+
+<use model/figures/fig2/fig2.pdf>
+Package pdftex.def Info: model/figures/fig2/fig2.pdf used on input line 10.
+(pdftex.def)             Requested size: 433.62pt x 508.3343pt.
+
+
+LaTeX Warning: Float too large for page by 54.98634pt on input line 13.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `cellmech_flows' on page 10 undefined on input line 15.
+
+
+
+LaTeX Warning: Citation `salbreuxbphs' on page 10 undefined on input line 15.
+
+
+LaTeX Warning: Citation `rheo_2D1' on page 10 undefined on input line 15.
+
+
+LaTeX Warning: Citation `rheo_2D2' on page 10 undefined on input line 15.
+
+
+LaTeX Warning: Citation `theo_crosslinknonlinear' on page 10 undefined on input
+ line 27.
+
+
+LaTeX Warning: Citation `theo_hlm' on page 10 undefined on input line 27.
+
+
+LaTeX Warning: Citation `theo_hlm2' on page 10 undefined on input line 27.
+
+
+LaTeX Warning: Citation `theo_crosslinknonlinear' on page 10 undefined on input
+ line 27.
+
+
+LaTeX Warning: Citation `theo_crosslinknonlinear' on page 10 undefined on input
+ line 27.
+
+[10
+
+]
+
+LaTeX Warning: Citation `model_taeyoon' on page 11 undefined on input line 43.
+
+
+LaTeX Warning: Citation `theo_crosslinknonlinear' on page 11 undefined on input
+ line 43.
+
+
+Overfull \hbox (6.8046pt too wide) in paragraph at lines 43--44
+\OT1/cmr/m/n/12 on neigh-bor-ing fil-a-ments that ap-pear and dis-ap-pear with 
+ei-ther fixed or force-dependent
+ []
+
+[11]
+
+LaTeX Warning: Citation `mol_fric' on page 12 undefined on input line 56.
+
+
+LaTeX Warning: Citation `theo_hydroish2' on page 12 undefined on input line 56.
+
+
+
+LaTeX Warning: Citation `theo_frictionShila' on page 12 undefined on input line
+ 56.
+
+[12]
+
+LaTeX Warning: Citation `Unterberger2014' on page 13 undefined on input line 96
+.
+
+
+LaTeX Warning: Citation `theo_hlm' on page 13 undefined on input line 96.
+
+
+LaTeX Warning: Citation `theo_hlm' on page 13 undefined on input line 96.
+
+
+LaTeX Warning: Citation `theo_hlm2' on page 13 undefined on input line 96.
+
+[13] [14]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [15] [16] [17 <./model/figures/fig2/fig2.pdf>]
 Chapter 4.
-[4
+(./active/active.tex [18
+
+]
+
+LaTeX Warning: Citation `theo_hlm' on page 19 undefined on input line 20.
+
+Package epstopdf Info: Source file: <active/figures/figure3a.eps>
+(epstopdf)                    date: 2016-07-19 14:45:24
+(epstopdf)                    size: 343660 bytes
+(epstopdf)             Output file: <active/figures/figure3a-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-07-19 14:48:54
+(epstopdf)                    size: 48611 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure3a-ep
+s-converted-to.pdf active/figures/figure3a.eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
+<active/figures/figure3a-eps-converted-to.pdf, id=198, 511.9125pt x 329.23pt>
+File: active/figures/figure3a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use active/figures/figure3a-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure3a-eps-converted-to.pdf used on i
+nput line 24.
+(pdftex.def)             Requested size: 433.62pt x 278.87724pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `theo_hlm' on page 19 undefined on input line 29.
+
+[19] [20 <./active/figures/figure3a-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `mccrum1997principles' on page 21 undefined on input li
+ne 36.
+
+Package epstopdf Info: Source file: <active/figures/figure3b.eps>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 138579 bytes
+(epstopdf)             Output file: <active/figures/figure3b-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 13417 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure3b-ep
+s-converted-to.pdf active/figures/figure3b.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure3b-eps-converted-to.pdf, id=221, 487.8225pt x 249.93375pt
+>
+File: active/figures/figure3b-eps-converted-to.pdf Graphic file (type pdf)
+ <use active/figures/figure3b-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure3b-eps-converted-to.pdf used on i
+nput line 41.
+(pdftex.def)             Requested size: 433.62pt x 222.16574pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <active/figures/figure5a.eps>
+(epstopdf)                    date: 2016-07-13 09:18:24
+(epstopdf)                    size: 616880 bytes
+(epstopdf)             Output file: <active/figures/figure5a-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-07-13 09:22:47
+(epstopdf)                    size: 95699 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure5a-ep
+s-converted-to.pdf active/figures/figure5a.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure5a-eps-converted-to.pdf, id=222, 530.98375pt x 376.40625p
+t>
+File: active/figures/figure5a-eps-converted-to.pdf Graphic file (type pdf)
+ <use active/figures/figure5a-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure5a-eps-converted-to.pdf used on i
+nput line 51.
+(pdftex.def)             Requested size: 433.62pt x 307.39154pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21] [22 <./active/figures/figure3b-eps-converted-to.pdf>] [23 <./active/figure
+s/figure5a-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `mccrum1997principles' on page 24 undefined on input li
+ne 71.
+
+[24]
+
+LaTeX Warning: Citation `Kim2014526' on page 25 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Kim2014526' on page 25 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Kim2014526' on page 25 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Kim2014526' on page 25 undefined on input line 87.
+
+
+LaTeX Warning: Citation `Kim2014526' on page 25 undefined on input line 87.
+
+[25]
+Package epstopdf Info: Source file: <active/figures/figure4a.eps>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 480961 bytes
+(epstopdf)             Output file: <active/figures/figure4a-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 99975 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure4a-ep
+s-converted-to.pdf active/figures/figure4a.eps>
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure4a-eps-converted-to.pdf, id=262, 519.9425pt x 325.215pt>
+File: active/figures/figure4a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use active/figures/figure4a-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure4a-eps-converted-to.pdf used on i
+nput line 101.
+(pdftex.def)             Requested size: 433.62pt x 271.22356pt.
+
+
+LaTeX Warning: Citation `1367-2630-14-3-033037' on page 26 undefined on input l
+ine 105.
+
+
+LaTeX Warning: Citation `rheo_2D1' on page 26 undefined on input line 105.
+
+
+LaTeX Warning: Citation `rheo_active' on page 26 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Ndlec:1997aa' on page 26 undefined on input line 105.
+
+
+LaTeX Warning: Citation `Surrey1167' on page 26 undefined on input line 105.
+
+[26 <./active/figures/figure4a-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `1367-2630-14-3-033037' on page 27 undefined on input l
+ine 108.
+
+
+LaTeX Warning: Citation `PhysRevX.4.041002' on page 27 undefined on input line 
+108.
+
+
+LaTeX Warning: Citation `rheo_2D1' on page 27 undefined on input line 108.
+
+[27]
+Package epstopdf Info: Source file: <active/figures/figure4b.eps>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 591150 bytes
+(epstopdf)             Output file: <active/figures/figure4b-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-06-28 09:50:08
+(epstopdf)                    size: 89256 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure4b-ep
+s-converted-to.pdf active/figures/figure4b.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure4b-eps-converted-to.pdf, id=281, 525.965pt x 326.21875pt>
+File: active/figures/figure4b-eps-converted-to.pdf Graphic file (type pdf)
+<use active/figures/figure4b-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure4b-eps-converted-to.pdf used on i
+nput line 117.
+(pdftex.def)             Requested size: 433.62pt x 268.95457pt.
+ [28 <./active/figures/figure4b-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `Mak:2016aa' on page 29 undefined on input line 123.
+
+[29]
+Package epstopdf Info: Source file: <active/figures/figure5b.eps>
+(epstopdf)                    date: 2016-07-25 12:49:20
+(epstopdf)                    size: 655277 bytes
+(epstopdf)             Output file: <active/figures/figure5b-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-07-25 12:50:41
+(epstopdf)                    size: 108224 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure5b-ep
+s-converted-to.pdf active/figures/figure5b.eps>
+(epstopdf)             \includegraphics on input line 132.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure5b-eps-converted-to.pdf, id=310, 503.8825pt x 430.60875pt
+>
+File: active/figures/figure5b-eps-converted-to.pdf Graphic file (type pdf)
+ <use active/figures/figure5b-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure5b-eps-converted-to.pdf used on i
+nput line 132.
+(pdftex.def)             Requested size: 433.62pt x 370.56598pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30]
+
+LaTeX Warning: Text page 31 contains only floats.
+
+
+Overfull \vbox (3.21802pt too high) has occurred while \output is active []
+
+
+[31 <./active/figures/figure5b-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <active/figures/figure6a.eps>
+(epstopdf)                    date: 2016-07-25 12:46:47
+(epstopdf)                    size: 580396 bytes
+(epstopdf)             Output file: <active/figures/figure6a-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-07-25 12:50:41
+(epstopdf)                    size: 94496 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure6a-ep
+s-converted-to.pdf active/figures/figure6a.eps>
+(epstopdf)             \includegraphics on input line 168.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure6a-eps-converted-to.pdf, id=328, 514.92375pt x 461.725pt>
+File: active/figures/figure6a-eps-converted-to.pdf Graphic file (type pdf)
+<use active/figures/figure6a-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure6a-eps-converted-to.pdf used on i
+nput line 168.
+(pdftex.def)             Requested size: 433.62pt x 388.8327pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[32]
+
+LaTeX Warning: Text page 33 contains only floats.
+
+
+Overfull \vbox (6.45142pt too high) has occurred while \output is active []
+
+
+[33 <./active/figures/figure6a-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <active/figures/figure_theor.eps>
+(epstopdf)                    date: 2016-07-13 09:27:20
+(epstopdf)                    size: 104070 bytes
+(epstopdf)             Output file: <active/figures/figure_theor-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-07-13 09:31:20
+(epstopdf)                    size: 10612 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure_theo
+r-eps-converted-to.pdf active/figures/figure_theor.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure_theor-eps-converted-to.pdf, id=357, 509.905pt x 337.26pt
+>
+File: active/figures/figure_theor-eps-converted-to.pdf Graphic file (type pdf)
+ <use active/figures/figure_theor-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure_theor-eps-converted-to.pdf used 
+on input line 185.
+(pdftex.def)             Requested size: 433.62pt x 286.81644pt.
+ [34 <./active/figures/figure_theor-eps-converted-to.pdf>] [35]
+Package epstopdf Info: Source file: <active/figures/figure6b.eps>
+(epstopdf)                    date: 2016-07-01 14:30:33
+(epstopdf)                    size: 260835 bytes
+(epstopdf)             Output file: <active/figures/figure6b-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-07-01 14:31:54
+(epstopdf)                    size: 15609 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure6b-ep
+s-converted-to.pdf active/figures/figure6b.eps>
+(epstopdf)             \includegraphics on input line 206.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure6b-eps-converted-to.pdf, id=377, 498.86375pt x 203.76125p
+t>
+File: active/figures/figure6b-eps-converted-to.pdf Graphic file (type pdf)
+ <use active/figures/figure6b-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure6b-eps-converted-to.pdf used on i
+nput line 206.
+(pdftex.def)             Requested size: 433.62pt x 177.1185pt.
+ [36 <./active/figures/figure6b-eps-converted-to.pdf>] [37]) (./active/activesu
+p.tex
+Overfull \hbox (162.81454pt too wide) in paragraph at lines 6--20
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <active/figures/figure3S.eps>
+(epstopdf)                    date: 2016-06-17 16:55:16
+(epstopdf)                    size: 130140 bytes
+(epstopdf)             Output file: <active/figures/figure3S-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-06-28 11:49:40
+(epstopdf)                    size: 12042 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure3S-ep
+s-converted-to.pdf active/figures/figure3S.eps>
+(epstopdf)             \includegraphics on input line 25.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure3S-eps-converted-to.pdf, id=406, 487.8225pt x 249.93375pt
+>
+File: active/figures/figure3S-eps-converted-to.pdf Graphic file (type pdf)
+ <use active/figures/figure3S-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure3S-eps-converted-to.pdf used on i
+nput line 25.
+(pdftex.def)             Requested size: 433.62pt x 222.16574pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <active/figures/figure4S.eps>
+(epstopdf)                    date: 2016-07-22 10:46:40
+(epstopdf)                    size: 286279 bytes
+(epstopdf)             Output file: <active/figures/figure4S-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-07-22 10:46:40
+(epstopdf)                    size: 17164 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure4S-ep
+s-converted-to.pdf active/figures/figure4S.eps>
+(epstopdf)             \includegraphics on input line 31.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure4S-eps-converted-to.pdf, id=407, 480.79625pt x 176.66pt>
+File: active/figures/figure4S-eps-converted-to.pdf Graphic file (type pdf)
+
+<use active/figures/figure4S-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure4S-eps-converted-to.pdf used on i
+nput line 31.
+(pdftex.def)             Requested size: 433.62pt x 159.32947pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <active/figures/figure5_tear.eps>
+(epstopdf)                    date: 2016-07-05 14:17:34
+(epstopdf)                    size: 652766 bytes
+(epstopdf)             Output file: <active/figures/figure5_tear-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-07-05 14:20:11
+(epstopdf)                    size: 131425 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure5_tea
+r-eps-converted-to.pdf active/figures/figure5_tear.eps>
+(epstopdf)             \includegraphics on input line 37.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure5_tear-eps-converted-to.pdf, id=408, 522.95375pt x 459.71
+75pt>
+File: active/figures/figure5_tear-eps-converted-to.pdf Graphic file (type pdf)
+ <use active/figures/figure5_tear-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure5_tear-eps-converted-to.pdf used 
+on input line 37.
+(pdftex.def)             Requested size: 433.62pt x 381.19363pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <active/figures/figure6S.eps>
+(epstopdf)                    date: 2016-06-28 11:47:12
+(epstopdf)                    size: 105911 bytes
+(epstopdf)             Output file: <active/figures/figure6S-eps-converted-to.p
+df>
+(epstopdf)                    date: 2016-06-28 11:49:41
+(epstopdf)                    size: 10928 bytes
+(epstopdf)             Command: <repstopdf --outfile=active/figures/figure6S-ep
+s-converted-to.pdf active/figures/figure6S.eps>
+(epstopdf)             \includegraphics on input line 43.
+Package epstopdf Info: Output file is already uptodate.
+
+<active/figures/figure6S-eps-converted-to.pdf, id=409, 520.94624pt x 144.54pt>
+File: active/figures/figure6S-eps-converted-to.pdf Graphic file (type pdf)
+
+<use active/figures/figure6S-eps-converted-to.pdf>
+Package pdftex.def Info: active/figures/figure6S-eps-converted-to.pdf used on i
+nput line 43.
+(pdftex.def)             Requested size: 433.62pt x 120.31221pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [38] [39 <./active/figures/figure3S-eps-converted-to.pdf> <./active/figures/f
+igure4S-eps-converted-to.pdf>] [40 <./active/figures/figure5_tear-eps-converted
+-to.pdf>] [41 <./active/figures/figure6S-eps-converted-to.pdf>]
+Chapter 5.
+[42
+
+]
+Chapter 6.
+(./slippage/slippage.tex [43
+
+]
+<slippage/eff_vic_master.pdf, id=480, 718.685pt x 542.025pt>
+File: slippage/eff_vic_master.pdf Graphic file (type pdf)
+
+<use slippage/eff_vic_master.pdf>
+Package pdftex.def Info: slippage/eff_vic_master.pdf used on input line 87.
+(pdftex.def)             Requested size: 433.62pt x 327.03703pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[44] [45 <./slippage/eff_vic_master.pdf>]
+
+LaTeX Warning: Citation `theo_hlm' on page 46 undefined on input line 101.
+
+
+LaTeX Warning: Citation `theo_hlm2' on page 46 undefined on input line 101.
+
+<slippage/glass_relax_illustrate.pdf, id=520, 903.375pt x 853.1875pt>
+File: slippage/glass_relax_illustrate.pdf Graphic file (type pdf)
+
+<use slippage/glass_relax_illustrate.pdf>
+Package pdftex.def Info: slippage/glass_relax_illustrate.pdf used on input line
+ 116.
+(pdftex.def)             Requested size: 433.62pt x 409.53838pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[46] [47 <./slippage/glass_relax_illustrate.pdf>]
+<slippage/collapse.pdf, id=549, 903.375pt x 853.1875pt>
+File: slippage/collapse.pdf Graphic file (type pdf)
+
+<use slippage/collapse.pdf>
+Package pdftex.def Info: slippage/collapse.pdf used on input line 126.
+(pdftex.def)             Requested size: 433.62pt x 409.53838pt.
+ [48 <./slippage/collapse.pdf>]
+
+LaTeX Warning: Citation `model_percolationanisotropy' on page 49 undefined on i
+nput line 153.
+
+<slippage/tearer.pdf, id=565, 903.375pt x 853.1875pt>
+File: slippage/tearer.pdf Graphic file (type pdf)
+
+<use slippage/tearer.pdf>
+Package pdftex.def Info: slippage/tearer.pdf used on input line 157.
+(pdftex.def)             Requested size: 433.62pt x 409.53838pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<slippage/shear_modes_b.pdf, id=566, 903.375pt x 853.1875pt>
+File: slippage/shear_modes_b.pdf Graphic file (type pdf)
+
+<use slippage/shear_modes_b.pdf>
+Package pdftex.def Info: slippage/shear_modes_b.pdf used on input line 170.
+(pdftex.def)             Requested size: 433.62pt x 409.53838pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49] <slippage/phase_diag.pdf, id=570, 903.375pt x 853.1875pt>
+File: slippage/phase_diag.pdf Graphic file (type pdf)
+
+<use slippage/phase_diag.pdf>
+Package pdftex.def Info: slippage/phase_diag.pdf used on input line 179.
+(pdftex.def)             Requested size: 433.62pt x 409.53838pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<slippage/frequency_dep.pdf, id=571, 744.7825pt x 650.43pt>
+File: slippage/frequency_dep.pdf Graphic file (type pdf)
+
+<use slippage/frequency_dep.pdf>
+Package pdftex.def Info: slippage/frequency_dep.pdf used on input line 188.
+(pdftex.def)             Requested size: 433.62pt x 378.69867pt.
+ [50 <./slippage/tearer.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51 <./slippage/shear_modes_b.pdf>] [52 <./slippage/phase_diag.pdf>] [53 <./sli
+ppage/frequency_dep.pdf>]
+<slippage/strain_mem_weak.pdf, id=623, 731.73375pt x 559.08875pt>
+File: slippage/strain_mem_weak.pdf Graphic file (type pdf)
+
+<use slippage/strain_mem_weak.pdf>
+Package pdftex.def Info: slippage/strain_mem_weak.pdf used on input line 203.
+(pdftex.def)             Requested size: 433.62pt x 331.30977pt.
+
+
+LaTeX Warning: Citation `rheo_2D1' on page 54 undefined on input line 222.
+
+
+LaTeX Warning: Citation `cellmech_flows' on page 54 undefined on input line 222
+.
+
+[54 <./slippage/strain_mem_weak.pdf>]
+
+LaTeX Warning: Citation `theo_crosslinkslip1' on page 55 undefined on input lin
+e 226.
+
+[55] [56] [57]) [58]
+Chapter 7.
+[59
 
 ]
 Appendix A.
-[5
+[60
 
 ]
 Appendix B.
-[6
+[61
 
 ]
 Appendix C.
-[7
+(./edeals/datacenter_energy.tex
 
-] [8
+LaTeX Warning: Citation `Delforge2014' on page 62 undefined on input line 5.
 
-] (./theseus.aux) ) 
+
+LaTeX Warning: Citation `Delforge2014' on page 62 undefined on input line 5.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+<edeals/pwr_model_ins.pdf, id=652, 578.16pt x 289.08pt>
+File: edeals/pwr_model_ins.pdf Graphic file (type pdf)
+
+<use edeals/pwr_model_ins.pdf>
+Package pdftex.def Info: edeals/pwr_model_ins.pdf used on input line 9.
+(pdftex.def)             Requested size: 219.70308pt x 109.85153pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+
+LaTeX Warning: Citation `7039172' on page 62 undefined on input line 18.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+[62
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+LaTeX Warning: Citation `Ghatikar2012' on page 63 undefined on input line 29.
+
+
+LaTeX Warning: Citation `Liu2013' on page 63 undefined on input line 29.
+
+
+LaTeX Warning: Citation `Narayanan2014' on page 63 undefined on input line 29.
+
+[63 <./edeals/pwr_model_ins.pdf>]
+
+LaTeX Warning: Citation `Roundtree2012' on page 64 undefined on input line 31.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+LaTeX Warning: Citation `Zhou2014' on page 64 undefined on input line 33.
+
+
+LaTeX Warning: Citation `Bodas2014' on page 64 undefined on input line 33.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+<edeals/ray_fig.pdf, id=703, 794.97pt x 614.295pt>
+File: edeals/ray_fig.pdf Graphic file (type pdf)
+ <use edeals/ray_fig.pdf>
+Package pdftex.def Info: edeals/ray_fig.pdf used on input line 39.
+(pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
+
+[64] [65 <./edeals/ray_fig.pdf, page is rotated 90 degrees>]
+<edeals/usage_viz4.pdf, id=727, 433.62pt x 216.81pt>
+File: edeals/usage_viz4.pdf Graphic file (type pdf)
+
+<use edeals/usage_viz4.pdf>
+Package pdftex.def Info: edeals/usage_viz4.pdf used on input line 71.
+(pdftex.def)             Requested size: 238.49173pt x 119.24586pt.
+
+<edeals/power_viz.pdf, id=728, 433.62pt x 289.08pt>
+File: edeals/power_viz.pdf Graphic file (type pdf)
+ <use edeals/power_viz.pdf>
+Package pdftex.def Info: edeals/power_viz.pdf used on input line 82.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
+
+[66 <./edeals/usage_viz4.pdf>] [67 <./edeals/power_viz.pdf>]
+<edeals/down_v_pow.pdf, id=802, 433.62pt x 289.08pt>
+File: edeals/down_v_pow.pdf Graphic file (type pdf)
+
+<use edeals/down_v_pow.pdf>
+Package pdftex.def Info: edeals/down_v_pow.pdf used on input line 123.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
+
+<edeals/down_v_wait.pdf, id=803, 433.62pt x 289.08pt>
+File: edeals/down_v_wait.pdf Graphic file (type pdf)
+
+<use edeals/down_v_wait.pdf>
+Package pdftex.def Info: edeals/down_v_wait.pdf used on input line 135.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
+ [68 <./edeals/down_v_pow.pdf>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [69 <./edeals/down_v_wait.pdf>]
+
+LaTeX Warning: Reference `usage_viz' on page 70 undefined on input line 164.
+
+<edeals/pwr_proc.pdf, id=898, 433.62pt x 216.81pt>
+File: edeals/pwr_proc.pdf Graphic file (type pdf)
+ <use edeals/pwr_proc.pdf>
+Package pdftex.def Info: edeals/pwr_proc.pdf used on input line 173.
+(pdftex.def)             Requested size: 238.49173pt x 119.24586pt.
+
+<edeals/pwr_proc_c.pdf, id=899, 433.62pt x 216.81pt>
+File: edeals/pwr_proc_c.pdf Graphic file (type pdf)
+
+<use edeals/pwr_proc_c.pdf>
+Package pdftex.def Info: edeals/pwr_proc_c.pdf used on input line 174.
+(pdftex.def)             Requested size: 238.49173pt x 119.24586pt.
+
+<edeals/ipmi_v_cdu.pdf, id=900, 433.62pt x 289.08pt>
+File: edeals/ipmi_v_cdu.pdf Graphic file (type pdf)
+
+<use edeals/ipmi_v_cdu.pdf>
+Package pdftex.def Info: edeals/ipmi_v_cdu.pdf used on input line 185.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
+ [70] [71 <./edeals/pwr_proc.pdf> <./edeals/pwr_proc_c.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./edeals/pwr_proc_c.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>] [72 <./edeals/ipmi_v_cdu.pdf>]
+<edeals/final.pdf, id=1047, 433.62pt x 289.08pt>
+File: edeals/final.pdf Graphic file (type pdf)
+ <use edeals/final.pdf>
+Package pdftex.def Info: edeals/final.pdf used on input line 215.
+(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 225.
+
+[73 <./edeals/final.pdf>]) [74] (./theseus.bbl) (./theseus.aux
+(./introduction/introduction.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 320 strings out of 494977
- 3712 string characters out of 6180184
- 50835 words of memory out of 5000000
- 3600 multiletter control sequences out of 15000+600000
- 7627 words of font info for 27 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 28i,8n,21p,152b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on theseus.pdf (15 pages, 58717 bytes).
+ 2716 strings out of 493117
+ 40481 string characters out of 6135433
+ 118262 words of memory out of 5000000
+ 6068 multiletter control sequences out of 15000+600000
+ 9798 words of font info for 35 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,10n,23p,2134b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on theseus.pdf (87 pages, 3723839 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 1145 PDF objects out of 1200 (max. 8388607)
+ 540 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

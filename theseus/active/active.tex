@@ -1,0 +1,265 @@
+
+
+
+
+
+% Results and Discussion can be combined.
+\section{Results and Discussion}
+We aim to characterize how rates and patterns of cortical flow are shaped by complex dependencies of active stress generation and passive stress dissipation on network architecture, local coupling (active and passive) between filaments and filament recycling.  We approached this in three steps: First, we analyzed the passive deformations of cross-linked networks (absent active motors) in response to a constant external force. Then, we analyzed the dynamics of internal stress buildup and dissipation in the same networks, but with active motors, as they contract freely or build force against fixed external boundaries. Finally, we consider the dynamic interplay of internal stress buildup, contraction, and stress relaxation in networks that undergo steady state flow in response to spatial gradients of motor activity.
+
+% PASSIVE SECTION
+\subsection{Filament recycling prevents cortical tearing and modulates the viscous stress relaxation of passive filament networks}
+ 
+% Example of passive simulation measurements
+\paragraph{Networks with passive cross-links and no filament turnover undergo three stages of deformation in response to an extensional force.} 
+
+To characterize the passive response of a cross-linked filament network in the absence of filament recycling and motor activity, we imposed an external force on the simulated network, and then quantified the mechanical response in terms of internal network stress and network strain as a function of time. Figure \ref{fig:passive_ex}a shows the typical response of a simulated network. We measured the local velocity of the network at different positions along the axis of deformation as the mean velocity of all filament segments intersecting that position; we measured the internal network stress at each position by summing the axial component of the tensions on all filament segments intersecting that position, and dividing by network height; finally, we measured network strain rate as the average of all filaments velocities divided by their positions.
+
+During early (not shown) and intermediate (Figure \ref{fig:passive_ex}b) stages of the deformation, the internal stress (blue) was nearly constant throughout the material while the velocity (orange) increased linearly with distance from the site of network attachment, indicating an approximately uniform deformation (strain) rate throughout the material. Accordingly, we report the network response in terms of time-dependent bulk material stress and strain.
+
+Plotting the bulk stress and strain as a function of time revealed that the deformation occurred in three qualitatively distinct phases (Figure \ref{fig:passive_ex}a,c). On short timescales the response was viscoelastic, with a rapid buildup of internal stress and a rapid $\sim$exponential approach to a fixed strain, which represents the elastic limit in the absence of cross-link slip predicted by \cite{theo_hlm}. On intermediate timescales, the internal stress remained constant while the network continued to deform slowly and continuously with nearly constant strain rate (shown as dashed line in Fig \ref{fig:passive_ex}c) as filaments slipped past one another against the effective cross-link drag. This linear relationship between strain and time characterizes a material with an effective viscosity, $\eta$, given by the ratio of the applied stress to the strain rate. We define the transition time between the fast, viscoelastic phase and the slower, effectively viscous deformation phase as $\tau_c$. Finally, as the network strain approached a critical value ($\sim 30\%$ for the simulation in Figure \ref{fig:passive_ex}), strain thinning led to decreased network connectivity, local tearing, and acceleration of the network deformation (see inset in Figure \ref{fig:passive_ex}c), eventually resulting in the highly heterogeneous network structure shown in the t=440s example of Figure \ref{fig:passive_ex}a. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\hsize]{active/figures/figure3a}
+\caption{\label{fig:passive_ex}  Networks with passive cross-links and no filament turnover undergo three stages of deformation in response to an extensional force.   \textbf{a)} Three successive time points from a simulation of a $4\times6.6\: \mu m$ network deforming under an applied extensional stress of 0.005 $nN/\mu m$ (stress is applied to filaments in the region indicated by the tan bar). Network deforms to a final dimension of $\sim4\times10\: \mu m$. In this and all subsequent figures, filaments are color-coded with respect state of strain (blue = tension, red = compression).  Network parameters: $L=1\: \mu m$, $l_c=0.3\: \mu m$, $\xi=100\: nN\cdot s/\mu m$. \textbf{b)} Mean filament stress and velocity profiles for the  network in (a) at t=88s. Note that the stress is nearly constant and the velocity is nearly linear as predicted for a viscous fluid under extension.  \textbf{c)} Plots of the mean stress and strain vs time for the simulation in (a), illustrating the three stages of deformation: (i) A fast initial phase accompanies rapid buildup of internal network stress; (ii) after a characteristic time $\tau_c$ (indicated by vertical dotted line) the network deforms like a material with a constant effective viscosity, $\eta_c$, as indicated by the slope of the dashed line; (iii) at long times, the strain accelerates (see inset) as the network undergoes strain thinning and eventually tears. }
+\end{figure}
+
+% Viscosity and timescale parameter dependence
+\paragraph{Network architecture sets the rate and timescales of deformation.}  To better understand how network architecture and cross-link dynamics control effective viscosity and the timescale for transition to viscous behavior, we systematically varied network parameters (see \nameref{S1_Table}), and measured the elastic modulus, $G_0$, effective viscosity, $\eta$, and transition time, $\tau_c$, in response to a fixed external stress. We observed the transition from a viscoelastic to an effectively viscous phase for the entire range of parameters that we sampled.  The elastic limit that we observe during the viscoelastic phase agreed closely with the closed form solution for the elastic modulus  $G_0 \sim \mu/l_c$ predicted by a previous model \cite{theo_hlm} for networks of semi-flexible filaments with irreversible cross-links (\nameref{fig:passive_supp}). A simple theoretical analysis (shown in \nameref{S1_Text}) predicts that in the viscous phase, the effective viscosity should be proportional to the cross-link drag coefficient and to the square of the number of cross-links per filament, with a constant of proportionality $\pi/4$. We define this predicted scaling of effective viscoisty as $\eta_c$.
+
+\begin{equation}
+\eta_c = \frac{\pi}{4}\xi\left ( \frac{L}{l_c}-1\right )^2
+\end{equation}
+
+
+As shown in Figure \ref{fig:passive_form}a, our simulations agree well with this prediction for a large range of network parameters. For many linear viscoelastic materials, the ratio of the viscosity, $\eta_c$, to the elastic modulus, $G_0$, is a general indicator of the transition timescale from elastic to viscous behavior\cite{mccrum1997principles}. Using our approximations of the elastic modulus and viscosity, we predict a crossover time, $\tau_c \approx L^2\xi/l_c\mu$. By measuring the time at which the strain rate became nearly constant (i.e $\gamma \sim t^n$ with $n>0.8$) we obtained an estimate of this time for a wide variety of simulation parameters. As shown in Figure \ref{fig:passive_form}b, our approximation is in good agreement with the observed transition time, indicating that the passive responses of our simulated networks are well represented by effectively linear bulk properties, at least over small strains.
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\hsize]{active/figures/figure3b}
+\caption{\label{fig:passive_form} Network architecture sets the rate and timescales of deformation. \textbf{a)} The effective viscosity depends on the drag coefficient and the density of the network. Data points are the normalized effective viscosity from simulations (effective viscosity measured in fluid phase divided by the cross link friction coefficient) vs the number of cross links per filament $(L/l_c - 1)$.  Dotted line indicates the relationship predicted by a simple theory, $\eta_c = \xi(L/l_c-1)^2$ \textbf{b)} The transition to viscous behavior occurs at a characteristic time, $\tau_c$.  }
+\end{figure}
+
+
+% Passive Recycling
+\paragraph{Filament recycling rescues network tearing and modulates effective viscosity.} 
+ 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\hsize]{active/figures/figure5a}
+	\caption{\label{fig:passive_rec}  Filament recycling modulates effective viscosity in two regimes. \textbf{a)} Examples of $20 \times 12 \mu m$ network under 0.001 $nN/\mu m$ extensional stress with recycling ($\tau_r=10 s$) and without, ($\tau_r=\infty$).  Both images are taken when the patches had reached a net strain of 0.4.  The network with recycling doesn't appear to change shape because its components have been recycled to remain in the original domain.  Network parameters: $L=3\: \mu m$, $l_c=0.5\: \mu m$, $\xi=10\: nN\cdot s/\mu m$. \textbf{b)} Strain curves for identical networks with varying levels of filament recycling.  Network parameters: $L=3\: \mu m$, $l_c=0.5\: \mu m$, $\xi=10\: nN\cdot s/\mu m$. \textbf{c)}  Plotting the effective viscosity derived from the slopes of the lines in panel a.  \textbf{d)} Effective viscosities (normalized by the effective viscosity in the absence of recycling, $\eta_c$) as a function of the normalized recycling time. When the recycling timescale is significantly less than the passive relaxation timescale, the viscosity of the network becomes dependent on recycling time. Red dashed line indicates the approximation given in equation \ref{eqn:simple_eta} for $m=3/4$.}
+\end{figure}
+
+To explore how filament recycling shapes the passive network response to an applied force, we ran a series of simulations with identical filament lengths and network densities and cross-link drag coefficients, while varying the filament recycling time $\tau_r=1/k_{diss}$. Figure \ref{fig:passive_rec}a illustrates the results for a particular set of network parameters. In the absence of filament recycling, strain thinning and network tearing lead to a rapid increase in strain rate above a critical strain of $\sim40\%$. 
+
+Progressively decreasing the filament recycling time led to a progressive increase in the rate of network deformation during the effectively viscous phase and an increase in the critical strain at which the network began to tear. As we decreased the recycling time below a critical recycling time ($\tau_{crit}$), the networks began to sustain effectively viscous deformation indefinitely, as shown by the lack of strain thinning in the strain profiles of (ANOTHER SUPPLEMENTAL FIGURE). Intuitively, steady state deformation is achieved when the rate of filament depletion by strain thinning is balanced by a sufficiently high rate of filament recycling (i.e. a sufficiently low recycling time).  To determine the critical recycling time, we write an equation for the rate of change in filament density $\rho$, as a function of filament recycling ($k_{app}-k_{diss}\rho$) and strain thinning ($-\dot{\gamma}\rho$).
+These terms can be rewritten to give the following 
+
+\begin{equation}
+\frac{d \rho}{dt} = \frac{\rho_0-\rho}{\tau_r}  - \frac{\sigma}{\eta_c(\rho)} \rho
+\end{equation}
+
+where $k_{diss}$  has been replaced by $1/\tau_r$, and $\rho_0 = k_{app}\tau_r$, and $\dot{\gamma}$ has been replaced by $\sigma/\eta_c$.  For our networks, the effective viscosity, $\eta_c$, is dependent on the filament density (through $l_c$) so this dependence must be included. Solving this equation for its steady states, and replacing the initial density, $\rho_0$, with the length density approximation, $2/l_c$, we find that a constant steady state density only exists under the condition $\tau_r < \tau_{crit}=\eta_c/2\sigma$.  
+
+Reducing recycling time, $\tau_r$, below $\tau_{crit}$ produced different effects on steady state deformation rates depending on the relative values of $\tau_r$ and $\tau_c$, the characteristic time for the transition to effectively viscous deformation in the absence of recycling. For $\tau_r > \tau_c$, the deformation rate is dominated by cross-link resistance to sliding of strained filaments, and the effective viscosity remained $\sim$constant with decreasing $\tau_r$; for $\tau_r < \tau_c$, effective viscosity decreased sublinearly with decreasing $\tau_r$. Intuitively, this is because, for $\tau_r < \tau_c$, the deformation rate is limited by the level of elastic stress on partially strained filaments; By replacing partially strained with unstrained filaments, the network is able to tune the mean level of stress and thus the deformation rate.
+
+
+To confirm this relationship more generally, we allowed filament lengths, network density and cross link friction to vary more widely, and we measured the network deformation rates while varying filament recycling times (Figure \ref{fig:passive_rec}a,b). We then plotted the normalized effective viscosity (ratio of effective viscosity with recycling to effective viscosity without recycling, $\eta_c$) vs a normalized recycling rate (recycling time scaled by $\tau_c$). Indeed, we found that the normalized effective viscosity measured during steady state flow begins to decrease when the recycling time falls below $\tau_c$ and below this value the effective viscosity falls off nearly linearly with recycling time to minimal values (Figure \ref{fig:passive_rec}c). 
+
+To describe this we introduce (based on linear viscoelastic models of \cite{mccrum1997principles}) an effective recycling viscosity, $\eta_r$, which can be tuned between the $\tau_r$ dependent and independent regimes, depending on the value of the recycling timescale.
+
+
+
+\begin{equation}
+\label{eqn:simple_eta}
+\eta_r = \frac{\eta_c}{1+(\tau_c/\tau_r)^m}  
+\end{equation}
+
+For $\tau_r\gg\tau_c$, this simplifies to $\eta_r\approx\eta_c$, while for $\tau_r\ll\tau_c$, this simplifies to $\eta_r\sim(\tau_r/\tau_c)^m$, which matches with our measurements as found in Figure \ref{fig:passive_rec}d for a large range of parameters (with $m=3/4$). While the origins of the $3/4$ scaling remain unclear, this model captures a simple quantitative description of our simulation data.
+
+
+
+%Discuss
+In summary, our simulations predict that tuning recycling times below a critical value $\tau_{crit}$, allows networks to undergo continuous viscous deformation, for long times, without tearing, for a wide range of different effective viscosities and deformation rates. Given a suitably low strain rate, $\tau_{crit}$ will be substantially larger than the other timescales of interest. For $\tau_r < \tau_{crit}$, modulating filament recycling times can tune the network between two regimes. For $\tau_r > \tau_c$, the deformation is limited by effective cross-link friction. The effective viscosity depends on the strength of inter-filament cross-linking and the network's architecture, and is relatively insensitive to changes in recycling rate. For $\tau_r < \tau_c$, the deformation is governed by the buildup of elastic stress on network filaments, and effective viscosity becomes strongly dependent on recycling time. 
+
+These findings are in agreement with previous simulations of passive creep in cross-linked networks subjected to extensional stress  \cite{Kim2014526} .  Kim et al considered  a different form of filament turnover (filament treadmilling) in networks with irreversible cross links.They identified two regimes of deformation depending on the level of applied stress and the filament turnover rate: a ?stress-dependent regime? in which filaments turnover before they are strained to an elastic limit and network deformation is linearly viscous and tuned by the turnover rate; and a ?stress-independent regime? in which filaments reach an elastic limit before turning over andthe creep rate depends only on the turnover rate, and is insensitive to variation in applied stress. The short recycling time regime ($\tau_r < \tau_c$) that we observe, in which the mechanics are governed by filament extension, is directly equivalent to the stress-dependent regime described by Kim et al. For this regime, our model yields a theoretical description of the effective viscosity found in \cite{Kim2014526}. The $\tau_r > \tau_c$ regime that we observe here corresponds to the stress-independent regime of \cite{Kim2014526}, but with a key difference.   in \cite{Kim2014526}, there was no cross-link unbinding so without of filament turnover, the network would not deform beyond its elastic limit. In contrast, our simulations always require non-zero cross-link slip so there is always some viscous network deformation. Therefore, in the regime of long recycling times our model approaches the limit of cross-link dominated viscosity whereas the model of \cite{Kim2014526} approached an infinite viscosity limit.
+
+
+
+
+
+
+% ACTIVE SECTION
+\subsection{Filament recycling allows persistent stress buildup in active networks}
+
+\paragraph{In the absence of filament recycling, active networks with free boundaries contract and then stall against passive resistance to network compression.}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\hsize]{active/figures/figure4a}
+	\caption{\label{fig:active_con} In the absence of filament recycling, active networks with free boundaries contract and then stall against passive resistance to network compression. \textbf{a)}  Example of an active network contracting. Note the buildup of compressive stress as contraction approaches stall between 100 s and 150 s.  Network parameters: $L=5\: \mu m$, $l_c=0.3\: \mu m$, $\xi=100\: nN\cdot s/\mu m$, $\upsilon=0.1\: nN$.  \textbf{b)} Plots showing time evolution of total network strain and  the average extensional (blue) or compressive (red) strain on individual filaments.   \textbf{c)} The network's ability to deform relies on the magnitude of asymmetric filament compliance.  Total network strain also increases with the applied myosin force $\upsilon$. Note that the extent of contraction approaches an asymptotic limit as the stiffness asymmetry approaches a ratio of $\sim 100$.}
+\end{figure}
+
+Previous theoretical and experimental studies\cite{1367-2630-14-3-033037,rheo_2D1,rheo_active} identified asymmetric filament compliance and dispersion in motor force  as minimal requirements for contraction of disordered networks. To test if our simple implementation of these two requirements (see Models section) was sufficient to produce macroscopic contraction, we simulated active networks that were unconstrained by external attachments.  Turning on motor activity in an initially unstrained network at $t=0$ produced a rapid initial contraction, followed by a progressive buildup of elastic stress due to compression of individual filaments and an $\sim$exponential approach to stall (Figure \ref{fig:active_con}). The time to stall, $\tau_s$, scaled as $L\xi/\upsilon$ (see \nameref{fig:active_supp}b), although the origins of this scaling relationship remain unclear.  On a longer timescale, polarity sorting of individual filaments, as previously described \cite{Ndlec:1997aa,Surrey1167} rearranged the entire network, undoing the initial contraction (see \nameref{active_con_video}).  
+
+
+During the rapid initial contraction, bulk network strain matched closely the mean compressive strain on individual filaments Figure \ref{fig:active_con}b, confirming that the origin of bulk contraction in our simulations is filament buckling due to asymmetric filament compliance, as predicted by \cite{1367-2630-14-3-033037,PhysRevX.4.041002} and observed experimentally\cite{rheo_2D1}. Contraction only occurred when the fractional motor activity $0<\phi<1$ (i.e. the fraction of filament intersections with active motors) was less than one, confirming the requirement for dispersion of motor activity (see \nameref{fig:active_supp}). Thus, our model effectively captures a minimal mechanism for bulk contractility in disordered networks through asymmetric filament compliance and dispersion of motor activity.
+
+We also determined how microscale parameters shape the rate and final extent of network contraction. Consistent with the idea that contraction stalls when the elastic resistance to filament compression balances the contractile stress, the final extent of contraction increased sharply with motor activity ($\upsilon$) and with the asymmetry in filament stiffness (i.e. the ratio of the extensional and compressive stiffnesses $\mu_e/\mu_c$, Figure \ref{fig:active_con}c,  
+
+
+\paragraph{Active networks can only exert a transient stress against a fixed boundary in the absence of filament recycling.}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\hsize]{active/figures/figure4b}
+	\caption{\label{fig:active_str} In the absence of filament recycling, active networks can only exert a transient force against a fixed boundary.  \textbf{a)} Simulation of an active network with fixed boundaries illustrating progressive buildup of internal stress through local filament rearrangement and deformation. Note the progressive buildup of compressive stress on individual filaments. Network parameters: $L=5\: \mu m$, $l_c=0.3\: \mu m$, $\xi=100\: nN\cdot s/\mu m$, $\upsilon=0.1\: nN$.  \textbf{b)} Plots of total network stress and the average extensional (blue) and compressive (red) stress on individual filaments for the simulation shown in (a). Rapid buildup of extensional stress allows the network transiently to exert force on its boundary, but this force is dissipated at longer times as internal extensional and compressive stresses become balanced. \textbf{c}. Measurement and prediction of the characteristic time ($\tau_a$) at which the maximum stress is achieved. }
+\end{figure}
+
+The previous results reveal internal limits on the contraction of networks with free boundaries.  However networks typically build force and contract against an external resistance.  Therefore, we also analyzed the buildup and maintenance of contractile stress in active networks contracting against a rigid boundary. We simulated active networks contracting from an initially unstressed state against a fixed boundary (Figure \ref{fig:active_str}a), and  monitored the time evolution of mean extensional (blue), compressional (red) and total (black) stress on network filaments (Figure \ref{fig:active_str}b). We observed the same qualitative behavior for all network parameters examined: Total stress built rapidly to a peak value $\sigma_a$, and then decayed back to zero again.  Sampling these dynamics over a large range of network parameters, we found that the peak stress occurred at a characteristic time, $\tau_a\sim\xi/l_c\sqrt{\mu_e\upsilon}$, as shown in Figure \ref{fig:active_str}c. Although, the origins of this peculiar scaling are unclear, the measurement agrees with our intuitive predictions: The time to reach peak stress should vary directly with the cross-link coupling ($\xi$) and filament density ($2/l_c$), and it should inversely with the square root of both the filament stiffness ($\mu_e$) and motor force ($\upsilon$).  
+
+The slower falloff of active stress involves two contributions:  the first is slow dissipation of extensional stress on network filaments (blue curve in Figure 6B), reflecting a decrease in active stress generation. A similar effect was recently documented in detailed simulations of cross-linked actomyosin networks, where it was associated with large scale reorganization and collapse of network structure \cite{Mak:2016aa}.  Here, we find that significant dissipation of extensional stress can also occur through more local rearrangements without loss of network structure (Figure 6A,B).  The second contribution involves a gradual buildup of compressional stress (red curve in Figure 6B), that balances the active stress at steady state such the the total stress exerted on the network boundary falls to zero.  This buildup of compressional stress occurs through purely local rearrangements in the absence of large scale deformation. 
+
+We were unable to find a simple dependencies on network parameters either dissipation of extensional stress or buildup of compressional stress.  However, for all parameters we sampled, this timescale for decay of stress was significantly longer than the timescale for stress buildup, presumably because the initial buildup involves rapid loading of extensional stress on individual filaments, while the slower dissipation requires local filament rearrangement. 
+
+
+\paragraph{Filament recycling allows networks to exert sustained stress on a fixed boundary.}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\hsize]{active/figures/figure5b}
+	\caption{\label{fig:active_rec} Filament recycling allows network to exert sustained stress on a fixed boundary. \textbf{a)} Snapshots from simulations of active networks with fixed boundaries for different timescales of filament recycling.  Network parameters are the same as in Figure 6. Note that significant remodeling occurs for longer recycling times. \textbf{b)} Plots of net stress exerted by the network on its boundaries for different recycling times; for long-lived filaments, stress is built rapidly, but then dissipates. Increasing filament turnover rates reduces stress dissipation by recycling compressed filaments; however, very short recycling times prevent any stress from being built up in the first place. \textbf{c)} Plotting the steady state stress derived from the long term stress values of the stress in panel b.  \textbf{d)} Normalized steady state stress as a function of normalized recycling time. The steady state stress is set by the timescale at which the network strain is refreshed relative to the timescale at which the max stress is reached. The values have been normalized to the predicted peak stress, $\sigma_a$ in the absence of recycling. Blue dashed line indicates the approximation given in equation \ref{eqn:simple_sigma} for $n=1$.}
+\end{figure}
+
+To explore how the fall-off in stress could be relieved by filament recycling, we again considered an active network contracting against a fixed boundary, using the same parameters as in Figure \ref{fig:active_str}, but now we systematically varied filament recycling rates. Adding filament recycling produced two general effects: First, as in the passive case (Figure 4), filament recycling could prevent catastrophic tearing by continuously repairing local structural heterogeneities, and by steadily opposing the effects of local strain thinning (see \nameref{fig:tear_supp}). Second, we found that filament recycling resulted in biphasic modulation of the level of steady state stress.
+
+For the same network parameters as in Figure \ref{fig:active_rec}a and slow filament recycling ($\tau_r = 1000 s$), the network stress built rapidly, peaked, and then fell to a lower value that persisted for times much longer than $\tau_a$. Up to a certain point, decreasing recycling time produced a monotonic increase in the steady state stress, although the steady state stress remained lower than its peak value. However, beyond this point, further decreases in recycling time lead to decreases in the steady state stress as well as sharp decreases in the peak stress. IWe reasoned that this bimodal dependence of steady state stress on recycling rates emerges from continuous replacement of strained with unstrained filaments, combined with the different timescales for buildup of extensional vs the slower dissipation of extensional stress and buildup of compressive  stress (Figure \ref{fig:active_rec}b). If so, then lowering the recycling time $\tau_c$ should increase net stress until $\tau_c$ is approximately equal to $\tau_a$, the time required to build peak stress from an initially unstressed state. For shorter recycling times, the average filament will not have time to build maximum extensional stress before turning over, and thus the steady state stress should decrease with further decreases in $\tau_c$. Indeed, plotting normalized steady state stress (steady state stress/peak stress) vs normalized recycling time ($\tau_c$ /$\tau_a$) confirmed that this biphasic dependence of steady state stress on recycling times holds for a large range of sampled values for network parameters \ref{fig:active_rec}d.
+
+
+Similar to the passive response (i.e. Equation \ref{eqn:simple_eta}), we can approximate the dependence of the steady state stress on the filament recycling rate using a simple equation. 
+
+\begin{equation}
+\label{eqn:simple_sigma}
+\sigma_{ss} = \frac{\sigma_{peak}}{(\tau_r/\tau_a)^n+\tau_a/\tau_r}  
+\end{equation}
+
+For $\tau_r\gg\tau_a$, this simplifies to $\sigma_{ss}\sim(\tau_a/\tau_r)^n$, while for $\tau_r\ll\tau_a$, this simplifies to $\sigma_{ss}\sim\tau_r/\tau_a$. What sets the scaling $n$ remains unclear, and this scaling does not appear to be consistent across all simulation setups (Figure \ref{fig:active_rec}d). However, equation \ref{eqn:simple_sigma} still captures a qualitatively correct description of steady state stress in our simulation data.
+
+
+
+
+
+
+
+
+
+
+% COMBINED SECTION
+\subsection{Filament recycling tunes the balance between active stress buildup and viscous stress relaxation to generate flows}
+
+Thus far, we have considered independently how filament recycling tunes effective viscosity during passive deformation in response to an externally applied stress, and how filament recycling tunes the steady state stress produced by an active network against an external resistance. We next sought to characterize how filament recycling tunes the steady flows produced by gradients of motor activity as regions of high motor activity contract against the passive resistance of a neighboring region with low motor activity. 
+
+\paragraph{Filament recycling allows sustained flows in networks with non-isotropic activity.}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\hsize]{active/figures/figure6a}
+	\caption{\label{fig:flow_ex}  Filament recycling allows sustained flows in networks with non-isotropic activity. \textbf{a)} Example simulations of non-isotropic networks with long ($\tau_r=1000$) and short ($\tau_r=33$) recycling timescales. In these networks the left half of the network is passive while the right half is active.  Network parameters are same as in Figures \ref{fig:active_str} and \ref{fig:active_rec}. Importantly, in all simulations $\tau_a<\tau_c$. \textbf{b)} Graph of strain for identical networks with varying recycling timescales.  With long recycling times, the network stalls; reducing the recycling timescale allows the network to persist in its deformation.  However, for the shortest recycling timescales, the steady state strain begins to slowly return to 0 net motion.  \textbf{c)} Graph of network long-term strain rate as a function of recycling timescale for simulations in a) and b). \textbf{d)} Graph of network long-term strain rate as a function of recycling timescale across a wide range of parameter space.  Note that networks only begin to maintain long-term flows when the recycling time is less than $100\tau_a$. }
+\end{figure}
+
+We imposed a continuously asymmetric distribution of motor activity on an initially uniformly dense network of passively cross-linked filaments by allowing a fraction of cross links to be active only in the right half of the simulation domain. Then we examined the time-dependent deformation of the network for a range of different filament recycling times Figure \ref{fig:flow_ex}a. We observed a sharp dependence of steady flow on filament recycling rate Figure \ref{fig:flow_ex}b,c. For very longer recycling times, ($\tau_r=1000 s$, dark blue line), there was a rapid initial deformation (contraction of the active domain and dilation of the passive domain), followed by a slow approach to a steady state flow characterized by slow contraction of the right half-domain and a matching dilation of the left half-domain (see \nameref{fig:combo_prof}).  However, with decreasing filament recycling times, we found the network was able to largely sustain its deformation and that the long term strain rate remained relatively high (Figure \ref{fig:flow_ex}c).  We repeated these measurements for more network parameters and found that at the shortest recycling timescales measured, we still saw the effective viscosity remaining relatively high, indicating that for short recycling times the effective viscosity may be somewhat buffered against variation in recycling times (Figure \ref{fig:flow_ex}d).
+
+
+
+
+
+
+
+\paragraph{Filament recycling tunes the magnitudes of both effective viscosity and steady state stress.}  
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\hsize]{active/figures/figure_theor}
+	\caption{\label{fig:flow_theo}  Filament recycling tunes the magnitudes of both effective viscosity and steady state stress. \textbf{a)}  Dependence of steady state stress and effective viscosity on recycling time $\tau_r$ under the condition $\tau_c<\tau_a$. \textbf{b)} Same as a), but for the case where $\tau_a<\tau_c$.  \textbf{c,d)} Resulting strain rates for network as a function of recycling time $\tau_r$ for the regimes in panels a and b..  }
+\end{figure}
+
+This dependence of steady state deformation (flow) rate on filament recycling times can be understood in terms of our previous findings.  During steady state flow, active contraction of the right half-domain is limited both by internal resistance to compression of filaments within the right half-domain (Figure 5), and by passive resistance of the left-half domain (Figure 4).  
+
+Monitoring these two forms of resistance as a function of filament recycling time for the simulations in Figure 8, we see that resistance to compression of filaments in the right half domain makes a significant contribution only for very low recycling rates.  This is because using physiologically relevant values for network parameters (described above) sets up a condition where compressional resistance on filaments in the contracting right half domain takes longer to build than extensional resistance on filaments in the dilating right half-domain (i.e. $\tau_c<\tau_s$). As a consequence, except for very low recycling rates ($\tau_r>\tau_{crit}$),  steady state deformation is governed by an equation of the form:
+
+\begin{equation}
+\label{eqn:everybody_knows_that}
+\dot{\gamma} = \frac{\sigma_{ss}}{\eta_r}  
+\end{equation}
+
+where $\sigma_{ss}$ is the active stress generated by the right half-domain (less the internal resistance to filament compression), $\eta_r$ is the effective viscosity of the left half domain and strain rate is measured in the left half-domain.  Therefore, we can understand the dependence of network flow (i.e. strain rate) on filament recycling time $\tau_r$ in terms of the previously characterized dependencies of effective viscosity and steady state stress on $\tau_r$ (Figures \ref{fig:passive_rec}d and \ref{fig:active_rec}d). In particular, recall that there is a transition in the dependence of $\eta_r$ on $\tau_r$ at the characteristic time $\tau_c$, and a transition in the dependence of $\sigma$ on $\tau_r$ at the characteristic time $\tau_a$.  Thus, as shown in Figure \ref{fig:flow_theo},  there are two qualitatively distinct cases for the dependence of strain rate on $\tau_r$, depending on the relative magnitudes of $\tau_a$ and $\tau_c$.  For both cases, we expect a decrease in strain rate with filament recycling at long recycling times (where effective viscosity is insensitive to strain rate)  and approach to a slowly varying strain rate at low recycling times, where both $\eta_r$ and $\sigma_{ss}$ fall off with different scalings. For $\tau_a < \tau_c$, we predict a peak strain rate at intermediate recycling times followed by a rapid falloff at lower recycling times, whereas for $\tau_a > \tau_c$, we expect a more rapid approach to maximum strain rate and a slower fall off at lower recycling times.  As shown in Figure \ref{fig:flow_theo}d, for the range of network parameters we sampled, the strain rate rapidly increases as $\tau_r$ is lowered towards $\tau_a$ and then more slowly decays to 0 as $\tau_r$ is further decreased.  This is to be expected because all the parameter values sampled (selected for physiological relevance) satisfied the condition $\tau_a > \tau_c$.
+
+
+
+\paragraph{Filament recycling influences architectural control of flow rate.}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\hsize]{active/figures/figure6b}
+	\caption{\label{fig:flow_form}  Filament recycling influences architectural control of flow rate. \textbf{a)}  For a fixed filament recycling time, filament length tuned network deformation rate.  \textbf{b)} Recycling rate is independent of cross-link spacing in this parameter space.}
+\end{figure}
+
+Finally, we examined how steady state flow depends on other network parameters when filament recycling rates are held constant.   Interestingly, we found that flow rates are largely insensitive to cross link density ($l_c$) but vary inversely with filament length. Thus, in this region of parameter space, steady state flows may be buffered intrinsically against some forms of variation in network architecture.
+
+
+
+
+
+
+
+
+
+
+%Conclusion
+\section{Conclusion}
+Our work aimed to create a simulation framework that would allow us to analyze the origins of macroscopic flow in terms of a handful of physiologically relevant microscopic parameters.  Toward this aim we developed a minimalist model of a 2D filament network and analyzed the network's reaction to a variety of situations.  We found mathematical relationships that determined both the passive effective viscosity and the active stress generation of networks with and without recycling.  From these relationships we were able to make predictions about the rates of network flow in non-isotropic networks mimicking those found in polarized eukaryotic actomyosin cortices.  
+
+Importantly, our work brings a theoretical understanding to the importance of actomyosin turnover in producing and maintaining long-term large scale flows.  We propose the concept of "filament recycling" to refer to the multitude of biochemical interactions which can give rise to the piece by piece architectural resetting of filament networks.  We believe that our analysis of networks in the presence of this filament recycling will be useful in further developing the qualitative and quantitative understanding the deformation of these complex networks.
+
+\section{Supporting Information}
+
+% Include only the SI item label in the subsection heading. Use the \nameref{label} command to cite SI items in the text.
+\paragraph*{S1 Text.}
+\label{S1_Text}
+{\bf Bold the title sentence.} Add descriptive text after the title of the item (optional).
+
+\paragraph*{S1 Fig.}
+\label{S1_Fig}
+{\bf Bold the title sentence.} Add descriptive text after the title of the item (optional).
+
+\paragraph*{S2 Fig.}
+\label{fig:passive_supp}
+{\bf  Mechanical properties of passive networks.}  \textbf{a)} Elastic modulus of networks.  Our measurements closely match prediction of $G_0\sim\mu/l_c$.  \textbf{b)}  Placeholder for inevitably another figure relevant to passive properties..
+
+\paragraph*{S3 Fig.}
+\label{fig:tear_supp}
+{\bf Mechanical properties of active networks } Add descriptive text after the title of the item (optional).
+
+\paragraph*{S4 Fig.}
+\label{fig:active_supp}
+{\bf Mechanical properties of active networks } Add descriptive text after the title of the item (optional).
+
+\paragraph*{S6 Fig.}
+\label{fig:combo_prof}
+{\bf Spatial velocity profile of networks containing passive and active domains.} 
+
+\paragraph*{S1 Table.}
+\label{S1_Table}
+{\bf Parameter values.}  List of parameter values used for each set of experiments.
+
+\paragraph*{S1 Video.}
+\label{passive_ex_video}
+{\bf Extensional strain in passive networks.}  Movie of simulation setup shown in Figure \ref{fig:passive_ex}
+
+\paragraph*{S2 Video.}
+\label{active_con_video}
+{\bf Active networks contracting with free boundaries.}  Movie of simulation setup shown in Figure \ref{fig:active_con}
+

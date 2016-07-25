@@ -59,7 +59,6 @@
 %     page break command as done there or else you may end up
 %     with the wrong page number in your table of contents. 
 
-
 \documentclass{easychithesis}
 % Document Options: 
 %
@@ -84,6 +83,13 @@
 %  \documentclass[plainchapterheads]{easychithesis}
 %
 % You can give more than one option, if you desire.
+\usepackage{nameref}
+\usepackage{amsmath}    % need for subequations
+\usepackage{graphicx}   % need for figures
+%\usepackage{verbatim}   % useful for program listings
+%\usepackage{color}      % use if color is used in text
+%\usepackage{subfigure}  % use for side-by-side figures
+%\usepackage{hyperref}   % use for hypertext links, including those to external documents and URLs
 
 \begin{document}
 
@@ -92,7 +98,7 @@
 \author{Will McFadden}
 \date{Sept 2016}
 \department{Biophysical Science}
-\division{Physical Sciences} 
+\division{Physical \& Biological Sciences} 
 \degree{Doctor  of Philosophy} 
 \maketitle
 
@@ -113,21 +119,10 @@
 % if you prefer.
 
 \topmatter{Abstract}
-This paper concerns the ridiculous Yes song, ``Cans And Brahms''.
-We investigate what could possibly have prompted Rick Wakeman to
-cover the classic Brahms piano piece with his cheesy Moog synth.
-We explore the relationship between his solo and the other solo
-endeavors on the \emph{Fragile} album.
+Blar Blar
 
 \topmatter{Acknowledgements}
-I'd like to thank Jason Bermack, who unknowingly played
-\emph{Big Generator} for me in his car, when we were both in high 
-school, thus ensuring a long and fruitful relationship with Yes music 
-throughout my college days.
-
-I'd also like to thank Dave Moulton, who likes Yes too, and 
-accompanied me to my first ever rock concert - Yes in the Oakland 
-Coliseum.  They played ``Awaken'' for 20 minutes.  Wow.
+I'd like to thank Patrick McCall, Pete Dahlberg, and Claire Stevenson for being there for me.
 
 %
 % Table Of Contents
@@ -156,95 +151,34 @@ Coliseum.  They played ``Awaken'' for 20 minutes.  Wow.
 % Body Chapters
 %
 \chapter{Introduction}
+\include{introduction/introduction}
+
+\chapter{Impact of filament recycling on cortical flow in animal cells}
 
 
-\chapter{Main Work}
+\chapter{Modeling 2D active networks with recycling}
+\input{model/active}
 
-\chapter{Other Solos on Fragile}
+\chapter{Filament Recycling and Sustained Contractile Flows in an Actomyosin Network}
+\input{active/active}
+\input{active/activesup}
+\chapter{A model of upstream actomyosin regulators in pulsed contractions}
 
-\chapter{Yes Excesses Over Time}
+\chapter{Phases of deformation in filament networks with cross-link slip}
+\input{slippage/slippage}
+
+\chapter{Discussion and Future Directions}
 
 %
 % Appendices
 %
 \appendix
-\chapter{Incomplete Discography I}
-Here's a table of some Yes Albums I can think of, in something that's 
-close to but certainly not in chronological order.
-\begin{table}[h]
-\begin{center}
-\begin{tabular}{|c|}\hline
-        Time And A Word\\
-        \hline
-        Fragile\\
-        \hline
-        The Yes Album\\
-        \hline 
-        Close To The Edge\\
-        \hline 
-        Tales From Topographic Oceans\\
-        \hline
-        Drama\\
-        \hline
-        Tormato\\
-        \hline 
-        Relayer\\
-        \hline
-        Going For The One\\
-        \hline
-        90125\\
-        \hline 
-        Big Generator\\
-        \hline
-        Union\\
-        \hline 
-        Talk\\
-        \hline
-\end{tabular}
-\caption{Some Yes Albums}
-\end{center}
-\end{table}
+\chapter{Workshop on modeling in biology}
 
-\chapter{Yes Members}
-Of course, nobody can keep track of the various members of the band 
-over the years, though Jon and Chris form the backbone and I believe 
-have appeared on every album.  Except maybe Chris missed one in there 
-somewhere.  Anyway, here's some of the other members, with their main 
-instruments.  Pretty much everyone (but Bill?) sings at some point, if 
-only for harmony.
-\begin{table}[h]
-\begin{center}
-\begin{tabular}{|c|c|}
-        \hline
-        Jon Anderson & vocals \\
-        Bill Bruford & drums \\
-        Steve Howe & guitar\\
-        Tony Kaye & keyboard\\
-        Trevor Rabin & guitar\\
-        Rick Wakeman & keyboard\\
-        Alan White &drums\\
-        \hline
-\end{tabular}
-\caption{Yes Members}
-\end{center}
-\end{table}
+\chapter{Artistic Interpretations of filament recycling}
 
-\chapter{Useless figures}
-Here's a pointless figure:
-\begin{figure}[htbp]
-  \begin{center}
-    {\Huge Yes!}
-    \caption{Yes}
-  \end{center}
-\end{figure}
-and another:
-\begin{figure}[htbp]
-   \begin{center}
-     {\Huge No!}
-     \caption{No}
-    \end{center}
-\end{figure}
-
+\chapter{Reducing power consumption in High Performance Computing}
+\input{edeals/datacenter_energy}
 %
 % References (the thesis office prefers that to Bibliography...)
 %
@@ -255,12 +189,8 @@ and another:
 
 \singlespacing
 \pagebreak
-\addcontentsline{toc}{chapter}{References}
+\bibliography{slippage/slippage,edeals/bibliography}
+\bibliographystyle{plain}
 
-\begin{thebibliography}{99}
-   % the 99 is as wide or wider than any bibliography labels.
-\bibitem{fragile}Anderson, Bruford, Squire, Wakeman.  \emph{Fragile}.
-  Atlantic, 1973.
-\end{thebibliography}
 
 \end{document}

@@ -1,0 +1,179 @@
+% TEMPLATE for Usenix papers, specifically to meet requirements of
+%  USENIX '05
+% originally a template for producing IEEE-format articles using LaTeX.
+%   written by Matthew Ward, CS Department, Worcester Polytechnic Institute.
+% adapted by David Beazley for his excellent SWIG paper in Proceedings,
+%   Tcl 96
+% turned into a smartass generic template by De Clarke, with thanks to
+%   both the above pioneers
+% use at your own risk.  Complaints to /dev/null.
+% make it two column with no page numbering, default is 10 point
+
+% Munged by Fred Douglis <douglis@research.att.com> 10/97 to separate
+% the .sty file from the LaTeX source template, so that people can
+% more easily include the .sty file into an existing document.  Also
+% changed to more closely follow the style guidelines as represented
+% by the Word sample file. 
+
+% Note that since 2010, USENIX does not require endnotes. If you want
+% foot of page notes, don't include the endnotes package in the 
+% usepackage command, below.
+
+% This version uses the latex2e styles, not the very ancient 2.09 stuff.
+\documentclass[letterpaper,twocolumn,10pt]{article}
+\usepackage{usenix,epsfig,endnotes}
+\begin{document}
+
+%don't want date printed
+\date{}
+
+%make title bold and 14 pt font (Latex default is non-bold, 16 pt)
+\title{\Large \bf Just Trying to Save Energy in our Cluster}
+
+%for single author (just remove % characters)
+\author{
+{\rm Will McFadden}\\
+University of Chicago
+\and
+{\rm Ray Parpart}\\
+University of Chicago
+\and
+{\rm Anita Nikolich}\\
+Somewhere at the NSF
+} % end author
+
+\maketitle
+
+% Use the following at camera-ready time to suppress page numbers.
+% Comment it out when you first submit the paper for review.
+\thispagestyle{empty}
+
+
+\subsection*{Abstract}
+Your Abstract Text Goes Here.  Just a few facts.
+Whet our appetites.
+
+\section{Introduction}
+
+Here we quickly introduce the concepts necessary to understand why we tackled the problem we tackled. \\
+
+Perhaps we next touch on the idea of varying the fraction of the cluster running in response to price fluctuations. \endnote{here's one endnote}
+
+Finally, we note that it is unclear how this would actually work in a production environment so somebody needs to measure what the tradeoffs would be.
+
+\section{Motivation}
+
+We explain the size of the observed price fluctuations and our statistics on usage from Midway to justify the validity of the problem~\cite{Chaum1981,Diffie1976}.  
+
+We can also introduce the competition between saving idle power consumption and the wasted time and energy of powering machines on and off.  
+
+\section{Power Cost Optimization}
+
+We have built a model to 
+
+\subsection{Modeling Costs and Wait Times}
+
+Explain our cost model in detail and introduce the constraints on the total work accomplished and the .
+
+We introduce how you can calculate the wait time function as well.
+
+
+
+\subsection{Example Energy Price Functions}
+
+Here we quickly run through the solutions to the problems of interest.
+
+\subsubsection{Temporary Price Spike}
+
+As a baseline example we explore the situation where for a timeperiod $t_s$ we see a "price spike" from $p_0$ to $p_s$.  This condition is highly similar to the condition many datacenter managers face in their datacenters.
+
+Here the number of running machines will change stepwise between a high number of running machines, $n_H=n_{max}$, and a low number of running machines, $n_L$, and a high and low CPU utilization $r_H=1$, $r_L$, with a corresponding $u_H$ and $u_L$ as defined above.  The high usage will occur during the cheap energy supply, and the low usage will occur during the price spike.  Therefore we can rewrite our cost function as 
+
+$$C = p_n n_H T + p_0 (u_0 + u_v) n_H (T-t_s) + p_s (u_0 + u_v r_L) n_L t_s + p_0 u_w (n_H-n_L)$$
+
+with the constraint
+
+$$ n_H (T-t_s) + n_L r_L t_s = S$$
+
+Inserting the constraint into our cost function to replace $r_L$ yields 
+
+$$C = p_s u_v S + n_L \cdot( p_s u_0 t_s - p_0 u_w t_w) + n_H \cdot (p_n T + p_0 u_w t_w -(\Delta p u_v - p_0 u_0)(T-t_s))$$
+
+where we've introduce the price difference, $\Delta p = p_s - p_0$.
+
+
+
+
+\subsubsection{Daily Fluctuating Price}
+
+
+
+\section{Evaluation of Energy Wait-time Tradeoffs}
+
+To test whether the value of our energy optimization schemes holds up in reality, we launched a series of small-scale experiments on a 6 machine test cluster. We wished to compare the energy savings and user wait times during a full or partial cluster shutdown in response to an energy price spike. 
+
+
+\subsection{Experimental Setup}
+
+We measured the total energy use over a 3 hour window of which the first 45 minutes comprised a partial cluster shutdown. We explored the impact of shutting down between one and all six nodes during the 45 minute window. The shutdown was carried out by either setting nodes to an idle state or fully powering nodes off.  We compared this to the energy usage without the partial shutdown.
+
+
+We used only built-in SLURM scheduler commands to control the idle and power states of individual machines in the test cluster.  Jobs running on the cluster were submitted to SLURM at a constant rate to simulate a cluster running at approximately 60\%, 65\%, 70\% and 75\% capacity. We then measured the change in the average wait time between job sumbission and job start.
+
+\subsection{Relative Energy Savings and Max Wait Times}
+
+Here we will plot the energy saved and the max wait time as a function of the fraction of cluster shutdown under our various schemes.\\
+
+% you can also use the wonderful epsfig package...
+\begin{figure}[t]
+	\begin{center}
+		\begin{picture}(300,150)(0,200)
+		\put(-15,-30){\special{psfile = fig1.ps hscale = 50 vscale = 50}}
+		\end{picture}\\
+	\end{center}
+	\caption{Wonderful Flowchart}
+\end{figure}
+
+This text came after the figure, so we'll casually refer to Figure 1
+as we go on our merry way.
+
+\subsection{Evaluation of Model Parameters}
+
+Finally, we determine, what $u_0$, $u_v$, and $u_w$ are.  And we determine how close to an ideal model we are in terms of the wait time and energy tradeoffs.
+
+\section{Conclusion: Implication for An Operational HPC Datacenter}
+
+Here we come back to our statistics from Midway and from ComEd and prove that the cost savings would be significant.
+
+Example: Our results also provided us with valuable insights into the energy usage parameters in our model, $u_0$, $u_v$, $u_w$.  Given these parameters and both the unit price of machines and the magnitude and timing of energy price spikes over the past year, we can conclude that our datacenter would actually see a reduced total operating cost by purchasing N __ more __ machines, and powering down nearly the whole cluster during peak pricing.
+
+We further calculate that under these circumstances, it would only take X hours before user wait times returned to normal.  This further justifies the benefits of keeping an over-capactiy datacenter for non-critical HPC activity.
+
+\section{Acknowledgments}
+
+Special thanks goes out to Brandon for all his work getting our test cluster set up. 
+
+\section{Availability}
+
+Here we point to the detailed calculations and all the analysis routines up on github.  As soon as we make those public.
+
+\begin{center}
+{\tt https://github.com/rcc-uchicago/datacenter}
+\end{center}
+
+
+
+{\footnotesize \bibliographystyle{acm}
+\bibliography{bibliography}}
+
+
+\theendnotes
+
+\end{document}
+
+
+
+
+
+
+
