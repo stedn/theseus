@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 JUL 2016 11:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 JUL 2016 12:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1287,15 +1287,20 @@ e 508.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
  [15 <./figures/figure4b-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/figure5b.eps>
-(epstopdf)                    date: 2016-07-13 09:22:14
-(epstopdf)                    size: 660406 bytes
+(epstopdf)                    date: 2016-07-25 12:49:20
+(epstopdf)                    size: 655277 bytes
 (epstopdf)             Output file: <figures/figure5b-eps-converted-to.pdf>
 (epstopdf)                    date: 2016-07-19 14:10:30
 (epstopdf)                    size: 108731 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure5b-eps-conve
 rted-to.pdf figures/figure5b.eps>
 (epstopdf)             \includegraphics on input line 514.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figures/figure5b-eps-converted-to.pdf figures/fig
+ure5b.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/figure5b-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-25 12:50:41
+(epstopdf)                    size: 108224 bytes.
 
 <figures/figure5b-eps-converted-to.pdf, id=519, 503.8825pt x 430.60875pt>
 File: figures/figure5b-eps-converted-to.pdf Graphic file (type pdf)
@@ -1322,15 +1327,20 @@ e 519.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
  [16 <./figures/figure5b-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/figure6a.eps>
-(epstopdf)                    date: 2016-07-13 10:41:01
-(epstopdf)                    size: 586837 bytes
+(epstopdf)                    date: 2016-07-25 12:46:47
+(epstopdf)                    size: 580396 bytes
 (epstopdf)             Output file: <figures/figure6a-eps-converted-to.pdf>
 (epstopdf)                    date: 2016-07-13 10:41:12
 (epstopdf)                    size: 95195 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure6a-eps-conve
 rted-to.pdf figures/figure6a.eps>
 (epstopdf)             \includegraphics on input line 550.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figures/figure6a-eps-converted-to.pdf figures/fig
+ure6a.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/figure6a-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-25 12:50:41
+(epstopdf)                    size: 94496 bytes.
 
 <figures/figure6a-eps-converted-to.pdf, id=547, 514.92375pt x 461.725pt>
 File: figures/figure6a-eps-converted-to.pdf Graphic file (type pdf)
@@ -1555,7 +1565,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 663.
 Here is how much of TeX's memory you used:
  10851 strings out of 493117
  164186 string characters out of 6135433
- 312330 words of memory out of 5000000
+ 312331 words of memory out of 5000000
  13911 multiletter control sequences out of 15000+600000
  10590 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1575,7 +1585,7 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on active.pdf (25 pages, 1483623 bytes).
+Output written on active.pdf (25 pages, 1482392 bytes).
 PDF statistics:
  763 PDF objects out of 1000 (max. 8388607)
  611 compressed objects within 7 object streams
