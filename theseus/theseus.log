@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 JUL 2016 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 JUL 2016 09:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2461,7 +2461,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  4123 strings out of 493117
  63883 string characters out of 6135433
- 143074 words of memory out of 5000000
+ 144130 words of memory out of 5000000
  7427 multiletter control sequences out of 15000+600000
  9798 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2479,7 +2479,7 @@ live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on theseus.pdf (142 pages, 7881669 bytes).
+Output written on theseus.pdf (142 pages, 7882068 bytes).
 PDF statistics:
  2239 PDF objects out of 2487 (max. 8388607)
  1167 compressed objects within 12 object streams
