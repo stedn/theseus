@@ -157,6 +157,45 @@
 
 \begin{document}
 
+\subsection{Steady-state Approximation of Effective Viscosity}
+\label{sec:eff_vic}
+We begin with a calculation of a strain rate estimate of the effective viscosity for a network described by our model in the limit of highly rigid filaments.  We carry this out by assuming we have applied a constant stress along a transect of the network.  With moderate stresses, we assume the network reaches a steady state affine creep. In this situation, we would find that the stress in the network exactly balances the sum of the drag-like forces from cross-link slip.  So for any transect of length D, we have a force balance equation.
+
+\begin{equation}
+\mathbf{\sigma} = \frac{1}{D}\sum_{filaments}\: \sum_{crosslinks}\xi \cdot (\mathbf{v_i(x)}-\mathbf{v_j(x)})
+\end{equation}
+
+where $\mathbf{v_i(x)}-\mathbf{v_j(x)}$ is the difference between the velocity of a filament, $i$, and the velocity of the filament, $j$, to which it is attached at the cross-link location, $\mathbf{x}$. We can convert the sum over cross-links to an integral over the length using the average density of cross-links, $1/l_c$ and invoking the assumption of (linear order) affine strain rate, $\mathbf{v_i(x)}-\mathbf{v_j(x)}=\dot \gamma x$. This results in
+
+\begin{multline}
+\mathbf{\sigma} =  \frac{1}{D}\sum_{filaments}\:  \int_0^L \xi \cdot  \: (\mathbf{v_i(s)}-\mathbf{v_j(s)}) \:\frac{ds \cos \theta }{l_c} \\
+ = \sum_{filaments}\:  \frac{\xi \dot \gamma L}{l_c} \cos \theta \cdot (x_l + \frac{L}{2} \cos \theta)
+\end{multline}
+
+Here we have introduced the variables $x_l$, and $\theta$ to describe the leftmost endpoint and the angular orientation of a given filament respectively.  Next, to perform the sum over all filaments we convert this to an integral over all orientations and endpoints that intersect our line of stress. We assume for simplicity that filament stretch and filament alignment are negligible in this low strain approximation.  Therefore, the max distance for the leftmost endpoint is the length of a filament, L, and the maximum angle as a function of endpoint is $\arccos(x_l/L)$.  The linear density of endpoints is the constant $D/l_cL$ so our integrals can be rewritten as this density over $x_l$ and $\theta$ between our maximum and minimum allowed bounds.
+
+\begin{equation}
+\mathbf{\sigma} =  \frac{1}{D} \int_0^L dx_l \int_{-\arccos (\frac{x_l}{L})}^{\arccos (\frac{x_l}{L})}\frac{d\theta}{\pi} \frac{\xi \dot \gamma L}{l_c} \cdot \frac{D}{Ll_c}\cdot (x_l \cos \theta + \frac{L}{2} cos^2\theta)
+\end{equation}
+
+Carrying out the integrals and correcting for dangling filament ends leaves us with a relation between stress and strain rate.
+
+\begin{equation}
+\mathbf{\sigma} = \frac{(L-2l_c)^2 \xi}{4\pi l_c^2} \dot \gamma 
+\end{equation}
+
+We recognize the constant of proportionality between stress and strain rate as a viscosity (in 2 dimensions).  Therefore, our approximation for the effective viscosity, $\eta_{eff}$, at steady state creep in this low strain limit is
+
+\begin{equation}
+\label{lin_eqn}
+\eta_{c} = \frac{(L-2l_c)^2 \xi}{4\pi l_c^2} .
+\end{equation}
+
+
+
+
+
+
 \begin{table}[h]
 \begin{adjustwidth}{-2.25in}{0in}
 \centering
@@ -183,7 +222,7 @@
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{figures/figure3S}
-\caption{\label{fig:passive_supp}  Mechanical properties of passive networks.  \textbf{a)} Elastic modulus of networks.  Our measurements closely match prediction of $G_0\sim\mu/l_c$.  \textbf{b)}  Placeholder for inevitably another figure relevant to passive properties.}
+\caption{\label{fig:passive_supp}  Mechanical properties of passive networks.  \textbf{a)} Measurement of elastic phase of deformation in passive networks.  The buildup of strain is approximately exponential and collapse on the predicted strain.  \textbf{b)}  Measurements of elastic modulus of networks (including those in panel a).  Our measurements closely match prediction of $G_0\sim \mu/l_c$.}
 \end{figure}
 
 \begin{figure}[h!]
