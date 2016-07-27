@@ -92,7 +92,8 @@
 \contentsline {paragraph}{W4}{115}
 \contentsline {paragraph}{W5}{116}
 \contentsline {chapter}{\numberline {B}Artistic Interpretations of filament recycling}{117}
-\contentsline {section}{\numberline {B.1}Experiments with plastic filament sculpture}{118}
+\contentsline {section}{\numberline {B.1}The ship of Theseus as a metaphor for life}{118}
+\contentsline {section}{\numberline {B.2}Experiments with plastic filament sculpture}{118}
 \contentsline {chapter}{\numberline {C}Reducing power consumption in High Performance Computing}{119}
 \contentsline {section}{\numberline {C.1}Introduction}{119}
 \contentsline {subsection}{\numberline {C.1.1}Alternative Demand Response Options in Data Centers}{120}
