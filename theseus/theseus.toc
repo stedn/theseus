@@ -60,55 +60,54 @@
 \contentsline {section}{\numberline {6.1}Motivation and experimental context}{60}
 \contentsline {section}{\numberline {6.2}A model for pulsatile actomyosin accumulation in \textit {C. elegans} }{61}
 \contentsline {subsection}{\numberline {6.2.1}Analyzing parameter space of the model}{62}
-\contentsline {section}{\numberline {6.3}Simplified model and data fitting}{62}
-\contentsline {subsection}{\numberline {6.3.1}Fitting techniques}{64}
-\contentsline {section}{\numberline {6.4}Preliminary model of upstream regulation of an active fluid}{65}
-\contentsline {section}{\numberline {6.5}Conclusion}{66}
-\contentsline {chapter}{\numberline {7}Future Directions}{71}
-\contentsline {section}{\numberline {7.1}A novel cell squishing technique to measure timescales of relaxation \textit {in vivo}}{71}
-\contentsline {section}{\numberline {7.2}Probing other relaxation timescales in more detail}{71}
-\contentsline {section}{\numberline {7.3}Incorporating bending degrees of freedom}{71}
-\contentsline {chapter}{\numberline {A}Workshop on modeling in biology}{72}
-\contentsline {section}{\numberline {A.1}Teaching philosophy and aims of the course}{73}
-\contentsline {section}{\numberline {A.2}How mathematical models make sense of complex processes}{73}
-\contentsline {section}{\numberline {A.3}Modeling biological systems with differential equations}{82}
-\contentsline {paragraph}{``Modelling biological systems}{82}
-\contentsline {paragraph}{Many types of models}{82}
-\contentsline {paragraph}{Focusing on Differential equations}{82}
-\contentsline {paragraph}{What is a differential equation good for?}{82}
-\contentsline {section}{\numberline {A.4}Visualizing equations with graphs}{94}
-\contentsline {paragraph}{Why is it called differential?}{94}
-\contentsline {paragraph}{Equilibrium?}{94}
-\contentsline {paragraph}{Initial conditions and transient behaviors}{94}
-\contentsline {paragraph}{What are nullclines?}{94}
-\contentsline {section}{\numberline {A.5}Simplifying models and starting simulations}{101}
-\contentsline {paragraph}{Why simplify before simulating?}{101}
-\contentsline {paragraph}{The parts of a differential equation model}{101}
-\contentsline {paragraph}{How do simulations work?}{101}
-\contentsline {section}{\numberline {A.6}Analyzing equations and understanding simulation output}{110}
-\contentsline {paragraph}{(from wikipedia) Nondimensionalization}{110}
-\contentsline {paragraph}{Running simulations}{110}
-\contentsline {section}{\numberline {A.7}Explaining ever more complex systems}{118}
-\contentsline {section}{\numberline {A.8}Thoughts and Student Responses}{125}
-\contentsline {section}{\numberline {A.9}Quizzes and Project ideas}{125}
-\contentsline {paragraph}{W2}{125}
-\contentsline {paragraph}{W3}{125}
-\contentsline {paragraph}{W4}{125}
-\contentsline {paragraph}{W5}{126}
-\contentsline {chapter}{\numberline {B}Artistic Interpretations of filament recycling}{127}
-\contentsline {section}{\numberline {B.1}The ship of Theseus as a metaphor for life}{128}
-\contentsline {section}{\numberline {B.2}Experiments with plastic filament sculpture}{128}
-\contentsline {chapter}{\numberline {C}Reducing power consumption in High Performance Computing}{129}
-\contentsline {section}{\numberline {C.1}Introduction}{129}
-\contentsline {subsection}{\numberline {C.1.1}Alternative Demand Response Options in Data Centers}{130}
-\contentsline {section}{\numberline {C.2}Problem Statement}{132}
-\contentsline {subsection}{\numberline {C.2.1}Modeling Energy Costs}{132}
-\contentsline {subsection}{\numberline {C.2.2}Response to a Temporary Price Spike}{133}
-\contentsline {section}{\numberline {C.3}EDEALS: Electricity Demand-response Easy Adjusted Load Shifting}{135}
-\contentsline {section}{\numberline {C.4}Small-Scale Evaluation of EDEALS}{137}
-\contentsline {subsection}{\numberline {C.4.1}Experimental Setup}{137}
-\contentsline {subsection}{\numberline {C.4.2}Evaluation of Model Parameters}{137}
-\contentsline {subsection}{\numberline {C.4.3}Relative Energy Savings and Max Wait Times}{138}
-\contentsline {section}{\numberline {C.5}Conclusion: Implication for An Operational HPC Datacenter}{139}
-\contentsline {section}{\numberline {C.6}Acknowledgments}{140}
-\contentsline {section}{\numberline {C.7}Availability}{141}
+\contentsline {section}{\numberline {6.3}Simplified model and data fitting}{65}
+\contentsline {subsection}{\numberline {6.3.1}Fitting techniques}{65}
+\contentsline {section}{\numberline {6.4}Conclusion}{68}
+\contentsline {chapter}{\numberline {7}Future Directions}{70}
+\contentsline {section}{\numberline {7.1}A novel cell squishing technique to measure timescales of relaxation \textit {in vivo}}{70}
+\contentsline {section}{\numberline {7.2}Probing other relaxation timescales in more detail}{70}
+\contentsline {section}{\numberline {7.3}Incorporating bending degrees of freedom}{70}
+\contentsline {chapter}{\numberline {A}Workshop on modeling in biology}{71}
+\contentsline {section}{\numberline {A.1}Teaching philosophy and aims of the course}{72}
+\contentsline {section}{\numberline {A.2}How mathematical models make sense of complex processes}{72}
+\contentsline {section}{\numberline {A.3}Modeling biological systems with differential equations}{81}
+\contentsline {paragraph}{``Modelling biological systems}{81}
+\contentsline {paragraph}{Many types of models}{81}
+\contentsline {paragraph}{Focusing on Differential equations}{81}
+\contentsline {paragraph}{What is a differential equation good for?}{81}
+\contentsline {section}{\numberline {A.4}Visualizing equations with graphs}{93}
+\contentsline {paragraph}{Why is it called differential?}{93}
+\contentsline {paragraph}{Equilibrium?}{93}
+\contentsline {paragraph}{Initial conditions and transient behaviors}{93}
+\contentsline {paragraph}{What are nullclines?}{93}
+\contentsline {section}{\numberline {A.5}Simplifying models and starting simulations}{100}
+\contentsline {paragraph}{Why simplify before simulating?}{100}
+\contentsline {paragraph}{The parts of a differential equation model}{100}
+\contentsline {paragraph}{How do simulations work?}{100}
+\contentsline {section}{\numberline {A.6}Analyzing equations and understanding simulation output}{109}
+\contentsline {paragraph}{(from wikipedia) Nondimensionalization}{109}
+\contentsline {paragraph}{Running simulations}{109}
+\contentsline {section}{\numberline {A.7}Explaining ever more complex systems}{117}
+\contentsline {section}{\numberline {A.8}Thoughts and Student Responses}{124}
+\contentsline {section}{\numberline {A.9}Quizzes and Project ideas}{124}
+\contentsline {paragraph}{W2}{124}
+\contentsline {paragraph}{W3}{124}
+\contentsline {paragraph}{W4}{124}
+\contentsline {paragraph}{W5}{125}
+\contentsline {chapter}{\numberline {B}Artistic Interpretations of filament recycling}{126}
+\contentsline {section}{\numberline {B.1}The ship of Theseus as a metaphor for life}{127}
+\contentsline {section}{\numberline {B.2}Experiments with plastic filament sculpture}{127}
+\contentsline {chapter}{\numberline {C}Reducing power consumption in High Performance Computing}{128}
+\contentsline {section}{\numberline {C.1}Introduction}{128}
+\contentsline {subsection}{\numberline {C.1.1}Alternative Demand Response Options in Data Centers}{129}
+\contentsline {section}{\numberline {C.2}Problem Statement}{131}
+\contentsline {subsection}{\numberline {C.2.1}Modeling Energy Costs}{131}
+\contentsline {subsection}{\numberline {C.2.2}Response to a Temporary Price Spike}{132}
+\contentsline {section}{\numberline {C.3}EDEALS: Electricity Demand-response Easy Adjusted Load Shifting}{134}
+\contentsline {section}{\numberline {C.4}Small-Scale Evaluation of EDEALS}{136}
+\contentsline {subsection}{\numberline {C.4.1}Experimental Setup}{136}
+\contentsline {subsection}{\numberline {C.4.2}Evaluation of Model Parameters}{136}
+\contentsline {subsection}{\numberline {C.4.3}Relative Energy Savings and Max Wait Times}{137}
+\contentsline {section}{\numberline {C.5}Conclusion: Implication for An Operational HPC Datacenter}{138}
+\contentsline {section}{\numberline {C.6}Acknowledgments}{139}
+\contentsline {section}{\numberline {C.7}Availability}{140}

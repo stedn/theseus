@@ -27,26 +27,24 @@
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Tearing of active networks is prevented via recycling. \textbf {a)} An active network undergoing large scale deformations due to active filament rearrangements. \textbf {b)} The same network as in a) but with a shorter filament recycling time. \textbf {c)} Time trace of internal stresses for network in panel a. \textbf {d)} Time trace of internal stresses for network in panel b. }}{58}
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Stress and strain profiles of networks with contractile and passive domains. \textbf {a)} Blue line indicates strain velocity profile while orange represents net stress as measured in the main text. \textbf {b)} Same as panel a except for the condition where recycling time is 10 s. Note the increase in net stress and the corresponding increase in flow rate. }}{59}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Proposed reaction pathway for Rho excitability.}}{61}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Reaction pathway with labels for coefficients associated with feedback stregths.}}{62}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Phase diagram of for $k_q=1$ and $k_qq=100$.}}{63}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Phase diagram of for $k_q=1$ and $k_qq=100$.}}{64}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Phase diagram of for $k_q=1$ and $k_qq=100$.}}{65}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Multiple methods of fitting.}}{66}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Simulation results and fitted for phase diagram.}}{67}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Simulation results and fitted for phase diagram.}}{68}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Simulation results and fitted for phase diagram.}}{69}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Final figure as it appears in Robin et al.}}{70}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Reaction pathway with labels for coefficients associated with feedback stregths.}}{60}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Perturbation simulation results plotted on phase planes for a variety of parameters. }}{63}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Phase diagram of for $k_q=1$ and $k_qq=100$.}}{64}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces }}{65}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Multiple methods of fitting.}}{66}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Simulation results and fitted data for model with $m=2$ and $k=0$. Displaying simulation results and the data used to fit the simulation on a phase plane (left) and as pairs of time plots (right).}}{67}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Small variation in simulation parameters can have large qualitative effects.}}{68}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Final figure as it appears in Robin et al.}}{69}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Average core usage for a 244 node shared HPC partition in the Midway cluster. Insert shows usage statistics histogram.}}{130}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Energy monitoring framework.}}{132}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Diagram of job scheduling during a four node temporary shutdown experiment. Each colored rectangle displays the execution time of a single LAMPPS test job running for approximately 5 minutes.}}{133}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Total power consumed during experiments where variable numbers of machines were shut down during simulated peak pricing.}}{134}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Energy usage of test cluster during partial shutdown experiments. Solid lines indicate power usage during the shutdown, while dashed lines indicate power usage after returning to full operation.}}{135}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Maximum (solid) and mean (dashed) job wait times during partial shutdown experiments.}}{136}
-\contentsline {figure}{\numberline {C.7}{\ignorespaces Power data for test cluster (top) and production cluster (bottom) nodes in presence of variable usage. The slope and intercept of the line are used to determine $u_v$ and $u_0$ respectively. }}{138}
-\contentsline {figure}{\numberline {C.8}{\ignorespaces Comparison between node level IPMI measurements and rack level CDU measurements. Best fit shows the model relationship used to convert IPMI data to estimated total power draw.}}{139}
-\contentsline {figure}{\numberline {C.9}{\ignorespaces Estimated savings from partial cluster shutdowns. }}{140}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Average core usage for a 244 node shared HPC partition in the Midway cluster. Insert shows usage statistics histogram.}}{129}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Energy monitoring framework.}}{131}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Diagram of job scheduling during a four node temporary shutdown experiment. Each colored rectangle displays the execution time of a single LAMPPS test job running for approximately 5 minutes.}}{132}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Total power consumed during experiments where variable numbers of machines were shut down during simulated peak pricing.}}{133}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Energy usage of test cluster during partial shutdown experiments. Solid lines indicate power usage during the shutdown, while dashed lines indicate power usage after returning to full operation.}}{134}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Maximum (solid) and mean (dashed) job wait times during partial shutdown experiments.}}{135}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Power data for test cluster (top) and production cluster (bottom) nodes in presence of variable usage. The slope and intercept of the line are used to determine $u_v$ and $u_0$ respectively. }}{137}
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Comparison between node level IPMI measurements and rack level CDU measurements. Best fit shows the model relationship used to convert IPMI data to estimated total power draw.}}{138}
+\contentsline {figure}{\numberline {C.9}{\ignorespaces Estimated savings from partial cluster shutdowns. }}{139}
