@@ -14,100 +14,105 @@
 \contentsline {subsection}{\numberline {1.3.2}Models of Stress Relaxation in Active Networks}{7}
 \contentsline {subsection}{\numberline {1.3.3}Goal of Present Work}{8}
 \contentsline {chapter}{\numberline {2}Impact of filament recycling on cortical flow in animal cells}{10}
-\contentsline {section}{\numberline {2.1}Measurements of cortical flow in C. elegans embryos}{10}
-\contentsline {section}{\numberline {2.2}Measuring \textit {in vivo} turnover rates with smPReSS}{10}
-\contentsline {section}{\numberline {2.3}Disruption of Cortical flows with Jasplakinolide Treatment}{10}
-\contentsline {chapter}{\numberline {3}Modeling 2D active networks with recycling}{12}
-\contentsline {section}{\numberline {3.1}Overview of Model Components}{12}
-\contentsline {subsection}{\numberline {3.1.1}Asymmetric filament compliance}{12}
-\contentsline {subsection}{\numberline {3.1.2}Drag-like coupling between overlapping filaments}{13}
-\contentsline {subsection}{\numberline {3.1.3}Active coupling for motor driven filament interactions}{14}
-\contentsline {subsection}{\numberline {3.1.4}2D network formation}{15}
-\contentsline {subsection}{\numberline {3.1.5}External applied stress}{15}
-\contentsline {subsection}{\numberline {3.1.6}Modeling filament turnover}{16}
-\contentsline {subsection}{\numberline {3.1.7}Simulation methods}{17}
-\contentsline {section}{\numberline {3.2}Detailed Documentation of Simulation Framework}{18}
-\contentsline {chapter}{\numberline {4}Phases of deformation in filament networks with cross-link slip}{20}
-\contentsline {section}{\numberline {4.1}Results}{20}
-\contentsline {subsection}{\numberline {4.1.1}Steady-state Approximation of Effective Viscosity}{20}
-\contentsline {subsection}{\numberline {4.1.2}Effects of Filament Compliance}{23}
-\contentsline {subsection}{\numberline {4.1.3}Alignment at High Strain and Network Tearing}{26}
-\contentsline {subsection}{\numberline {4.1.4}Phase Diagram of Dominant Behavior}{26}
-\contentsline {subsection}{\numberline {4.1.5}Frequency dependent modulus}{28}
-\contentsline {subsection}{\numberline {4.1.6}Strain Memory}{29}
-\contentsline {section}{\numberline {4.2}Summary and Conclusions}{32}
-\contentsline {section}{\numberline {4.3}Network Tearing under Extensional Stress}{33}
-\contentsline {subsection}{\numberline {4.3.1}Extensional Thinning and Network Tearing}{33}
-\contentsline {subsection}{\numberline {4.3.2}Tearing Events During Extensional Strain}{33}
-\contentsline {section}{\numberline {4.4}Deriving Molecular Drag Coefficients}{33}
-\contentsline {chapter}{\numberline {5}Filament Recycling and Sustained Contractile Flows in an Actomyosin Network}{36}
-\contentsline {section}{\numberline {5.1}Results and Discussion}{36}
-\contentsline {subsection}{\numberline {5.1.1}Filament recycling prevents cortical tearing and modulates the viscous stress relaxation of passive filament networks}{36}
-\contentsline {paragraph}{Networks with passive cross-links and no filament turnover undergo three stages of deformation in response to an extensional force.}{36}
-\contentsline {paragraph}{Network architecture sets the rate and timescales of deformation.}{37}
-\contentsline {paragraph}{Filament recycling rescues network tearing and modulates effective viscosity.}{39}
-\contentsline {subsection}{\numberline {5.1.2}Filament recycling allows persistent stress buildup in active networks}{44}
-\contentsline {paragraph}{In the absence of filament recycling, active networks with free boundaries contract and then stall against passive resistance to network compression.}{44}
-\contentsline {paragraph}{Active networks can only exert a transient stress against a fixed boundary in the absence of filament recycling.}{46}
-\contentsline {paragraph}{Filament recycling allows networks to exert sustained stress on a fixed boundary.}{48}
-\contentsline {subsection}{\numberline {5.1.3}Filament recycling tunes the balance between active stress buildup and viscous stress relaxation to generate flows}{50}
-\contentsline {paragraph}{Filament recycling allows sustained flows in networks with non-isotropic activity.}{50}
-\contentsline {paragraph}{Filament recycling tunes the magnitudes of both effective viscosity and steady state stress.}{53}
-\contentsline {paragraph}{Filament recycling influences architectural control of flow rate.}{54}
-\contentsline {section}{\numberline {5.2}Conclusion}{55}
-\contentsline {section}{\numberline {5.3}Supporting Information}{55}
-\contentsline {chapter}{\numberline {6}A model of upstream actomyosin regulators in pulsed contractions}{60}
-\contentsline {section}{\numberline {6.1}Motivation and experimental context}{60}
-\contentsline {section}{\numberline {6.2}A model for pulsatile actomyosin accumulation in \textit {C. elegans} }{61}
-\contentsline {subsection}{\numberline {6.2.1}Analyzing parameter space of the model}{62}
-\contentsline {section}{\numberline {6.3}Simplified model and data fitting}{65}
-\contentsline {subsection}{\numberline {6.3.1}Fitting techniques}{65}
-\contentsline {section}{\numberline {6.4}Conclusion}{68}
-\contentsline {chapter}{\numberline {7}Future Directions}{70}
-\contentsline {section}{\numberline {7.1}A novel cell squishing technique to measure timescales of relaxation \textit {in vivo}}{70}
-\contentsline {section}{\numberline {7.2}Probing other relaxation timescales in more detail}{70}
-\contentsline {section}{\numberline {7.3}Incorporating bending degrees of freedom}{70}
-\contentsline {chapter}{\numberline {A}Artistic Interpretations of filament recycling}{71}
-\contentsline {section}{\numberline {A.1}The ship of Theseus as a metaphor for life}{72}
-\contentsline {section}{\numberline {A.2}Experiments with plastic filament sculpture}{72}
-\contentsline {chapter}{\numberline {B}Workshop on modeling in biology}{80}
-\contentsline {section}{\numberline {B.1}Teaching philosophy and aims of the course}{81}
-\contentsline {section}{\numberline {B.2}How mathematical models make sense of complex processes}{81}
-\contentsline {section}{\numberline {B.3}Modeling biological systems with differential equations}{90}
-\contentsline {paragraph}{``Modelling biological systems}{90}
-\contentsline {paragraph}{Many types of models}{90}
-\contentsline {paragraph}{Focusing on Differential equations}{90}
-\contentsline {paragraph}{What is a differential equation good for?}{90}
-\contentsline {section}{\numberline {B.4}Visualizing equations with graphs}{102}
-\contentsline {paragraph}{Why is it called differential?}{102}
-\contentsline {paragraph}{Equilibrium?}{102}
-\contentsline {paragraph}{Initial conditions and transient behaviors}{102}
-\contentsline {paragraph}{What are nullclines?}{102}
-\contentsline {section}{\numberline {B.5}Simplifying models and starting simulations}{109}
-\contentsline {paragraph}{Why simplify before simulating?}{109}
-\contentsline {paragraph}{The parts of a differential equation model}{109}
-\contentsline {paragraph}{How do simulations work?}{109}
-\contentsline {section}{\numberline {B.6}Analyzing equations and understanding simulation output}{118}
-\contentsline {paragraph}{(from wikipedia) Nondimensionalization}{118}
-\contentsline {paragraph}{Running simulations}{118}
-\contentsline {section}{\numberline {B.7}Explaining ever more complex systems}{126}
-\contentsline {section}{\numberline {B.8}Thoughts and Student Responses}{133}
-\contentsline {section}{\numberline {B.9}Quizzes and Project ideas}{133}
-\contentsline {paragraph}{W2}{133}
-\contentsline {paragraph}{W3}{133}
-\contentsline {paragraph}{W4}{133}
-\contentsline {paragraph}{W5}{134}
-\contentsline {chapter}{\numberline {C}Reducing power consumption in High Performance Computing}{135}
-\contentsline {section}{\numberline {C.1}Introduction}{135}
-\contentsline {subsection}{\numberline {C.1.1}Alternative Demand Response Options in Data Centers}{136}
-\contentsline {section}{\numberline {C.2}Problem Statement}{138}
-\contentsline {subsection}{\numberline {C.2.1}Modeling Energy Costs}{138}
-\contentsline {subsection}{\numberline {C.2.2}Response to a Temporary Price Spike}{139}
-\contentsline {section}{\numberline {C.3}EDEALS: Electricity Demand-response Easy Adjusted Load Shifting}{141}
-\contentsline {section}{\numberline {C.4}Small-Scale Evaluation of EDEALS}{143}
-\contentsline {subsection}{\numberline {C.4.1}Experimental Setup}{143}
-\contentsline {subsection}{\numberline {C.4.2}Evaluation of Model Parameters}{143}
-\contentsline {subsection}{\numberline {C.4.3}Relative Energy Savings and Max Wait Times}{144}
-\contentsline {section}{\numberline {C.5}Conclusion: Implication for An Operational HPC Datacenter}{145}
-\contentsline {section}{\numberline {C.6}Acknowledgments}{146}
-\contentsline {section}{\numberline {C.7}Availability}{147}
+\contentsline {section}{\numberline {2.1}Measuring \textit {in vivo} turnover rates with smPReSS}{10}
+\contentsline {subsection}{\numberline {2.1.1}smPReSS measurement technique}{10}
+\contentsline {subsection}{\numberline {2.1.2}Measurements of turnover rate in dividing \textit {C. elegans} cortex}{10}
+\contentsline {section}{\numberline {2.2}Disruption of Cortical flows with Jasplakinolide Treatment}{10}
+\contentsline {chapter}{\numberline {3}Modeling 2D active networks with recycling}{13}
+\contentsline {section}{\numberline {3.1}Overview of Model Components}{13}
+\contentsline {subsection}{\numberline {3.1.1}Asymmetric filament compliance}{13}
+\contentsline {subsection}{\numberline {3.1.2}Drag-like coupling between overlapping filaments}{14}
+\contentsline {subsection}{\numberline {3.1.3}Active coupling for motor driven filament interactions}{15}
+\contentsline {subsection}{\numberline {3.1.4}2D network formation}{16}
+\contentsline {subsection}{\numberline {3.1.5}External applied stress}{16}
+\contentsline {subsection}{\numberline {3.1.6}Modeling filament turnover}{17}
+\contentsline {subsection}{\numberline {3.1.7}Simulation methods}{18}
+\contentsline {section}{\numberline {3.2}Documentation of Simulation Framework}{19}
+\contentsline {subsection}{\numberline {3.2.1}Simulation Code}{19}
+\contentsline {chapter}{\numberline {4}Phases of deformation in filament networks with cross-link slip}{25}
+\contentsline {section}{\numberline {4.1}Results}{25}
+\contentsline {subsection}{\numberline {4.1.1}Steady-state Approximation of Effective Viscosity}{25}
+\contentsline {subsection}{\numberline {4.1.2}Effects of Filament Compliance}{28}
+\contentsline {subsection}{\numberline {4.1.3}Alignment at High Strain and Network Tearing}{31}
+\contentsline {subsection}{\numberline {4.1.4}Phase Diagram of Dominant Behavior}{31}
+\contentsline {subsection}{\numberline {4.1.5}Frequency dependent modulus}{33}
+\contentsline {subsection}{\numberline {4.1.6}Strain Memory}{34}
+\contentsline {section}{\numberline {4.2}Summary and Conclusions}{37}
+\contentsline {section}{\numberline {4.3}Network Tearing under Extensional Stress}{38}
+\contentsline {subsection}{\numberline {4.3.1}Extensional Thinning and Network Tearing}{38}
+\contentsline {subsection}{\numberline {4.3.2}Tearing Events During Extensional Strain}{38}
+\contentsline {section}{\numberline {4.4}Deriving Molecular Drag Coefficients}{38}
+\contentsline {chapter}{\numberline {5}Filament Recycling and Sustained Contractile Flows in an Actomyosin Network}{41}
+\contentsline {section}{\numberline {5.1}Results and Discussion}{41}
+\contentsline {subsection}{\numberline {5.1.1}Filament recycling prevents cortical tearing and modulates the viscous stress relaxation of passive filament networks}{41}
+\contentsline {paragraph}{Networks with passive cross-links and no filament turnover undergo three stages of deformation in response to an extensional force.}{41}
+\contentsline {paragraph}{Network architecture sets the rate and timescales of deformation.}{42}
+\contentsline {paragraph}{Filament recycling rescues network tearing and modulates effective viscosity.}{44}
+\contentsline {subsection}{\numberline {5.1.2}Filament recycling allows persistent stress buildup in active networks}{49}
+\contentsline {paragraph}{In the absence of filament recycling, active networks with free boundaries contract and then stall against passive resistance to network compression.}{49}
+\contentsline {paragraph}{Active networks can only exert a transient stress against a fixed boundary in the absence of filament recycling.}{51}
+\contentsline {paragraph}{Filament recycling allows networks to exert sustained stress on a fixed boundary.}{53}
+\contentsline {subsection}{\numberline {5.1.3}Filament recycling tunes the balance between active stress buildup and viscous stress relaxation to generate flows}{55}
+\contentsline {paragraph}{Filament recycling allows sustained flows in networks with non-isotropic activity.}{55}
+\contentsline {paragraph}{Filament recycling tunes the magnitudes of both effective viscosity and steady state stress.}{58}
+\contentsline {paragraph}{Filament recycling influences architectural control of flow rate.}{59}
+\contentsline {section}{\numberline {5.2}Conclusion}{60}
+\contentsline {section}{\numberline {5.3}Supporting Information}{60}
+\contentsline {chapter}{\numberline {6}A model of upstream actomyosin regulators in pulsed contractions}{65}
+\contentsline {section}{\numberline {6.1}Motivation and experimental context}{65}
+\contentsline {section}{\numberline {6.2}A model for pulsatile actomyosin accumulation in \textit {C. elegans} }{66}
+\contentsline {subsection}{\numberline {6.2.1}Analyzing parameter space of the model}{67}
+\contentsline {section}{\numberline {6.3}Simplified model and data fitting}{70}
+\contentsline {subsection}{\numberline {6.3.1}Fitting techniques}{70}
+\contentsline {section}{\numberline {6.4}Conclusion}{73}
+\contentsline {chapter}{\numberline {7}Future Directions}{75}
+\contentsline {section}{\numberline {7.1}A novel cell squishing technique to measure timescales of relaxation \textit {in vivo}}{75}
+\contentsline {section}{\numberline {7.2}Probing other relaxation timescales in more detail}{75}
+\contentsline {section}{\numberline {7.3}Incorporating bending degrees of freedom}{75}
+\contentsline {chapter}{\numberline {A}Artistic Interpretations of filament recycling}{76}
+\contentsline {section}{\numberline {A.1}The ship of Theseus as a metaphor for life}{77}
+\contentsline {section}{\numberline {A.2}Experiments with plastic filament sculpture}{77}
+\contentsline {chapter}{\numberline {B}Workshop on modeling in biology}{85}
+\contentsline {section}{\numberline {B.1}Teaching philosophy and aims of the course}{86}
+\contentsline {section}{\numberline {B.2}How mathematical models make sense of complex processes}{86}
+\contentsline {section}{\numberline {B.3}Modeling biological systems with differential equations}{95}
+\contentsline {paragraph}{``Modelling biological systems}{95}
+\contentsline {paragraph}{Many types of models}{95}
+\contentsline {paragraph}{Focusing on Differential equations}{95}
+\contentsline {paragraph}{What is a differential equation good for?}{95}
+\contentsline {section}{\numberline {B.4}Visualizing equations with graphs}{107}
+\contentsline {paragraph}{Why is it called differential?}{107}
+\contentsline {paragraph}{Equilibrium?}{107}
+\contentsline {paragraph}{Initial conditions and transient behaviors}{107}
+\contentsline {paragraph}{What are nullclines?}{107}
+\contentsline {section}{\numberline {B.5}Simplifying models and starting simulations}{114}
+\contentsline {paragraph}{Why simplify before simulating?}{114}
+\contentsline {paragraph}{The parts of a differential equation model}{114}
+\contentsline {paragraph}{How do simulations work?}{114}
+\contentsline {section}{\numberline {B.6}Analyzing equations and understanding simulation output}{123}
+\contentsline {paragraph}{(from wikipedia) Nondimensionalization}{123}
+\contentsline {paragraph}{Running simulations}{123}
+\contentsline {section}{\numberline {B.7}Explaining ever more complex systems}{131}
+\contentsline {section}{\numberline {B.8}Student Survey}{138}
+\contentsline {paragraph}{What are some questions you have about biological modeling that this class should have addressed.}{138}
+\contentsline {paragraph}{ Describe how you would like to see this workshop structured to best promote your learning of the material }{138}
+\contentsline {section}{\numberline {B.9}Reflections and Future Ideas}{138}
+\contentsline {section}{\numberline {B.10}Quizzes and Project ideas}{138}
+\contentsline {paragraph}{W2}{138}
+\contentsline {paragraph}{W3}{139}
+\contentsline {paragraph}{W4}{139}
+\contentsline {paragraph}{W5}{140}
+\contentsline {chapter}{\numberline {C}Reducing power consumption in High Performance Computing}{141}
+\contentsline {section}{\numberline {C.1}Introduction}{141}
+\contentsline {subsection}{\numberline {C.1.1}Alternative Demand Response Options in Data Centers}{142}
+\contentsline {section}{\numberline {C.2}Problem Statement}{144}
+\contentsline {subsection}{\numberline {C.2.1}Modeling Energy Costs}{144}
+\contentsline {subsection}{\numberline {C.2.2}Response to a Temporary Price Spike}{145}
+\contentsline {section}{\numberline {C.3}EDEALS: Electricity Demand-response Easy Adjusted Load Shifting}{147}
+\contentsline {section}{\numberline {C.4}Small-Scale Evaluation of EDEALS}{149}
+\contentsline {subsection}{\numberline {C.4.1}Experimental Setup}{149}
+\contentsline {subsection}{\numberline {C.4.2}Evaluation of Model Parameters}{149}
+\contentsline {subsection}{\numberline {C.4.3}Relative Energy Savings and Max Wait Times}{150}
+\contentsline {section}{\numberline {C.5}Conclusion: Implication for An Operational HPC Datacenter}{151}
+\contentsline {section}{\numberline {C.6}Acknowledgments}{152}
+\contentsline {section}{\numberline {C.7}Availability}{153}

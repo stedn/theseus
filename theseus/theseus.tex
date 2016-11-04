@@ -92,7 +92,17 @@
 %\usepackage{color}      % use if color is used in text
 %\usepackage{subfigure}  % use for side-by-side figures
 %\usepackage{hyperref}   % use for hypertext links, including those to external documents and URLs
+\usepackage[numbered,framed]{docu/matlab-prettifier}
 
+\let\ph\mlplaceholder % shorter macro
+\lstMakeShortInline"
+
+\lstset{
+	style              = Matlab-editor,
+	basicstyle         = \mlttfamily,
+	escapechar         = ",
+	mlshowsectionrules = true,
+}
 \begin{document}
 
 % Create the official title
@@ -156,7 +166,6 @@ I'd like to thank Patrick McCall, Pete Dahlberg, Shiladitya Banerjee and a bunch
 \include{introduction/introduction}
 
 \chapter{Impact of filament recycling on cortical flow in animal cells}
-\input{myexpt/myexpt}
 \input{nmeth/nmeth}
 \input{data/data}
 
@@ -199,7 +208,7 @@ I'd like to thank Patrick McCall, Pete Dahlberg, Shiladitya Banerjee and a bunch
 
 \singlespacing
 \pagebreak
-\bibliography{slippage/slippage,edeals/bibliography}
+\bibliography{active/slippage,active/active,edeals/bibliography}
 \bibliographystyle{plain}
 
 

@@ -1,5 +1,17 @@
 \begin{thebibliography}{10}
 
+\bibitem{Alvarado:2013aa}
+Jose Alvarado, Michael Sheinman, Abhinav Sharma, Fred~C. MacKintosh, and
+  Gijsje~H. Koenderink.
+\newblock Molecular motors robustly drive active gels to a critically connected
+  state.
+\newblock {\em Nat Phys}, 9(9):591--597, 09 2013.
+
+\bibitem{C0SM00494D}
+Shiladitya Banerjee and M.~Cristina Marchetti.
+\newblock Instabilities and oscillations in isotropic active gels.
+\newblock {\em Soft Matter}, 7:463--473, 2011.
+
 \bibitem{theo_frictionShila}
 Shiladitya Banerjee, M.~Cristina Marchetti, and Kristian M\"uller-Nedebock.
 \newblock Motor-driven dynamics of cytoskeletal filaments in motility assays.
@@ -19,6 +31,11 @@ Deva Bodas, Justin Song, Murali Rajappa, and Andy Hoffman.
 \newblock In {\em Proceedings of the 2Nd International Workshop on Energy
   Efficient Supercomputing}, E2SC '14, pages 21--30, Piscataway, NJ, USA, 2014.
   IEEE Press.
+
+\bibitem{PhysRevLett.106.028103}
+Justin~S. Bois, Frank J\"ulicher, and Stephan~W. Grill.
+\newblock Pattern formation in active fluids.
+\newblock {\em Phys. Rev. Lett.}, 106:028103, Jan 2011.
 
 \bibitem{cellmech_flows3}
 D~Bray and JG~White.
@@ -47,6 +64,13 @@ Preethi~L. Chandran and Mohammad R.~K. Mofrad.
 \newblock Averaged implicit hydrodynamic model of semiflexible filaments.
 \newblock {\em Phys. Rev. E}, 81:031920, Mar 2010.
 
+\bibitem{salbreuxbphs}
+Priyamvada Chugh, Andrew~G. Clark, Matthew~B. Smith, Davide A.~D. Cassani,
+  Guillaume Charras, Guillaume Salbreux, and Ewa~K. Paluch.
+\newblock Nanoscale organization of the actomyosin cortex during the cell
+  cycle.
+\newblock {\em Biophysical Journal}, 110(3):198a, 2016/07/18 2016.
+
 \bibitem{model_massive}
 Christian~J. Cyron, Kei~W. M{\"u}ller, Andreas~R. Bausch, and Wolfgang~A. Wall.
 \newblock Micromechanical simulations of biopolymer networks with finite
@@ -59,6 +83,12 @@ Pierre Delforge and Josh Whitney.
 \newblock Data center efficiency assessment: Scaing up energy efficiency across
   the data center industry: Evaluating key drivers and barriers.
 \newblock Technical report, National Resources Defense Council, August 2014.
+
+\bibitem{PhysRevLett.113.148102}
+Kai Dierkes, Angughali Sumi, J\'er\^ome Solon, and Guillaume Salbreux.
+\newblock Spontaneous oscillations of elastic contractile materials with
+  turnover.
+\newblock {\em Phys. Rev. Lett.}, 113:148102, Oct 2014.
 
 \bibitem{theo_doi_ed}
 M.~Doi and S.~F. Edwards.
@@ -119,10 +149,21 @@ David~A. Head, Alex~J. Levine, and F.~C. MacKintosh.
 \newblock Deformation of cross-linked semiflexible polymer networks.
 \newblock {\em Phys. Rev. Lett.}, 91:108102, Sep 2003.
 
+\bibitem{Heisenberg2013948}
+Carl-Philipp Heisenberg and Yohanns Bella{\"\i}che.
+\newblock Forces in tissue morphogenesis and patterning.
+\newblock {\em Cell}, 153(5):948 -- 962, 2013.
+
 \bibitem{theo_nonaffine2}
 Claus Heussinger, Boris Schaefer, and Erwin Frey.
 \newblock Nonaffine rubber elasticity for stiff polymer networks.
 \newblock {\em Phys. Rev. E}, 76:031906, Sep 2007.
+
+\bibitem{2015arXiv150706182H}
+T.~{Hiraiwa} and G.~{Salbreux}.
+\newblock {Role of turn-over in active stress generation in a filament
+  network}.
+\newblock {\em ArXiv e-prints}, July 2015.
 
 \bibitem{cellmech_flows2}
 S~N Hird and J~G White.
@@ -142,6 +183,18 @@ K.~E. Kasza, C.~P. Broedersz, G.~H. Koenderink, Y.~C. Lin, W.~Messner, E.~A.
   networks.
 \newblock {\em Biophysical Journal}, 99(4):1091--1100, 2015/03/12.
 
+\bibitem{Keren:2009aa}
+Kinneret Keren, Patricia~T. Yam, Anika Kinkhabwala, Alex Mogilner, and Julie~A.
+  Theriot.
+\newblock Intracellular fluid flow in rapidly moving cells.
+\newblock {\em Nat Cell Biol}, 11(10):1219--1224, 10 2009.
+
+\bibitem{Kim2014526}
+Taeyoon Kim, Margaret~L. Gardel, and Ed~Munro.
+\newblock Determinants of fluidlike behavior and effective viscosity in
+  cross-linked actin networks.
+\newblock {\em Biophysical Journal}, 106(3):526 -- 534, 2014.
+
 \bibitem{model_taeyoon}
 Taeyoon Kim, Wonmuk Hwang, and Roger~D Kamm.
 \newblock Dynamic role of cross-linking proteins in actin rheology.
@@ -153,6 +206,22 @@ Gijsje~H Koenderink, Zvonimir Dogic, Fumihiko Nakamura, Poul~M Bendix,
 \newblock An active biopolymer network controlled by molecular motors.
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 106(36):15192--15197, 09 2009.
+
+\bibitem{10.1371/journal.pone.0039869}
+Simone K{\"o}hler and Andreas~R. Bausch.
+\newblock Contraction mechanisms in composite active actin networks.
+\newblock {\em PLoS ONE}, 7(7):e39869, 07 2012.
+
+\bibitem{PhysRevX.4.041002}
+Martin Lenz.
+\newblock Geometrical origins of contractility in disordered actomyosin
+  networks.
+\newblock {\em Phys. Rev. X}, 4:041002, Oct 2014.
+
+\bibitem{1367-2630-14-3-033037}
+Martin Lenz, Margaret~L Gardel, and Aaron~R Dinner.
+\newblock Requirements for contractility in disordered cytoskeletal bundles.
+\newblock {\em New Journal of Physics}, 14(3):033037, 2012.
 
 \bibitem{theo_crosslinkslip3}
 O.~Lieleg and A.~R. Bausch.
@@ -195,6 +264,23 @@ Zhenhua Liu, Adam Wierman, Yuan Chen, Benjamin Razon, and Niangjun Chen.
   workload shifting and local generation.
 \newblock {\em SIGMETRICS Perform. Eval. Rev.}, 41(1):341--342, June 2013.
 
+\bibitem{0295-5075-85-1-18007}
+T.~B. Liverpool, M.~C. Marchetti, J.-F. Joanny, and J.~Prost.
+\newblock Mechanical response of active gels.
+\newblock {\em EPL (Europhysics Letters)}, 85(1):18007, 2009.
+
+\bibitem{Mak:2016aa}
+Michael Mak, Muhammad~H. Zaman, Roger~D. Kamm, and Taeyoon Kim.
+\newblock Interplay of active processes modulates tension and drives phase
+  transition in self-renewing, motor-driven cytoskeletal networks.
+\newblock {\em Nat Commun}, 7, 01 2016.
+
+\bibitem{RevModPhys.85.1143}
+M.~C. Marchetti, J.~F. Joanny, S.~Ramaswamy, T.~B. Liverpool, J.~Prost, Madan
+  Rao, and R.~Aditi Simha.
+\newblock Hydrodynamics of soft active matter.
+\newblock {\em Rev. Mod. Phys.}, 85:1143--1189, Jul 2013.
+
 \bibitem{mol_wlc}
 John~F. Marko and Eric~D. Siggia.
 \newblock Stretching dna.
@@ -207,6 +293,11 @@ Mirjam Mayer, Martin Depken, Justin~S. Bois, Frank Julicher, and Stephan~W.
   polarizing cortical flows.
 \newblock {\em Nature}, 467(7315):617--621, 09 2010.
 
+\bibitem{mccrum1997principles}
+N.G. McCrum, C.P. Buckley, and C.B. Bucknall.
+\newblock {\em Principles of Polymer Engineering}.
+\newblock Oxford science publications. Oxford University Press, 1997.
+
 \bibitem{theo_morse}
 David~C. Morse.
 \newblock Viscoelasticity of concentrated isotropic solutions of semiflexible
@@ -218,6 +309,18 @@ Kei~W. M\"uller, Robijn~F. Bruinsma, Oliver Lieleg, Andreas~R. Bausch,
   Wolfgang~A. Wall, and Alex~J. Levine.
 \newblock Rheology of semiflexible bundle networks with transient linkers.
 \newblock {\em Phys. Rev. Lett.}, 112:238102, Jun 2014.
+
+\bibitem{Munro2004413}
+Edwin Munro, Jeremy Nance, and James~R. Priess.
+\newblock Cortical flows powered by asymmetrical contraction transport \{PAR\}
+  proteins to establish and maintain anterior-posterior polarity in the early
+  c. elegans embryo.
+\newblock {\em Developmental Cell}, 7(3):413 -- 424, 2004.
+
+\bibitem{Murrell15062014}
+Michael Murrell and Margaret~L. Gardel.
+\newblock Actomyosin sliding is attenuated in contractile biomimetic cortices.
+\newblock {\em Molecular Biology of the Cell}, 25(12):1845--1853, 2014.
 
 \bibitem{rheo_2D1}
 Michael~P. Murrell and Margaret~L. Gardel.
@@ -234,6 +337,17 @@ Lyswarya Narayanan, Di~Wang, Abdullah-Al Mamun, Anand Sivasubramaniam, and
 \newblock In {\em 6th Workshop on Power-Aware Computing and Systems (HotPower
   14)}, Broomfield, CO, 2014. USENIX Association.
 
+\bibitem{Ndlec:1997aa}
+F.~J. Nedelec, T.~Surrey, A.~C. Maggs, and S.~Leibler.
+\newblock Self-organization of microtubules and motors.
+\newblock {\em Nature}, 389(6648):305--308, 09 1997.
+
+\bibitem{Robin:2014aa}
+Francois~B Robin, William~M McFadden, Baixue Yao, and Edwin~M Munro.
+\newblock Single-molecule analysis of cell surface dynamics in caenorhabditis
+  elegans embryos.
+\newblock {\em Nat Meth}, 11(6):677--682, 06 2014.
+
 \bibitem{Roundtree2012}
 Barry Rountree, Dong~H. Ahn, Bronis~R. de~Supinski, David~K. Lowenthal, and
   Martin Schulz.
@@ -241,6 +355,17 @@ Barry Rountree, Dong~H. Ahn, Bronis~R. de~Supinski, David~K. Lowenthal, and
   power bound.
 \newblock {\em 2013 IEEE International Symposium on Parallel \& Distributed
   Processing, Workshops and Phd Forum}, 0:947--953, 2012.
+
+\bibitem{PhysRevLett.103.058102}
+G.~Salbreux, J.~Prost, and J.~F. Joanny.
+\newblock Hydrodynamics of cellular cortical flows and the formation of
+  contractile rings.
+\newblock {\em Phys. Rev. Lett.}, 103:058102, Jul 2009.
+
+\bibitem{Salbreux2012536}
+Guillaume Salbreux, Guillaume Charras, and Ewa Paluch.
+\newblock Actin cortex mechanics and cellular morphogenesis.
+\newblock {\em Trends in Cell Biology}, 22(10):536 -- 545, 2012.
 
 \bibitem{cellmech_review2}
 Guillaume Salbreux, Guillaume Charras, and Ewa Paluch.
@@ -271,10 +396,29 @@ Cornelis Storm, Jennifer~J. Pastore, F.~C. MacKintosh, T.~C. Lubensky, and
 \newblock Nonlinear elasticity in biological gels.
 \newblock {\em Nature}, 435(7039):191--194, 05 2005.
 
+\bibitem{Surrey1167}
+Thomas Surrey, Fran{\c c}ois N{\'e}d{\'e}lec, Stanislas Leibler, and Eric
+  Karsenti.
+\newblock Physical properties determining self-organization of motors and
+  microtubules.
+\newblock {\em Science}, 292(5519):1167--1171, 2001.
+
 \bibitem{rheo_bench}
 R.~Tharmann, M.~M. A.~E. Claessens, and A.~R. Bausch.
 \newblock Viscoelasticity of isotropically cross-linked actin networks.
 \newblock {\em Phys. Rev. Lett.}, 98:088103, Feb 2007.
+
+\bibitem{Turlier2014114}
+Herv{\'e} Turlier, Basile Audoly, Jacques Prost, and Jean-Fran{\c c}ois Joanny.
+\newblock Furrow constriction in animal cell cytokinesis.
+\newblock {\em Biophysical Journal}, 106(1):114 -- 123, 2014.
+
+\bibitem{Unterberger2014}
+Michael~J. Unterberger and Gerhard~A. Holzapfel.
+\newblock Advances in the mechanical modeling of filamentous actin and its
+  cross-linked networks on multiple scales.
+\newblock {\em Biomechanics and Modeling in Mechanobiology}, 13(6):1155--1174,
+  2014.
 
 \bibitem{theo_friction}
 Andrea Vanossi, Nicola Manini, Michael Urbakh, Stefano Zapperi, and Erio
@@ -297,7 +441,7 @@ Andrew Ward, Feodor Hilitski, Walter Schwenger, David Welch, A.~W.~C. Lau,
 \bibitem{rheo_crosslinkcompare}
 Sabine M.~Volkmer Ward, Astrid Weins, Martin~R. Pollak, and David~A. Weitz.
 \newblock Dynamic viscoelasticity of actin cross-linked with wild-type and
-  disease-causing mutant α-actinin-4.
+  disease-causing mutant alpha-actinin-4.
 \newblock {\em Biophysical Journal}, 95(10):4915 -- 4923, 2008.
 
 \bibitem{7039172}
@@ -320,7 +464,7 @@ M.~Wyart, H.~Liang, A.~Kabla, and L.~Mahadevan.
 Norman~Y. Yao, Daniel~J. Becker, Chase~P. Broedersz, Martin Depken,
   Frederick~C. MacKintosh, Martin~R. Pollak, and David~A. Weitz.
 \newblock Nonlinear viscoelasticity of actin transiently cross-linked with
-  mutant α-actinin-4.
+  mutant alpha-actinin-4.
 \newblock {\em Journal of Molecular Biology}, 411(5):1062 -- 1071, 2011.
 
 \bibitem{Zhou2014}
@@ -330,5 +474,12 @@ Zhou Zhou, Zhiling Lan, Wei Tang, and Narayan Desai.
 \newblock In Narayan Desai and Walfredo Cirne, editors, {\em Job Scheduling
   Strategies for Parallel Processing}, volume 8429 of {\em Lecture Notes in
   Computer Science}, pages 96--115. Springer Berlin Heidelberg, 2014.
+
+\bibitem{10.1371/journal.pone.0000696}
+Alexander Zumdieck, Karsten Kruse, Henrik Bringmann, Anthony~A. Hyman, and
+  Frank J{\"u}licher.
+\newblock Stress generation and filament turnover during actin ring
+  constriction.
+\newblock {\em PLoS ONE}, 2(8):e696, 08 2007.
 
 \end{thebibliography}
