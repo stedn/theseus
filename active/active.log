@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 NOV 2016 10:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 NOV 2016 11:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1067,11 +1067,11 @@ e 392.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
  [8]
 Package epstopdf Info: Source file: <figures/figure2.eps>
-(epstopdf)                    date: 2016-11-14 10:03:37
-(epstopdf)                    size: 453449 bytes
+(epstopdf)                    date: 2016-11-14 11:28:51
+(epstopdf)                    size: 453916 bytes
 (epstopdf)             Output file: <figures/figure2-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 09:49:34
-(epstopdf)                    size: 48644 bytes
+(epstopdf)                    date: 2016-11-14 10:55:43
+(epstopdf)                    size: 83055 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure2-eps-conver
 ted-to.pdf figures/figure2.eps>
 (epstopdf)             \includegraphics on input line 407.
@@ -1079,8 +1079,8 @@ runsystem(repstopdf --outfile=figures/figure2-eps-converted-to.pdf figures/figu
 re2.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <figures/figure2-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 10:55:43
-(epstopdf)                    size: 83055 bytes.
+(epstopdf)                    date: 2016-11-14 11:30:32
+(epstopdf)                    size: 83141 bytes.
 
 <figures/figure2-eps-converted-to.pdf, id=303, 511.9125pt x 329.23pt>
 File: figures/figure2-eps-converted-to.pdf Graphic file (type pdf)
@@ -1133,17 +1133,12 @@ Package epstopdf Info: Source file: <figures/figure3.eps>
 (epstopdf)                    date: 2016-11-14 10:17:10
 (epstopdf)                    size: 156611 bytes
 (epstopdf)             Output file: <figures/figure3-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 09:49:34
-(epstopdf)                    size: 13536 bytes
+(epstopdf)                    date: 2016-11-14 10:55:44
+(epstopdf)                    size: 14792 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure3-eps-conver
 ted-to.pdf figures/figure3.eps>
 (epstopdf)             \includegraphics on input line 424.
-runsystem(repstopdf --outfile=figures/figure3-eps-converted-to.pdf figures/figu
-re3.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/figure3-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 10:55:44
-(epstopdf)                    size: 14792 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <figures/figure3-eps-converted-to.pdf, id=345, 530.98375pt x 189.70876pt>
 File: figures/figure3-eps-converted-to.pdf Graphic file (type pdf)
@@ -1156,17 +1151,12 @@ Package epstopdf Info: Source file: <figures/figure4.eps>
 (epstopdf)                    date: 2016-11-14 10:18:00
 (epstopdf)                    size: 636634 bytes
 (epstopdf)             Output file: <figures/figure4-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 09:49:34
-(epstopdf)                    size: 101083 bytes
+(epstopdf)                    date: 2016-11-14 10:55:44
+(epstopdf)                    size: 103139 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure4-eps-conver
 ted-to.pdf figures/figure4.eps>
 (epstopdf)             \includegraphics on input line 434.
-runsystem(repstopdf --outfile=figures/figure4-eps-converted-to.pdf figures/figu
-re4.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/figure4-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 10:55:44
-(epstopdf)                    size: 103139 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <figures/figure4-eps-converted-to.pdf, id=346, 516.93124pt x 376.40625pt>
 File: figures/figure4-eps-converted-to.pdf Graphic file (type pdf)
@@ -1215,17 +1205,12 @@ Package epstopdf Info: Source file: <figures/figure5.eps>
 (epstopdf)                    date: 2016-11-14 10:19:50
 (epstopdf)                    size: 419028 bytes
 (epstopdf)             Output file: <figures/figure5-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 09:49:35
-(epstopdf)                    size: 75364 bytes
+(epstopdf)                    date: 2016-11-14 10:55:46
+(epstopdf)                    size: 77767 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure5-eps-conver
 ted-to.pdf figures/figure5.eps>
 (epstopdf)             \includegraphics on input line 484.
-runsystem(repstopdf --outfile=figures/figure5-eps-converted-to.pdf figures/figu
-re5.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/figure5-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 10:55:46
-(epstopdf)                    size: 77767 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <figures/figure5-eps-converted-to.pdf, id=395, 519.9425pt x 323.2075pt>
 File: figures/figure5-eps-converted-to.pdf Graphic file (type pdf)
@@ -1275,17 +1260,12 @@ Package epstopdf Info: Source file: <figures/figure6.eps>
 (epstopdf)                    date: 2016-11-14 10:31:03
 (epstopdf)                    size: 593822 bytes
 (epstopdf)             Output file: <figures/figure6-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 09:49:35
-(epstopdf)                    size: 90107 bytes
+(epstopdf)                    date: 2016-11-14 10:55:47
+(epstopdf)                    size: 90878 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure6-eps-conver
 ted-to.pdf figures/figure6.eps>
 (epstopdf)             \includegraphics on input line 500.
-runsystem(repstopdf --outfile=figures/figure6-eps-converted-to.pdf figures/figu
-re6.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/figure6-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 10:55:47
-(epstopdf)                    size: 90878 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <figures/figure6-eps-converted-to.pdf, id=453, 539.01375pt x 326.21875pt>
 File: figures/figure6-eps-converted-to.pdf Graphic file (type pdf)
@@ -1315,17 +1295,12 @@ Package epstopdf Info: Source file: <figures/figure7.eps>
 (epstopdf)                    date: 2016-11-14 10:43:01
 (epstopdf)                    size: 677496 bytes
 (epstopdf)             Output file: <figures/figure7-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 09:49:35
-(epstopdf)                    size: 108200 bytes
+(epstopdf)                    date: 2016-11-14 10:55:48
+(epstopdf)                    size: 113658 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure7-eps-conver
 ted-to.pdf figures/figure7.eps>
 (epstopdf)             \includegraphics on input line 515.
-runsystem(repstopdf --outfile=figures/figure7-eps-converted-to.pdf figures/figu
-re7.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/figure7-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 10:55:48
-(epstopdf)                    size: 113658 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <figures/figure7-eps-converted-to.pdf, id=490, 503.8825pt x 430.60875pt>
 File: figures/figure7-eps-converted-to.pdf Graphic file (type pdf)
@@ -1375,17 +1350,12 @@ Package epstopdf Info: Source file: <figures/figure8.eps>
 (epstopdf)                    date: 2016-11-14 10:46:46
 (epstopdf)                    size: 521159 bytes
 (epstopdf)             Output file: <figures/figure8-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 09:49:35
-(epstopdf)                    size: 91963 bytes
+(epstopdf)                    date: 2016-11-14 10:55:49
+(epstopdf)                    size: 93703 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure8-eps-conver
 ted-to.pdf figures/figure8.eps>
 (epstopdf)             \includegraphics on input line 553.
-runsystem(repstopdf --outfile=figures/figure8-eps-converted-to.pdf figures/figu
-re8.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/figure8-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 10:55:49
-(epstopdf)                    size: 93703 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <figures/figure8-eps-converted-to.pdf, id=527, 514.92375pt x 461.725pt>
 File: figures/figure8-eps-converted-to.pdf Graphic file (type pdf)
@@ -1450,17 +1420,12 @@ Package epstopdf Info: Source file: <figures/figure10.eps>
 (epstopdf)                    date: 2016-11-14 10:53:28
 (epstopdf)                    size: 274502 bytes
 (epstopdf)             Output file: <figures/figure10-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 09:49:34
-(epstopdf)                    size: 18292 bytes
+(epstopdf)                    date: 2016-11-14 10:55:49
+(epstopdf)                    size: 18169 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figure10-eps-conve
 rted-to.pdf figures/figure10.eps>
 (epstopdf)             \includegraphics on input line 591.
-runsystem(repstopdf --outfile=figures/figure10-eps-converted-to.pdf figures/fig
-ure10.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <figures/figure10-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-14 10:55:49
-(epstopdf)                    size: 18169 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <figures/figure10-eps-converted-to.pdf, id=586, 498.86375pt x 207.77625pt>
 File: figures/figure10-eps-converted-to.pdf Graphic file (type pdf)
@@ -1598,7 +1563,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 659.
 Here is how much of TeX's memory you used:
  10848 strings out of 493117
  164096 string characters out of 6135433
- 308837 words of memory out of 5000000
+ 308892 words of memory out of 5000000
  13910 multiletter control sequences out of 15000+600000
  10590 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1618,7 +1583,7 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on active.pdf (25 pages, 1413130 bytes).
+Output written on active.pdf (25 pages, 1413215 bytes).
 PDF statistics:
  727 PDF objects out of 1000 (max. 8388607)
  596 compressed objects within 6 object streams
