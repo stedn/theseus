@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 NOV 2016 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  19 NOV 2016 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -781,7 +781,11 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(./activesup.aux)
+(./activesup.aux
+
+LaTeX Warning: Label `fig:active_supp' multiply defined.
+
+)
 \openout1 = `activesup.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
@@ -805,6 +809,7 @@ File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    ... okay on input line 158.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 158.
 LaTeX Font Info:    ... okay on input line 158.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -918,7 +923,7 @@ Package epstopdf Info: Source file: <figures/figureS1.eps>
 rted-to.pdf figures/figureS1.eps>
 (epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
-<figures/figureS1-eps-converted-to.pdf, id=4, 399.4925pt x 188.705pt>
+<figures/figureS1-eps-converted-to.pdf, id=8, 399.4925pt x 188.705pt>
 File: figures/figureS1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figureS1-eps-converted-to.pdf>
@@ -939,7 +944,7 @@ Package epstopdf Info: Source file: <figures/figureS2.eps>
 rted-to.pdf figures/figureS2.eps>
 (epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
-<figures/figureS2-eps-converted-to.pdf, id=5, 488.82625pt x 334.24875pt>
+<figures/figureS2-eps-converted-to.pdf, id=9, 488.82625pt x 334.24875pt>
 File: figures/figureS2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figureS2-eps-converted-to.pdf>
@@ -961,7 +966,7 @@ Package epstopdf Info: Source file: <figures/figure5_tear.eps>
 onverted-to.pdf figures/figure5_tear.eps>
 (epstopdf)             \includegraphics on input line 236.
 Package epstopdf Info: Output file is already uptodate.
-<figures/figure5_tear-eps-converted-to.pdf, id=6, 522.95375pt x 459.7175pt>
+<figures/figure5_tear-eps-converted-to.pdf, id=10, 522.95375pt x 459.7175pt>
 File: figures/figure5_tear-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure5_tear-eps-converted-to.pdf>
@@ -982,7 +987,7 @@ Package epstopdf Info: Source file: <figures/figure6S.eps>
 rted-to.pdf figures/figure6S.eps>
 (epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
-<figures/figure6S-eps-converted-to.pdf, id=7, 520.94624pt x 144.54pt>
+<figures/figure6S-eps-converted-to.pdf, id=11, 520.94624pt x 144.54pt>
 File: figures/figure6S-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/figure6S-eps-converted-to.pdf>
@@ -992,9 +997,6 @@ ne 242.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package lastpage Warning: Rerun to get the references right on input line 245.
 
 
 AED: lastpage setting LastPage
@@ -1008,7 +1010,7 @@ Package epstopdf Info: Source file: <PLOS-submission.eps>
 ted-to.pdf PLOS-submission.eps>
 (epstopdf)             \includegraphics on input line 245.
 Package epstopdf Info: Output file is already uptodate.
-<PLOS-submission-eps-converted-to.pdf, id=8, 216.81pt x 35.13126pt>
+<PLOS-submission-eps-converted-to.pdf, id=12, 216.81pt x 35.13126pt>
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 
 <use PLOS-submission-eps-converted-to.pdf>
@@ -1026,9 +1028,6 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 245.
-
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./PLOS-
@@ -1049,9 +1048,6 @@ Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
 e 245.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
 
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 245.
-
 [2 <./figures/figureS1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
@@ -1069,11 +1065,7 @@ File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
 e 245.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 245.
-
-[3 <./figures/figureS2-eps-converted-to.pdf>]
+ [3 <./figures/figureS2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <PLOS-submission.eps>
 (epstopdf)                    date: 2016-06-28 09:50:08
 (epstopdf)                    size: 283246 bytes
@@ -1085,44 +1077,31 @@ ted-to.pdf PLOS-submission.eps>
 (epstopdf)             \includegraphics on input line 245.
 Package epstopdf Info: Output file is already uptodate.
 File: PLOS-submission-eps-converted-to.pdf Graphic file (type pdf)
-
-<use PLOS-submission-eps-converted-to.pdf>
+ <use PLOS-submission-eps-converted-to.pdf>
 Package pdftex.def Info: PLOS-submission-eps-converted-to.pdf used on input lin
 e 245.
 (pdftex.def)             Requested size: 144.54pt x 23.42201pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 245.
-
-[4 <./figures/figure5_tear-eps-converted-to.pdf> <./figures/figure6S-eps-conver
-ted-to.pdf>]
+ [4 <./figures/figure5_tear-eps-converted-to.pdf> <./figures/figure6S-eps-conve
+rted-to.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
- (./activesup.aux)
+
+(./activesup.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
+Package rerunfilecheck Info: File `activesup.out' has not changed.
+(rerunfilecheck)             Checksum: 71B744F7502B130902DFE9218391381D;89.
 
 
-Package rerunfilecheck Warning: File `activesup.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `activesup.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  71B744F7502B130902DFE9218391381D;89.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
  ) 
 Here is how much of TeX's memory you used:
- 10542 strings out of 493117
- 159176 string characters out of 6135433
- 292612 words of memory out of 5000000
- 13779 multiletter control sequences out of 15000+600000
+ 10544 strings out of 493117
+ 159194 string characters out of 6135433
+ 294039 words of memory out of 5000000
+ 13781 multiletter control sequences out of 15000+600000
  8016 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,15n,43p,781b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1138,10 +1117,10 @@ l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on activesup.pdf (4 pages, 308910 bytes).
+Output written on activesup.pdf (4 pages, 310185 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 154 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
  16 named destinations out of 1000 (max. 500000)
- 9242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 9250 words of extra memory for PDF output out of 10000 (max. 10000000)
 
