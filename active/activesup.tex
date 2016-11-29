@@ -181,14 +181,14 @@ Here we have introduced the variables $x_l$, and $\theta$ to describe the leftmo
 Carrying out the integrals and correcting for dangling filament ends leaves us with a relation between stress and strain rate.
 
 \begin{equation}
-\mathbf{\sigma} = \frac{(L-2l_c)^2 \xi}{4\pi l_c^2} \dot \gamma 
+\mathbf{\sigma} = \frac{(L-l_c)^2 \xi}{4\pi l_c^2} \dot \gamma 
 \end{equation}
 
 We recognize the constant of proportionality between stress and strain rate as a viscosity (in 2 dimensions).  Therefore, our approximation for the effective viscosity, $\eta_{eff}$, at steady state creep in this low strain limit is
 
 \begin{equation}
 \label{lin_eqn}
-\eta_{c} = \frac{(L-2l_c)^2 \xi}{4\pi l_c^2} .
+\eta_{c} = \frac{(L-l_c)^2 \xi}{4\pi l_c^2} .
 \end{equation}
 
 
@@ -203,7 +203,7 @@ We recognize the constant of proportionality between stress and strain rate as a
 \label{table:para2}
 \begin{tabular}{|c|ccccccc|}
 	\hline
-	Parameter     & \textbf{Figure 3}          & \textbf{Figure 4}       & \textbf{Figure 5}    & \textbf{Figure 6}  & \textbf{Figure 7}     & \textbf{Figure 8}    & \textbf{Figure 10}          \\ \hline
+	Parameter     & \textbf{Figure 2}          & \textbf{Figure 3}       & \textbf{Figure 4}    & \textbf{Figure 5}  & \textbf{Figure 6}     & \textbf{Figure 7}    & \textbf{Figure 9}          \\ \hline
 	$L$           & $1,3,5,7,10$      & $3$             & $5$         & $3,5$       & $5$          & $5$         & $3,5,8$            \\ 
 	$l_c$         & $0.2,0.3,0.5,0.8$ & $0.3,0.5$       & $0.3$       & $0.15,0.2,0.3,0.4$ & $0.2,0.3$    & $0.4$       & $0.15,0.2,0.3,0.4$ \\ 
 	$\mu_e/\mu_c$ & $100$             & $100$           & $3-300$     & $100$     & $100$        & $100$       & $100$              \\ 
@@ -235,13 +235,19 @@ We recognize the constant of proportionality between stress and strain rate as a
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{figures/figureS2}
-\caption{\label{fig:active_supp}  Mechanical properties of active networks.  \textbf{a)}  Timescale of maximum strain in networks free to contract.  This relationship was found phenomenologically.  \textbf{b)}  Dependence of network stress on the fraction of cross-links which are active.  Note that the network stress approaches 0 as $\phi$ approaches 0 or 1.  \textbf{HEYHEY} The network's ability to deform relies on the magnitude of asymmetric filament compliance.  Total network strain also increases with the applied myosin force $\upsilon$. Note that the extent of contraction approaches an asymptotic limit as the stiffness asymmetry approaches a ratio of $\sim 100$.}
+\caption{\label{fig:active_supp}  Mechanical properties of active networks.  \textbf{a)}  Timescale of maximum strain in networks free to contract.  This relationship was found phenomenologically.   \textbf{b} The network's ability to deform relies on the magnitude of asymmetric filament compliance.  Total network strain also increases with the applied myosin force $\upsilon$. Note that the extent of contraction approaches an asymptotic limit as the stiffness asymmetry approaches a ratio of $\sim 100$.   \textbf{c}  Time at which the network reached its maximum stress. $\tau_a$ was found phenomenologically. \textbf{d} Max stress of the network.  Dependence was found phenomenologically. }
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{figures/figure5_tear}
-\caption{\label{fig:active_supp}  Tearing of active networks is prevented via recycling.  \textbf{a)}  An active network undergoing large scale deformations due to active filament rearrangements.  \textbf{b)}  The same network as in a) but with a shorter filament recycling time.  \textbf{c)}  Time trace of internal stresses for network in panel a.  \textbf{d)}   Time trace of internal stresses for network in panel b.  }
+\caption{\label{fig:active_tear}  Tearing of active networks is prevented via recycling.  \textbf{a)}  An active network undergoing large scale deformations due to active filament rearrangements.  \textbf{b)}  The same network as in a) but with a shorter filament recycling time.  \textbf{c)}  Time trace of internal stresses for network in panel a.  \textbf{d)}   Time trace of internal stresses for network in panel b.  }
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\hsize]{figures/figure7S}
+\caption{\label{fig:recycle_supp}  Bimodal recycling dependence mirrors bimodal stress buildup.  \textbf{a)}  Bimodal buildup of stress in a network with long filament lifetime ($\tau_r = 1000s$).  \textbf{b)}  Steady state stress for networks with same parameters as in a) with varying recycling times.   }
 \end{figure}
 
 \begin{figure}[h!]
