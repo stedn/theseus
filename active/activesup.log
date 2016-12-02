@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.19)  1 DEC 2016 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.19)  2 DEC 2016 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1229,13 +1229,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
 Package rerunfilecheck Info: File `activesup.out' has not changed.
-(rerunfilecheck)             Checksum: B42FD8F5E69AC173F07BC9900C81C6A2;178.
+(rerunfilecheck)             Checksum: B29E809E02B59C40770FACB4D4C594DC;191.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
  ) 
 Here is how much of TeX's memory you used:
  10664 strings out of 494910
  159552 string characters out of 6179836
- 293167 words of memory out of 5000000
+ 293271 words of memory out of 5000000
  13713 multiletter control sequences out of 15000+600000
  8118 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -1252,7 +1252,7 @@ amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
 b>
-Output written on activesup.pdf (6 pages, 622672 bytes).
+Output written on activesup.pdf (6 pages, 622946 bytes).
 PDF statistics:
  195 PDF objects out of 1000 (max. 8388607)
  149 compressed objects within 2 object streams
