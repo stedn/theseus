@@ -201,7 +201,7 @@ We seek to determine a critical filament lifetime, $\tau_{crit}$ , below which t
 \frac{d\rho}{dt}=\frac{1}{\rho}\left ( \rho_0 - \rho - \frac{\sigma \tau_r}{\eta_c(\rho)}\right )
 \end{equation}
 
-where $\eta_c = \eta_c(\rho)$ on the right hand side reflects the dependence of effective viscosity on network density.  The strength of this dependence determines whether a stable steady state, representing continuous flow, can exit.  Using $\eta_c(\rho)\sim \xi \left ( \frac{L}{l_c(\rho)} -1 \right )^2$ from above (ignoring the numerical prefactor) and $\rho \sim \frac{2}{L l_c(\rho)}$, we obtain:
+where $\eta_c = \eta_c(\rho)$ on the right hand side reflects the dependence of effective viscosity on network density.  The strength of this dependence determines whether there exists a stable steady state, representing continuous flow.  Using $\eta_c(\rho)\sim \xi \left ( \frac{L}{l_c(\rho)} -1 \right )^2$ from above (ignoring the numerical prefactor) and $\rho \sim \frac{2}{L l_c(\rho)}$, we obtain:
 
 
 \begin{equation}
@@ -209,7 +209,14 @@ where $\eta_c = \eta_c(\rho)$ on the right hand side reflects the dependence of 
 \frac{d\rho}{dt}=\frac{1}{\rho}\left ( \rho_0 - \rho - \frac{\sigma \tau_r}{\xi(\rho L^2/2 -1)^2}\right )
 \end{equation}
 
-plotting at $\rho_0$ vs $\rho+\frac{\sigma \tau_r}{\eta_c(\rho)}\rho$, we can see that for sufficiently large $\tau_r$, there is no stable state, i.e. strain thinning will occur.  However, as $\tau_r$ deceases below a critical value $\tau_{crit}$, a stable steady state appears.  Note that when $\tau_r  \tau_{crit}$, $\rho+\frac{}{den}\rho$ passes through a minimum value $\rho_0$ at $\rho=\rho^*$.  Accordingly, we solve:
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\hsize]{figures/figureS1}
+	\caption{\label{fig:flux_balance}  Flux balance analysis of network density. Qualitative plots of $\rho+\frac{\sigma \tau_r}{\eta_c(\rho)}\rho$ (red curves) vs $\rho_0$ (green line) for different values of $\tau_r$.  For sufficiently large $\tau_r$, there are no crossings.  For $\tau_r < \tau_{crit}$, there are two crossings:  The rightmost crossing represents a stable steady state.  }
+\end{figure}
+
+
+Figure \ref{fig:flux_balance} sketches the positive ($\rho_0$) and negative ($\rho+\frac{\sigma \tau_r}{\eta_c(\rho)}\rho$) contributions to the right hand side of Equation 6 for different values of $\tau_r$. For sufficiently large $\tau_r$, there is no stable state, i.e. strain thinning will occur.  However, as $\tau_r$ deceases below a critical value $\tau_{crit}$, a stable steady state appears.  Note that when $\tau_r  \tau_{crit}$, $\rho+\frac{}{den}\rho$ passes through a minimum value $\rho_0$ at $\rho=\rho^*$.  Accordingly, to determine $\tau_{crit}$, we solve:
 
 \begin{equation}
 \label{drho_3}
@@ -277,42 +284,40 @@ Finally, rearranging terms, we obtain
 \end{adjustwidth}
 \end{table}
 
-\begin{comment}
-\begin{figure}[h!]
-\centering
-\includegraphics[width=\hsize]{figures/figureS1}
-\caption{\label{fig:passive_supp}  Mechanical properties of passive networks.  \textbf{a)} Measurement of elastic phase of deformation in passive networks.  The buildup of strain is approximately exponential and collapse on the predicted strain.  \textbf{b)}  Measurements of elastic modulus of networks (including those in panel a).  Our measurements closely match prediction of $G_0\sim \mu/l_c$.}
-\end{figure}
-\end{comment}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\hsize]{figures/figure4_thinning}
-	\caption{\label{fig:thinning}  Filament recycling rescues strain thinning.  \textbf{a)} Example networks with different levels of filament recycling.  \textbf{b)} Strain curves for networks in (a). Note that the networks with faster recycling have higher strain rates and that their strain rates appear more constant than the $\tau_r = \infty$ case. \textbf{c)} Graph of filament density vs strain for the networks in (a).  Note that networks with recycling appear to reach steady state densities, while the network without recycling continues to thin until it tore at 80\% strain. }
-\end{figure}
-
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\hsize]{figures/figureS2}
-\caption{\label{fig:active_supp}  Mechanical properties of active networks.  \textbf{a)}  Timescale of maximum strain in networks free to contract.  This relationship was found phenomenologically.   \textbf{b} The network's ability to deform relies on the magnitude of asymmetric filament compliance.  Total network strain also increases with the applied myosin force $\upsilon$. Note that the extent of contraction approaches an asymptotic limit as the stiffness asymmetry approaches a ratio of $\sim 100$.   \textbf{c}  Time at which the network reached its maximum stress. $\tau_a$ was found phenomenologically. \textbf{d} Max stress of the network.  Dependence was found phenomenologically. }
+\caption{\label{fig:passive_supp}  Fast viscoelastic response to extensional stress. Plots of normalized strain vs time during the elastic phase of deformation in passive networks under extensional stress.  Measured strain is normalized by the equilibrium strain predicted for a network of elastic filaments without crosslink slip $\gamma_{eq} = \sigma/G_0 = \sigma/(2\mu/l_c)$.  }
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\hsize]{figures/figureS3}
+	\caption{\label{fig:thinning}  Filament turnover rescues strain thinning.  \textbf{a)} Plots of strain vs time for different turnover times (see inset in (b)). Note the increase in strain rates with decreasing turnover time. \textbf{b)} Plots of filament density vs strain for different turnover times $\tau_r$.  For intermediate $\tau_r$, simulations predict progressive strain thinning, but at a lower rate than in the complete absence of recycling. For higher $\tau_r$, densities approach steady state values at longer times.  }
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=\hsize]{figures/figure5_tear}
-\caption{\label{fig:active_tear}  Tearing of active networks is prevented via recycling.  \textbf{a)}  An active network undergoing large scale deformations due to active filament rearrangements.  \textbf{b)}  The same network as in a) but with a shorter filament recycling time.  \textbf{c)}  Time trace of internal stresses for network in panel a.  \textbf{d)}   Time trace of internal stresses for network in panel b.  }
+\includegraphics[width=\hsize]{figures/figureS4}
+\caption{\label{fig:active_supp}  Mechanical properties of active networks.  \textbf{a)}  Time for freely contracting networks to reach maximum strain, $\tau_s$, scales with $L\xi/\upsilon$.  \textbf{b)} Free contraction requires asymmetric filament compliance, and total network strain increases with the applied myosin force $\upsilon$. Note that the maximum contraction approaches an asymptotic limit as the stiffness asymmetry approaches a ratio of $\sim 100$.   \textbf{c)}  Maximum stress achieved during isometric contraction, $\sigma_m$, scales approximately with $\sqrt{\mu_e\upsilon}/l_c$.  \textbf{d)} Time to reach max stress during isometric contraction scales approximately with $L\xi/\sqrt{\mu_e\upsilon}$. Scalings for $\tau_s$, $\sigma_m$ and $\tau_m$ were determined empirically by trial and error, guided by dimensional analysis. }
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=\hsize]{figures/figure7S}
-\caption{\label{fig:recycle_supp}  Bimodal recycling dependence mirrors bimodal stress buildup.  \textbf{a)}  Bimodal buildup of stress in a network with long filament lifetime ($\tau_r = 1000s$).  \textbf{b)}  Steady state stress for networks with same parameters as in a) with varying recycling times.   }
+\includegraphics[width=\hsize]{figures/figureS5}
+\caption{\label{fig:active_tear}  Filament turnover prevents tearing of active networks.  \textbf{a)}  An active network undergoing large scale deformations due to active filament rearrangements.  \textbf{b)}  The same network as in (a) but with a shorter filament turnover time.  \textbf{c)}  Plots of internal stress vs time for the network in (a).  \textbf{d)}  Plots of internal stress vs time for the network in (b).  }
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=\hsize]{figures/figure6S}
-\caption{\label{fig:combo_prof}  Stress and strain profiles of networks with contractile and passive domains.  \textbf{a)} Blue line indicates strain velocity profile while orange represents net stress as measured in the main text. \textbf{b)} Same as panel a except for the condition where recycling time is 10 s.  Note the increase in net stress and the corresponding increase in flow rate. }
+\includegraphics[width=\hsize]{figures/figureS6}
+\caption{\label{fig:recycle_supp}  Bimodal dependence on turnover time matches bimodal buildup and dissipation of stress in the absence of turnover.  \textbf{a)}  Bimodal buildup of stress in a network with very slow turnover ($\tau_r = 1000s$).  \textbf{b)}  Steady state stress for networks with same parameters as in (a), but  for a range of filament turnover times.   }
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\hsize]{figures/figureS7}
+\caption{\label{fig:combo_prof}  Dynamics of steady state flow. Plots of stress and strain vs position for networks in which motor activity is limited to the right-half domain and filament turnover time is either  \textbf{a)} $\tau_r = 10000$ or  \textbf{b)} $\tau_r = 10 s$.  Blue indicates velocity while orange represents total stress, measured as described in the main text. }
 \end{figure}
 \end{document}
 
