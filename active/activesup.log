@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.19)  14 DEC 2016 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.19)  15 DEC 2016 19:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1112,15 +1112,20 @@ ne 301.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <figures/figureS4.eps>
-(epstopdf)                    date: 2016-12-03 07:29:00
-(epstopdf)                    size: 950210 bytes
+(epstopdf)                    date: 2016-12-15 19:14:38
+(epstopdf)                    size: 950482 bytes
 (epstopdf)             Output file: <figures/figureS4-eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-04 12:19:23
 (epstopdf)                    size: 45270 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/figureS4-eps-conve
 rted-to.pdf figures/figureS4.eps>
 (epstopdf)             \includegraphics on input line 307.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figures/figureS4-eps-converted-to.pdf figures/fig
+ureS4.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figures/figureS4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-15 19:18:26
+(epstopdf)                    size: 45244 bytes.
 <figures/figureS4-eps-converted-to.pdf, id=60, 494.84875pt x 355.3275pt>
 File: figures/figureS4-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1310,7 +1315,7 @@ amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
 b>
-Output written on activesup.pdf (7 pages, 651040 bytes).
+Output written on activesup.pdf (7 pages, 651060 bytes).
 PDF statistics:
  250 PDF objects out of 1000 (max. 8388607)
  189 compressed objects within 2 object streams
