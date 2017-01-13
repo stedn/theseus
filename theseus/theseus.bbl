@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{Alvarado:2013aa}
 Jose Alvarado, Michael Sheinman, Abhinav Sharma, Fred~C. MacKintosh, and
@@ -23,6 +23,25 @@ Andreas~R. Bausch, Florian Ziemann, Alexei~A. Boulbitch, Ken Jacobson, and
 \newblock Local measurements of viscoelastic parameters of adherent cell
   surfaces by magnetic bead microrheometry.
 \newblock {\em Biophysical Journal}, 75(4):2038 -- 2049, 1998.
+
+\bibitem{Behrndt257}
+Martin Behrndt, Guillaume Salbreux, Pedro Campinho, Robert Hauschild, Felix
+  Oswald, Julia Roensch, Stephan~W. Grill, and Carl-Philipp Heisenberg.
+\newblock Forces driving epithelial spreading in zebrafish gastrulation.
+\newblock {\em Science}, 338(6104):257--260, 2012.
+
+\bibitem{Bendix20083126}
+Poul~M. Bendix, Gijsje~H. Koenderink, Damien Cuvelier, Zvonimir Dogic,
+  Bernard~N. Koeleman, William~M. Brieher, Christine~M. Field, L.~Mahadevan,
+  and David~A. Weitz.
+\newblock A quantitative analysis of contractility in active cytoskeletal
+  protein networks.
+\newblock {\em Biophysical Journal}, 94(8):3126 -- 3136, 2008.
+
+\bibitem{Benink:2000aa}
+H{\'e}l{\`e}ne~A Benink, Craig~A Mandato, and William~M Bement.
+\newblock Analysis of cortical flow models in vivo.
+\newblock {\em Molecular Biology of the Cell}, 11(8):2553--2563, 08 2000.
 
 \bibitem{Bodas2014}
 Deva Bodas, Justin Song, Murali Rajappa, and Andy Hoffman.
@@ -59,6 +78,11 @@ P.~Broedersz, C.\ and C.~MacKintosh, F.\.
 \newblock Modeling semiflexible polymer networks.
 \newblock {\em Rev. Mod. Phys.}, 86:995--1036, Jul 2014.
 
+\bibitem{Carlsson:2010aa}
+Anders~E Carlsson.
+\newblock Actin dynamics: From nanoscale to microscale.
+\newblock {\em Annual review of biophysics}, 39:91--110, 06 2010.
+
 \bibitem{theo_hydroish2}
 Preethi~L. Chandran and Mohammad R.~K. Mofrad.
 \newblock Averaged implicit hydrodynamic model of semiflexible filaments.
@@ -77,6 +101,16 @@ Christian~J. Cyron, Kei~W. M{\"u}ller, Andreas~R. Bausch, and Wolfgang~A. Wall.
   elements.
 \newblock {\em Journal of Computational Physics}, 244(0):236 -- 251, 2013.
 \newblock Multi-scale Modeling and Simulation of Biological Systems.
+
+\bibitem{De-La-Cruz:2009aa}
+Enrique~M De~La~Cruz.
+\newblock How cofilin severs an actin filament.
+\newblock {\em Biophysical reviews}, 1(2):51--59, 05 2009.
+
+\bibitem{De-La-Cruz:2015aa}
+Enrique~M. De~La~Cruz and Margaret~L. Gardel.
+\newblock Actin mechanics and fragmentation.
+\newblock {\em Journal of Biological Chemistry}, 290(28):17137--17144, 07 2015.
 
 \bibitem{Delforge2014}
 Pierre Delforge and Josh Whitney.
@@ -101,6 +135,13 @@ Fangming Du, John~E. Fischer, and Karen~I. Winey.
   nanotube/polymer composites.
 \newblock {\em Phys. Rev. B}, 72:121404, Sep 2005.
 
+\bibitem{Ennomani2016616}
+Hajer Ennomani, Ga{\"e}lle Letort, Christophe Gu{\'e}rin, Jean-Louis Martiel,
+  Wenxiang Cao, Fran{\c c}ois N{\'e}d{\'e}lec, Enrique M. De~La Cruz, Manuel
+  Th{\'e}ry, and Laurent Blanchoin.
+\newblock Architecture and connectivity govern actin network contractility.
+\newblock {\em Current Biology}, 26(5):616 -- 626, 2016.
+
 \bibitem{rheo_fluid2}
 E~Evans and A~Yeung.
 \newblock Apparent viscosity and cortical tension of blood granulocytes
@@ -116,6 +157,24 @@ A.~E. Filippov, J.~Klafter, and M.~Urbakh.
 Daniel~A. Fletcher and R.~Dyche Mullins.
 \newblock Cell mechanics and the cytoskeleton.
 \newblock {\em Nature}, 463(7280):485--492, 01 2010.
+
+\bibitem{Fritzschee1501337}
+Marco Fritzsche, Christoph Erlenk{\"a}mper, Emad Moeendarbary, Guillaume
+  Charras, and Karsten Kruse.
+\newblock Actin kinetics shapes cortical network structure and mechanics.
+\newblock {\em Science Advances}, 2(4), 2016.
+
+\bibitem{Fritzsche:2013aa}
+Marco Fritzsche, Alexandre Lewalle, Tom Duke, Karsten Kruse, and Guillaume
+  Charras.
+\newblock Analysis of turnover dynamics of the submembranous actin cortex.
+\newblock {\em Molecular Biology of the Cell}, 24(6):757--767, 03 2013.
+
+\bibitem{Fritzsche15032013}
+Marco Fritzsche, Alexandre Lewalle, Tom Duke, Karsten Kruse, and Guillaume
+  Charras.
+\newblock Analysis of turnover dynamics of the submembranous actin cortex.
+\newblock {\em Molecular Biology of the Cell}, 24(6):757--767, 2013.
 
 \bibitem{rheo_crosslink_nonlin1}
 M.~L. Gardel, F.~Nakamura, J.~Hartwig, J.~C. Crocker, T.~P. Stossel, and D.~A.
@@ -143,6 +202,18 @@ Girish Ghatikar, Venkata Ganti, Nance Matson, and Mary~Ann Piette.
 \newblock Demand response opportunities and enabling technologies for data
   centers: Findings from field studies.
 \newblock 2012.
+
+\bibitem{Gorfinkiel2011531}
+Nicole Gorfinkiel and Guy~B Blanchard.
+\newblock Dynamics of actomyosin contractile activity during epithelial
+  morphogenesis.
+\newblock {\em Current Opinion in Cell Biology}, 23(5):531 -- 539, 2011.
+\newblock Cell-to-cell contact and extracellular matrix.
+
+\bibitem{Guha2016}
+Minakshi Guha, Mian Zhou, and Yu-li Wang.
+\newblock Cortical actin turnover during cytokinesis requires myosin ii.
+\newblock {\em Current Biology}, 15(8):732--736, 2016/12/15 2016.
 
 \bibitem{theo_hlm}
 David~A. Head, Alex~J. Levine, and F.~C. MacKintosh.
@@ -175,6 +246,12 @@ S~N Hird and J~G White.
 Robert~M Hochmuth.
 \newblock Micropipette aspiration of living cells.
 \newblock {\em Journal of Biomechanics}, 33(1):15 -- 22, 2000.
+
+\bibitem{Janson1005}
+L~W Janson, J~Kolega, and D~L Taylor.
+\newblock Modulation of contraction by gelation/solation in a reconstituted
+  motile model.
+\newblock {\em The Journal of Cell Biology}, 114(5):1005--1015, 1991.
 
 \bibitem{rheo_crosslink_nonlin3}
 K.~E. Kasza, C.~P. Broedersz, G.~H. Koenderink, Y.~C. Lin, W.~Messner, E.~A.
@@ -211,6 +288,14 @@ Gijsje~H Koenderink, Zvonimir Dogic, Fumihiko Nakamura, Poul~M Bendix,
 Simone K{\"o}hler and Andreas~R. Bausch.
 \newblock Contraction mechanisms in composite active actin networks.
 \newblock {\em PLoS ONE}, 7(7):e39869, 07 2012.
+
+\bibitem{Lai:2008aa}
+Frank~PL Lai, Malgorzata Szczodrak, Jennifer Block, Jan Faix, Dennis
+  Breitsprecher, Hans~G Mannherz, Theresia~EB Stradal, Graham~A Dunn, J~Victor
+  Small, and Klemens Rottner.
+\newblock Arp2/3 complex interactions and actin network turnover in
+  lamellipodia.
+\newblock {\em The EMBO Journal}, 27(7):982--992, 04 2008.
 
 \bibitem{PhysRevX.4.041002}
 Martin Lenz.
@@ -322,12 +407,23 @@ Michael Murrell and Margaret~L. Gardel.
 \newblock Actomyosin sliding is attenuated in contractile biomimetic cortices.
 \newblock {\em Molecular Biology of the Cell}, 25(12):1845--1853, 2014.
 
+\bibitem{Murrell:2015aa}
+Michael Murrell, Patrick~W. Oakes, Martin Lenz, and Margaret~L. Gardel.
+\newblock Forcing cells into shape: the mechanics of actomyosin contractility.
+\newblock {\em Nat Rev Mol Cell Biol}, 16(8):486--498, 08 2015.
+
 \bibitem{rheo_2D1}
 Michael~P. Murrell and Margaret~L. Gardel.
 \newblock F-actin buckling coordinates contractility and severing in a
   biomimetic actomyosin cortex.
 \newblock {\em Proceedings of the National Academy of Sciences},
   109(51):20820--20825, 2012.
+
+\bibitem{Murthy2016}
+Kausalya Murthy and Patricia Wadsworth.
+\newblock Myosin-ii-dependent localization and dynamics of f-actin during
+  cytokinesis.
+\newblock {\em Current Biology}, 15(8):724--731, 2016/12/15 2016.
 
 \bibitem{Narayanan2014}
 Lyswarya Narayanan, Di~Wang, Abdullah-Al Mamun, Anand Sivasubramaniam, and
@@ -341,6 +437,19 @@ Lyswarya Narayanan, Di~Wang, Abdullah-Al Mamun, Anand Sivasubramaniam, and
 F.~J. Nedelec, T.~Surrey, A.~C. Maggs, and S.~Leibler.
 \newblock Self-organization of microtubules and motors.
 \newblock {\em Nature}, 389(6648):305--308, 09 1997.
+
+\bibitem{Rauzi2010}
+Matteo Rauzi, Pierre-Francois Lenne, and Thomas Lecuit.
+\newblock Planar polarized actomyosin contractile flows control epithelial
+  junction remodelling.
+\newblock {\em Nature}, 468(7327):1110--1114, Dec 2010.
+
+\bibitem{Reymann1310}
+Anne-C{\'e}cile Reymann, Rajaa Boujemaa-Paterski, Jean-Louis Martiel,
+  Christophe Gu{\'e}rin, Wenxiang Cao, Harvey~F. Chin, Enrique~M. De~La~Cruz,
+  Manuel Th{\'e}ry, and Laurent Blanchoin.
+\newblock Actin network architecture can determine myosin motor activity.
+\newblock {\em Science}, 336(6086):1310--1314, 2012.
 
 \bibitem{Robin:2014aa}
 Francois~B Robin, William~M McFadden, Baixue Yao, and Edwin~M Munro.
@@ -408,6 +517,11 @@ R.~Tharmann, M.~M. A.~E. Claessens, and A.~R. Bausch.
 \newblock Viscoelasticity of isotropically cross-linked actin networks.
 \newblock {\em Phys. Rev. Lett.}, 98:088103, Feb 2007.
 
+\bibitem{Theriot1991}
+Julie~A. Theriot and Timothy~J. Mitchison.
+\newblock Actin microfilament dynamics in locomoting cells.
+\newblock {\em Nature}, 352(6331):126--131, Jul 1991.
+
 \bibitem{Turlier2014114}
 Herv{\'e} Turlier, Basile Audoly, Jacques Prost, and Jean-Fran{\c c}ois Joanny.
 \newblock Furrow constriction in animal cell cytokinesis.
@@ -419,6 +533,12 @@ Michael~J. Unterberger and Gerhard~A. Holzapfel.
   cross-linked networks on multiple scales.
 \newblock {\em Biomechanics and Modeling in Mechanobiology}, 13(6):1155--1174,
   2014.
+
+\bibitem{Van-Goor:2012aa}
+David Van~Goor, Callen Hyland, Andrew~W Schaefer, and Paul Forscher.
+\newblock The role of actin turnover in retrograde actin network flow in
+  neuronal growth cones.
+\newblock {\em PLoS ONE}, 7(2):e30959, 2012.
 
 \bibitem{theo_friction}
 Andrea Vanossi, Nicola Manini, Michael Urbakh, Stefano Zapperi, and Erio
@@ -444,6 +564,12 @@ Sabine M.~Volkmer Ward, Astrid Weins, Martin~R. Pollak, and David~A. Weitz.
   disease-causing mutant alpha-actinin-4.
 \newblock {\em Biophysical Journal}, 95(10):4915 -- 4923, 2008.
 
+\bibitem{Watanabe1083}
+Naoki Watanabe and Timothy~J. Mitchison.
+\newblock Single-molecule speckle analysis of actin filament turnover in
+  lamellipodia.
+\newblock {\em Science}, 295(5557):1083--1086, 2002.
+
 \bibitem{7039172}
 A.~Wierman, Zhenhua Liu, I.~Liu, and H.~Mohsenian-Rad.
 \newblock Opportunities and challenges for data center demand response.
@@ -454,6 +580,14 @@ A.~Wierman, Zhenhua Liu, I.~Liu, and H.~Mohsenian-Rad.
 Jan Wilhelm and Erwin Frey.
 \newblock Elasticity of stiff polymer networks.
 \newblock {\em Phys. Rev. Lett.}, 91:108103, Sep 2003.
+
+\bibitem{Wilson:2010aa}
+Cyrus~A. Wilson, Mark~A. Tsuchida, Greg~M. Allen, Erin~L. Barnhart, Kathryn~T.
+  Applegate, Patricia~T. Yam, Lin Ji, Kinneret Keren, Gaudenz Danuser, and
+  Julie~A. Theriot.
+\newblock Myosin ii contributes to cell-scale actin network treadmilling
+  through network disassembly.
+\newblock {\em Nature}, 465(7296):373--377, 05 2010.
 
 \bibitem{theo_floppy}
 M.~Wyart, H.~Liang, A.~Kabla, and L.~Mahadevan.
