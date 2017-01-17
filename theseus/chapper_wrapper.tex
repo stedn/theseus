@@ -1,9 +1,14 @@
 \documentclass{easychithesis}
 
 \usepackage{pdfpages}
+\usepackage{csquotes}
 \usepackage{nameref}
 \usepackage{amsmath}    % need for subequations
 \usepackage{graphicx}   % need for figures
+\usepackage{changepage}
+\usepackage{float}
+\usepackage{caption}
+\captionsetup{font={stretch=1}}
 %\usepackage{verbatim}   % useful for program listings
 %\usepackage{color}      % use if color is used in text
 %\usepackage{subfigure}  % use for side-by-side figures
@@ -20,6 +25,10 @@
 	mlshowsectionrules = true,
 }
 \begin{document}
-\include{docu/docu}
+\input{model/math}
+\input{model/explanation}
+
+%\bibliography{active/slippage,active/active,edeals/bibliography}
+%\bibliographystyle{plain}
 
 \end{document}

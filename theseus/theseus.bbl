@@ -7,11 +7,6 @@ Jose Alvarado, Michael Sheinman, Abhinav Sharma, Fred~C. MacKintosh, and
   state.
 \newblock {\em Nat Phys}, 9(9):591--597, 09 2013.
 
-\bibitem{C0SM00494D}
-Shiladitya Banerjee and M.~Cristina Marchetti.
-\newblock Instabilities and oscillations in isotropic active gels.
-\newblock {\em Soft Matter}, 7:463--473, 2011.
-
 \bibitem{theo_frictionShila}
 Shiladitya Banerjee, M.~Cristina Marchetti, and Kristian M\"uller-Nedebock.
 \newblock Motor-driven dynamics of cytoskeletal filaments in motility assays.
@@ -94,6 +89,11 @@ Priyamvada Chugh, Andrew~G. Clark, Matthew~B. Smith, Davide A.~D. Cassani,
 \newblock Nanoscale organization of the actomyosin cortex during the cell
   cycle.
 \newblock {\em Biophysical Journal}, 110(3):198a, 2016/07/18 2016.
+
+\bibitem{FEB2:FEB20014579387815132}
+Martine Cou{\'e}, Stephen~L. Brenner, Ilan Spector, and Edward~D. Korn.
+\newblock Inhibition of actin polymerization by latrunculin a.
+\newblock {\em FEBS Letters}, 213(2):316--318, 1987.
 
 \bibitem{model_massive}
 Christian~J. Cyron, Kei~W. M{\"u}ller, Andreas~R. Bausch, and Wolfgang~A. Wall.
@@ -220,11 +220,6 @@ David~A. Head, Alex~J. Levine, and F.~C. MacKintosh.
 \newblock Deformation of cross-linked semiflexible polymer networks.
 \newblock {\em Phys. Rev. Lett.}, 91:108102, Sep 2003.
 
-\bibitem{Heisenberg2013948}
-Carl-Philipp Heisenberg and Yohanns Bella{\"\i}che.
-\newblock Forces in tissue morphogenesis and patterning.
-\newblock {\em Cell}, 153(5):948 -- 962, 2013.
-
 \bibitem{theo_nonaffine2}
 Claus Heussinger, Boris Schaefer, and Erwin Frey.
 \newblock Nonaffine rubber elasticity for stiff polymer networks.
@@ -246,6 +241,11 @@ S~N Hird and J~G White.
 Robert~M Hochmuth.
 \newblock Micropipette aspiration of living cells.
 \newblock {\em Journal of Biomechanics}, 33(1):15 -- 22, 2000.
+
+\bibitem{Howard2011}
+Jonathon Howard, Stephan~W. Grill, and Justin~S. Bois.
+\newblock Turing's next steps: the mechanochemical basis of morphogenesis.
+\newblock {\em Nat Rev Mol Cell Biol}, 12(6):392--398, Jun 2011.
 
 \bibitem{Janson1005}
 L~W Janson, J~Kolega, and D~L Taylor.
@@ -283,11 +283,6 @@ Gijsje~H Koenderink, Zvonimir Dogic, Fumihiko Nakamura, Poul~M Bendix,
 \newblock An active biopolymer network controlled by molecular motors.
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 106(36):15192--15197, 09 2009.
-
-\bibitem{10.1371/journal.pone.0039869}
-Simone K{\"o}hler and Andreas~R. Bausch.
-\newblock Contraction mechanisms in composite active actin networks.
-\newblock {\em PLoS ONE}, 7(7):e39869, 07 2012.
 
 \bibitem{Lai:2008aa}
 Frank~PL Lai, Malgorzata Szczodrak, Jennifer Block, Jan Faix, Dennis
@@ -349,10 +344,19 @@ Zhenhua Liu, Adam Wierman, Yuan Chen, Benjamin Razon, and Niangjun Chen.
   workload shifting and local generation.
 \newblock {\em SIGMETRICS Perform. Eval. Rev.}, 41(1):341--342, June 2013.
 
-\bibitem{0295-5075-85-1-18007}
-T.~B. Liverpool, M.~C. Marchetti, J.-F. Joanny, and J.~Prost.
-\newblock Mechanical response of active gels.
-\newblock {\em EPL (Europhysics Letters)}, 85(1):18007, 2009.
+\bibitem{doi:10.1021/ac9024889}
+Samuel~J. Lord, Hsiao-lu~D. Lee, and W.~E. Moerner.
+\newblock Single-molecule spectroscopy and imaging of biomolecules in living
+  cells.
+\newblock {\em Analytical Chemistry}, 82(6):2192--2203, 2010.
+\newblock PMID: 20163145.
+
+\bibitem{Mak2015}
+Michael Mak, Taeyoon Kim, Muhammad~H. Zaman, and Roger~D. Kamm.
+\newblock Multiscale mechanobiology: computational models for integrating
+  molecules to multicellular systems.
+\newblock {\em Integr Biol (Camb)}, 7(10):1093--1108, Oct 2015.
+\newblock 26019013[pmid].
 
 \bibitem{Mak:2016aa}
 Michael Mak, Muhammad~H. Zaman, Roger~D. Kamm, and Taeyoon Kim.
@@ -456,6 +460,13 @@ Francois~B Robin, William~M McFadden, Baixue Yao, and Edwin~M Munro.
 \newblock Single-molecule analysis of cell surface dynamics in caenorhabditis
   elegans embryos.
 \newblock {\em Nat Meth}, 11(6):677--682, 06 2014.
+
+\bibitem{nmeth}
+Francois~B. Robin, William~M. McFadden, Baixue Yao, and Edwin~M. Munro.
+\newblock Single-molecule analysis of cell surface dynamics in caenorhabditis
+  elegans embryos.
+\newblock {\em Nat Meth}, 11(6):677--682, Jun 2014.
+\newblock Article.
 
 \bibitem{Roundtree2012}
 Barry Rountree, Dong~H. Ahn, Bronis~R. de~Supinski, David~K. Lowenthal, and

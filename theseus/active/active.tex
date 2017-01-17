@@ -1,7 +1,7 @@
-\section*{Results}
+\section{Results}
 The goal of this study is to understand how cortical flow is shaped by the simultaneous dependencies of active stress and effective viscosity on filament turnover, crosslink drag and on ``network parameters'' that control  filament density, elasticity and motor activity.   We approach this in three steps: First, we analyze the passive deformation of a cross-linked network in response to an externally applied stress; we identify regimes in which the network response is effectively viscous and characterize the dependence of effective viscosity on network parameters and filament turnover.  Second, we analyze the buildup and dissipation of active stress in cross-linked networks with active motors, as they contract against an external resistance; we identify conditions under which the network can produce sustained stress at steady state, and characterize how steady state stress depends on network parameters and filament turnover. Finally, we confirm that the dependencies of active stress and effective viscosity on network parameters and filament turnover are sufficient to predict the dynamics of networks undergoing steady state flow in response to spatial gradients of motor activity.
 % PASSIVE SECTION
-\subsection*{Filament turnover allows and tunes effectively viscous steady state flow.}
+\subsection{Filament turnover allows and tunes effectively viscous steady state flow.}
 
 % Example of passive simulation measurements
 \paragraph{Networks with passive cross-links and no filament turnover undergo three stages of deformation in response to an extensional force.} 
@@ -9,7 +9,7 @@ The goal of this study is to understand how cortical flow is shaped by the simul
 To characterize the passive response of a cross-linked filament network without filament recycling, we simulated a simple uniaxial strain experiment in which we pinned the network at one end, imposed an external stress at the opposite end, and then quantified network strain and internal stress as a function of time (Fig. \ref{fig:model_overview}E). The typical response occurred in three qualitatively distinct phases (Fig. \ref{fig:passive_ex}A,C). At short times the response was viscoelastic, with a rapid buildup of internal stress and a rapid $\sim$exponential approach to a fixed strain (\nameref{fig:passive_supp}A), which represents the elastic limit in the absence of cross-link slip predicted by \cite{theo_hlm}. At intermediate times, the local stress and strain rate were approximately constant across the network (Fig. \ref{fig:passive_ex}B), and the response was effectively viscous; internal stress remained ~constant while the network continued to deform slowly and continuously with nearly constant strain rate (shown as dashed line in Fig. \ref{fig:passive_ex}C) as filaments slip past one another against the effective cross-link drag. In this regime, we can quantify effective viscosity, $\eta_c$,  as the ratio of applied stress to the measured strain rate. Finally, as the network strain approached a critical value ($\sim 30\%$ for the simulation in Fig. \ref{fig:passive_ex}), strain thinning lead to decreased network connectivity, local tearing, and rapid acceleration of the network deformation (see inset in Fig. \ref{fig:passive_ex}C).
 
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\hsize]{active/figures/Fig2}
 	\caption{\label{fig:passive_ex}  Networks with passive cross-links and no filament turnover undergo three stages of deformation in response to an extensional stress.   \textbf{A)} Three successive time points from a simulation of a $4\times6.6\: \mu m$ network deforming under an applied stress of 0.005 $nN/\mu m$. Stress (tan arrows) is applied to filaments in the region indicated by the tan bar. In this and all subsequent figures, filaments are color-coded with respect to state of strain (blue = tension, red = compression).  Network parameters: $L=1\: \mu m$, $l_c=0.3\: \mu m$, $\xi=100\: nN\cdot s/\mu m$. \textbf{B)} Mean filament stress and velocity profiles for the  network in (a) at t=88s. Note that the stress is nearly constant and the velocity is nearly linear as predicted for a viscous fluid under extension.  \textbf{C)} Plots of the mean stress and strain vs time for the simulation in (a), illustrating the three stages of deformation: (i) A fast initial deformation accompanies rapid buildup of internal network stress; (ii) after a characteristic time $\tau_c$ (indicated by vertical dotted line) the network deforms at a constant rate, i.e. with a constant effective viscosity, $\eta_c$, given by the slope of the dashed line; (iii) at long times, the network undergoes strain thinning and tearing (see inset)}
@@ -18,7 +18,7 @@ To characterize the passive response of a cross-linked filament network without 
 % Viscosity and timescale parameter dependence
 \paragraph{Network architecture sets the rate and timescales of deformation.}  To characterize how effective viscosity and the timescale for transition to effectively viscous behavior depend on network architecture and cross-link dynamics, we simulated a uniaxial stress test, holding the applied stress constant, while varying filament length $L$, density $l_c$,  elastic modulus $\mu_e$ and cross link drag $\xi$ (see \nameref{S1_Table}). We measured the elastic modulus, $G_0$, the effective viscosity, $\eta_c$, and the timescale $\tau_c$ for transition from viscoelastic to effectively viscous behavior, and compared these to theoretical predictions. We observed a transition from viscoelastic to effectively viscous deformation for the entire range of parameter values that we sampled.  Our estimate of $G_0$ from simulation agreed well with the closed form solution  $G_0 \sim \mu/l_c$ predicted by a previous theoretical model \cite{theo_hlm} for networks of semi-flexible filaments with irreversible cross-links (Fig. \ref{fig:passive_form}B). 
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\hsize]{active/figures/Fig3}
 	\caption{\label{fig:passive_form} Network architecture sets the rate and timescales of deformation.  \textbf{(a-c)} Comparison of predicted and simulated values for: \textbf{A)} the bulk elastic modulus $G_0$,  \textbf{B)} the effective viscosity $\eta_c$ and \textbf{C)} the timescale for transition from viscoelastic to viscous behavior $\tau_c$, given by the ratio of the bulk elastic modulus $G_0$ to effective viscosity, $\eta_c$. Dotted lines indicates the relationships predicted by theory. }
@@ -49,7 +49,7 @@ We simulated a uniaxial stress test for different values of $\tau_r$, while hold
 where  $\sigma$ is the applied stress, $L/l_c$ the linear cross link density, and $\xi$ is the effective crosslink drag. 
 
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\hsize]{active/figures/Fig4}
 	\caption{\label{fig:passive_rec}  Filament recycling defines two regimes of effectively viscous flow. \textbf{A)} Comparison of $20 \times 12 \mu m$ networks under 0.001 $nN/\mu m$ extensional stress without (top) and with (bottom) filament turnover.  Both images are taken when the networks had reached a net strain of 0.04.  For clarity, filaments that leave the domain of applied stress are greyed out. \textbf{B)} Plots of strain vs time for identical networks with different rates of filament turnover.  Network parameters: $L=5\: \mu m$, $l_c=0.5\: \mu m$, $\xi=10\: nN\cdot s/\mu m$. \textbf{C)}  Plot of effective viscosity vs turnover time derived from the simulations shown in panel b.  Square dot is the $\tau_r=\infty$ condition.  \textbf{D)} Plot of normalized effective viscosity ($\eta/\eta_c$) vs normalized turnover time ($\tau_r/\tau_c$) for a large range of network parameters and turnover times. For $tau_r \ll \tau_c$, the viscosity of the network becomes dependent on recycling time. Red dashed line indicates the approximation given in equation \ref{eqn:simple_eta} for $m=3/4$.}
@@ -74,7 +74,7 @@ For $\tau_r \gg \tau_c$, $\eta\approx\eta_c$: effective viscosity depends on cro
 
 
 % ACTIVE SECTION
-\subsection*{Filament turnover allows persistent stress buildup in active networks}
+\subsection{Filament turnover allows persistent stress buildup in active networks}
 
 \paragraph{In the absence of filament turnover, active networks with free boundaries contract and then stall against passive resistance to network compression.}
 
@@ -82,7 +82,7 @@ For $\tau_r \gg \tau_c$, $\eta\approx\eta_c$: effective viscosity depends on cro
 Previous work \cite{1367-2630-14-3-033037,rheo_2D1,rheo_active} identifies asymmetric filament compliance and spatial heterogeneity in motor activity as minimal requirements for macroscopic contraction of disordered networks. To confirm that our simple implementation of these two requirements (see Models section) is sufficient for macroscopic contraction, we simulated active networks that are unconstrained by external attachments, varying filament length, density, crosslink drag and motor activity.  We observed qualitatively similar results for all choices of parameter values:  Turning on motor activity in an initially unstrained network induced rapid initial contraction, followed by a slower buildup of compressive stress (and strain) on individual filaments, and an $\sim$exponential approach to stall (Fig. \ref{fig:active_con}). The time to stall, $\tau_s$, scaled as $L\xi/\upsilon$ (\nameref{fig:active_supp}A). On even longer timescales, polarity sorting of individual filaments, as previously described \cite{Reymann1310,Murrell15062014,Ndlec:1997aa,Surrey1167} lead to network expansion (see \nameref{active_con_video}).
 
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\hsize]{active/figures/Fig5}
 	\caption{\label{fig:active_con} In the absence of filament turnover, active networks with free boundaries contract and then stall against passive resistance to network compression. \textbf{A)}  Simulation of an active network with free boundaries. Colors represent strain on individual filaments as in previous figures.  Note the buildup of compressive strain as contraction approaches stall between 100 s and 150 s.  Network parameters: $L=5\: \mu m$, $l_c=0.3\: \mu m$, $\xi=1\: nN\cdot s/\mu m$, $\upsilon=0.1\: nN$.  \textbf{B)} Plots showing time evolution of total network strain (black) and the average extensional (blue) or compressive (red) strain on individual filaments.   \textbf{C)} Plots showing time evolution of total (black) extensional (blue) or compressive (red) stress.  Note that extensional and compressive stress remain balanced as compressive resistance builds during network contraction.}
@@ -95,7 +95,7 @@ During the rapid initial contraction, the increase in network strain closely mat
 
 During cortical flow, regions with high motor activity contract against a passive resistance from neighboring regions with lower motor activity.  To understand how the active stresses that drive cortical flow are shaped by motor activity and network remodeling, we analyzed the buildup and maintenance of contractile stress in active networks contracting against a rigid boundary. We simulated active networks contracting from an initially unstressed state against a fixed boundary (Fig. \ref{fig:active_str}A,B), and  monitored the time evolution of mean extensional (blue), compressional (red) and total (black) stress on network filaments (Fig. \ref{fig:active_str}C,D). We focused initially on the scenario in which there is no, or very slow, filament turnover, sampling a range of parameter values controlling filament length and density, motor activity, and crosslink drag. 
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\hsize]{active/figures/Fig6}
 	\caption{\label{fig:active_str} In the absence of filament turnover, active networks cannot sustain continuous stress against a fixed boundary.  \textbf{A)} Simulation of an active network with fixed boundaries. Rearrangement of network filaments by motor activity leads to rapid loss of network connectivity.  Network parameters: $L=5\: \mu m$, $l_c=0.3\: \mu m$, $\xi=1\: nN\cdot s/\mu m$, $\upsilon=1\: nN$.  \textbf{B)} Simulation of the same network, with the same parameter values, except with ten-fold lower motor activity $\upsilon=0.1\: nN$. In this case, connectivity is preserved, but there is a progressive buildup of compressive strain on individual filaments.  \textbf{C)} Plots of total network stress and the average extensional (blue) and compressive (red) stress on individual filaments for the simulation shown in (a). Rapid buildup of extensional stress allows the network transiently to exert force on its boundary, but this force is rapidly dissipated as network connectivity breaks down.  \textbf{D)} Plots of total network stress and the average extensional (blue) and compressive (red) stress on individual filaments for the simulation shown in (b). Rapid buildup of extensional stress allows the network transiently to exert force on its boundary, but this force is dissipated at longer times as decreasing extensional stress and increasing compressive stress approach balance.  Note the different time scales used for plots and subplots in \textbf{C)} and \textbf{D)} to emphasize the similar timescales for force buildup, but very different timescales for force dissipation.}
@@ -109,7 +109,7 @@ Combining dimensional analysis with trial and error, we were able to find empiri
 
 Regardless of the exact scaling dependencies of $\sigma_m$ and $\tau_m$ on network parameters, these results reveal a fundamental limit on the ability of active networks to sustain force against an external resistance in the absence of filament turnover.  To understand how this limit can be overcome by filament turnover, we simulated networks contracting against a fixed boundary from an initially unstressed state, for increasing rates of filament turnover (decreasing $\tau_r$), while holding all other parameter values fixed (Fig. \ref{fig:active_rec}A-C). While the peak stress decreased monotonically with decreasing $\tau_r$, the steady state stress showed a biphasic response, increasing initially with decreasing $\tau_r$, and then falling off as $\tau_r \to 0$.  We observed a biphasic response regardless of how stress decays in the absence of turnover, i.e. whether decay involves loss of network connectivity, or local remodeling without loss of connectivity, or both (\nameref{fig:active_tear} and not shown). Significantly, when we plot normalized steady state stress ($\sigma/\sigma_m$) vs normalized recycling time ($\tau_r$/$\tau_m$) for a wide range of network parameters, the data collapse onto a single biphasic response curve, with a peak near $\tau_r/\tau_m = 1$ (Fig. \ref{fig:active_rec}D). In particular, for $\tau_r < \tau_m$, the scaled data collapsed tightly onto a single curve representing a linear increase in steady state stress with increasing $\tau_r$. For $\tau_r > \tau_m$, the scaling was less consistent, although the trend towards a monotonic decrease with increasing $\tau_r$ was clear. These results reveal that filament turnover can rescue the dissipation of active stress during isometric contraction due to network remodeling, and they show that, for a given choice of network parameters, there is an optimal choice of filament lifetime that maximizes steady state stress.
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\hsize]{active/figures/Fig7}
 	\caption{\label{fig:active_rec} Filament turnover allows active networks to exert sustained stress on a fixed boundary. \textbf{A)} Snapshots from simulations of active networks with fixed boundaries and different rates of filament turnover.  All other parameter values are the same as in Fig. \ref{fig:active_str}A. Note the significant buildup of compressive strain and significant remodeling for longer, but not shorter, turnover times. \textbf{B)} Plots of net stress exerted by the network on its boundaries for different recycling times; for long-lived filaments, stress is built rapidly, but then dissipates. Decreasing filament lifetimes reduces stress dissipation by replacing compressed with uncompressed filaments, allowing higher levels of steady state stress; for very short lifetimes, stress is reduced, because individual filaments do not have time to build stress before turning over. \textbf{C)} Plots of $\approx$steady state stress estimated from the simulations in \textbf{B)} vs turnover time.  \textbf{D)} Plot of normalized steady state stress vs normalized recycling time for a wide range of network parameters and turnover times.  Steady state stress is normalized by the predicted maximum stress $\sigma_{m}$ achieved in the absence of filament turnover.  Turnover time is normalized by the predicted time to achieve maximum stress $\tau_{m}$, in the absence of filament turnover.  Predictions for $\sigma_{m}$ and $\tau_{m}$  were obtained from the phenomenological scaling relations shown in (Fig. \ref{fig:active_supp}C,D). Dashed blue line indicates the approximation given in equation \ref{eqn:simple_sigma} for $n=1$.}
@@ -131,7 +131,7 @@ where the origins of the exponent $n$ remain unclear.
 
 
 % COMBINED SECTION
-\subsection*{Filament turnover tunes the balance between active stress buildup and viscous stress relaxation to generate flows}
+\subsection{Filament turnover tunes the balance between active stress buildup and viscous stress relaxation to generate flows}
 
 Thus far, we have considered independently how network remodeling controls the passive response to an external stress, or the steady state stress produced by active contraction against an external resistance. We now consider how these two forms of dependence will combine to shape steady state flow produced by spatial gradients of motor activity. We consider a simple scenario in which a network is pinned on either side and motor activity is continuously patterned such that the right half network has uniformly high levels of motor activity (controlled by $\upsilon$, with $\psi = 0.5$), while the left half network has none. Under these conditions, the right half network will contract continuously against a passive resistance from the left half network.  Because of asymmetric filament compliance, the internal resistance of the right half network to active compression should be negligible compared to the external resistance of the left half network.  Thus the steady state flow will be described by:
 
@@ -144,7 +144,7 @@ Thus far, we have considered independently how network remodeling controls the p
 where $\sigma_{ss}$ is the active stress generated by the right half-network (less the internal resistance to filament compression), $\eta$ is the effective viscosity of the left half network and strain rate $\dot{\gamma}$ is measured in the left half-network.  Note that strain rate can be related to the steady state flow velocity $v$ at the boundary between right and left halves through $ v = \dot{\gamma}Dx$. Therefore, we can understand the dependence of flow speed on filament turnover and other parameters using the approximate relationships summarized by equations \ref{eqn:simple_eta} and \ref{eqn:simple_sigma} for $\eta$ and $\sigma_{ss}$.  As shown in Fig. \ref{fig:flow_theo}, there are two qualitatively distinct possibilities for the dependence of strain rate on $\tau_r$, depending on the relative magnitudes of $\tau_m$ and $\tau_c$.  In both cases, for fast enough turnover ($\tau_r < \min \left (\tau_m, \tau_c \right )$), we expect weak dependence of strain rate on $\tau_r$ ($ \dot{\gamma}\sim \tau_r^{1/4}$).  For all parameter values that we sampled in this study (which were chosen to lie in a physiological range), $\tau_m > \tau_c$. Therefore we predict the dependence of steady state strain rate on $\tau_r$ shown in Fig. \ref{fig:flow_theo}A.
 
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\hsize]{active/figures/Fig8}
 	\caption{\label{fig:flow_theo}  Filament recycling tunes the magnitudes of both effective viscosity and steady state stress. \textbf{A)}  Dependence of steady state stress, effective viscosity, and resulting strain rate on recycling time $\tau_r$ under the condition $\tau_{m}<\tau_c$. \textbf{B)} Same as a) but for $\tau_c<\tau_{m}$.  \textbf{C)} State space of flow rate dependence relative to the two relaxation timescales, $\tau_r$ and $\tau_c$ normalized by the stress buildup timescale, $\tau_{m}$.  }
@@ -152,7 +152,7 @@ where $\sigma_{ss}$ is the active stress generated by the right half-network (le
 
 To confirm this prediction, we simulated the simple scenario described above for a range of values of $\tau_r$, with all other parameter values initially fixed. As expected, we observed a sharp dependence of steady state flow speeds on filament recycling rate (Fig. \ref{fig:flow_ex}B,C). For very long recycling times, ($\tau_r=1000 s$, dark blue line), there was a rapid initial deformation (contraction of the active domain and dilation of the passive domain), followed by a slow approach to a steady state flow characterized by slow contraction of the right half-domain and a matching dilation of the left half-domain (see \nameref{fig:combo_prof}).  However, with decreasing values of $\tau_r$, steady state flow speeds increased steadily, before reaching an approximate plateau on which flow speeds varied by less than 15 \% over more than two decades of variation in $\tau_r$ (Fig. \ref{fig:flow_ex}C).  
 
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\hsize]{active/figures/Fig9}
 	\caption{\label{fig:flow_ex}  Filament recycling allows sustained flows in networks with non-isotropic activity. \textbf{A)} Example simulations of non-isotropic networks with long ($\tau_r=1000$) and short ($\tau_r=33$) recycling timescales. In these networks the left half of the network is passive while the right half is active.  Network parameters are same as in Fig.s \ref{fig:active_str} and \ref{fig:active_rec}. Importantly, in all simulations $\tau_{m}<\tau_c$. \textbf{B)} Graph of strain for identical networks with varying recycling timescales.  With long recycling times, the network stalls; reducing the recycling timescale allows the network to persist in its deformation.  However, for the shortest recycling timescales, the steady state strain begins to slowly return to 0 net motion.  Measurements are based on the passive side of the network. \textbf{C)} Steady state strain rates for the networks in (b).     \textbf{D)} Graph of network's long-term strain rate as a function of recycling timescale. Dashed line is form of dependence predicted by the  theoretical arguments shown in Fig. \ref{fig:flow_theo}.}
@@ -171,7 +171,7 @@ Indeed, when we plot the steady state measurements of $\dot{\gamma}$, normalized
 
 
 %Conclusion
-\section*{Discussion}
+\section{Discussion}
 
 \paragraph{} Cortical flows arise through a dynamic interplay of force production and dissipation within cross-linked actomyosin networks. Here we combined computer simulations with simple theoretical analysis to explore how this interplay depends on motor activity, crosslink dynamics, network architecture and filament turnover. Our results reveal two essential requirements for filament turnover during cortical flow:  (a) to allow the continuous relaxation of elastic resistance without catastrophic loss of network connectivity and (b) to prevent the dissipation of active stress through local network rearrangements. We find that biphasic dependencies of active stress and passive relaxation on filament lifetime define multiple modes of steady state flow with distinct dependencies on network parameters and filament turnover.
 
@@ -186,48 +186,49 @@ Indeed, when we plot the steady state measurements of $\dot{\gamma}$, normalized
 \paragraph{} For cortical networks that undergo steady state flows driven by spatial gradients of motor activity, our simulations predict that the biphasic dependencies of steady state stress and effective viscosity on filament lifetime define multiple regimes of steady state flow, characterized by different dependencies on filament turnover (and other network parameters).  In particular, the $\sim$linear dependencies of steady state stress and effective viscosity on filament lifetime for short-lived filaments define a fast turnover regime in which steady state flow speeds are buffered against variations in filament lifetime, and are predicted to depend in a simple way on motor activity and crosslink resistance.  Measurements of F-actin turnover times in cells that undergo cortical flow \cite{Theriot1991,Murthy2016,Watanabe1083,Guha2016,Fritzsche15032013,Robin:2014aa} suggests that they may indeed operate in this fast turnover regime, and recent studies in {\em C. elegans} embryos suggests that cortical flow speeds are surprisingly insensitive to depletion of factors (ADF/Cofilin) that govern filament turnover \cite{cellmech_flows}, consistent with our model's predictions. Stronger tests of our model's predictions will require more systematic analyses of how flow speeds vary with filament and crosslink densities, motor activities, and filament lifetimes.
 
 
+\subsection{Summary of Supplemental Materials}
 
-\paragraph*{S1 Appendix.}
+\paragraph{S1 Appendix.}
 \label{S1_Text}
 {\bf Code Reference and Supplementary Methods}  \textbf{A.1)} Reference to simulation and analysis code. \textbf{A.2)} Derivation of effective viscosity. \textbf{A.3)} Derivation of critical turnover timescale for steady state flow
 
-\paragraph*{S1 Table.}
+\paragraph{S1 Table.}
 \label{S1_Table}
 {\bf Parameter values.}  List of parameter values used for each set of simulations.
 
 
 
-\paragraph*{S1 Fig.}
+\paragraph{S1 Fig.}
 \label{fig:passive_supp}
 {\bf  Fast viscoelastic response to extensional stress.}  Plots of normalized strain vs time during the elastic phase of deformation in passive networks under extensional stress.  Measured strain is normalized by the equilibrium strain predicted for a network of elastic filaments without crosslink slip $\gamma_{eq} = \sigma/G_0 = \sigma/(2\mu/l_c)$.  
 
 
-\paragraph*{S2 Fig.}
+\paragraph{S2 Fig.}
 \label{fig:thinning}
 {\bf  Filament turnover rescues strain thinning.} \textbf{A)} Plots of strain vs time for different turnover times (see inset in (b)). Note the increase in strain rates with decreasing turnover time. \textbf{B)} Plots of filament density vs strain for different turnover times $\tau_r$.  For intermediate $\tau_r$, simulations predict progressive strain thinning, but at a lower rate than in the complete absence of recycling. For higher $\tau_r$, densities approach steady state values at longer times.  
 
-\paragraph*{S3 Fig.}
+\paragraph{S3 Fig.}
 \label{fig:active_supp}
 {\bf  Mechanical properties of active networks.}  \textbf{A)}  Time for freely contracting networks to reach maximum strain, $\tau_s$, scales with $L\xi/\upsilon$.  \textbf{B)} Free contraction requires asymmetric filament compliance, and total network strain increases with the applied myosin force $\upsilon$. Note that the maximum contraction approaches an asymptotic limit as the stiffness asymmetry approaches a ratio of $\sim 100$.   \textbf{C)}  Maximum stress achieved during isometric contraction, $\sigma_m$, scales approximately with $\sqrt{\mu_e\upsilon}/l_c$.  \textbf{D)} Time to reach max stress during isometric contraction scales approximately with $L\xi/\sqrt{\mu_e\upsilon}$. Scalings for $\tau_s$, $\sigma_m$ and $\tau_m$ were determined empirically by trial and error, guided by dimensional analysis.  
 
-\paragraph*{S4 Fig.}
+\paragraph{S4 Fig.}
 \label{fig:active_tear}
 {\bf  Filament turnover prevents tearing of active networks.}  Plots of normalized strain vs time during the elastic phase of deformation in passive networks under extensional stress.  Measured strain is normalized by the equilibrium strain predicted for a network of elastic filaments without crosslink slip $\gamma_{eq} = \sigma/G_0 = \sigma/(2\mu/l_c)$.  
 
 
-\paragraph*{S5 Fig.}
+\paragraph{S5 Fig.}
 \label{fig:recycle_supp}
 {\bf Bimodal dependence on turnover time matches bimodal buildup and dissipation of stress in the absence of turnover.}   \textbf{A)}  Bimodal buildup of stress in a network with very slow turnover ($\tau_r = 1000s$).  \textbf{B)}  Steady state stress for networks with same parameters as in (a), but  for a range of filament turnover times.   
 
-\paragraph*{S6 Fig.}
+\paragraph{S6 Fig.}
 \label{fig:combo_prof}
 {\bf  Dynamics of steady state flow.}  Plots of stress and strain vs position for networks in which motor activity is limited to the right-half domain and filament turnover time is either  \textbf{A)} $\tau_r = 10000$ or  \textbf{B)} $\tau_r = 10 s$.  Blue indicates velocity while orange represents total stress, measured as described in the main text. 
 
 
-\paragraph*{S1 Video.}
+\paragraph{S1 Video.}
 \label{passive_ex_video}
 {\bf Extensional strain in passive networks.}  Movie of simulation setup shown in Fig. \ref{fig:passive_ex}.  Colors are the same as in figure.
 
-\paragraph*{S2 Video.}
+\paragraph{S2 Video.}
 \label{active_con_video}
 {\bf Active networks contracting with free boundaries.}  Movie of simulation setup shown in Fig. \ref{fig:active_con}.  Colors are the same as in figure.
