@@ -9,6 +9,10 @@ The simulation code is entirely built on top of MATLAB's ode solving functions. 
 
 In the following sections, I'll walk through the code's logic in more detail, emphasizing the packages and files that modularly summarize the core functions.  First I will begin with an explanation of the command line interface used to set model parameters and deploying simulations.
 
+To find the \textit{activnet} simulation code, visit:
+\begin{verbatim}
+https://github.com/wmcfadden/activnet/tree/master/simulation
+\end{verbatim}
 
 \subsection{Launching simulations from the command line}
 
@@ -39,29 +43,30 @@ function p = activnet_gen(zet,L,mu,kap,lc,xi,ups,phi,psi,
 %   Dx - x-dimension of domain
 %   Dy - y-dimension of domain
 %   Df - position at which external force is applied
-%         (if Df<0, also position in x dimension where network stops )
-%   Dw - width of window in x-dimension where forces/constraints are applied
+%        (if Df<0, also position in x dimension where network stops)
+%   Dw - width of window in x-dimension where forces are applied
 %   ls - length of filament segments
-%   lf - length of force falloff at end of filament (for continuous forces)
+%   lf - length of force falloff at end of filament 
+%         (just ensures continuous forces)
 %   tinc - time increment to return solutions 
 %          (will be decreassed automatically if r is too large)
 %   tfin - end time of simulation
-%   nonlin - nonlinear factor by which to make filament stiffer by extension
-%            (if nonlin<0, then add spacing so filaments do not reach edge)
+%   nonlin - factor by which to make filament stiffer for extension
+%            (if nonlin<0, add spacing so filaments dont reach edge)
 \end{verbatim}
 
-These parameters will be explained in more detail below, but here I'll provide a brief practical explanation for their use in setting up simulations.  The parameters \texttt{zet}, \texttt{L}, \texttt{mu}, \texttt{kap}, \texttt{lc}, \texttt{xi}, \texttt{ups}, \texttt{phi}, \texttt{r}, \texttt{sig}, \texttt{Dx}, and \texttt{Dy} are defined in the mathematical methods section above as $\zeta$, $L$, $\mu_c$, $\kappa$, $l_c$, $\xi$, $\upsilon$, $\phi$, $1/\tau_r$, $\sigma$, $D_x$, and $D_y$, respectively. The parameter \texttt{nonlin} is used to internally calculate the extensional modulus $\mu_e = \texttt{nonlin} \times \mu_c$ (i.e. if \texttt{mu} is 1 and \texttt{nonlin} is 100, then $\mu_c=1$ and $\mu_e=100$).  The parameter \texttt{psi} is used to generate a spatial gradient in internal activity or temporal periodicity if an external force is applied. The spatial gradient is linear with a maximum at the center of the domain.  The parameter \texttt{Df} defines the x-position where any external stress will be applied (i.e. stress is applied at \texttt{Df}x\texttt{Dx}).
+These parameters will be explained in more detail below, but here I'll provide a brief practical explanation for their use in setting up simulations.  The parameters \texttt{zet}, \texttt{L}, \texttt{mu}, \texttt{kap}, \texttt{lc}, \texttt{xi}, \texttt{ups}, \texttt{phi}, \texttt{r}, \texttt{sig}, \texttt{Dx}, and \texttt{Dy} are defined in the mathematical methods section above as $\zeta$, $L$, $\mu_c$, $\kappa$, $l_c$, $\xi$, $\upsilon$, $\phi$, $1/\tau_r$, $\sigma$, $D_x$, and $D_y$, respectively. The parameter \texttt{nonlin} is used to internally calculate the extensional modulus $\mu_e = \texttt{nonlin} \times \mu_c$ (i.e. if \texttt{mu} is 1 and \texttt{nonlin} is 100, then $\mu_c=1$ and $\mu_e=100$).  The parameter \texttt{psi} is used to generate a spatial gradient in internal activity or temporal periodicity if an external force is applied. The spatial gradient is linear with a maximum at the center of the domain.  The parameter \texttt{Df} defines the fraction along the x-domain where any external stress will be applied (i.e. stress is applied at \texttt{Df}*\texttt{Dx}).
 
 All of these terms are positive by definition so setting certain terms negative is used to trigger certain behavior in the simulation environment:
 \begin{itemize}
-	\item  Setting $\texttt{mu} < 0$ enables the extensional spring to be different than the compressive.
+	\item  Setting $\texttt{mu} < 0$ enables the extensional spring constant to be different than the compressive.
 	\item  Setting $\texttt{sig} < 0$ causes the external stress to be applied in the y direction rather than the x direction, resulting in shear stress simulations.
 	\item Setting $\texttt{nonlin} < 0$ results in space being added to the edge of the domain so that no filaments intersect with the boundaries of the simulation, allowing the network to undergo unconstrained contraction.
-	\item Setting $\texttt{psi} < 0$ results in oscillating positive and negative stressed being applied to the network (as opposed to a sinusoidal pattern regularly).
+	\item Setting $\texttt{psi} < 0$ results in oscillating positive and negative stresses being applied to the network (as opposed to a sinusoidal pattern regularly).
 	\item Setting $\texttt{Df} < 0$ will cause the rightward edge of the initially generated network to end at the location where the force is applied.
 \end{itemize}
    
-The parameter \texttt{ls} sets the segment size of the filament.  Theoretically this segment size is very small (the size of a single actin monomer perhaps), but for computational reasons this value is set much larger.  The parameters \texttt{Dw} and \texttt{lf} set the regions over which forces will "fall off" for the domain and individual filaments, respectively.  These are just there to ensure there are no discontinuous changes in the ODE equation as filaments move around, and should be set to some smallish number, like $0.05$, but shouldn't effect the results too much overall.  Finally, \texttt{tfin} and \texttt{tinc} set the end time of the simulation and the timesteps at which to print results, respectively.  The program will automatically shrink \texttt{tinc} if the recycling rate, \texttt{r} is large enough that manual position updates must occur on timescales smaller than \texttt{tinc}.
+The parameter \texttt{ls} sets the segment size of the filament.  Theoretically this segment size is very small (the size of a single actin monomer perhaps), but for computational reasons this value is set much larger.  The parameters \texttt{Dw} and \texttt{lf} set the regions over which forces will "fall off" for the domain and individual filaments, respectively.  These are just there to ensure there are no discontinuous changes in the ODE equation as filaments move around, and should be set to some smallish number, like $0.05$, but don't affect the results too much overall.  Finally, \texttt{tfin} and \texttt{tinc} set the end time of the simulation and the timesteps at which to print results, respectively.  The program will automatically shrink \texttt{tinc} if the recycling rate, \texttt{r} is large enough that manual position updates must occur on timescales smaller than \texttt{tinc}.
 
 
 To run a simulation with an external stress the following code could be used.
@@ -80,7 +85,7 @@ activnet_gen(0.001, 5, -0.01,  0,  0.3, 10, 0.1, 0.25, 0,
 
 Both of these have nonlinear filament extension because the third argument (\texttt{mu}) is less than 0.  The results will be printed to the MATLAB console.
 
-The currently deployed package can also be used to launch simulations on any linux system with MATLAB 2014b or the MATLAB 2014b Compiler Runtime installed (you will need to have a \$MATLAB environt variable enabled.  Please contact your sysadmin.).  In addition, the package can be recompiled on any system running MATLAB to create a new deployment that will be (see the README.txt file for more information about deployment).  
+The currently deployed package can also be used to launch simulations on any linux system with MATLAB 2014b or the MATLAB 2014b Compiler Runtime installed (you will need to have a \$MATLAB environment variable enabled.  Please contact your sysadmin.).  In addition, the package can be recompiled on any system running MATLAB to create a new deployment that will run on the compiled MATLAB version and operating system (see the README.txt file for more information about deployment).  
 
 \begin{verbatim}
 ./run_activnet_gen.sh $MATLAB 0.001 1 -0.01  0  0.8 10 0 0 0 0 
@@ -90,19 +95,52 @@ The currently deployed package can also be used to launch simulations on any lin
 
 
 
+\subsection{Package structure of activnet}
 
+To understand the high-level overview of this code, you can analyze the basic package structure and the small number of important top level packages.
+
+\begin{itemize}
+	\item  activnet\_gen.m: topmost wrapping function to call for running simulations; confirms input, generates initial conditions, and calls activnet.m 
+	\item  activnet.m: Chooses between which ODE implementation to run; stops ODE solver execution to perform filament recycling.
+	\item odes folder: Contains all the ODE computation internals.
+	\item helpers folder: Some additional functions written to perform line intersection tests.
+	\item analysis folder: All the code used to generate the figures in the accompanying publication.
+\end{itemize}
+
+
+Note: the rest of this documentation is most useful if one is looking over the internals of the code.  Trying to understand this without working with the code is probably not very useful.
 
 \subsection{ODE Wrapper functions }
 
-As demonstrated above, the initialization and launch of the simulation takes place using the function activnet\_gen.m.  This function is quite simple. It just ensures proper input parameters, builds a randomized network of filaments, prints the network node positions, and then calls the function activnet.m to compute the simulation results.  From there, activnet.m takes care of pausing solvers to update filament position for recycling as well as choosing between solvers depending on the type of problem being solved.  
+As mentioned above, the initialization and launch of the simulation takes place using the function activnet\_gen.m.  This function is quite simple. It just ensures proper input parameters, builds a randomized network of filaments, prints the network node positions, and then calls the function activnet.m to compute the simulation results.  From there, activnet.m takes care of pausing solvers to update filament position for recycling as well as choosing between solvers depending on the type of problem being solved.  
 
 \subsubsection{Generating Initial Conditions}
 
-To select the number of filaments, $N$, to generate using the input parameters, we use the approximating formula $N \approx floor(2*Dx*Dy/lc/L)$.  This formula is derived from the tiling of a $Dx \times Dy$ domain with lines of length $L$ and spacings between lines $lc$.  This diverges from the exact number of filaments needed when $L/lc$ is small, but we ignore this discrepancy because we mostly operate in the regime where $L/lc>10$.
+Before an ODE solve can be called one needs to set up the initial conditions of the network.  Every solver implementation in MATLAB operates on 1D vectors where every element represents a variable to be integrated.  Therefore, the data structure for this model is going to need to be set up to be encoded as a 1D vector of numbers.  Because the model framework is based around the 2D position of points, I will continually be shifting between the 1D vector, \texttt{z} and the 2D vector \texttt{p} using the following transformations.
+
+\begin{verbatim}
+p = reshape(z0,[],2);  % z -> p
+z0 = reshape(p,1,[]);  % z -> p
+\end{verbatim}
+
+To select the number of filaments, $\texttt{N}$, to generate using the input parameters, we use the approximating formula $\texttt{N} \approx \texttt{floor(2*Dx*Dy/lc/L)}$.  This formula is derived from the tiling of a $Dx \times Dy$ domain with lines of length $L$ and spacings between lines $lc$.  This diverges from the exact number of filaments needed when $L/lc$ is small, but we ignore this discrepancy because we mostly operate in the regime where $L/lc>10$.
+
+We therefore begin by creating an initial set of filament segment endpoints \texttt{p}, where we want to have \texttt{N} total filaments each with \texttt{ncnt} segment endpoints.  We do this by selecting a random starting point in our domain (\texttt{Dx} by \texttt{Dy}) with random orientation (\texttt{thet}).
+
+\begin{verbatim}
+ p = zeros(N*ncnt,2);   %initialize all endpoints to 0
+ for i=1:N
+	 p((i-1)*ncnt+1,:) = [Dp*Dx*rand Dy*rand]; %random starting location
+	 thet = rand*2*pi;                         %random direction
+	 for j = 2:ncnt            % iterate through remaining segments to add endpoints
+		 p((i-1)*ncnt+j,:) = p((i-1)*ncnt+j-1,:)+L/(ncnt-1.0)*[cos(thet) sin(thet)];
+	 end
+ end
+\end{verbatim}
 
 In most cases, the network should be assembled such that the domain is filled entirely in the y dimension ($y=0$ and $y=Dy$) and filled to the left edge ($x=0$) and up to the position $x=Dp*Dx$ in the in the x-dimension.  However, in the case that the parameter \texttt{nonlin} is less than 0, we set the initial conditions such that there is an empty space of size $0.2 Dx$ and $0.2 Dy$ at the x and y boundaries.  
 
-To keep our density the same we should adjust our calculation of $N$ above, however, in the current implementation this adjustment is not made. This is a known bug that was corrected for after-the-fact in the publication. 
+To keep our density the same we should adjust our calculation of $N$ above, however, in the current implementation this adjustment is not made. This is a known bug that was corrected for after-the-fact in the publication by multiplication of $l_c$ by a constant factor depending on the simulation setup. 
 
 
 \subsubsection{Choosing between active and driven simulations }
@@ -122,19 +160,17 @@ The core function of activnet.m is to serve as a wrapper for the ODE solvers men
 The following code chunk implements the position update for a randomly selected subset of nodes whenever the recycling rate, r, is greater than 0.  The logic implemented in activnet\_gen.m ensures that the timesteps are not so large that more than 5\% of filaments will be undergoing a discontinuous jump at any one time (i.e $r*istep*tinc <0.05$).
 
 \begin{verbatim}
-z0 = z(end,:);
-if(r>0)
-p = reshape(z0,[],2);
-p = [mod(p(:,1),Dx),mod(p(:,2),Dy)];
-
-i = randi(N,floor(r*istep*tinc*N)+(rand<mod(r*istep*tinc*N,1)),1);
+				% % select random indices
+i = randi(N,floor(r*istep*tinc*N)+(rand<mod(r*istep*tinc*N,1)),1); 
+				% % reset the position of the first segment endpoint
 p((i-1)*ncnt+1,:) = [Dp*Dx*rand(size(i)) Dy*rand(size(i))];
+				% % pick random orientation for each filament
 thet = rand(size(i))*2*pi;
-for j = 2:ncnt
-p((i-1)*ncnt+j,:) = p((i-1)*ncnt+j-1,:)+L/(ncnt-1.0)*[cos(thet) sin(thet)];
+for j = 2:ncnt  % % iterate over rest of endpoints
+  p((i-1)*ncnt+j,:) = 
+			  p((i-1)*ncnt+j-1,:)+L/(ncnt-1.0)*[cos(thet) sin(thet)];
 end
-z0 = reshape(p,1,[]);
-end
+
 \end{verbatim}
 
 
@@ -156,16 +192,15 @@ The right hand side of the equation constitutes all the non-viscous forces in th
 
 \begin{verbatim}
 %% compute intrafilament forces    
-l0 = L/(ncnt-1);
-p = reshape(z,[],2);
-p = [mod(p(:,1),Dx),mod(p(:,2),Dy)];
+l0 = L/(ncnt-1);           % length of segment
 dp = zeros(size(p));
 for n=1:ncnt:length(p)
   va_orth=[0 0];
   va = [0 0];
   la = 0;
   for i=0:ncnt-2
-    vb = mydiff(p(n+i,:),p(n+i+1,:),Dx,Dy);
+			  % % custom subtraction minding boundaries
+    vb = mydiff(p(n+i,:),p(n+i+1,:),Dx,Dy); 
     lb = sqrt(vb*vb');
     gam = (lb-l0)/l0;      % extension of the segment
     f = mu*vb/lb*gam;      % longitudinal spring force
@@ -198,7 +233,11 @@ for n=1:ncnt:length(p)
 end
 \end{verbatim}
 
-The code loops over every \texttt{ncnt} nodes, which constitute the nodes of a single filament.  Next the code loops through each node of the individual filament.  First, the code evaluates the extensional force on each node given by \texttt{f = mu*vb/lb*gam} with the modification that if \texttt{mu}<0 and \texttt{gam}>0, the force constant is modified to incorporate the nonlinear extensional stiffness.  Next, the code evaluates the bending forces for adjacent segments that are not aligned using \texttt{tor = kap/l0\^2*acos(max(min(va*vb'/la/lb,1),0))}.  The \texttt{max(min(...))} is used simply to ensure that there are no aberrantly large values due to errors in evaluation of \texttt{acos} with arguments very slightly greater than 1 or less than 0.   The two vectors \texttt{va\_orth} and \texttt{vb\_orth} are calculated to direct the force orthogonal to the orientation of the filament segment.  Finally, it should be noted that a bending force is generated from both the segment behind and te segment in front of the current node of interest and that the force from these need to be assigned at both the current node and the equal and opposite force assigned at the other end of each filament.
+The code loops over every \texttt{ncnt} nodes, which constitute the nodes of a single filament.  Next the code loops through each node of the individual filament.  First, the code evaluates the extensional force on each node given by \texttt{f = mu*vb/lb*gam} with the modification that if \texttt{mu}<0 and \texttt{gam}>0, the force constant is modified to incorporate the nonlinear extensional stiffness.  Next, the code evaluates the bending forces for adjacent segments that are not aligned using 
+
+\texttt{tor = kap/l0\^2*acos(max(min(va*vb'/la/lb,1),0))}. 
+
+ The \texttt{max(min(...))} is used simply to ensure that there are no aberrantly large values due to errors in evaluation of \texttt{acos} with arguments very slightly greater than 1 or less than 0.   The two vectors \texttt{va\_orth} and \texttt{vb\_orth} are calculated to direct the force orthogonal to the orientation of the filament segment.  Finally, it should be noted that a bending force is generated from both the segment behind and te segment in front of the current node of interest and that the force from these need to be assigned at both the current node and the equal and opposite force assigned at the other end of each filament.
 
 After the basic mechanical properties of the filament are accounted for, we need to add extra forces (otherwise the simulations won't be any more interesting than just a bunch of inert springs).  What we do depends on whether the simulation is meant to represent active motors or a passive network with an external driver.  In the next two sections we cover the specifics of the force equations for both of these cases.
 
@@ -209,7 +248,8 @@ For the ODE with internal activity, we need to compute a very different force on
 \begin{verbatim}
 g = lineSegmentGrid(indL,XY,Dx,Dy,l0);  % find instersecting lines
 
-f = min(1,max(0,(g-lf/2)/(1-lf)));
+	% find distance of intersections from endpoints
+f = min(1,max(0,(g-lf/2)/(1-lf)));     
 for ind=1:size(g,1)
   i = g(ind,3);
   j = g(ind,4);
