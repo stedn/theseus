@@ -33,34 +33,34 @@
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Bimodal dependence on turnover time matches bimodal buildup and dissipation of stress in the absence of turnover. \textbf {a)} Bimodal buildup of stress in a network with very slow turnover ($\tau _r = 1000s$). \textbf {b)} Steady state stress for networks with same parameters as in (a), but for a range of filament turnover times. \relax }}{94}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Dynamics of steady state flow. Plots of stress and strain vs position for networks in which motor activity is limited to the right-half domain and filament turnover time is either \textbf {a)} $\tau _r = 10000$ or \textbf {b)} $\tau _r = 10 s$. Blue indicates velocity while orange represents total stress, measured as described in the main text. \relax }}{94}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Reaction pathway with labels for coefficients associated with feedback stregths.\relax }}{95}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Perturbation simulation results plotted on phase planes for a variety of parameters. \relax }}{98}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Phase diagram of for $k_q=1$ and $k_qq=100$.\relax }}{99}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces \relax }}{100}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Multiple methods of fitting.\relax }}{101}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Simulation results and fitted data for model with $m=2$ and $k=0$. Displaying simulation results and the data used to fit the simulation on a phase plane (left) and as pairs of time plots (right).\relax }}{102}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Small variation in simulation parameters can have large qualitative effects.\relax }}{103}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Final figure as it appears in Robin et al.\relax }}{104}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Reaction pathway with labels for coefficients associated with feedback stregths.\relax }}{96}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Perturbation simulation results plotted on phase planes for a variety of parameters. \relax }}{99}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Phase diagram of for $k_q=1$ and $k_qq=100$.\relax }}{100}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces \relax }}{101}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Multiple methods of fitting.\relax }}{102}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Simulation results and fitted data for model with $m=2$ and $k=0$. Displaying simulation results and the data used to fit the simulation on a phase plane (left) and as pairs of time plots (right).\relax }}{103}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Small variation in simulation parameters can have large qualitative effects.\relax }}{104}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Final figure as it appears in Reference \cite {Robin076356}.\relax }}{105}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces \relax }}{110}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces \relax }}{111}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces \relax }}{112}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces \relax }}{113}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces \relax }}{114}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces \relax }}{115}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces \relax }}{116}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces \relax }}{117}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces \relax }}{111}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces \relax }}{112}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces \relax }}{113}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces \relax }}{114}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces \relax }}{115}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces \relax }}{116}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces \relax }}{117}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces \relax }}{118}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Responses from student survey. Only 2 of 5 students replied.\relax }}{121}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Average core usage for a 244 node shared HPC partition in the Midway cluster. Insert shows usage statistics histogram.\relax }}{120}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Energy monitoring framework.\relax }}{122}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Diagram of job scheduling during a four node temporary shutdown experiment. Each colored rectangle displays the execution time of a single LAMPPS test job running for approximately 5 minutes.\relax }}{123}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Total power consumed during experiments where variable numbers of machines were shut down during simulated peak pricing.\relax }}{123}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Energy usage of test cluster during partial shutdown experiments. Solid lines indicate power usage during the shutdown, while dashed lines indicate power usage after returning to full operation.\relax }}{125}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Maximum (solid) and mean (dashed) job wait times during partial shutdown experiments.\relax }}{126}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Power data for test cluster (top) and production cluster (bottom) nodes in presence of variable usage. The slope and intercept of the line are used to determine $u_v$ and $u_0$ respectively. \relax }}{128}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Comparison between node level IPMI measurements and rack level CDU measurements. Best fit shows the model relationship used to convert IPMI data to estimated total power draw.\relax }}{129}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Estimated savings from partial cluster shutdowns. \relax }}{130}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Average core usage for a 244 node shared HPC partition in the Midway cluster. Insert shows usage statistics histogram.\relax }}{177}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Energy monitoring framework.\relax }}{179}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Diagram of job scheduling during a four node temporary shutdown experiment. Each colored rectangle displays the execution time of a single LAMPPS test job running for approximately 5 minutes.\relax }}{180}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Total power consumed during experiments where variable numbers of machines were shut down during simulated peak pricing.\relax }}{180}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Energy usage of test cluster during partial shutdown experiments. Solid lines indicate power usage during the shutdown, while dashed lines indicate power usage after returning to full operation.\relax }}{182}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Maximum (solid) and mean (dashed) job wait times during partial shutdown experiments.\relax }}{183}
-\contentsline {figure}{\numberline {C.7}{\ignorespaces Power data for test cluster (top) and production cluster (bottom) nodes in presence of variable usage. The slope and intercept of the line are used to determine $u_v$ and $u_0$ respectively. \relax }}{185}
-\contentsline {figure}{\numberline {C.8}{\ignorespaces Comparison between node level IPMI measurements and rack level CDU measurements. Best fit shows the model relationship used to convert IPMI data to estimated total power draw.\relax }}{186}
-\contentsline {figure}{\numberline {C.9}{\ignorespaces Estimated savings from partial cluster shutdowns. \relax }}{187}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Responses from student survey. Only 2 of 5 students replied.\relax }}{135}
 \addvspace {10\p@ }
