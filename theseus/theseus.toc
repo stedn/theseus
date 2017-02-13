@@ -13,153 +13,95 @@
 \contentsline {subsection}{\numberline {1.6.1}Elucidating the Importance of Filament Turnover}{7}
 \contentsline {subsection}{\numberline {1.6.2}Novelty of Cross-link Slip Approach}{8}
 \contentsline {subsection}{\numberline {1.6.3}Bridging the Theoretical Gap Between Active Fluids and Polymer Models}{8}
-\contentsline {chapter}{\numberline {2}Impact of filament recycling on cortical flow in animal cells}{10}
-\contentsline {section}{\numberline {2.1}Measuring \textit {in vivo} turnover rates with smPReSS}{10}
-\contentsline {subsection}{\numberline {2.1.1}smPReSS measurement technique}{11}
-\contentsline {subsection}{\numberline {2.1.2}Measurements of turnover rate in dividing \textit {C. elegans} cortex}{13}
-\contentsline {section}{\numberline {2.2}Active Fluid Model Fitting of Cortical Flow Measurement in \textit {C. elegans} embryos}{16}
-\contentsline {subsection}{\numberline {2.2.1}Obtaining spatially resolved simultaneous measurement of actin and myosin densities.}{16}
-\contentsline {subsection}{\numberline {2.2.2}Obtaining spatially resolved measurement of cortical flow velocities.}{17}
-\contentsline {subsection}{\numberline {2.2.3}Using the data to constrain a basic active fluid model}{18}
-\contentsline {subsection}{\numberline {2.2.4}Disruption of Flow by Myosin Depletion}{19}
-\contentsline {section}{\numberline {2.3}Stabilization of Filament Turnover with Jasplakinolide Treatment}{20}
-\contentsline {chapter}{\numberline {3}Modeling 2D active networks with recycling}{22}
-\contentsline {section}{\numberline {3.1}Mathematical Summary of Modeling Methodology}{22}
-\contentsline {subsection}{\numberline {3.1.1}Schematic Overview}{22}
-\contentsline {subsection}{\numberline {3.1.2}Asymmetric filament compliance}{24}
-\contentsline {subsection}{\numberline {3.1.3}Drag-like coupling between overlapping filaments}{24}
-\contentsline {subsection}{\numberline {3.1.4}Active coupling for motor driven filament interactions}{25}
-\contentsline {subsection}{\numberline {3.1.5}Equations of motion}{26}
-\contentsline {subsection}{\numberline {3.1.6}2D network formation}{26}
-\contentsline {subsection}{\numberline {3.1.7}Modeling filament turnover}{27}
-\contentsline {subsection}{\numberline {3.1.8}Simulation methods}{27}
-\contentsline {section}{\numberline {3.2}Practical Implementation of Model Framework}{29}
-\contentsline {subsection}{\numberline {3.2.1}Launching simulations from the command line}{29}
-\contentsline {subsection}{\numberline {3.2.2}Package structure of activnet}{32}
-\contentsline {subsection}{\numberline {3.2.3}ODE Wrapper functions }{33}
-\contentsline {subsubsection}{Generating Initial Conditions}{33}
-\contentsline {subsubsection}{Choosing between active and driven simulations }{35}
-\contentsline {subsubsection}{Implementing Filament Recycling }{35}
-\contentsline {subsection}{\numberline {3.2.4}Overview of Numerical Integration Implementations}{36}
-\contentsline {subsubsection}{Right hand sides: \textit {activnet\_act\_ode.m vs. activenet\_pull\_ode.m}}{37}
-\contentsline {subsubsection}{Active ODE}{39}
-\contentsline {subsubsection}{Pulling ODE}{41}
-\contentsline {subsection}{\numberline {3.2.5}Left hand side: The mysterious mass matrix}{43}
-\contentsline {subsubsection}{\textit {activnet\_mass.m vs. activenet\_mass\_sp.m}}{44}
-\contentsline {subsection}{\numberline {3.2.6}Line intersection \textit {helper} Functions}{44}
-\contentsline {subsection}{\numberline {3.2.7}Visualization code}{45}
-\contentsline {chapter}{\numberline {4}Phases of deformation in filament networks with cross-link slip}{46}
-\contentsline {section}{\numberline {4.1}Results}{46}
-\contentsline {subsection}{\numberline {4.1.1}Steady-state Approximation of Effective Viscosity}{46}
-\contentsline {subsection}{\numberline {4.1.2}Effects of Filament Compliance}{49}
-\contentsline {subsection}{\numberline {4.1.3}Alignment at High Strain and Network Tearing}{52}
-\contentsline {subsection}{\numberline {4.1.4}Phase Diagram of Dominant Behavior}{52}
-\contentsline {subsection}{\numberline {4.1.5}Frequency dependent modulus}{54}
-\contentsline {subsection}{\numberline {4.1.6}Strain Memory}{55}
-\contentsline {section}{\numberline {4.2}Summary and Conclusions}{58}
-\contentsline {section}{\numberline {4.3}Network Tearing under Extensional Stress}{59}
-\contentsline {subsection}{\numberline {4.3.1}Extensional Thinning and Network Tearing}{59}
-\contentsline {subsection}{\numberline {4.3.2}Tearing Events During Extensional Strain}{59}
-\contentsline {section}{\numberline {4.4}Deriving Molecular Drag Coefficients}{59}
-\contentsline {chapter}{\numberline {5}Filament Recycling and Sustained Contractile Flows in an Actomyosin Network}{62}
-\contentsline {section}{\numberline {5.1}Results}{62}
-\contentsline {subsection}{\numberline {5.1.1}Filament turnover allows and tunes effectively viscous steady state flow.}{62}
-\contentsline {paragraph}{Networks with passive cross-links and no filament turnover undergo three stages of deformation in response to an extensional force.}{62}
-\contentsline {paragraph}{Network architecture sets the rate and timescales of deformation.}{65}
-\contentsline {paragraph}{Filament turnover allows sustained large-scale viscous flow and defines two distinct flow regimes.}{66}
-\contentsline {subsection}{\numberline {5.1.2}Filament turnover allows persistent stress buildup in active networks}{70}
-\contentsline {paragraph}{In the absence of filament turnover, active networks with free boundaries contract and then stall against passive resistance to network compression.}{70}
-\contentsline {paragraph}{Active networks cannot sustain stress against a fixed boundary in the absence of filament turnover.}{73}
-\contentsline {paragraph}{Filament turnover allows active networks to exert sustained stress on a fixed boundary.}{76}
-\contentsline {subsection}{\numberline {5.1.3}Filament turnover tunes the balance between active stress buildup and viscous stress relaxation to generate flows}{78}
-\contentsline {section}{\numberline {5.2}Discussion}{82}
-\contentsline {paragraph}{}{82}
-\contentsline {paragraph}{}{82}
-\contentsline {paragraph}{}{83}
-\contentsline {paragraph}{}{83}
-\contentsline {paragraph}{}{84}
-\contentsline {subsection}{\numberline {5.2.1}Summary of Supplemental Materials}{84}
-\contentsline {paragraph}{S1 Appendix.}{84}
-\contentsline {paragraph}{S1 Table.}{85}
-\contentsline {paragraph}{S1 Fig.}{85}
-\contentsline {paragraph}{S2 Fig.}{85}
-\contentsline {paragraph}{S3 Fig.}{85}
-\contentsline {paragraph}{S4 Fig.}{85}
-\contentsline {paragraph}{S5 Fig.}{86}
-\contentsline {paragraph}{S6 Fig.}{86}
-\contentsline {paragraph}{S1 Video.}{86}
-\contentsline {paragraph}{S2 Video.}{86}
-\contentsline {section}{\numberline {5.3}Supplemental Materials}{86}
-\contentsline {subsection}{\numberline {5.3.1}Simulation and Analysis Code Available Online}{86}
-\contentsline {subsection}{\numberline {5.3.2}Steady-state Approximation of Effective Viscosity}{86}
-\contentsline {subsection}{\numberline {5.3.3}Critical filament lifetime for steady state filament extension}{88}
-\contentsline {chapter}{\numberline {6}A model of upstream actomyosin regulators in pulsed contractions}{96}
-\contentsline {section}{\numberline {6.1}Motivation and experimental context}{96}
-\contentsline {section}{\numberline {6.2}A model for pulsatile actomyosin accumulation in \textit {C. elegans} }{97}
-\contentsline {subsection}{\numberline {6.2.1}Analyzing parameter space of the model}{98}
-\contentsline {section}{\numberline {6.3}Simplified model and data fitting}{101}
-\contentsline {subsection}{\numberline {6.3.1}Fitting techniques}{101}
-\contentsline {section}{\numberline {6.4}Conclusion}{104}
-\contentsline {chapter}{\numberline {7}Open Issues \& Future Directions}{106}
-\contentsline {section}{\numberline {7.1}Incorporating multi-segment filaments and bending degrees of freedom}{106}
-\contentsline {section}{\numberline {7.2}Probing more complex mechanisms of filament turnover}{107}
-\contentsline {section}{\numberline {7.3}A novel cell squishing technique to measure timescales of relaxation \textit {in vivo}}{109}
-\contentsline {chapter}{\numberline {A}Artistic Interpretations of filament recycling}{110}
-\contentsline {section}{\numberline {A.1}The ship of Theseus as a metaphor for life}{111}
-\contentsline {section}{\numberline {A.2}Experiments with plastic filament sculpture}{111}
-\contentsline {chapter}{\numberline {B}Reducing power consumption in High Performance Computing}{119}
-\contentsline {section}{\numberline {B.1}Introduction}{119}
-\contentsline {subsection}{\numberline {B.1.1}Alternative Demand Response Options in Data Centers}{120}
-\contentsline {section}{\numberline {B.2}Problem Statement}{122}
-\contentsline {subsection}{\numberline {B.2.1}Modeling Energy Costs}{122}
-\contentsline {subsection}{\numberline {B.2.2}Response to a Temporary Price Spike}{124}
-\contentsline {section}{\numberline {B.3}EDEALS: Electricity Demand-response Easy Adjusted Load Shifting}{125}
-\contentsline {section}{\numberline {B.4}Small-Scale Evaluation of EDEALS}{127}
-\contentsline {subsection}{\numberline {B.4.1}Experimental Setup}{127}
-\contentsline {subsection}{\numberline {B.4.2}Evaluation of Model Parameters}{127}
-\contentsline {subsection}{\numberline {B.4.3}Relative Energy Savings and Max Wait Times}{128}
-\contentsline {section}{\numberline {B.5}Conclusion: Implication for An Operational HPC Datacenter}{129}
-\contentsline {section}{\numberline {B.6}Acknowledgments}{130}
-\contentsline {section}{\numberline {B.7}Availability}{131}
-\contentsline {chapter}{\numberline {C}Workshop on modeling in biology}{132}
-\contentsline {section}{\numberline {C.1}Course syllabus}{133}
-\contentsline {subsection}{\numberline {C.1.1}Course Objective}{133}
-\contentsline {subsection}{\numberline {C.1.2}Course Design}{133}
-\contentsline {paragraph}{Content, Converse, Convey}{133}
-\contentsline {paragraph}{Programming Projects}{133}
-\contentsline {subsection}{\numberline {C.1.3}Assignments}{133}
-\contentsline {paragraph}{Readings and Quizzes}{133}
-\contentsline {paragraph}{Class Forum Discussions}{134}
-\contentsline {paragraph}{Wiki Articles}{134}
-\contentsline {paragraph}{Final Project}{134}
-\contentsline {section}{\numberline {C.2}Post-class Student Survey}{135}
-\contentsline {paragraph}{What are some questions you have about biological modeling that this class should have addressed.}{135}
-\contentsline {paragraph}{ Describe how you would like to see this workshop structured to best promote your learning of the material }{136}
-\contentsline {section}{\numberline {C.3}Reflections and Future Ideas}{136}
-\contentsline {section}{\numberline {C.4}Course Materials}{136}
-\contentsline {subsection}{\numberline {C.4.1}How mathematical models make sense of complex processes}{137}
-\contentsline {subsection}{\numberline {C.4.2}Modeling biological systems with differential equations}{137}
-\contentsline {paragraph}{Modelling biological systems}{137}
-\contentsline {paragraph}{Many types of models}{137}
-\contentsline {paragraph}{Focusing on Differential equations}{137}
-\contentsline {paragraph}{What is a differential equation good for?}{137}
-\contentsline {subsection}{\numberline {C.4.3}Visualizing equations with graphs}{138}
-\contentsline {paragraph}{Why is it called differential?}{138}
-\contentsline {paragraph}{Equilibrium?}{138}
-\contentsline {paragraph}{Initial conditions and transient behaviors}{138}
-\contentsline {paragraph}{What are nullclines?}{138}
-\contentsline {subsection}{\numberline {C.4.4}Simplifying models and starting simulations}{139}
-\contentsline {paragraph}{Why simplify before simulating?}{139}
-\contentsline {paragraph}{The parts of a differential equation model}{139}
-\contentsline {paragraph}{How do simulations work?}{139}
-\contentsline {subsection}{\numberline {C.4.5}Analyzing equations and understanding simulation output}{140}
-\contentsline {paragraph}{(from wikipedia) Nondimensionalization}{140}
-\contentsline {paragraph}{Running simulations}{140}
-\contentsline {subsection}{\numberline {C.4.6}Explaining ever more complex systems}{141}
-\contentsline {section}{\numberline {C.5}Quizzes and Project ideas}{141}
-\contentsline {paragraph}{W2}{141}
-\contentsline {paragraph}{W3}{141}
-\contentsline {paragraph}{W4}{141}
-\contentsline {paragraph}{W5}{142}
-\contentsline {chapter}{\numberline {D}Source Code and Documentation}{143}
-\contentsline {section}{\numberline {D.1}Finding Source Code Online}{143}
+\contentsline {chapter}{\numberline {2}Single molecule measurements of actin filament turnover}{10}
+\contentsline {section}{\numberline {2.1}Work that I did}{10}
+\contentsline {subsection}{\numberline {2.1.1}Fitting algorithm for SMPreSS}{10}
+\contentsline {subsection}{\numberline {2.1.2}Control experiments to determine the accuracy of SMPreSS}{10}
+\contentsline {subsection}{\numberline {2.1.3}Taking the proper mean for Par-3 measurments}{10}
+\contentsline {section}{\numberline {2.2}Contents of Paper}{11}
+\contentsline {chapter}{\numberline {3}Filament Recycling and Sustained Contractile Flows in an Actomyosin Network}{12}
+\contentsline {section}{\numberline {3.1}Results}{12}
+\contentsline {subsection}{\numberline {3.1.1}Filament turnover allows and tunes effectively viscous steady state flow.}{12}
+\contentsline {paragraph}{Networks with passive cross-links and no filament turnover undergo three stages of deformation in response to an extensional force.}{12}
+\contentsline {paragraph}{Network architecture sets the rate and timescales of deformation.}{15}
+\contentsline {paragraph}{Filament turnover allows sustained large-scale viscous flow and defines two distinct flow regimes.}{16}
+\contentsline {subsection}{\numberline {3.1.2}Filament turnover allows persistent stress buildup in active networks}{20}
+\contentsline {paragraph}{In the absence of filament turnover, active networks with free boundaries contract and then stall against passive resistance to network compression.}{20}
+\contentsline {paragraph}{Active networks cannot sustain stress against a fixed boundary in the absence of filament turnover.}{23}
+\contentsline {paragraph}{Filament turnover allows active networks to exert sustained stress on a fixed boundary.}{26}
+\contentsline {subsection}{\numberline {3.1.3}Filament turnover tunes the balance between active stress buildup and viscous stress relaxation to generate flows}{28}
+\contentsline {section}{\numberline {3.2}Discussion}{32}
+\contentsline {paragraph}{}{32}
+\contentsline {paragraph}{}{32}
+\contentsline {paragraph}{}{33}
+\contentsline {paragraph}{}{33}
+\contentsline {paragraph}{}{34}
+\contentsline {subsection}{\numberline {3.2.1}Summary of Supplemental Materials}{34}
+\contentsline {paragraph}{S1 Appendix.}{34}
+\contentsline {paragraph}{S1 Table.}{35}
+\contentsline {paragraph}{S1 Fig.}{35}
+\contentsline {paragraph}{S2 Fig.}{35}
+\contentsline {paragraph}{S3 Fig.}{35}
+\contentsline {paragraph}{S4 Fig.}{35}
+\contentsline {paragraph}{S5 Fig.}{36}
+\contentsline {paragraph}{S6 Fig.}{36}
+\contentsline {paragraph}{S1 Video.}{36}
+\contentsline {paragraph}{S2 Video.}{36}
+\contentsline {section}{\numberline {3.3}Supplemental Materials}{36}
+\contentsline {subsection}{\numberline {3.3.1}Simulation and Analysis Code Available Online}{36}
+\contentsline {subsection}{\numberline {3.3.2}Steady-state Approximation of Effective Viscosity}{36}
+\contentsline {subsection}{\numberline {3.3.3}Critical filament lifetime for steady state filament extension}{38}
+\contentsline {chapter}{\numberline {4}A model of upstream actomyosin regulators in pulsed contractions}{46}
+\contentsline {section}{\numberline {4.1}Motivation and experimental context}{46}
+\contentsline {section}{\numberline {4.2}A model for pulsatile actomyosin accumulation in \textit {C. elegans} }{47}
+\contentsline {subsection}{\numberline {4.2.1}Analyzing parameter space of the model}{48}
+\contentsline {section}{\numberline {4.3}Simplified model and data fitting}{51}
+\contentsline {subsection}{\numberline {4.3.1}Fitting techniques}{51}
+\contentsline {section}{\numberline {4.4}Conclusion}{53}
+\contentsline {chapter}{\numberline {5}Phases of deformation in filament networks with cross-link slip}{56}
+\contentsline {section}{\numberline {5.1}Results}{56}
+\contentsline {subsection}{\numberline {5.1.1}Steady-state Approximation of Effective Viscosity}{56}
+\contentsline {subsection}{\numberline {5.1.2}Effects of Filament Compliance}{59}
+\contentsline {subsection}{\numberline {5.1.3}Alignment at High Strain and Network Tearing}{62}
+\contentsline {subsection}{\numberline {5.1.4}Phase Diagram of Dominant Behavior}{62}
+\contentsline {subsection}{\numberline {5.1.5}Frequency dependent modulus}{64}
+\contentsline {subsection}{\numberline {5.1.6}Strain Memory}{65}
+\contentsline {section}{\numberline {5.2}Summary and Conclusions}{68}
+\contentsline {section}{\numberline {5.3}Network Tearing under Extensional Stress}{69}
+\contentsline {subsection}{\numberline {5.3.1}Extensional Thinning and Network Tearing}{69}
+\contentsline {subsection}{\numberline {5.3.2}Tearing Events During Extensional Strain}{69}
+\contentsline {section}{\numberline {5.4}Deriving Molecular Drag Coefficients}{69}
+\contentsline {chapter}{\numberline {6}Impact of filament recycling on cortical flow in animal cells}{72}
+\contentsline {section}{\numberline {6.1}Active Fluid Model Fitting of Cortical Flow Measurement in \textit {C. elegans} embryos}{72}
+\contentsline {subsection}{\numberline {6.1.1}Obtaining spatially resolved simultaneous measurement of actin and myosin densities.}{73}
+\contentsline {subsection}{\numberline {6.1.2}Obtaining spatially resolved measurement of cortical flow velocities.}{73}
+\contentsline {subsection}{\numberline {6.1.3}Using the data to constrain a basic active fluid model}{74}
+\contentsline {subsection}{\numberline {6.1.4}Disruption of Flow by Myosin Depletion}{75}
+\contentsline {section}{\numberline {6.2}Stabilization of Filament Turnover with Jasplakinolide Treatment}{76}
+\contentsline {chapter}{\numberline {7}Open Issues \& Future Directions}{78}
+\contentsline {section}{\numberline {7.1}Comparison with Recent Modeling Publications}{78}
+\contentsline {subsection}{\numberline {7.1.1}Role of Turnover in Active Stress Generation in a Filament Network by Tetsuya Hiraiwa and Guillaume Salbreux}{78}
+\contentsline {subsection}{\numberline {7.1.2}Interplay of active processes modulates tension and drives phase transition in self-renewing, motor-driven cytoskeletal networks by Michael Mak, Muhammad H. Zaman, Roger D. Kamm \& Taeyoon Kim}{80}
+\contentsline {subsection}{\numberline {7.1.3}Shared conclusion of all three works}{82}
+\contentsline {section}{\numberline {7.2}Incorporating multi-segment filaments and bending degrees of freedom}{83}
+\contentsline {section}{\numberline {7.3}Probing more complex mechanisms of turnover}{84}
+\contentsline {subsection}{\numberline {7.3.1}Which is more important, filament relocation or stress resetting?}{86}
+\contentsline {subsection}{\numberline {7.3.2}Overlooking the subtleties of myosin turnover}{86}
+\contentsline {section}{\numberline {7.4}A novel cell squishing technique to measure timescales of relaxation \textit {in vivo}}{87}
+\contentsline {chapter}{\numberline {A}Source Code and Documentation}{89}
+\contentsline {section}{\numberline {A.1}Practical Implementation of Model Framework}{89}
+\contentsline {subsection}{\numberline {A.1.1}Launching simulations from the command line}{89}
+\contentsline {subsection}{\numberline {A.1.2}Package structure of activnet}{93}
+\contentsline {subsection}{\numberline {A.1.3}ODE Wrapper functions }{93}
+\contentsline {subsubsection}{Generating Initial Conditions}{94}
+\contentsline {subsubsection}{Choosing between active and driven simulations }{95}
+\contentsline {subsubsection}{Implementing Filament Recycling }{95}
+\contentsline {subsection}{\numberline {A.1.4}Overview of Numerical Integration Implementations}{96}
+\contentsline {subsubsection}{Right hand sides: \textit {activnet\_act\_ode.m vs. activenet\_pull\_ode.m}}{97}
+\contentsline {subsubsection}{Active ODE}{99}
+\contentsline {subsubsection}{Pulling ODE}{101}
+\contentsline {subsection}{\numberline {A.1.5}Left hand side: The mysterious mass matrix}{103}
+\contentsline {subsubsection}{\textit {activnet\_mass.m vs. activenet\_mass\_sp.m}}{104}
+\contentsline {subsection}{\numberline {A.1.6}Line intersection \textit {helper} Functions}{105}
+\contentsline {subsection}{\numberline {A.1.7}Visualization code}{105}
+\contentsline {section}{\numberline {A.2}Finding Source Code Online}{105}
