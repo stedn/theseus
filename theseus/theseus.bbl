@@ -1,11 +1,22 @@
 \begin{thebibliography}{100}
 
+\bibitem{Ahmed26052015}
+Wylie~W. Ahmed and Timo Betz.
+\newblock Dynamic cross-links tune the solid–fluid behavior of living cells.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  112(21):6527--6528, 2015.
+
 \bibitem{Alvarado:2013aa}
 Jose Alvarado, Michael Sheinman, Abhinav Sharma, Fred~C. MacKintosh, and
   Gijsje~H. Koenderink.
 \newblock Molecular motors robustly drive active gels to a critically connected
   state.
 \newblock {\em Nat Phys}, 9(9):591--597, 09 2013.
+
+\bibitem{C0SM00494D}
+Shiladitya Banerjee and M.~Cristina Marchetti.
+\newblock Instabilities and oscillations in isotropic active gels.
+\newblock {\em Soft Matter}, 7:463--473, 2011.
 
 \bibitem{theo_frictionShila}
 Shiladitya Banerjee, M.~Cristina Marchetti, and Kristian M\"uller-Nedebock.
@@ -37,6 +48,14 @@ Poul~M. Bendix, Gijsje~H. Koenderink, Damien Cuvelier, Zvonimir Dogic,
 H{\'e}l{\`e}ne~A Benink, Craig~A Mandato, and William~M Bement.
 \newblock Analysis of cortical flow models in vivo.
 \newblock {\em Molecular Biology of the Cell}, 11(8):2553--2563, 08 2000.
+
+\bibitem{Bing2000}
+W.~Bing, A.~Knott, and S.~B. Marston.
+\newblock A simple method for measuring the relative force exerted by myosin on
+  actin filaments in the in vitro motility assay: evidence that tropomyosin and
+  troponin increase force in single thin filaments.
+\newblock {\em Biochem J}, 350(Pt 3):693--699, Sep 2000.
+\newblock 10970781[pmid].
 
 \bibitem{Bodas2014}
 Deva Bodas, Justin Song, Murali Rajappa, and Andy Hoffman.
@@ -101,6 +120,12 @@ Christian~J. Cyron, Kei~W. M{\"u}ller, Andreas~R. Bausch, and Wolfgang~A. Wall.
   elements.
 \newblock {\em Journal of Computational Physics}, 244(0):236 -- 251, 2013.
 \newblock Multi-scale Modeling and Simulation of Biological Systems.
+
+\bibitem{Dasanayake2013}
+Nilushi~L. Dasanayake and Anders~E. Carlsson.
+\newblock Stress generation by myosin minifilaments in actin bundles.
+\newblock {\em Phys Biol}, 10(3):036006--036006, Jun 2013.
+\newblock 23595157[pmid].
 
 \bibitem{De-La-Cruz:2009aa}
 Enrique~M De~La~Cruz.
@@ -220,6 +245,11 @@ David~A. Head, Alex~J. Levine, and F.~C. MacKintosh.
 \newblock Deformation of cross-linked semiflexible polymer networks.
 \newblock {\em Phys. Rev. Lett.}, 91:108102, Sep 2003.
 
+\bibitem{Heisenberg2013948}
+Carl-Philipp Heisenberg and Yohanns Bella{\"\i}che.
+\newblock Forces in tissue morphogenesis and patterning.
+\newblock {\em Cell}, 153(5):948 -- 962, 2013.
+
 \bibitem{theo_nonaffine2}
 Claus Heussinger, Boris Schaefer, and Erwin Frey.
 \newblock Nonaffine rubber elasticity for stiff polymer networks.
@@ -284,6 +314,11 @@ Gijsje~H Koenderink, Zvonimir Dogic, Fumihiko Nakamura, Poul~M Bendix,
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 106(36):15192--15197, 09 2009.
 
+\bibitem{10.1371/journal.pone.0039869}
+Simone K{\"o}hler and Andreas~R. Bausch.
+\newblock Contraction mechanisms in composite active actin networks.
+\newblock {\em PLoS ONE}, 7(7):e39869, 07 2012.
+
 \bibitem{Lai:2008aa}
 Frank~PL Lai, Malgorzata Szczodrak, Jennifer Block, Jan Faix, Dennis
   Breitsprecher, Hans~G Mannherz, Theresia~EB Stradal, Graham~A Dunn, J~Victor
@@ -309,6 +344,11 @@ O.~Lieleg and A.~R. Bausch.
   networks.
 \newblock {\em Phys. Rev. Lett.}, 99:158105, Oct 2007.
 
+\bibitem{PhysRevLett.101.108101}
+O.~Lieleg, M.~M. A.~E. Claessens, Y.~Luan, and A.~R. Bausch.
+\newblock Transient binding and dissipation in cross-linked actin networks.
+\newblock {\em Phys. Rev. Lett.}, 101:108101, Sep 2008.
+
 \bibitem{rheo_crosslinkslip1}
 O.~Lieleg, M.~M. A.~E. Claessens, Y.~Luan, and A.~R. Bausch.
 \newblock Transient binding and dissipation in cross-linked actin networks.
@@ -319,6 +359,11 @@ O.~Lieleg, K.~M. Schmoller, M.~M. A.~E. Claessens, and A.~R. Bausch.
 \newblock Cytoskeletal polymer networks: Viscoelastic properties are determined
   by the microscopic interaction potential of cross-links.
 \newblock {\em Biophysical Journal}, 96(11):4725--4732, 6 2009.
+
+\bibitem{B912163N}
+Oliver Lieleg, Mireille M. A.~E. Claessens, and Andreas~R. Bausch.
+\newblock Structure and dynamics of cross-linked actin networks.
+\newblock {\em Soft Matter}, 6:218--225, 2010.
 
 \bibitem{rheo_crosslinkreview}
 Oliver Lieleg, Mireille M. A.~E. Claessens, and Andreas~R. Bausch.
@@ -344,12 +389,10 @@ Zhenhua Liu, Adam Wierman, Yuan Chen, Benjamin Razon, and Niangjun Chen.
   workload shifting and local generation.
 \newblock {\em SIGMETRICS Perform. Eval. Rev.}, 41(1):341--342, June 2013.
 
-\bibitem{doi:10.1021/ac9024889}
-Samuel~J. Lord, Hsiao-lu~D. Lee, and W.~E. Moerner.
-\newblock Single-molecule spectroscopy and imaging of biomolecules in living
-  cells.
-\newblock {\em Analytical Chemistry}, 82(6):2192--2203, 2010.
-\newblock PMID: 20163145.
+\bibitem{0295-5075-85-1-18007}
+T.~B. Liverpool, M.~C. Marchetti, J.-F. Joanny, and J.~Prost.
+\newblock Mechanical response of active gels.
+\newblock {\em EPL (Europhysics Letters)}, 85(1):18007, 2009.
 
 \bibitem{Mak2015}
 Michael Mak, Taeyoon Kim, Muhammad~H. Zaman, and Roger~D. Kamm.
@@ -461,19 +504,20 @@ Francois~B Robin, William~M McFadden, Baixue Yao, and Edwin~M Munro.
   elegans embryos.
 \newblock {\em Nat Meth}, 11(6):677--682, 06 2014.
 
-\bibitem{nmeth}
-Francois~B. Robin, William~M. McFadden, Baixue Yao, and Edwin~M. Munro.
-\newblock Single-molecule analysis of cell surface dynamics in caenorhabditis
-  elegans embryos.
-\newblock {\em Nat Meth}, 11(6):677--682, Jun 2014.
-\newblock Article.
-
 \bibitem{Robin076356}
 Fran{\c c}ois~B Robin, Jonathan~B Michaux, William~M McFadden, and Edwin~M
   Munro.
 \newblock Excitable rhoa dynamics drive pulsed contractions in the early c.
   elegans embryo.
 \newblock {\em bioRxiv}, 2016.
+
+\bibitem{Ross2000658}
+Ralf Ross, Helmut Jonuleit, Matthias Bros, Xiao-Lan Ross, Alexander~H. Enk,
+  Jürgen Knop, Angelika~B. Reske-Kunz, Shigeko Yamashiro, and Fumio Matsumura.
+\newblock Expression of the actin-bundling protein fascin in cultured human
+  dendritic cells correlates with dendritic morphology and cell
+  differentiation.
+\newblock {\em Journal of Investigative Dermatology}, 115(4):658 -- 663, 2000.
 
 \bibitem{Roundtree2012}
 Barry Rountree, Dong~H. Ahn, Bronis~R. de~Supinski, David~K. Lowenthal, and
@@ -618,6 +662,13 @@ Norman~Y. Yao, Daniel~J. Becker, Chase~P. Broedersz, Martin Depken,
 \newblock Nonlinear viscoelasticity of actin transiently cross-linked with
   mutant alpha-actinin-4.
 \newblock {\em Journal of Molecular Biology}, 411(5):1062 -- 1071, 2011.
+
+\bibitem{Yumura200}
+Shigehiko Yumura, Go~Itoh, Yumi Kikuta, Takeomi Kikuchi, Toshiko
+  Kitanishi-Yumura, and Masatsune Tsujioka.
+\newblock Cell-scale dynamic recycling and cortical flow of the
+  actin{\textendash}myosin cytoskeleton for rapid cell migration.
+\newblock {\em Biology Open}, 2(2):200--209, 2013.
 
 \bibitem{Zhou2014}
 Zhou Zhou, Zhiling Lan, Wei Tang, and Narayan Desai.
