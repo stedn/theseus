@@ -93,6 +93,10 @@
 \usepackage{caption}
 \captionsetup{font={stretch=1}}
 \usepackage{rotating}
+\usepackage{subfigure,epsfig,amsfonts}
+\usepackage{natbib}
+\usepackage{amssymb}
+\usepackage{amsthm}
 %\usepackage{verbatim}   % useful for program listings
 %\usepackage{color}      % use if color is used in text
 %\usepackage{subfigure}  % use for side-by-side figures
@@ -185,7 +189,7 @@ I'd like to thank my advisor, Ed Munro, Birali Runesha, Francois Robin, Patrick 
 \input{active/activesup}
 
 \chapter{A model of upstream actomyosin regulators in pulsed contractions}
-\input{pulse/pulse}
+\input{pulse/pulse_paper}
 
 \chapter{Conclusions, Open Issues, \& Future Directions}
 \input{future/future}
@@ -202,6 +206,11 @@ I'd like to thank my advisor, Ed Munro, Birali Runesha, Francois Robin, Patrick 
 \chapter{Impact of filament recycling on cortical flow in animal cells}
 \input{data/data}
 
+\chapter{Additional information on pulse model}
+\label{chap:morepulse}
+\input{pulse/pulse}
+
+
 \chapter{Reducing power consumption in High Performance Computing}
 \input{edeals/datacenter_energy}
 
@@ -210,13 +219,13 @@ I'd like to thank my advisor, Ed Munro, Birali Runesha, Francois Robin, Patrick 
 %
 
 
-%\chapter{Artistic Interpretations of filament recycling}
-%\include{art/art}
+\chapter{Artistic Interpretations of filament recycling}
+\include{art/art}
 
 %
 
-%\chapter{Workshop on modeling in biology}
-%\include{workshop/workshop}
+\chapter{Workshop on modeling in biology}
+\include{workshop/workshop}
 
 
 %
@@ -229,7 +238,7 @@ I'd like to thank my advisor, Ed Munro, Birali Runesha, Francois Robin, Patrick 
 
 \singlespacing
 \pagebreak
-\bibliography{active/slippage,active/active,edeals/bibliography,nmeth/nmeth}
+\bibliography{active/slippage,active/active,edeals/bibliography,nmeth/nmeth,pulse/pulse}
 \bibliographystyle{plain}
 
 
