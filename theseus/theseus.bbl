@@ -1,5 +1,10 @@
 \begin{thebibliography}{100}
 
+\bibitem{doi:10.1146/annurev-biophys-051309-103849}
+Control of actin filament treadmilling in cell motility.
+\newblock {\em Annual Review of Biophysics}, 39(1):449--470, 2010.
+\newblock PMID: 20192778.
+
 \bibitem{doi:10.1146/annurev-cellbio-100109-104027}
 Force generation, transmission, and integration during cell and tissue
   morphogenesis.
@@ -36,6 +41,11 @@ Wylie~W. Ahmed and Timo Betz.
 \newblock Dynamic cross-links tune the solid–fluid behavior of living cells.
 \newblock {\em Proceedings of the National Academy of Sciences},
   112(21):6527--6528, 2015.
+
+\bibitem{Alberts}
+Bruce Alberts, John Wilson, and Tim Hunt.
+\newblock {\em Molecular biology of the cell}.
+\newblock Garland Science, New York, 2008.
 
 \bibitem{Allard:2013if}
 Jun Allard and Alex Mogilner.
@@ -92,6 +102,13 @@ Poul~M. Bendix, Gijsje~H. Koenderink, Damien Cuvelier, Zvonimir Dogic,
 H{\'e}l{\`e}ne~A Benink, Craig~A Mandato, and William~M Bement.
 \newblock Analysis of cortical flow models in vivo.
 \newblock {\em Molecular Biology of the Cell}, 11(8):2553--2563, 08 2000.
+
+\bibitem{amoeba2}
+Martin Bergert, Anna Erzberger, Ravi~A. Desai, Irene~M. Aspalter, Andrew~C.
+  Oates, Guillaume Charras, Guillaume Salbreux, and Ewa~K. Paluch.
+\newblock Force transmission during adhesion-independent migration.
+\newblock {\em Nat Cell Biol}, 17(4):524--529, Apr 2015.
+\newblock Letter.
 
 \bibitem{Bing2000}
 W.~Bing, A.~Knott, and S.~B. Marston.
@@ -163,6 +180,11 @@ Chase~P. Broedersz, Martin Depken, Norman~Y. Yao, Martin~R. Pollak, David~A.
 P.~Broedersz, C.\ and C.~MacKintosh, F.\.
 \newblock Modeling semiflexible polymer networks.
 \newblock {\em Rev. Mod. Phys.}, 86:995--1036, Jul 2014.
+
+\bibitem{epib_review}
+Ashley~E.E. Bruce.
+\newblock Zebrafish epiboly: Spreading thin over the yolk.
+\newblock {\em Developmental Dynamics}, 245(3):244--258, 2016.
 
 \bibitem{Burkel:2007fj}
 Brian~M Burkel, George von Dassow, and William~M Bement.
@@ -243,12 +265,6 @@ Christian~J. Cyron, Kei~W. M{\"u}ller, Andreas~R. Bausch, and Wolfgang~A. Wall.
 \newblock {\em Journal of Computational Physics}, 244(0):236 -- 251, 2013.
 \newblock Multi-scale Modeling and Simulation of Biological Systems.
 
-\bibitem{Dasanayake2013}
-Nilushi~L. Dasanayake and Anders~E. Carlsson.
-\newblock Stress generation by myosin minifilaments in actin bundles.
-\newblock {\em Phys Biol}, 10(3):036006--036006, Jun 2013.
-\newblock 23595157[pmid].
-
 \bibitem{David:2010bt}
 Daryl J~V David, Alisa Tishkina, and Tony J~C Harris.
 \newblock {The PAR complex regulates pulsed actomyosin contractions during
@@ -318,6 +334,12 @@ Janet~C Effler, Yee-Seir Kee, Jason~M Berk, Minhchau~N Tran, Pablo~A Iglesias,
 \newblock {Mitosis-specific mechanosensing and contractile-protein
   redistribution control cell shape.}
 \newblock {\em Current biology : CB}, 16(19):1962--1967, October 2006.
+
+\bibitem{egelhoff93}
+Thomas~T. Egelhoff, Randall~J. Lee, and James~A. Spudich.
+\newblock Dictyostelium myosin heavy chain phosphorylation sites regulate
+  myosin filament assembly and localization in vivo.
+\newblock {\em Cell}, 75(2):363--371, 2017/02/21 XXXX.
 
 \bibitem{Ennomani2016616}
 Hajer Ennomani, Ga{\"e}lle Letort, Christophe Gu{\'e}rin, Jean-Louis Martiel,
@@ -427,6 +449,13 @@ Girish Ghatikar, Venkata Ganti, Nance Matson, and Mary~Ann Piette.
   centers: Findings from field studies.
 \newblock 2012.
 
+\bibitem{Goehring1208619}
+Nathan~W. Goehring, Philipp~Khuc Trong, Justin~S. Bois, Debanjan Chowdhury,
+  Ernesto~M. Nicola, Anthony~A. Hyman, and Stephan~W. Grill.
+\newblock Polarization of par proteins by advective triggering of a
+  pattern-forming system.
+\newblock {\em Science}, 2011.
+
 \bibitem{Goldbeter:1996aa}
 Albert Goldbeter.
 \newblock {\em {Biochemical Oscillations and Cellular Rhythms: The Molecular
@@ -456,6 +485,13 @@ Danielle~R Hamill, Aaron~F Severson, J~Clayton Carter, and Bruce Bowerman.
 \newblock {Centrosome maturation and mitotic spindle assembly in C. elegans
   require SPD-5, a protein with multiple coiled-coil domains.}
 \newblock {\em Developmental cell}, 3(5):673--684, November 2002.
+
+\bibitem{Hawkins20111041}
+Rhoda~J. Hawkins, Renaud Poincloux, Olivier B{\'e}nichou, Matthieu Piel,
+  Philippe Chavrier, and Rapha{\"e}l Voituriez.
+\newblock Spontaneous contractility-mediated cortical flow generates cell
+  migration in three-dimensional environments.
+\newblock {\em Biophysical Journal}, 101(5):1041 -- 1045, 2011.
 
 \bibitem{Hayakawa:2011dq}
 Kimihide Hayakawa, Hitoshi Tatsumi, and Masahiro Sokabe.
@@ -494,6 +530,11 @@ S~N Hird and J~G White.
 Robert~M Hochmuth.
 \newblock Micropipette aspiration of living cells.
 \newblock {\em Journal of Biomechanics}, 33(1):15 -- 22, 2000.
+
+\bibitem{howard2001mechanics}
+Jonathon Howard et~al.
+\newblock Mechanics of motor proteins and the cytoskeleton.
+\newblock 2001.
 
 \bibitem{Howard2011}
 Jonathon Howard, Stephan~W. Grill, and Justin~S. Bois.
@@ -663,6 +704,12 @@ Martin Lenz, Margaret~L Gardel, and Aaron~R Dinner.
 \newblock Requirements for contractility in disordered cytoskeletal bundles.
 \newblock {\em New Journal of Physics}, 14(3):033037, 2012.
 
+\bibitem{PhysRevLett.108.238107}
+Martin Lenz, Todd Thoresen, Margaret~L. Gardel, and Aaron~R. Dinner.
+\newblock Contractile units in disordered actomyosin bundles arise from f-actin
+  buckling.
+\newblock {\em Phys. Rev. Lett.}, 108:238107, Jun 2012.
+
 \bibitem{Levayer:2012bu}
 Romain Levayer and Thomas Lecuit.
 \newblock {Biomechanical regulation of contractility: spatial control and
@@ -720,6 +767,14 @@ J.~Liu, G.~H. Koenderink, K.~E. Kasza, F.~C. MacKintosh, and D.~A. Weitz.
   fluctuations and nonlinear rheology of $f$-actin gels.
 \newblock {\em Phys. Rev. Lett.}, 98:198304, May 2007.
 
+\bibitem{amoeba1}
+Yan-Jun Liu, Ma{\"e}l Le?Berre, Franziska Lautenschlaeger, Paolo Maiuri, Andrew
+  Callan-Jones, M{\'e}lina Heuz{\'e}, Tohru Takaki, Rapha{\"e}l Voituriez, and
+  Matthieu Piel.
+\newblock Confinement and low adhesion induce fast amoeboid migration of slow
+  mesenchymal cells.
+\newblock {\em Cell}, 160(4):659--672, 2017/02/21 XXXX.
+
 \bibitem{Liu2013}
 Zhenhua Liu, Adam Wierman, Yuan Chen, Benjamin Razon, and Niangjun Chen.
 \newblock Data center demand response: Avoiding the coincident peak via
@@ -730,6 +785,12 @@ Zhenhua Liu, Adam Wierman, Yuan Chen, Benjamin Razon, and Niangjun Chen.
 T.~B. Liverpool, M.~C. Marchetti, J.-F. Joanny, and J.~Prost.
 \newblock Mechanical response of active gels.
 \newblock {\em EPL (Europhysics Letters)}, 85(1):18007, 2009.
+
+\bibitem{activegel_Liverpool3335}
+Tanniemola~B Liverpool.
+\newblock Active gels: where polymer physics meets cytoskeletal dynamics.
+\newblock {\em Philosophical Transactions of the Royal Society of London A:
+  Mathematical, Physical and Engineering Sciences}, 364(1849):3335--3355, 2006.
 
 \bibitem{Loria:2012ks}
 Andy Loria, Katrina~M Longhini, and Michael Glotzer.
@@ -786,6 +847,16 @@ A~S Maddox.
 \newblock {Distinct roles for two C. elegans anillins in the gonad and early
   embryo}.
 \newblock 132(12):2837--2848, June 2005.
+
+\bibitem{amoeba4}
+Paolo Maiuri, Jean-Fran{\c{c}}ois Rupprecht, Stefan Wieser, Verena Ruprecht,
+  Olivier B{\'e}nichou, Nicolas Carpi, Mathieu Coppey, Simon De?Beco, Nir Gov,
+  Carl-Philipp Heisenberg, Carolina Lage?Crespo, Franziska Lautenschlaeger,
+  Ma{\"e}l Le?Berre, Ana-Maria Lennon-Dumenil, Matthew Raab, Hawa-Racine Thiam,
+  Matthieu Piel, Michael Sixt, and Rapha{\"e}l Voituriez.
+\newblock Actin flows mediate a universal coupling between cell speed and cell
+  persistence.
+\newblock {\em Cell}, 161(2):374--386, 2017/02/21 XXXX.
 
 \bibitem{Mak2015}
 Michael Mak, Taeyoon Kim, Muhammad~H. Zaman, and Roger~D. Kamm.
@@ -859,6 +930,11 @@ Kei~W. M\"uller, Robijn~F. Bruinsma, Oliver Lieleg, Andreas~R. Bausch,
   Wolfgang~A. Wall, and Alex~J. Levine.
 \newblock Rheology of semiflexible bundle networks with transient linkers.
 \newblock {\em Phys. Rev. Lett.}, 112:238102, Jun 2014.
+
+\bibitem{Munjal1789}
+Akankshi Munjal and Thomas Lecuit.
+\newblock Actomyosin networks and tissue morphogenesis.
+\newblock {\em Development}, 141(9):1789--1793, 2014.
 
 \bibitem{Munjal:2015bx}
 Akankshi Munjal, Jean-Marc Philippe, Edwin Munro, and Thomas Lecuit.
@@ -934,11 +1010,6 @@ Goehring NW, Hoege C, Grill SW, and Hyman AA.
   boundary in polarized {C}}.
 \newblock elegans embryos, 2011.
 
-\bibitem{okabe1991actin}
-Shigeo Okabe and Nobutaka Hirokawa.
-\newblock Actin dynamics in growth cones.
-\newblock {\em Journal of Neuroscience}, 11(7):1918--1929, 1991.
-
 \bibitem{Olson:2012cs}
 Sara~K Olson, Garrett Greenan, Arshad Desai, Thomas M{\"u}ller-Reichert, and
   Karen Oegema.
@@ -957,6 +1028,11 @@ Vincent Pelletier, Naama Gal, Paul Fournier, and Maria~L Kilfoil.
 \newblock {Microrheology of Microtubule Solutions and Actin-Microtubule
   Composite Networks}.
 \newblock 102(18):188303 EP--, May 2009.
+
+\bibitem{phys_bio_cell}
+Rob Phillips, Jane Kondev, and Julie Theriot.
+\newblock {\em {Physical biology of the cell}}.
+\newblock Garland Science, 2009.
 
 \bibitem{Piekny:2008jf}
 Alisa~J Piekny and Michael Glotzer.
@@ -1062,6 +1138,14 @@ Barry Rountree, Dong~H. Ahn, Bronis~R. de~Supinski, David~K. Lowenthal, and
   power bound.
 \newblock {\em 2013 IEEE International Symposium on Parallel \& Distributed
   Processing, Workshops and Phd Forum}, 0:947--953, 2012.
+
+\bibitem{amoeba3}
+Verena Ruprecht, Stefan Wieser, Andrew Callan-Jones, Michael Smutny, Hitoshi
+  Morita, Keisuke Sako, Vanessa Barone, Monika Ritsch-Marte, Michael Sixt,
+  Rapha{\"e}l Voituriez, and Carl-Philipp Heisenberg.
+\newblock Cortical contractility triggers a stochastic switch to fast amoeboid
+  cell motility.
+\newblock {\em Cell}, 160(4):673--685, 2017/02/21 XXXX.
 
 \bibitem{nmeth14}
 Manley S et~al.
@@ -1290,12 +1374,6 @@ D.H. Wachsstock, W.H. Schwarz, and T.D. Pollard.
   gels.
 \newblock {\em Biophysical Journal}, 66(3, Part 1):801 -- 809, 1994.
 
-\bibitem{wang1985exchange}
-Yu-Li Wang.
-\newblock Exchange of actin subunits at the leading edge of living fibroblasts:
-  possible role of treadmilling.
-\newblock {\em The Journal of cell biology}, 101(2):597--602, 1985.
-
 \bibitem{mol_fric}
 Andrew Ward, Feodor Hilitski, Walter Schwenger, David Welch, A.~W.~C. Lau,
   Vincenzo Vitelli, L.~Mahadevan, and Zvonimir Dogic.
@@ -1331,6 +1409,11 @@ Michael Werner, Ed~Munro, and Michael Glotzer.
 \newblock {Astral signals spatially bias cortical myosin recruitment to break
   symmetry and promote cytokinesis.}
 \newblock {\em Current biology : CB}, 17(15):1286--1297, August 2007.
+
+\bibitem{whitfield2016}
+Carl~A Whitfield and Rhoda~J Hawkins.
+\newblock Instabilities, motion and deformation of active fluid droplets.
+\newblock {\em New Journal of Physics}, 18(12):123016, 2016.
 
 \bibitem{7039172}
 A.~Wierman, Zhenhua Liu, I.~Liu, and H.~Mohsenian-Rad.
