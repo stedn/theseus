@@ -49,8 +49,8 @@ Bruce Alberts, John Wilson, and Tim Hunt.
 
 \bibitem{Allard:2013if}
 Jun Allard and Alex Mogilner.
-\newblock {Traveling waves in actin dynamics and cell motility.}
-\newblock {\em Current opinion in cell biology}, 25(1):107--115, February 2013.
+\newblock {Traveling waves in actin dynamics and Cell motility.}
+\newblock {\em Current opinion in Cell Biology}, 25(1):107--115, February 2013.
 
 \bibitem{Alvarado:2013aa}
 Jose Alvarado, Michael Sheinman, Abhinav Sharma, Fred~C. MacKintosh, and
@@ -87,8 +87,8 @@ William~M Bement, Marcin Leda, Alison~M Moe, Angela~M Kita, Matthew~E Larson,
   Adriana~E Golding, Courtney Pfeuti, Kuan-Chung Su, Ann~L Miller, Andrew~B
   Goryachev, and George von Dassow.
 \newblock {Activator-inhibitor coupling between Rho signalling and actin
-  assembly makes the cell cortex an excitable medium.}
-\newblock {\em Nature cell biology}, 17(11):1471--1483, November 2015.
+  assembly makes the Cell cortex an excitable medium.}
+\newblock {\em Nature Cell Biology}, 17(11):1471--1483, November 2015.
 
 \bibitem{Bendix20083126}
 Poul~M. Bendix, Gijsje~H. Koenderink, Damien Cuvelier, Zvonimir Dogic,
@@ -120,7 +120,7 @@ W.~Bing, A.~Knott, and S.~B. Marston.
 
 \bibitem{Blanchard:2010kt}
 G~B Blanchard, S~Murugesu, R~J Adams, A~Martinez-Arias, and N~Gorfinkiel.
-\newblock {Cytoskeletal dynamics and supracellular organisation of cell shape
+\newblock {Cytoskeletal dynamics and supracellular organisation of Cell shape
   fluctuations during dorsal closure}.
 \newblock 137(16):2743--2752, July 2010.
 
@@ -146,8 +146,8 @@ Justin~S Bois, Frank J{\"u}licher, and Stephan~W Grill.
 M~Bornens, M~Paintrand, and C~Celati.
 \newblock {The cortical microfilament system of lymphoblasts displays a
   periodic oscillatory activity in the absence of microtubules: implications
-  for cell polarity.}
-\newblock {\em The Journal of cell biology}, 109(3):1071--1083, September 1989.
+  for Cell polarity.}
+\newblock {\em The Journal of Cell Biology}, 109(3):1071--1083, September 1989.
 
 \bibitem{cellmech_flows3}
 D~Bray and JG~White.
@@ -222,11 +222,16 @@ Preethi~L. Chandran and Mohammad R.~K. Mofrad.
 \newblock Averaged implicit hydrodynamic model of semiflexible filaments.
 \newblock {\em Phys. Rev. E}, 81:031920, Mar 2010.
 
+\bibitem{Chandrasekhar1961}
+S.~{Chandrasekhar}.
+\newblock {\em {Hydrodynamic and hydromagnetic stability}}.
+\newblock 1961.
+
 \bibitem{Chen:2012dx}
 Qian Chen, Shalini Nag, and Thomas~D Pollard.
 \newblock {Formins filter modified actin subunits during processive
   elongation.}
-\newblock {\em Journal of structural biology}, 177(1):32--39, January 2012.
+\newblock {\em Journal of Structural Biology}, 177(1):32--39, January 2012.
 
 \bibitem{salbreuxbphs}
 Priyamvada Chugh, Andrew~G. Clark, Matthew~B. Smith, Davide A.~D. Cassani,
@@ -240,11 +245,6 @@ Waterman-Storer CM, Desai A, Bulinski JC, and Salmon ED.
 \newblock {\em Fluorescent speckle microscopy}.
 \newblock a method to visualize the dynamics of protein assemblies in living
   cells, 1998.
-
-\bibitem{FEB2:FEB20014579387815132}
-Martine Cou{\'e}, Stephen~L. Brenner, Ilan Spector, and Edward~D. Korn.
-\newblock Inhibition of actin polymerization by latrunculin a.
-\newblock {\em FEBS Letters}, 213(2):316--318, 1987.
 
 \bibitem{Crocker:1996wpa}
 J~Crocker and D~G Grier.
@@ -332,14 +332,14 @@ Fangming Du, John~E. Fischer, and Karen~I. Winey.
 Janet~C Effler, Yee-Seir Kee, Jason~M Berk, Minhchau~N Tran, Pablo~A Iglesias,
   and Douglas~N Robinson.
 \newblock {Mitosis-specific mechanosensing and contractile-protein
-  redistribution control cell shape.}
-\newblock {\em Current biology : CB}, 16(19):1962--1967, October 2006.
+  redistribution control Cell shape.}
+\newblock {\em Current Biology : CB}, 16(19):1962--1967, October 2006.
 
 \bibitem{egelhoff93}
 Thomas~T. Egelhoff, Randall~J. Lee, and James~A. Spudich.
 \newblock Dictyostelium myosin heavy chain phosphorylation sites regulate
   myosin filament assembly and localization in vivo.
-\newblock {\em Cell}, 75(2):363--371, 2017/02/21 XXXX.
+\newblock {\em Cell}, 75(2):363--371, 2017/02/21.
 
 \bibitem{Ennomani2016616}
 Hajer Ennomani, Ga{\"e}lle Letort, Christophe Gu{\'e}rin, Jean-Louis Martiel,
@@ -370,11 +370,18 @@ Persson F, Lindén M, Unoson C, and Elf J.
   from single-molecule tracking data}.
 \newblock Nat Methods, 2013.
 
+\bibitem{Falzone2012}
+Tobias~T. Falzone, Martin Lenz, David~R. Kovar, and Margaret~L. Gardel.
+\newblock Assembly kinetics determine the architecture of alpha-actinin
+  crosslinked f-actin networks.
+\newblock {\em Nat Commun}, 3:861--861, May 2012.
+\newblock 22643888[pmid].
+
 \bibitem{FernandezGonzalez:2009hp}
 Rodrigo Fernandez-Gonzalez, S{\'e}rgio de~Matos Simoes, Jens-Christian
   R{\"o}per, Suzanne Eaton, and Jennifer~A Zallen.
-\newblock {Myosin II dynamics are regulated by tension in intercalating cells.}
-\newblock {\em Developmental cell}, 17(5):736--743, November 2009.
+\newblock {Myosin II dynamics are regulated by tension in intercalating Cells.}
+\newblock {\em Developmental Cell}, 17(5):736--743, November 2009.
 
 \bibitem{theo_molefric}
 A.~E. Filippov, J.~Klafter, and M.~Urbakh.
@@ -484,7 +491,7 @@ Minakshi Guha, Mian Zhou, and Yu-li Wang.
 Danielle~R Hamill, Aaron~F Severson, J~Clayton Carter, and Bruce Bowerman.
 \newblock {Centrosome maturation and mitotic spindle assembly in C. elegans
   require SPD-5, a protein with multiple coiled-coil domains.}
-\newblock {\em Developmental cell}, 3(5):673--684, November 2002.
+\newblock {\em Developmental Cell}, 3(5):673--684, November 2002.
 
 \bibitem{Hawkins20111041}
 Rhoda~J. Hawkins, Renaud Poincloux, Olivier B{\'e}nichou, Matthieu Piel,
@@ -497,7 +504,19 @@ Rhoda~J. Hawkins, Renaud Poincloux, Olivier B{\'e}nichou, Matthieu Piel,
 Kimihide Hayakawa, Hitoshi Tatsumi, and Masahiro Sokabe.
 \newblock {Actin filaments function as a tension sensor by tension-dependent
   binding of cofilin to the filament.}
-\newblock {\em The Journal of cell biology}, 195(5):721--727, November 2011.
+\newblock {\em The Journal of Cell Biology}, 195(5):721--727, November 2011.
+
+\bibitem{Hayakawa721}
+Kimihide Hayakawa, Hitoshi Tatsumi, and Masahiro Sokabe.
+\newblock Actin filaments function as a tension sensor by tension-dependent
+  binding of cofilin to the filament.
+\newblock {\em The Journal of Cell Biology}, 195(5):721--727, 2011.
+
+\bibitem{PhysRevE.68.061907}
+D.~A. Head, A.~J. Levine, and F.~C. MacKintosh.
+\newblock Distinct regimes of elastic response and deformation modes of
+  cross-linked cytoskeletal and semiflexible polymer networks.
+\newblock {\em Phys. Rev. E}, 68:061907, Dec 2003.
 
 \bibitem{theo_hlm}
 David~A. Head, Alex~J. Levine, and F.~C. MacKintosh.
@@ -536,10 +555,13 @@ Jonathon Howard et~al.
 \newblock Mechanics of motor proteins and the cytoskeleton.
 \newblock 2001.
 
-\bibitem{Howard2011}
-Jonathon Howard, Stephan~W. Grill, and Justin~S. Bois.
-\newblock Turing's next steps: the mechanochemical basis of morphogenesis.
-\newblock {\em Nat Rev Mol Cell Biol}, 12(6):392--398, Jun 2011.
+\bibitem{Hundt2016}
+Nikolas Hundt, Walter Steffen, Salma Pathan-Chhatbar, Manuel~H. Taft, and
+  Dietmar~J. Manstein.
+\newblock Load-dependent modulation of non-muscle myosin-2a function by
+  tropomyosin 4.2.
+\newblock {\em Scientific Reports}, 6:20554 EP --, Feb 2016.
+\newblock Article.
 
 \bibitem{HUXLEY1954}
 A.~F. HUXLEY and R.~NIEDERGERKE.
@@ -561,8 +583,8 @@ Eugene~M Izhikevich.
 
 \bibitem{Jaffe:2005kq}
 Aron~B Jaffe and Alan Hall.
-\newblock {Rho GTPases: biochemistry and biology.}
-\newblock {\em Annual review of cell and developmental biology},
+\newblock {Rho GTPases: biochemistry and Biology.}
+\newblock {\em Annual review of Cell and developmental Biology},
   21(1):247--269, 2005.
 
 \bibitem{Janson1005}
@@ -594,14 +616,14 @@ Ravi~S Kamath, Andrew~G Fraser, Yan Dong, Gino Poulin, Richard Durbin, Monica
 \bibitem{Kapustina:2013gc}
 Maryna Kapustina, Timothy~C Elston, and Ken Jacobson.
 \newblock {Compression and dilation of the membrane-cortex layer generates
-  rapid changes in cell shape.}
-\newblock {\em The Journal of cell biology}, 200(1):95--108, January 2013.
+  rapid changes in Cell shape.}
+\newblock {\em The Journal of Cell Biology}, 200(1):95--108, January 2013.
 
 \bibitem{Kapustina:2008ds}
 Maryna Kapustina, Gabriel~E Weinreb, Nancy Costigliola, Zenon Rajfur, Ken
   Jacobson, and Timothy~C Elston.
 \newblock {Mechanical and biochemical modeling of cortical oscillations in
-  spreading cells.}
+  spreading Cells.}
 \newblock {\em Biophysical journal}, 94(12):4605--4620, June 2008.
 
 \bibitem{Kassianidou20153065}
@@ -622,7 +644,7 @@ K.~E. Kasza, C.~P. Broedersz, G.~H. Koenderink, Y.~C. Lin, W.~Messner, E.~A.
 Karen~E Kasza and Jennifer~A Zallen.
 \newblock {Dynamics and regulation of contractile actin-myosin networks in
   morphogenesis.}
-\newblock {\em Current opinion in cell biology}, 23(1):30--38, February 2011.
+\newblock {\em Current opinion in Cell Biology}, 23(1):30--38, February 2011.
 
 \bibitem{Keren:2009aa}
 Kinneret Keren, Patricia~T. Yam, Anika Kinkhabwala, Alex Mogilner, and Julie~A.
@@ -630,11 +652,16 @@ Kinneret Keren, Patricia~T. Yam, Anika Kinkhabwala, Alex Mogilner, and Julie~A.
 \newblock Intracellular fluid flow in rapidly moving cells.
 \newblock {\em Nat Cell Biol}, 11(10):1219--1224, 10 2009.
 
+\bibitem{PhysRevE.63.061508}
+Damir~B. Khismatullin and Ali Nadim.
+\newblock Shape oscillations of a viscoelastic drop.
+\newblock {\em Phys. Rev. E}, 63:061508, May 2001.
+
 \bibitem{Kim:2011cc}
 Hye~Young Kim and Lance~A Davidson.
 \newblock {Punctuated actin contractions during convergent extension and their
   permissive regulation by the non-canonical Wnt-signaling pathway.}
-\newblock {\em Journal of cell science}, 124(Pt 4):635--646, February 2011.
+\newblock {\em Journal of Cell science}, 124(Pt 4):635--646, February 2011.
 
 \bibitem{Kim2014526}
 Taeyoon Kim, Margaret~L. Gardel, and Ed~Munro.
@@ -662,9 +689,9 @@ Simone K{\"o}hler and Andreas~R. Bausch.
 \bibitem{Koride:2014hp}
 Sarita Koride, Li~He, Li-Ping Xiong, Ganhui Lan, Denise~J Montell, and Sean~X
   Sun.
-\newblock {Mechanochemical regulation of oscillatory follicle cell dynamics in
+\newblock {Mechanochemical regulation of oscillatory follicle Cell dynamics in
   the developing Drosophila egg chamber.}
-\newblock {\em Molecular biology of the cell}, 25(22):3709--3716, November
+\newblock {\em Molecular Biology of the Cell}, 25(22):3709--3716, November
   2014.
 
 \bibitem{nmeth31}
@@ -673,6 +700,14 @@ Kumfer KT, Cook SJ, Squirrell JM, Eliceiri KW, Peel N, O'Connell KF, and White
 \newblock {\em CGEF-1 and {CHIN}-1 regulate {CDC}-42 activity during asymmetric
   division in the {Caenorhabditis} elegans embryo}.
 \newblock Mol Biol Cell, 2010.
+
+\bibitem{Kueh2008}
+Hao~Yuan Kueh, Guillaume~T. Charras, Timothy~J. Mitchison, and William~M.
+  Brieher.
+\newblock Actin disassembly by cofilin, coronin, and aip1 occurs in bursts and
+  is inhibited by barbed-end cappers.
+\newblock {\em J Cell Biol}, 182(2):353, Jul 2008.
+\newblock 200801027[PII].
 
 \bibitem{Kumar:2014ux}
 K~Vijay Kumar, Justin~S Bois, Frank J{\"u}licher, and Stephan~W Grill.
@@ -714,13 +749,18 @@ Martin Lenz, Todd Thoresen, Margaret~L. Gardel, and Aaron~R. Dinner.
 Romain Levayer and Thomas Lecuit.
 \newblock {Biomechanical regulation of contractility: spatial control and
   dynamics.}
-\newblock {\em Trends in cell biology}, 22(2):61--81, February 2012.
+\newblock {\em Trends in Cell Biology}, 22(2):61--81, February 2012.
 
 \bibitem{Levayer:2013el}
 Romain Levayer and Thomas Lecuit.
 \newblock {Oscillation and polarity of E-cadherin asymmetries control
   actomyosin flow patterns during morphogenesis.}
-\newblock {\em Developmental cell}, 26(2):162--175, July 2013.
+\newblock {\em Developmental Cell}, 26(2):162--175, July 2013.
+
+\bibitem{PhysRevE.69.061921}
+Guanglai Li and Jay~X. Tang.
+\newblock Diffusion of actin filaments within a thin layer between two walls.
+\newblock {\em Phys. Rev. E}, 69:061921, Jun 2004.
 
 \bibitem{theo_crosslinkslip3}
 O.~Lieleg and A.~R. Bausch.
@@ -773,7 +813,7 @@ Yan-Jun Liu, Ma{\"e}l Le?Berre, Franziska Lautenschlaeger, Paolo Maiuri, Andrew
   Matthieu Piel.
 \newblock Confinement and low adhesion induce fast amoeboid migration of slow
   mesenchymal cells.
-\newblock {\em Cell}, 160(4):659--672, 2017/02/21 XXXX.
+\newblock {\em Cell}, 160(4):659--672, 2017/02/21.
 
 \bibitem{Liu2013}
 Zhenhua Liu, Adam Wierman, Yuan Chen, Benjamin Razon, and Niangjun Chen.
@@ -786,17 +826,17 @@ T.~B. Liverpool, M.~C. Marchetti, J.-F. Joanny, and J.~Prost.
 \newblock Mechanical response of active gels.
 \newblock {\em EPL (Europhysics Letters)}, 85(1):18007, 2009.
 
-\bibitem{activegel_Liverpool3335}
-Tanniemola~B Liverpool.
-\newblock Active gels: where polymer physics meets cytoskeletal dynamics.
-\newblock {\em Philosophical Transactions of the Royal Society of London A:
-  Mathematical, Physical and Engineering Sciences}, 364(1849):3335--3355, 2006.
+\bibitem{nmeth1}
+Samuel~J. Lord, Hsiao-lu~D. Lee, and W.~E. Moerner.
+\newblock Single-molecule spectroscopy and imaging of biomolecules in living
+  cells.
+\newblock {\em Analytical Chemistry}, 82(6):2192--2203, 2010.
 
 \bibitem{Loria:2012ks}
 Andy Loria, Katrina~M Longhini, and Michael Glotzer.
 \newblock {The RhoGAP domain of CYK-4 has an essential role in RhoA
   activation.}
-\newblock {\em Current biology : CB}, 22(3):213--219, February 2012.
+\newblock {\em Current Biology : CB}, 22(3):213--219, February 2012.
 
 \bibitem{Luo:1991vz}
 C~H Luo and Y~Rudy.
@@ -837,7 +877,7 @@ Ueda M, Sako Y, Tanaka T, Devreotes P, and Yanagida T.
 
 \bibitem{Machado:2014fx}
 P~F Machado, G~B Blanchard, J~Duque, and N~Gorfinkiel.
-\newblock {Cytoskeletal turnover and Myosin contractility drive cell autonomous
+\newblock {Cytoskeletal turnover and Myosin contractility drive Cell autonomous
   oscillations in a model of Drosophila Dorsal Closure}.
 \newblock {\em The European Physical Journal Special Topics},
   223(7):1391--1402, June 2014.
@@ -856,7 +896,7 @@ Paolo Maiuri, Jean-Fran{\c{c}}ois Rupprecht, Stefan Wieser, Verena Ruprecht,
   Matthieu Piel, Michael Sixt, and Rapha{\"e}l Voituriez.
 \newblock Actin flows mediate a universal coupling between cell speed and cell
   persistence.
-\newblock {\em Cell}, 161(2):374--386, 2017/02/21 XXXX.
+\newblock {\em Cell}, 161(2):374--386, 2017/02/21.
 
 \bibitem{Mak2015}
 Michael Mak, Taeyoon Kim, Muhammad~H. Zaman, and Roger~D. Kamm.
@@ -893,7 +933,7 @@ Frank~M Mason, Shicong Xie, Claudia~G Vasquez, Michael Tworoger, and Adam~C
   Martin.
 \newblock {RhoA GTPase inhibition organizes contraction during epithelial
   morphogenesis.}
-\newblock {\em The Journal of cell biology}, 214(5):603--617, August 2016.
+\newblock {\em The Journal of Cell Biology}, 214(5):603--617, August 2016.
 
 \bibitem{cellmech_flows}
 Mirjam Mayer, Martin Depken, Justin~S. Bois, Frank Julicher, and Stephan~W.
@@ -922,8 +962,14 @@ David~C. Morse.
 \bibitem{Motegi:2006hi}
 Fumio Motegi and Asako Sugimoto.
 \newblock {Sequential functioning of the ECT-2 RhoGEF, RHO-1 and CDC-42
-  establishes cell polarity in Caenorhabditis elegans embryos.}
-\newblock {\em Nature cell biology}, 8(9):978--985, September 2006.
+  establishes Cell polarity in Caenorhabditis elegans embryos.}
+\newblock {\em Nature Cell Biology}, 8(9):978--985, September 2006.
+
+\bibitem{motegi}
+Fumio Motegi, Nathalie~V. Velarde, Fabio Piano, and Asako Sugimoto.
+\newblock Two phases of astral microtubule activity during cytokinesis in
+  <em>c</em>. <em>elegans</em> embryos.
+\newblock {\em Developmental Cell}, 10(4):509--520, 2017/03/09.
 
 \bibitem{theo_crosslinkslip2}
 Kei~W. M\"uller, Robijn~F. Bruinsma, Oliver Lieleg, Andreas~R. Bausch,
@@ -954,7 +1000,7 @@ Edwin Munro, Jeremy Nance, and James~R Priess.
 \newblock {Cortical flows powered by asymmetrical contraction transport PAR
   proteins to establish and maintain anterior-posterior polarity in the early
   C. elegans embryo.}
-\newblock {\em Developmental cell}, 7(3):413--424, September 2004.
+\newblock {\em Developmental Cell}, 7(3):413--424, September 2004.
 
 \bibitem{Murrell15062014}
 Michael Murrell and Margaret~L. Gardel.
@@ -1004,6 +1050,11 @@ F.~J. Nedelec, T.~Surrey, A.~C. Maggs, and S.~Leibler.
 \newblock Self-organization of microtubules and motors.
 \newblock {\em Nature}, 389(6648):305--308, 09 1997.
 
+\bibitem{Norstrom20082010}
+Melanie~F. Norstrom, Philip~A. Smithback, and Ronald~S. Rock.
+\newblock Unconventional processive mechanics of non-muscle myosin iib.
+\newblock {\em Journal of Biological Chemistry}, 285(34):26326--26334, 2010.
+
 \bibitem{nmeth25}
 Goehring NW, Hoege C, Grill SW, and Hyman AA.
 \newblock {\em PAR proteins diffuse freely across the anterior-posterior
@@ -1015,12 +1066,17 @@ Sara~K Olson, Garrett Greenan, Arshad Desai, Thomas M{\"u}ller-Reichert, and
   Karen Oegema.
 \newblock {Hierarchical assembly of the eggshell and permeability barrier in C.
   elegans.}
-\newblock {\em The Journal of cell biology}, 198(4):731--748, August 2012.
+\newblock {\em The Journal of Cell Biology}, 198(4):731--748, August 2012.
+
+\bibitem{paluchheis}
+Ewa Paluch and Carl-Philipp Heisenberg.
+\newblock Biology and physics of cell shape changes in development.
+\newblock {\em Current Biology}, 19(17):R790--R799, 2017/02/15.
 
 \bibitem{Paluch:2005da}
 Ewa Paluch, Matthieu Piel, Jacques Prost, Michel Bornens, and C{\'e}cile Sykes.
-\newblock {Cortical actomyosin breakage triggers shape oscillations in cells
-  and cell fragments.}
+\newblock {Cortical actomyosin breakage triggers shape oscillations in Cells
+  and Cell fragments.}
 \newblock {\em Biophysical journal}, 89(1):724--733, July 2005.
 
 \bibitem{Pelletier:2009tp}
@@ -1028,6 +1084,13 @@ Vincent Pelletier, Naama Gal, Paul Fournier, and Maria~L Kilfoil.
 \newblock {Microrheology of Microtubule Solutions and Actin-Microtubule
   Composite Networks}.
 \newblock 102(18):188303 EP--, May 2009.
+
+\bibitem{Peng2011}
+Grace~E. Peng, Sarah~R. Wilson, and Orion~D. Weiner.
+\newblock A pharmacological cocktail for arresting actin dynamics in living
+  cells.
+\newblock {\em Mol Biol Cell}, 22(21):3986--3994, Nov 2011.
+\newblock 21880897[pmid].
 
 \bibitem{phys_bio_cell}
 Rob Phillips, Jane Kondev, and Julie Theriot.
@@ -1038,7 +1101,7 @@ Rob Phillips, Jane Kondev, and Julie Theriot.
 Alisa~J Piekny and Michael Glotzer.
 \newblock {Anillin is a scaffold protein that links RhoA, actin, and myosin
   during cytokinesis.}
-\newblock {\em Current biology : CB}, 18(1):30--36, January 2008.
+\newblock {\em Current Biology : CB}, 18(1):30--36, January 2008.
 
 \bibitem{Piekny:2003iv}
 Alisa~J Piekny, Jacque-Lynne~F Johnson, Gwendolyn~D Cham, and Paul~E Mains.
@@ -1051,20 +1114,20 @@ Alisa~J Piekny, Jacque-Lynne~F Johnson, Gwendolyn~D Cham, and Paul~E Mains.
 Alisa~J Piekny and Paul~E Mains.
 \newblock {Rho-binding kinase (LET-502) and myosin phosphatase (MEL-11)
   regulate cytokinesis in the early Caenorhabditis elegans embryo.}
-\newblock {\em Journal of cell science}, 115(Pt 11):2271--2282, June 2002.
+\newblock {\em Journal of Cell science}, 115(Pt 11):2271--2282, June 2002.
 
 \bibitem{Pohl:2012bg}
 Christian Pohl, Michael Tiongson, Julia~L Moore, Anthony Santella, and Zhirong
   Bao.
-\newblock {Actomyosin-based self-organization of cell internalization during C.
+\newblock {Actomyosin-based self-organization of Cell internalization during C.
   elegans gastrulation.}
-\newblock {\em BMC biology}, 10(1):94, 2012.
+\newblock {\em BMC Biology}, 10(1):94, 2012.
 
 \bibitem{Rankin:2010je}
 Kathleen~E Rankin and Linda Wordeman.
 \newblock {Long astral microtubules uncouple mitotic spindles from the
   cytokinetic furrow}.
-\newblock {\em The Journal of cell biology}, 190(1):35--43, July 2010.
+\newblock {\em The Journal of Cell Biology}, 190(1):35--43, July 2010.
 
 \bibitem{Rauzi2010}
 Matteo Rauzi, Pierre-Francois Lenne, and Thomas Lecuit.
@@ -1080,16 +1143,16 @@ Matteo Rauzi, Pierre-Fran{\c c}ois Lenne, and Thomas Lecuit.
 
 \bibitem{Razzell:2014eb}
 William Razzell, Will Wood, and Paul Martin.
-\newblock {Recapitulation of morphogenetic cell shape changes enables wound
+\newblock {Recapitulation of morphogenetic Cell shape changes enables wound
   re-epithelialisation.}
-\newblock {\em Development (Cambridge, England)}, 141(9):1814--1820, May 2014.
+\newblock {\em Development}, 141(9):1814--1820, May 2014.
 
 \bibitem{Ren:2009ep}
 Yixin Ren, Janet~C Effler, Melanie Norstrom, Tianzhi Luo, Richard~A Firtel,
   Pablo~A Iglesias, Ronald~S Rock, and Douglas~N Robinson.
 \newblock {Mechanosensing through cooperative interactions between myosin II
   and the actin crosslinker cortexillin I.}
-\newblock {\em Current biology : CB}, 19(17):1421--1428, September 2009.
+\newblock {\em Current Biology : CB}, 19(17):1421--1428, September 2009.
 
 \bibitem{Reymann1310}
 Anne-C{\'e}cile Reymann, Rajaa Boujemaa-Paterski, Jean-Louis Martiel,
@@ -1112,7 +1175,7 @@ Francois~B Robin, William~M McFadden, Baixue Yao, and Edwin~M Munro.
 
 \bibitem{Robin:2014jf}
 Fran{\c c}ois~B Robin, William~M McFadden, Baixue Yao, and Edwin~M Munro.
-\newblock {Single-molecule analysis of cell surface dynamics in Caenorhabditis
+\newblock {Single-molecule analysis of Cell surface dynamics in Caenorhabditis
   elegans embryos.}
 \newblock 11(6):677--682, June 2014.
 
@@ -1145,7 +1208,7 @@ Verena Ruprecht, Stefan Wieser, Andrew Callan-Jones, Michael Smutny, Hitoshi
   Rapha{\"e}l Voituriez, and Carl-Philipp Heisenberg.
 \newblock Cortical contractility triggers a stochastic switch to fast amoeboid
   cell motility.
-\newblock {\em Cell}, 160(4):673--685, 2017/02/21 XXXX.
+\newblock {\em Cell}, 160(4):673--685, 2017/02/21.
 
 \bibitem{nmeth14}
 Manley S et~al.
@@ -1153,10 +1216,16 @@ Manley S et~al.
   photoactivated localization microscopy}.
 \newblock Nat Methods, 2008.
 
+\bibitem{saha}
+Arnab Saha, Masatoshi Nishikawa, Martin Behrndt, Carl-Philipp Heisenberg, Frank
+  J{\"u}licher, and StephanW Grill.
+\newblock Determining physical properties of the cell cortex.
+\newblock {\em Biophysical Journal}.
+
 \bibitem{Salbreux:2007fc}
 G~Salbreux, J~F Joanny, J~Prost, and P~Pullarkat.
-\newblock {Shape oscillations of non-adhering fibroblast cells.}
-\newblock {\em Physical biology}, 4(4):268--284, December 2007.
+\newblock {Shape oscillations of non-adhering fibroblast Cells.}
+\newblock {\em Physical Biology}, 4(4):268--284, December 2007.
 
 \bibitem{PhysRevLett.103.058102}
 G.~Salbreux, J.~Prost, and J.~F. Joanny.
@@ -1184,14 +1253,13 @@ Tim Sanchez, Daniel T.~N. Chen, Stephen~J. DeCamp, Michael Heymann, and
 Eric~S Schiffhauer, Tianzhi Luo, Krithika Mohan, Vasudha Srivastava, Xuyu Qian,
   Eric~R Griffis, Pablo~A Iglesias, and Douglas~N Robinson.
 \newblock {Mechanoaccumulative Elements of the Mammalian Actin Cytoskeleton.}
-\newblock {\em Current biology : CB}, 26(11):1473--1479, June 2016.
+\newblock {\em Current Biology : CB}, 26(11):1473--1479, June 2016.
 
 \bibitem{Schmutz:2007jq}
 Cornelia Schmutz, Julia Stevens, and Anne Spang.
 \newblock {Functions of the novel RhoGAP proteins RGA-3 and RGA-4 in the germ
   line and in the early embryo of C. elegans.}
-\newblock {\em Development (Cambridge, England)}, 134(19):3495--3505, October
-  2007.
+\newblock {\em Development}, 134(19):3495--3505, October 2007.
 
 \bibitem{Schonegg:2007if}
 Stephanie Schonegg, Alexandru~T Constantinescu, Carsten Hoege, and Anthony~A
@@ -1206,8 +1274,7 @@ Stephanie Schonegg, Alexandru~T Constantinescu, Carsten Hoege, and Anthony~A
 Stephanie Schonegg and Anthony~A Hyman.
 \newblock {CDC-42 and RHO-1 coordinate acto-myosin contractility and PAR
   protein localization during polarity establishment in C. elegans embryos.}
-\newblock {\em Development (Cambridge, England)}, 133(18):3507--3516, September
-  2006.
+\newblock {\em Development}, 133(18):3507--3516, September 2006.
 
 \bibitem{Sedzinski:2011ef}
 Jakub Sedzinski, Mat{\'e} Biro, Annelie Oswald, Jean-Yves Tinevez, Guillaume
@@ -1221,13 +1288,7 @@ Aaron~F Severson, David~L Baillie, and Bruce Bowerman.
 \newblock {A Formin Homology protein and a profilin are required for
   cytokinesis and Arp2/3-independent assembly of cortical microfilaments in C.
   elegans.}
-\newblock {\em Current biology : CB}, 12(24):2066--2075, December 2002.
-
-\bibitem{nmeth1}
-Lord SJ, Lee HL, and Moerner WE.
-\newblock Single-molecule spectroscopy and imaging of biomolecules in living
-  cells.
-\newblock 2010.
+\newblock {\em Current Biology : CB}, 12(24):2066--2075, December 2002.
 
 \bibitem{Solon:2009hg}
 J{\'e}r{\^o}me Solon, Aynur Kaya-Copur, Julien Colombelli, and Damian Brunner.
@@ -1242,10 +1303,11 @@ Evan Spruijt, Joris Sprakel, Marc Lemmers, Martien A.~Cohen Stuart, and Jasper
   complexes: Time-salt superposition.
 \newblock {\em Phys. Rev. Lett.}, 105:208301, Nov 2010.
 
-\bibitem{cell_rheo}
-Dimitrije Stamenovic.
-\newblock Cell mechanics: Two regimes, maybe three?
-\newblock {\em Nat Mater}, 5(8):597--598, 08 2006.
+\bibitem{Stewart2012}
+Martin~P. Stewart, Yusuke Toyoda, Anthony~A. Hyman, and Daniel~J. Muller.
+\newblock Tracking mechanics and volume of globular cells with atomic force
+  microscopy using a constant-height clamp.
+\newblock {\em Nat. Protocols}, 7(1):143--154, Jan 2012.
 
 \bibitem{theo_best}
 Cornelis Storm, Jennifer~J. Pastore, F.~C. MacKintosh, T.~C. Lubensky, and
@@ -1255,7 +1317,7 @@ Cornelis Storm, Jennifer~J. Pastore, F.~C. MacKintosh, T.~C. Lubensky, and
 
 \bibitem{Strogatz:1994tz}
 Steven Strogatz.
-\newblock {Nonlinear dynamics and chaos with applications to physics, biology,
+\newblock {Nonlinear dynamics and chaos with applications to physics, Biology,
   chemistry, and engineering}, January 1994.
 
 \bibitem{Surrey1167}
@@ -1294,8 +1356,7 @@ Julie~A. Theriot and Timothy~J. Mitchison.
 \bibitem{bhl28884}
 D'Arcy~Wentworth Thompson.
 \newblock {\em On growth and form / by D'Arcy Wentworth Thompson.}
-\newblock Cambridge :University Press ;, 1945.
-\newblock http://www.biodiversitylibrary.org/bibliography/6462.
+\newblock Cambridge University Press, 1945.
 
 \bibitem{Timmons:2001wg}
 L~Timmons, D~L Court, and A~Fire.
@@ -1306,14 +1367,14 @@ L~Timmons, D~L Court, and A~Fire.
 \bibitem{Tokunaga:2008kc}
 Makio Tokunaga, Naoko Imamoto, and Kumiko Sakata-Sogawa.
 \newblock {Highly inclined thin illumination enables clear single-molecule
-  imaging in cells}.
+  imaging in Cells}.
 \newblock 5(2):159--161, January 2008.
 
 \bibitem{Tse:2011gd}
 Yu~Chung Tse, Alisa Piekny, and Michael Glotzer.
 \newblock {Anillin promotes astral microtubule-directed cortical myosin
   polarization.}
-\newblock {\em Molecular biology of the cell}, 22(17):3165--3175, September
+\newblock {\em Molecular Biology of the Cell}, 22(17):3165--3175, September
   2011.
 
 \bibitem{Tse:2012fp}
@@ -1322,7 +1383,7 @@ Yu~Chung Tse, Michael Werner, Katrina~M Longhini, Jean-Claude Labbe, Bob
 \newblock {RhoA activation during polarization and cytokinesis of the early
   Caenorhabditis elegans embryo is differentially dependent on NOP-1 and
   CYK-4.}
-\newblock {\em Molecular biology of the cell}, 23(20):4020--4031, October 2012.
+\newblock {\em Molecular Biology of the Cell}, 23(20):4020--4031, October 2012.
 
 \bibitem{Turlier2014114}
 Herv{\'e} Turlier, Basile Audoly, Jacques Prost, and Jean-Fran{\c c}ois Joanny.
@@ -1346,7 +1407,7 @@ Pelletier V, Gal N, Fournier P, and Kilfoil ML.
 Pascal Vallotton, Stephanie~L Gupton, Clare~M Waterman-Storer, and Gaudenz
   Danuser.
 \newblock {Simultaneous mapping of filamentous actin flow and turnover in
-  migrating cells by quantitative fluorescent speckle microscopy.}
+  migrating Cells by quantitative fluorescent speckle microscopy.}
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 101(26):9660--9665, June 2004.
 
@@ -1366,7 +1427,15 @@ Andrea Vanossi, Nicola Manini, Michael Urbakh, Stefano Zapperi, and Erio
 Claudia~G Vasquez, Mike Tworoger, and Adam~C Martin.
 \newblock {Dynamic myosin phosphorylation regulates contractile pulses and
   tissue integrity during epithelial morphogenesis.}
-\newblock {\em The Journal of cell biology}, 206(3):435--450, August 2014.
+\newblock {\em The Journal of Cell Biology}, 206(3):435--450, August 2014.
+
+\bibitem{Vicente-Manzanares2009}
+Miguel Vicente-Manzanares, Xuefei Ma, Robert~S. Adelstein, and Alan~Rick
+  Horwitz.
+\newblock Non-muscle myosin ii takes centre stage in cell adhesion and
+  migration.
+\newblock {\em Nat Rev Mol Cell Biol}, 10(11):778--790, Nov 2009.
+\newblock 19851336[pmid].
 
 \bibitem{rheo_crosslinksmatter}
 D.H. Wachsstock, W.H. Schwarz, and T.D. Pollard.
@@ -1401,14 +1470,14 @@ Naoki Watanabe and Timothy~J Mitchison.
 \bibitem{Weiner:2007cl}
 Orion~D Weiner, William~A Marganski, Lani~F Wu, Steven~J Altschuler, and Marc~W
   Kirschner.
-\newblock {An actin-based wave generator organizes cell motility.}
-\newblock {\em PLoS biology}, 5(9):e221, September 2007.
+\newblock {An actin-based wave generator organizes Cell motility.}
+\newblock {\em PLoS Biology}, 5(9):e221, September 2007.
 
 \bibitem{Werner:2007bx}
 Michael Werner, Ed~Munro, and Michael Glotzer.
 \newblock {Astral signals spatially bias cortical myosin recruitment to break
   symmetry and promote cytokinesis.}
-\newblock {\em Current biology : CB}, 17(15):1286--1297, August 2007.
+\newblock {\em Current Biology : CB}, 17(15):1286--1297, August 2007.
 
 \bibitem{whitfield2016}
 Carl~A Whitfield and Rhoda~J Hawkins.
@@ -1444,7 +1513,7 @@ Nakayama Y, Shivas JM, Poole DS, Squirrell JM, Kulkoski JM, Schleede JB, and
   Skop AR.
 \newblock Dynamin participates in the maintenance of anterior polarity in the
   {Caenorhabditis} elegans embryo.
-\newblock {\em Dev {Cell}. 2009 {Jun};16(6):889-900. doi:}, 10., 2009.
+\newblock {\em Dev {Cell}. 2009 {Jun};16(6):889-900.}, 10., 2009.
 
 \bibitem{rheo_crosslinkslip3}
 Norman~Y. Yao, Daniel~J. Becker, Chase~P. Broedersz, Martin Depken,
@@ -1471,7 +1540,7 @@ Esther Zanin, Arshad Desai, Ina Poser, Yusuke Toyoda, Cordula Andree, Claudia
   Moebius, Marc Bickle, Barbara Conradt, Alisa Piekny, and Karen Oegema.
 \newblock {A conserved RhoGAP limits M phase contractility and coordinates with
   microtubule asters to confine RhoA during cytokinesis.}
-\newblock {\em Developmental cell}, 26(5):496--510, September 2013.
+\newblock {\em Developmental Cell}, 26(5):496--510, September 2013.
 
 \bibitem{Zhang:2015bx}
 Donglei Zhang and Michael Glotzer.

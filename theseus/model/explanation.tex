@@ -7,7 +7,7 @@ Although the prior description is useful for communicating the mathematical prin
 The simulation code is entirely built on top of MATLAB's ode solving functions.  Therefore, at the highest level, the entire simulation framework simply boils down to providing functions to define the ode's left and right hand side, along with the initial conditions for the system.  However, because MATLABs solvers do not allow discontinuities, discontinuous filament recycling events cannot be implemented directly in the ODE.  Effectively, it is necessary to stop the simulation solver at fixed times, reset some subset of filaments, and restart the solver with the new state every time a turnover event happens.
 
 
-In the following sections, I'll walk through the code's logic in more detail, emphasizing the packages and files that modularly summarize the core functions.  First I will begin with an explanation of the command line interface used to set model parameters and deploying simulations.
+In the following sections, I'll walk through the code's logic in more detail, emphasizing the packages and files that modularly summarize the core functions.  First I will begin with an explanation of the command line interface used to set model parameters and deploy simulations.
 
 To find the \textit{activnet} simulation code, visit:
 \begin{verbatim}
@@ -66,7 +66,7 @@ All of these terms are positive by definition so setting certain terms negative 
 	\item Setting $\texttt{Df} < 0$ will cause the rightward edge of the initially generated network to end at the location where the force is applied.
 \end{itemize}
    
-The parameter \texttt{ls} sets the segment size of the filament.  Theoretically this segment size is very small (the size of a single actin monomer perhaps), but for computational reasons this value is set much larger.  The parameters \texttt{Dw} and \texttt{lf} set the regions over which forces will "fall off" for the domain and individual filaments, respectively.  These are just there to ensure there are no discontinuous changes in the ODE equation as filaments move around, and should be set to some smallish number, like $0.05$, but don't affect the results too much overall.  Finally, \texttt{tfin} and \texttt{tinc} set the end time of the simulation and the timesteps at which to print results, respectively.  The program will automatically shrink \texttt{tinc} if the recycling rate, \texttt{r} is large enough that manual position updates must occur on timescales smaller than \texttt{tinc}.
+The parameter \texttt{ls} sets the segment size of the filament.  Theoretically this segment size is very small (the size of a single actin monomer perhaps), but for computational reasons this value is set much larger.  The parameters \texttt{Dw} and \texttt{lf} set the regions over which forces will "fall off" for the domain and individual filaments, respectively.  These are just there to ensure there are no discontinuous changes in the ODE equation as filaments move around, and should be set to some smallish number, like $0.05$, but don't affect the results too much overall.  Finally, \texttt{tfin} and \texttt{tinc} set the end time of the simulation and the timesteps at which to print results, respectively.  The program will automatically shrink \texttt{tinc} if the recycling rate, \texttt{r}, is large enough that manual position updates must occur on timescales smaller than \texttt{tinc}.
 
 
 To run a simulation with an external stress the following code could be used.
@@ -100,7 +100,7 @@ The currently deployed package can also be used to launch simulations on any lin
 To understand the high-level overview of this code, you can analyze the basic package structure and the small number of important top level packages.
 
 \begin{itemize}
-	\item  activnet\_gen.m: topmost wrapping function to call for running simulations; confirms input, generates initial conditions, and calls activnet.m 
+	\item  activnet\_gen.m: topmost wrapping function to call for running simulations; confirms input, generates initial conditions, and calls activnet.m.
 	\item  activnet.m: Chooses between which ODE implementation to run; stops ODE solver execution to perform filament recycling.
 	\item odes folder: Contains all the ODE computation internals.
 	\item helpers folder: Some additional functions written to perform line intersection tests.
@@ -116,7 +116,7 @@ As mentioned above, the initialization and launch of the simulation takes place 
 
 \subsubsection{Generating Initial Conditions}
 
-Before an ODE solve can be called one needs to set up the initial conditions of the network.  Every solver implementation in MATLAB operates on 1D vectors where every element represents a variable to be integrated.  Therefore, the data structure for this model is going to need to be set up to be encoded as a 1D vector of numbers.  Because the model framework is based around the 2D position of points, I will continually be shifting between the 1D vector, \texttt{z} and the 2D vector \texttt{p} using the following transformations.
+Before an ODE solver can be called, one needs to set up the initial conditions of the network.  Every solver implementation in MATLAB operates on 1D vectors where every element represents a variable to be integrated.  Therefore, the data structure for this model is going to need to be set up to be encoded as a 1D vector of numbers.  Because the model framework is based around the 2D position of points, I will continually be shifting between the 1D vector, \texttt{z} and the 2D vector \texttt{p} using the following transformations.
 
 \begin{verbatim}
 p = reshape(z0,[],2);  % z -> p
@@ -181,9 +181,9 @@ As mentioned above, the solution is numerically integrated using MATLAB's built-
 \mathbf{A \cdot \dot x} = \mathbf{f(x)}
 \end{equation}
 
-With those two matrices the system of differential equations can then be integrated to the desired level of precision by one of MATLABs implicit ode solvers (e.g. ode15s or ode23).  In that equation, $\mathbf{x}$ simply represents the positions of filament endpoints (nodes).  Therefore $\mathbf{\dot{x}}$ is just a way to represent the velocity of every endpoint.  
+With those two matrices, the system of differential equations can then be integrated to the desired level of precision by one of MATLABs implicit ode solvers (e.g. ode15s or ode23).  In that equation, $\mathbf{x}$ simply represents the positions of filament endpoints (nodes).  Therefore $\mathbf{\dot{x}}$ is just a way to represent the velocity of every endpoint.  
 
-The right hand side represents the forces (external or internal) driving the motion of the filaments.  The mass matrix $mathbf{A}$ represents the coupling of filaments to each other (off diagonal elements) and to the solvent in which they are embedded (diagonal elements).  Once those are provided, MATLAB's solvers take care of the integration (see MATLAB ode solver documentation for more info).
+The right hand side represents the forces (external or internal) driving the motion of the filaments.  The mass matrix $\mathbf{A}$ represents the coupling of filaments to each other (off diagonal elements) and to the solvent in which they are embedded (diagonal elements).  Once those are provided, MATLAB's solvers take care of the integration (see MATLAB ode solver documentation for more info).
 
 
 \subsubsection{Right hand sides: \textit{activnet\_act\_ode.m vs. activenet\_pull\_ode.m}}
@@ -233,11 +233,11 @@ for n=1:ncnt:length(p)
 end
 \end{verbatim}
 
-The code loops over every \texttt{ncnt} nodes, which constitute the nodes of a single filament.  Next the code loops through each node of the individual filament.  First, the code evaluates the extensional force on each node given by \texttt{f = mu*vb/lb*gam} with the modification that if \texttt{mu}<0 and \texttt{gam}>0, the force constant is modified to incorporate the nonlinear extensional stiffness.  Next, the code evaluates the bending forces for adjacent segments that are not aligned using 
+The code loops over every \texttt{ncnt} nodes, which constitute the nodes of a single filament.  Next the code loops through each node of the individual filament.  First, the code evaluates the extensional force on each node given by \texttt{f = mu*vb/lb*gam} with the modification that if \texttt{mu}$<0$ and \texttt{gam}$>0$, the force constant is modified to incorporate the nonlinear extensional stiffness.  Next, the code evaluates the bending forces for adjacent segments that are not aligned using 
 
 \texttt{tor = kap/l0\^2*acos(max(min(va*vb'/la/lb,1),0))}. 
 
- The \texttt{max(min(...))} is used simply to ensure that there are no aberrantly large values due to errors in evaluation of \texttt{acos} with arguments very slightly greater than 1 or less than 0.   The two vectors \texttt{va\_orth} and \texttt{vb\_orth} are calculated to direct the force orthogonal to the orientation of the filament segment.  Finally, it should be noted that a bending force is generated from both the segment behind and te segment in front of the current node of interest and that the force from these need to be assigned at both the current node and the equal and opposite force assigned at the other end of each filament.
+ The \texttt{max(min(...))} is used simply to ensure that there are no aberrantly large values due to errors in evaluation of \texttt{acos} with arguments very slightly greater than 1 or less than 0.   The two vectors \texttt{va\_orth} and \texttt{vb\_orth} are calculated to direct the force orthogonal to the orientation of the filament segment.  Finally, it should be noted that a bending force is generated from both the segment behind and the segment in front of the current node of interest and that the force from these need to be assigned at both the current node and the equal and opposite force assigned at the other end of each filament.
 
 After the basic mechanical properties of the filament are accounted for, we need to add extra forces (otherwise the simulations won't be any more interesting than just a bunch of inert springs).  What we do depends on whether the simulation is meant to represent active motors or a passive network with an external driver.  In the next two sections we cover the specifics of the force equations for both of these cases.
 
@@ -288,7 +288,7 @@ for ind=1:size(g,1)
 end
 \end{verbatim}
 
-The last line shows the net force that is added to both pairs of nodes that are intersecting (\texttt{i:i+1} and \texttt{j:j+1}) with one positive and the other negative to conserve the net force to be 0.  The term \texttt{f} is calculates the distance of the overlap point between the two nearest node locations, and is used to set how much force is applied to the first vs second node.  For each iteration of the loop, the force is calculated for the \texttt{j:j+1} filament, and each interaction is stepped through twice (once with each filament in the \texttt{j:j+1} role).  The vm calculation determines the direction in which the forces will be applied.  The terms \texttt{edg} and \texttt{tnu} simply modify the applied force by scalar quantities based on closeness to the end of the filament and spatial variation in motor force intensity.
+The last line shows the net force that is added to both pairs of nodes that are intersecting (\texttt{i:i+1} and \texttt{j:j+1}) with one positive and the other negative to conserve the net force to be 0.  The term \texttt{f} is the distance of the overlap point between the two nearest node locations, and is used to set how much force is applied to the first vs second node.  For each iteration of the loop, the force is calculated for the \texttt{j:j+1} filament, and each interaction is stepped through twice (once with each filament in the \texttt{j:j+1} role).  The vm calculation determines the direction in which the forces will be applied.  The terms \texttt{edg} and \texttt{tnu} simply modify the applied force by scalar quantities based on closeness to the end of the filament and spatial variation in motor force intensity.
 
 
 
@@ -337,9 +337,9 @@ This last segment merely constrains the force at the far left and right edges of
 
 It should be noted that in the "pulling" simulations, there is no need to compute the intersection of filaments.  This means that there are far fewer computations than in the active case.   I wrote two separate functions for each of the different cases simply to avoid having to perform redundant checks on the cases repeatedly (i.e. the choice is made once in the outer wrapping functions rather than having to repeatedly make the choice for which code to run on each iteration of the solver).
 
-\subsection{Left hand side: The mysterious mass matrix}
+\subsection{Left hand side: Understanding the mass matrix}
 
-To understand the logic of coupling filaments together by their velocities it might be helpful to look at a simple example.  Imagine that you have a single particle in some one-dimensional fluid with viscosity, $\zeta$, and with a force, $F$, acting on it.  Assuming low Reynolds limit so there is no acceleration of the particle, the equation of motion would look like the following.
+It can be somewhat difficult to understand how a mass matrix works in a system of coupled differential equations.  In this particular use-case, I'm using a mass matrix to delineate how we couple the filament velocities together.  To understand the logic of coupling filaments together by their velocities it might be helpful to look at a simple example.  Imagine that you have a single particle in some one-dimensional fluid with viscosity, $\zeta$, and with a force, $F$, acting on it.  Assuming low Reynolds limit so there is no acceleration of the particle, the equation of motion would look like the following.
 
 \begin{equation}
 \zeta\dot{x}=F
@@ -374,13 +374,13 @@ This is the entire logic behind the construction of the activnet\_mass.m functio
 Similar to the previous section, there are computational efficiencies to be gained in computing the mass matrix, $\mathbf{A}$, if the system is being driven externally (as opposed to being driven by internal activity).  
 
 \subsubsection{\textit{activnet\_mass.m vs. activenet\_mass\_sp.m}}
-When we are constraining filaments to remain motionless we run into one little problem with our mass matrix formulation as presented thus far.  Essentially, the right hand side of the equation is being set to 0, but the left hand side still has cross terms .  To remedy this, in the case where an external stress is applied, I need to manually decouple filaments that lie along the $x=0$ boundary of the domain.  This is carried out in activenet\_mass\_sp.m, but it is not implemented in activenet\_mass.m because that code only runs in the case where there is internal activity of the filaments and no external constraints.
+When we are constraining filaments to remain motionless we run into one little problem with our mass matrix formulation as presented thus far.  Essentially, the right hand side of the equation is being set to 0, but the left hand side still has cross terms.  To remedy this, in the case where an external stress is applied, I need to manually decouple filaments that lie along the $x=0$ boundary of the domain.  This is carried out in activenet\_mass\_sp.m, but it is not implemented in activenet\_mass.m because that code only runs in the case where there is internal activity of the filaments and no external constraints.
 
-Additionally, in activenet\_mass\_sp.m, I utilize a sparse matrix for reasons that I honestly don't exactly remember.  I assume that I found in that condition I could get some kind of marginal speedup by using a sparse matrix instead of the full matrix.
+Additionally, in activenet\_mass\_sp.m, I utilize a sparse matrix because I found in that condition I could get some kind of marginal speedup by using a sparse matrix instead of the full matrix.
 
 
 \subsection{Line intersection \textit{helper} Functions}
-There are a series of helper functions that are called to aid in the calculations of filament intersections.  Yu can analyze the code directly for more detail but briefly, the lineSegmentIntersect.m implementation manually computes the intersection between all pairs of segments while lineSegmentGrid.m first bins lines into grids before testing intersection just on those in the bin.  I saw a significant improvement when I moved to lineSegmentGrid even though asymptotically they both perform worst case $O(n^2)$, which I believe is due to the uniformity of the line segment distribution.  Some mathematician might be able to prove that.  It is interesting to note that the classical best-case line scanning algorithm (i.e. sweep line) is $O(nlogn)$.
+There are a series of helper functions that are called to aid in the calculations of filament intersections.  You can analyze the code directly for more detail but briefly, the lineSegmentIntersect.m implementation manually computes the intersection between all pairs of segments while lineSegmentGrid.m first bins lines into grids before testing intersection just on those in the bin.  I empirically observed a significant improvement in runtime when I moved to lineSegmentGrid even though asymptotically they both perform worst case $O(n^2)$, which I believe is due to the uniformity of the line segment distribution.  It is interesting to note that the classical best-case line scanning algorithm (i.e. sweep line) is $O(nlogn)$.
 
 \subsection{Visualization code}
-In the analysis package, I have included some code called netplot\_str.m to aid with visualizing the output of the simulations.  This code opens the output file and an accompanying script file to get the parameters passed to the function.  The code then goes on to render all the lines in a MATLAB plot.  It could e modified easily to render the output in whatever format you may need.  However, it is important to note that you need the input parameters to correctly associate output nodes to their correct filament.
+In the analysis package, I have included some code called netplot\_str.m to aid with visualizing the output of the simulations.  This code opens the output file and an accompanying script file to get the parameters passed to the function.  The code then goes on to render all the lines in a MATLAB plot.  It could be modified easily to render the output in whatever format you may need.  

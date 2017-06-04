@@ -239,7 +239,8 @@ LaTeX]
 \renewcommand{\title}[1]{\gdef\@title{#1}}
 \renewcommand{\author}[1]{\gdef\@author{#1}}
 \newcommand{\department}[1]{\gdef\@department{#1}}
-\newcommand{\division}[1]{\gdef\@division{#1}}
+\newcommand{\divisionA}[1]{\gdef\@divisionA{#1}}
+\newcommand{\divisionB}[1]{\gdef\@divisionB{#1}}
 \newcommand{\degree}[1]{\gdef\@degree{#1}}
 \renewcommand{\date}[1]{\gdef\@date{#1}}
 
@@ -256,11 +257,14 @@ LaTeX]
       \MakeUppercase{\@title}\\
       \vfill
       A DISSERTATION SUBMITTED TO\\
-      THE FACULTY OF THE DIVISION OF THE \MakeUppercase{\@division}\\
+      THE FACULTY OF THE DIVISION OF THE \MakeUppercase{\@divisionA}\\
+      AND \\
+      THE FACULTY OF THE DIVISION OF THE \MakeUppercase{\@divisionB}\\
+      AND THE PRITZKER SCHOOL OF MEDICINE\\
       IN CANDIDACY FOR THE DEGREE OF\\
       \MakeUppercase{\@degree}\\
       \ \\
-      DEPARTMENT OF \MakeUppercase{\@department}\\
+      GRADUATE PROGRAM IN \MakeUppercase{\@department}\\
       \vfill
       BY\\
       \MakeUppercase{\@author}\\

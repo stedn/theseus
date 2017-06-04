@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.19)  23 FEB 2017 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.19)  7 APR 2017 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,8 +6,9 @@ entering extended mode
 (./theseus.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
-(./easychithesis.cls
-Document Class: easychithesis 1999/10/20 Chicago Thesis Class For LaTeX
+(./ucetd.cls
+Document Class: ucetd 2011/05/18 University of Chicago Electronic Theses and Di
+ssertations
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -28,6 +29,20 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks14
+\footnotemargin=\dimen103
+\c@pp@next@reset=\count88
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
@@ -37,15 +52,15 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count88
-\calc@Bcount=\count89
-\calc@Adimen=\dimen103
-\calc@Bdimen=\dimen104
+\calc@Acount=\count89
+\calc@Bcount=\count90
+\calc@Adimen=\dimen104
+\calc@Bdimen=\dimen105
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count90
+\calc@Ccount=\count91
 \calc@Cskip=\skip45
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -66,7 +81,7 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -78,7 +93,7 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count91
+\Gread@gobject=\count92
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
@@ -104,18 +119,18 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 95.
 )
-\Gin@req@height=\dimen105
-\Gin@req@width=\dimen106
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
 )
-\AM@pagewidth=\dimen107
-\AM@pageheight=\dimen108
+\AM@pagewidth=\dimen108
+\AM@pageheight=\dimen109
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box26
-\AM@toc@title=\toks15
-\c@AM@survey=\count92
+\AM@toc@title=\toks16
+\c@AM@survey=\count93
 \AM@templatesizebox=\box27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
@@ -123,15 +138,15 @@ Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count93
+\etb@tempcnta=\count94
 )
-\csq@reset=\count94
-\csq@gtype=\count95
-\csq@glevel=\count96
-\csq@qlevel=\count97
-\csq@maxlvl=\count98
-\csq@tshold=\count99
-\csq@ltx@everypar=\toks16
+\csq@reset=\count95
+\csq@gtype=\count96
+\csq@glevel=\count97
+\csq@qlevel=\count98
+\csq@maxlvl=\count99
+\csq@tshold=\count100
+\csq@ltx@everypar=\toks17
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
@@ -169,7 +184,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))))
-\c@section@level=\count100
+\c@section@level=\count101
 LaTeX Info: Redefining \ref on input line 353.
 LaTeX Info: Redefining \pageref on input line 353.
 )
@@ -183,65 +198,65 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen109
+\@emptytoks=\toks18
+\ex@=\dimen110
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen110
+\pmbraise@=\dimen111
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count101
+\inf@bad=\count102
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count102
-\leftroot@=\count103
+\uproot@=\count103
+\leftroot@=\count104
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count104
-\DOTSCASE@=\count105
+\classnum@=\count105
+\DOTSCASE@=\count106
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
-\big@size=\dimen111
+\big@size=\dimen112
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count106
-\c@MaxMatrixCols=\count107
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
 \dotsspace@=\muskip10
-\c@parentequation=\count108
-\dspbrk@lvl=\count109
-\tag@help=\toks18
-\row@=\count110
-\column@=\count111
-\maxfields@=\count112
-\andhelp@=\toks19
-\eqnshift@=\dimen112
-\alignsep@=\dimen113
-\tagshift@=\dimen114
-\tagwidth@=\dimen115
-\totwidth@=\dimen116
-\lineht@=\dimen117
-\@envbody=\toks20
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks19
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks20
+\eqnshift@=\dimen113
+\alignsep@=\dimen114
+\tagshift@=\dimen115
+\tagwidth@=\dimen116
+\totwidth@=\dimen117
+\lineht@=\dimen118
+\@envbody=\toks21
 \multlinegap=\skip47
 \multlinetaggap=\skip48
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count113
-\cp@tempcnt=\count114
+\c@cp@cntr=\count114
+\cp@tempcnt=\count115
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count115
-\float@exts=\toks22
+\c@float@type=\count116
+\float@exts=\toks23
 \float@box=\box30
-\@float@everytoks=\toks23
+\@float@everytoks=\toks24
 \@floatcapt=\box31
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
@@ -250,37 +265,37 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen118
-\captionmargin@=\dimen119
-\captionwidth=\dimen120
-\caption@tempdima=\dimen121
-\caption@indent=\dimen122
-\caption@parindent=\dimen123
-\caption@hangindent=\dimen124
+\captionmargin=\dimen119
+\captionmargin@=\dimen120
+\captionwidth=\dimen121
+\caption@tempdima=\dimen122
+\caption@indent=\dimen123
+\caption@parindent=\dimen124
+\caption@hangindent=\dimen125
 )
-\c@ContinuedFloat=\count116
+\c@ContinuedFloat=\count117
 Package caption Info: float package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count117
+\c@r@tfl@t=\count118
 \rotFPtop=\skip49
 \rotFPbot=\skip50
 \rot@float@box=\box32
-\rot@mess@toks=\toks24
+\rot@mess@toks=\toks25
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip51
 \subfigcapskip=\skip52
-\subfigcaptopadj=\dimen125
+\subfigcaptopadj=\dimen126
 \subfigbottomskip=\skip53
-\subfigcapmargin=\dimen126
+\subfigcapmargin=\dimen127
 \subfiglabelskip=\skip54
-\c@subfigure=\count118
-\c@lofdepth=\count119
-\c@subtable=\count120
-\c@lotdepth=\count121
+\c@subfigure=\count119
+\c@lofdepth=\count120
+\c@subtable=\count121
+\c@lotdepth=\count122
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -291,8 +306,8 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-\epsfxsize=\dimen127
-\epsfysize=\dimen128
+\epsfxsize=\dimen128
+\epsfysize=\dimen129
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -306,22 +321,22 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip57
 \bibsep=\skip58
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count122
+\c@NAT@ctr=\count123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks25
-\thm@bodyfont=\toks26
-\thm@headfont=\toks27
-\thm@notefont=\toks28
-\thm@headpunct=\toks29
+\thm@style=\toks26
+\thm@bodyfont=\toks27
+\thm@headfont=\toks28
+\thm@notefont=\toks29
+\thm@headpunct=\toks30
 \thm@preskip=\skip59
 \thm@postskip=\skip60
 \thm@headsep=\skip61
-\dth@everypar=\toks30
+\dth@everypar=\toks31
 )
 (./docu/matlab-prettifier.sty
 
@@ -413,43 +428,43 @@ Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count123
+\lst@mode=\count124
 \lst@gtempboxa=\box33
-\lst@token=\toks31
-\lst@length=\count124
-\lst@currlwidth=\dimen129
-\lst@column=\count125
-\lst@pos=\count126
-\lst@lostspace=\dimen130
-\lst@width=\dimen131
-\lst@newlines=\count127
-\lst@lineno=\count128
-\lst@maxwidth=\dimen132
+\lst@token=\toks32
+\lst@length=\count125
+\lst@currlwidth=\dimen130
+\lst@column=\count126
+\lst@pos=\count127
+\lst@lostspace=\dimen131
+\lst@width=\dimen132
+\lst@newlines=\count128
+\lst@lineno=\count129
+\lst@maxwidth=\dimen133
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count129
-\lst@skipnumbers=\count130
+\c@lstnumber=\count130
+\lst@skipnumbers=\count131
 \lst@framebox=\box34
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
-\netBracketCount@mlpr=\count131
-\blkLvl@mlpr=\count132
-\blkLvlAtClassdef@mlpr=\count133
+\netBracketCount@mlpr=\count132
+\blkLvl@mlpr=\count133
+\blkLvlAtClassdef@mlpr=\count134
 \emHeight@mlpr=\skip62
 \jayDepth@mlpr=\skip63
 \sectionRuleOffset@mlpr=\skip64
-\toks@mlpr=\toks32
+\toks@mlpr=\toks33
 )
 Package Listings Info: Made " a short reference for \lstinline on input line 10
 8.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
-(./theseus.aux (./introduction/introduction.aux)
+(./theseus.aux
 
 LaTeX Warning: Label `eqn:drag' multiply defined.
 
@@ -462,7 +477,6 @@ LaTeX Warning: Label `sec:eff_vic' multiply defined.
 
 LaTeX Warning: Label `lin_eqn' multiply defined.
 
-(./art/art.aux
 
 LaTeX Warning: Label `fig:art_2' multiply defined.
 
@@ -478,7 +492,7 @@ LaTeX Warning: Label `fig:art_1' multiply defined.
 
 LaTeX Warning: Label `fig:art_3' multiply defined.
 
-) (./workshop/workshop.aux))
+)
 \openout1 = `theseus.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
@@ -496,8 +510,7 @@ LaTeX Font Info:    ... okay on input line 116.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 116.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 116.
@@ -505,17 +518,17 @@ LaTeX Font Info:    ... okay on input line 116.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
-\scratchdimen=\dimen133
+\scratchcounter=\count135
+\scratchdimen=\dimen134
 \scratchbox=\box36
-\nofMPsegments=\count135
-\nofMParguments=\count136
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count137
-\MPscratchDim=\dimen134
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
-\everyMPtoPDFconversion=\toks34
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen135
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -558,206 +571,71 @@ Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count140
+\c@lstlisting=\count141
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 150.
+] [3
+
+] (./theseus.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 150.
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+) [4
 
-] [4] [5
-
-]
-(./theseus.toc
-Overfull \hbox (20.43854pt too wide) in paragraph at lines 18--18
- [] []\OT1/cmr/m/n/12 SINGLE MOLECULE MEA-SURE-MENTS OF ACTIN FIL-A-MENT TURNOV
-ER []  
- []
-
-[6
-
-]
-Overfull \hbox (9.96848pt too wide) in paragraph at lines 55--55
- [][] []\OT1/cmr/m/n/12 Filament turnover tunes the bal-ance be-tween ac-tive s
-tress buildup 
- []
-
-[7] [8] [9])
+] [5] [6] [7])
 \tf@toc=\write3
 \openout3 = `theseus.toc'.
 
- [10] (./theseus.lof
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
 
-Overfull \hbox (6.62642pt too wide) in paragraph at lines 3--3
- [][] []\OT1/cmr/m/n/12 Imaging sin-gle molecules at the cor-tex in liv-ing em-
-bryos. (a-c) Schematic 
- []
+[8] (./theseus.lof [9
 
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-[11
-
-]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no Ü in font cmr12!
-Missing character: There is no œ in font cmr12!
-Missing character: There is no Ñ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no • in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no • in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
- [12] [13] [14] [15]
-Overfull \hbox (1.87416pt too wide) in paragraph at lines 16--16
- [][] []\OT1/cmr/m/n/12 Filament re-cy-cling al-lows sus-tained flows in net-wo
-rks with non-isotropic 
- []
-
-[16] [17]
-Overfull \hbox (5.60852pt too wide) in paragraph at lines 27--27
- [][] []\OT1/cmr/bx/n/12 Spatiotemporal mod-u-la-tion of as-sem-bly and dis-as-
-sem-bly drives 
- []
-
-[18] [19] [20] [21]
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-
-Overfull \hbox (2.2132pt too wide) in paragraph at lines 32--32
- \OT1/cmr/m/n/12 graphs of P0 (top) and AB (bot-tom) em-bryos co-expressing GFP
-::RGA- 
- []
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-[22] [23] [24]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- [25] [26] [27])
+] [10])
 \tf@lof=\write4
 \openout4 = `theseus.lof'.
 
- [28] (./theseus.lot)
+ [11] (./theseus.lot)
 \tf@lot=\write5
 \openout5 = `theseus.lot'.
 
- [29
+ [12
 
-]
+] [13
+
+] [14
+
+] [15]
 Chapter 1.
-[1
-
-
-]
-\openout2 = `introduction/introduction.aux'.
-
- (./introduction/introduction.tex
+(./introduction/introduction.tex
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- [2
+ [1
 
-] [3] [4] [5]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [6] [7] [8] [9] [10]
-LaTeX Font Info:    Try loading font information for OT1+fvm on input line 52.
-LaTeX Font Info:    No file OT1fvm.fd. on input line 52.
+
+] [2] [3] [4] [5] [6] [7]
+LaTeX Font Info:    Try loading font information for OT1+fvm on input line 48.
+LaTeX Font Info:    No file OT1fvm.fd. on input line 48.
 
 
 LaTeX Font Warning: Font shape `OT1/fvm/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 52.
+(Font)              using `OT1/cmr/m/n' instead on input line 48.
 
-[11] [12] [13]
-
-Package natbib Warning: Citation `PhysRevLett.116.028102' on page 14 undefined 
-on input line 76.
-
-
-Package natbib Warning: Citation `' on page 14 undefined on input line 78.
-
-[14]
+[8] [9] [10] [11] [12]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [15] [16] [17]) [18]
+ [13] [14] [15]) [16]
 Chapter 2.
 (./nmeth/nmeth.tex
 Missing character: There is no √ in font cmr12!
@@ -765,32 +643,14 @@ Missing character: There is no ß in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
+ [17
 
-Overfull \hbox (27.91086pt too wide) in paragraph at lines 2--3
-\OT1/fvm/m/n/12 molecule anal-y-sis of cell sur-face dy-nam-ics in Caenorhab-di
--tis el-e-gans em-bryos. 11(6):677682,
- []
-
-[19
-
-
-] [20] [21]
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
- [22] <nmeth/Fig1.pdf, id=173, 543.10858pt x 243.54689pt>
+] [18] [19] [20]
+<nmeth/Fig1.pdf, id=121, 543.10858pt x 243.54689pt>
 File: nmeth/Fig1.pdf Graphic file (type pdf)
-
-<use nmeth/Fig1.pdf>
-Package pdftex.def Info: nmeth/Fig1.pdf used on input line 43.
-(pdftex.def)             Requested size: 433.62pt x 194.45128pt.
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ <use nmeth/Fig1.pdf>
+Package pdftex.def Info: nmeth/Fig1.pdf used on input line 39.
+(pdftex.def)             Requested size: 469.75499pt x 210.65773pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ¶ in font cmr12!
@@ -800,15 +660,16 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[23] [24 <./nmeth/Fig1.pdf>]
+
+[21 <./nmeth/Fig1.pdf>] [22]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ó in font cmr12!
 
-<nmeth/Fig2.pdf, id=297, 320.58047pt x 332.48224pt>
+<nmeth/Fig2.pdf, id=247, 320.58047pt x 332.48224pt>
 File: nmeth/Fig2.pdf Graphic file (type pdf)
  <use nmeth/Fig2.pdf>
-Package pdftex.def Info: nmeth/Fig2.pdf used on input line 66.
-(pdftex.def)             Requested size: 260.17464pt x 269.8469pt.
+Package pdftex.def Info: nmeth/Fig2.pdf used on input line 61.
+(pdftex.def)             Requested size: 281.85585pt x 292.3316pt.
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ø in font cmr12!
 Missing character: There is no º in font cmr12!
@@ -824,10 +685,6 @@ Missing character: There is no º in font cmr12!
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ø in font cmr12!
 Missing character: There is no º in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ø in font cmr12!
 Missing character: There is no º in font cmr12!
@@ -843,52 +700,25 @@ Missing character: There is no º in font cmr12!
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ø in font cmr12!
 Missing character: There is no º in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Overfull \hbox (0.6672pt too wide) in paragraph at lines 74--75
-\OT1/fvm/m/n/12 and PAR-6::GFP. Actin monomers ex-change dy-nam-i-cally with th
-e cell sur-face through
- []
-
-[25]
-
-LaTeX Warning: Text page 26 contains only floats.
-
-[26 <./nmeth/Fig2.pdf>] [27]
+[23] [24 <./nmeth/Fig2.pdf>] [25]
 Missing character: There is no œ in font cmr12!
 Missing character: There is no Ñ in font cmr12!
-Missing character: There is no œ in font cmr12!
-Missing character: There is no Ñ in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no § in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no § in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
- [28]
-<nmeth/Fig3.pdf, id=385, 309.64572pt x 255.5399pt>
+ [26]
+<nmeth/Fig3.pdf, id=334, 309.64572pt x 255.5399pt>
 File: nmeth/Fig3.pdf Graphic file (type pdf)
  <use nmeth/Fig3.pdf>
-Package pdftex.def Info: nmeth/Fig3.pdf used on input line 86.
-(pdftex.def)             Requested size: 346.89731pt x 286.3002pt.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no Ü in font cmr12!
-Missing character: There is no œ in font cmr12!
-Missing character: There is no Ñ in font cmr12!
+Package pdftex.def Info: nmeth/Fig3.pdf used on input line 81.
+(pdftex.def)             Requested size: 375.80542pt x 310.15562pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no • in font cmr12!
@@ -901,21 +731,9 @@ Missing character: There is no º in font cmr12!
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ø in font cmr12!
 Missing character: There is no º in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no • in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no à in font cmr12!
-Missing character: There is no Ü in font cmr12!
-Missing character: There is no œ in font cmr12!
-Missing character: There is no Ñ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no • in font cmr12!
@@ -928,26 +746,19 @@ Missing character: There is no º in font cmr12!
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ø in font cmr12!
 Missing character: There is no º in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no • in font cmr12!
-Missing character: There is no ¬ in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ø in font cmr12!
-Missing character: There is no º in font cmr12!
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29] [30 <./nmeth/Fig3.pdf>]
-<nmeth/Fig4.pdf, id=1147, 321.57217pt x 308.17334pt>
+[27] [28 <./nmeth/Fig3.pdf>]
+<nmeth/Fig4.pdf, id=1097, 321.57217pt x 308.17334pt>
 File: nmeth/Fig4.pdf Graphic file (type pdf)
  <use nmeth/Fig4.pdf>
-Package pdftex.def Info: nmeth/Fig4.pdf used on input line 106.
-(pdftex.def)             Requested size: 346.89731pt x 332.45076pt.
+Package pdftex.def Info: nmeth/Fig4.pdf used on input line 101.
+(pdftex.def)             Requested size: 375.80542pt x 360.15224pt.
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ø in font cmr12!
 Missing character: There is no º in font cmr12!
@@ -970,1109 +781,929 @@ Missing character: There is no º in font cmr12!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31] [32 <./nmeth/Fig4.pdf>] [33]) [34]
+[29] [30 <./nmeth/Fig4.pdf>] [31]) [32]
 Chapter 3.
-(./active/active.tex
-Overfull \hbox (31.41406pt too wide) in paragraph at lines 10--11
-\OT1/fvm/m/n/12 der-lies cell po-lar-iza-tion, cell di-vi-sion, cell crawl-ing 
-and mul-ti-cel-lu-lar tis-sue morphogenesis[[],
- []
+(./active/active.tex [33
 
-[35
-
-] [36] [37] [38]
+] [34] [35] [36]
 Package epstopdf Info: Source file: <active/figures/Fig1.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 2210046 bytes
 (epstopdf)             Output file: <active/figures/Fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-14 14:50:36
+(epstopdf)                    date: 2017-02-14 12:50:36
 (epstopdf)                    size: 152694 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/Fig1-eps-co
 nverted-to.pdf active/figures/Fig1.eps>
 (epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/Fig1-eps-converted-to.pdf, id=1274, 395.4775pt x 515.9275pt>
+<active/figures/Fig1-eps-converted-to.pdf, id=1223, 395.4775pt x 515.9275pt>
 File: active/figures/Fig1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/Fig1-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/Fig1-eps-converted-to.pdf used on input
  line 35.
-(pdftex.def)             Requested size: 346.89731pt x 452.55333pt.
- [39] [40 <./active/figures/Fig1-eps-converted-to.pdf>] [41]
-Overfull \hbox (6.8046pt too wide) in paragraph at lines 65--66
-\OT1/fvm/m/n/12 on neigh-bor-ing fil-a-ments that ap-pear and dis-ap-pear with 
-ei-ther fixed or force-dependent
+(pdftex.def)             Requested size: 375.80542pt x 490.27005pt.
+
+Underfull \hbox (badness 1281) in paragraph at lines 37--37
+[]\OT1/fvm/m/n/12 Figure 3.1: |[] Schematic of mod-el-ing frame-work. a) Asym-m
+et-ric fil-a-ment com-pli-
  []
 
-[42] [43] [44] [45] [46] [47]
+[37] [38 <./active/figures/Fig1-eps-converted-to.pdf>] [39] [40] [41] [42]
+[43]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[44] [45]
 Package epstopdf Info: Source file: <active/figures/Fig2.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 1137950 bytes
 (epstopdf)             Output file: <active/figures/Fig2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-18 11:09:00
+(epstopdf)                    date: 2017-01-18 09:09:00
 (epstopdf)                    size: 104457 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/Fig2-eps-co
 nverted-to.pdf active/figures/Fig2.eps>
 (epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/Fig2-eps-converted-to.pdf, id=1323, 518.93875pt x 414.54875pt>
+<active/figures/Fig2-eps-converted-to.pdf, id=1271, 518.93875pt x 414.54875pt>
 File: active/figures/Fig2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/Fig2-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/Fig2-eps-converted-to.pdf used on input
  line 190.
-(pdftex.def)             Requested size: 433.62pt x 346.40947pt.
- [48] [49 <./active/figures/Fig2-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 469.75499pt x 375.27904pt.
+ [46] [47 <./active/figures/Fig2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <active/figures/Fig3.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 584146 bytes
 (epstopdf)             Output file: <active/figures/Fig3-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-18 11:09:02
+(epstopdf)                    date: 2017-01-18 09:09:02
 (epstopdf)                    size: 23534 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/Fig3-eps-co
 nverted-to.pdf active/figures/Fig3.eps>
 (epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/Fig3-eps-converted-to.pdf, id=1341, 558.085pt x 185.69376pt>
+<active/figures/Fig3-eps-converted-to.pdf, id=1290, 558.085pt x 185.69376pt>
 File: active/figures/Fig3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/Fig3-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/Fig3-eps-converted-to.pdf used on input
  line 199.
-(pdftex.def)             Requested size: 433.62pt x 144.28519pt.
- [50 <./active/figures/Fig3-eps-converted-to.pdf>] [51]
+(pdftex.def)             Requested size: 469.75499pt x 156.30753pt.
+ [48 <./active/figures/Fig3-eps-converted-to.pdf>] [49]
 Package epstopdf Info: Source file: <active/figures/Fig4.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 523972 bytes
 (epstopdf)             Output file: <active/figures/Fig4-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-18 11:09:03
+(epstopdf)                    date: 2017-01-18 09:09:03
 (epstopdf)                    size: 98420 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/Fig4-eps-co
 nverted-to.pdf active/figures/Fig4.eps>
 (epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/Fig4-eps-converted-to.pdf, id=1358, 501.875pt x 372.39125pt>
+<active/figures/Fig4-eps-converted-to.pdf, id=1306, 501.875pt x 372.39125pt>
 File: active/figures/Fig4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/Fig4-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/Fig4-eps-converted-to.pdf used on input
  line 230.
-(pdftex.def)             Requested size: 433.62pt x 321.7617pt.
- [52] [53 <./active/figures/Fig4-eps-converted-to.pdf>] [54] [55]
+(pdftex.def)             Requested size: 469.75499pt x 348.57613pt.
+ [50] [51 <./active/figures/Fig4-eps-converted-to.pdf>] [52] [53]
 Package epstopdf Info: Source file: <active/figures/Fig5.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 1000518 bytes
 (epstopdf)             Output file: <active/figures/Fig5-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-18 11:09:05
+(epstopdf)                    date: 2017-01-18 09:09:05
 (epstopdf)                    size: 99191 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/Fig5-eps-co
 nverted-to.pdf active/figures/Fig5.eps>
 (epstopdf)             \includegraphics on input line 263.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/Fig5-eps-converted-to.pdf, id=1383, 518.93875pt x 320.19624pt>
+<active/figures/Fig5-eps-converted-to.pdf, id=1332, 518.93875pt x 320.19624pt>
 File: active/figures/Fig5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/Fig5-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/Fig5-eps-converted-to.pdf used on input
  line 263.
-(pdftex.def)             Requested size: 433.62pt x 267.56566pt.
- [56 <./active/figures/Fig5-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 469.75499pt x 289.86443pt.
+ [54 <./active/figures/Fig5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <active/figures/Fig6.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 1578954 bytes
 (epstopdf)             Output file: <active/figures/Fig6-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-18 11:09:07
+(epstopdf)                    date: 2017-01-18 09:09:07
 (epstopdf)                    size: 183965 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/Fig6-eps-co
 nverted-to.pdf active/figures/Fig6.eps>
 (epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/Fig6-eps-converted-to.pdf, id=1399, 534.99875pt x 462.72874pt>
+<active/figures/Fig6-eps-converted-to.pdf, id=1347, 534.99875pt x 462.72874pt>
 File: active/figures/Fig6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/Fig6-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/Fig6-eps-converted-to.pdf used on input
  line 276.
-(pdftex.def)             Requested size: 433.62pt x 375.06241pt.
- [57]
-Overfull \vbox (35.38112pt too high) has occurred while \output is active []
+(pdftex.def)             Requested size: 469.75499pt x 406.31998pt.
+ [55]
+Overfull \vbox (12.38997pt too high) has occurred while \output is active []
 
 
-[58 <./active/figures/Fig6-eps-converted-to.pdf>] [59]
+[56 <./active/figures/Fig6-eps-converted-to.pdf>] [57]
 Package epstopdf Info: Source file: <active/figures/Fig7.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 1498434 bytes
 (epstopdf)             Output file: <active/figures/Fig7-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-18 11:09:09
+(epstopdf)                    date: 2017-01-18 09:09:09
 (epstopdf)                    size: 144626 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/Fig7-eps-co
 nverted-to.pdf active/figures/Fig7.eps>
-(epstopdf)             \includegraphics on input line 290.
+(epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/Fig7-eps-converted-to.pdf, id=1422, 489.83pt x 426.59375pt>
+<active/figures/Fig7-eps-converted-to.pdf, id=1371, 489.83pt x 426.59375pt>
 File: active/figures/Fig7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/Fig7-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/Fig7-eps-converted-to.pdf used on input
- line 290.
-(pdftex.def)             Requested size: 433.62pt x 377.64935pt.
- [60]
-Overfull \vbox (37.96806pt too high) has occurred while \output is active []
+ line 292.
+(pdftex.def)             Requested size: 469.75499pt x 409.12177pt.
+ [58]
+Overfull \vbox (15.19176pt too high) has occurred while \output is active []
 
 
-[61 <./active/figures/Fig7-eps-converted-to.pdf>] [62]
+[59 <./active/figures/Fig7-eps-converted-to.pdf>] [60]
 Package epstopdf Info: Source file: <active/figures/Fig8.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 691954 bytes
 (epstopdf)             Output file: <active/figures/Fig8-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-18 11:09:10
+(epstopdf)                    date: 2017-01-18 09:09:10
 (epstopdf)                    size: 35744 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/Fig8-eps-co
 nverted-to.pdf active/figures/Fig8.eps>
-(epstopdf)             \includegraphics on input line 325.
+(epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/Fig8-eps-converted-to.pdf, id=1443, 560.0925pt x 274.02374pt>
+<active/figures/Fig8-eps-converted-to.pdf, id=1392, 560.0925pt x 274.02374pt>
 File: active/figures/Fig8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/Fig8-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/Fig8-eps-converted-to.pdf used on input
- line 325.
-(pdftex.def)             Requested size: 433.62pt x 212.15714pt.
- [63 <./active/figures/Fig8-eps-converted-to.pdf>]
+ line 327.
+(pdftex.def)             Requested size: 469.75499pt x 229.83551pt.
+ [61]
 Package epstopdf Info: Source file: <active/figures/Fig9.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 1260670 bytes
 (epstopdf)             Output file: <active/figures/Fig9-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-01-18 11:09:12
+(epstopdf)                    date: 2017-01-18 09:09:12
 (epstopdf)                    size: 117996 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/Fig9-eps-co
 nverted-to.pdf active/figures/Fig9.eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)             \includegraphics on input line 335.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/Fig9-eps-converted-to.pdf, id=1457, 489.83pt x 457.71pt>
+<active/figures/Fig9-eps-converted-to.pdf, id=1396, 489.83pt x 457.71pt>
 File: active/figures/Fig9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/Fig9-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/Fig9-eps-converted-to.pdf used on input
- line 333.
-(pdftex.def)             Requested size: 433.62pt x 405.19556pt.
- [64] [65 <./active/figures/Fig9-eps-converted-to.pdf>] [66] [67]) (./active/ac
-tivesup.tex [68] [69] [70]
+ line 335.
+(pdftex.def)             Requested size: 469.75499pt x 438.96361pt.
+ [62 <./active/figures/Fig8-eps-converted-to.pdf>] [63 <./active/figures/Fig9-e
+ps-converted-to.pdf>] [64]
+[65]) (./active/activesup.tex [66] [67] [68]
 Package epstopdf Info: Source file: <active/figures/FigS0.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 770522 bytes
 (epstopdf)             Output file: <active/figures/FigS0-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-01-18 11:09:14
+(epstopdf)                    date: 2017-01-18 09:09:14
 (epstopdf)                    size: 27797 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/FigS0-eps-c
 onverted-to.pdf active/figures/FigS0.eps>
 (epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/FigS0-eps-converted-to.pdf, id=1490, 369.38pt x 329.23pt>
+<active/figures/FigS0-eps-converted-to.pdf, id=1439, 369.38pt x 329.23pt>
 File: active/figures/FigS0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/FigS0-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/FigS0-eps-converted-to.pdf used on inpu
 t line 65.
-(pdftex.def)             Requested size: 433.62pt x 386.48862pt.
- [71] [72 <./active/figures/FigS0-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 469.75499pt x 418.69516pt.
+ [69] [70 <./active/figures/FigS0-eps-converted-to.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <active/figures/FigS1.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 373966 bytes
 (epstopdf)             Output file: <active/figures/FigS1-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-01-18 11:09:15
+(epstopdf)                    date: 2017-01-18 09:09:15
 (epstopdf)                    size: 29635 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/FigS1-eps-c
 onverted-to.pdf active/figures/FigS1.eps>
 (epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/FigS1-eps-converted-to.pdf, id=1513, 205.76875pt x 133.49875pt>
+<active/figures/FigS1-eps-converted-to.pdf, id=1463, 205.76875pt x 133.49875pt>
 File: active/figures/FigS1-eps-converted-to.pdf Graphic file (type pdf)
 <use active/figures/FigS1-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/FigS1-eps-converted-to.pdf used on inpu
 t line 140.
-(pdftex.def)             Requested size: 433.62pt x 281.34763pt.
- [73]
+(pdftex.def)             Requested size: 469.75499pt x 304.79376pt.
+ [71]
 Package epstopdf Info: Source file: <active/figures/FigS2.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 1469030 bytes
 (epstopdf)             Output file: <active/figures/FigS2-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-01-18 11:09:17
+(epstopdf)                    date: 2017-01-18 09:09:17
 (epstopdf)                    size: 155819 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/FigS2-eps-c
 onverted-to.pdf active/figures/FigS2.eps>
 (epstopdf)             \includegraphics on input line 146.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/FigS2-eps-converted-to.pdf, id=1517, 574.145pt x 167.62625pt>
+<active/figures/FigS2-eps-converted-to.pdf, id=1467, 574.145pt x 167.62625pt>
 File: active/figures/FigS2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/FigS2-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/FigS2-eps-converted-to.pdf used on inpu
 t line 146.
-(pdftex.def)             Requested size: 433.62pt x 126.60179pt.
+(pdftex.def)             Requested size: 469.75499pt x 137.15257pt.
 Package epstopdf Info: Source file: <active/figures/FigS3.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 934518 bytes
 (epstopdf)             Output file: <active/figures/FigS3-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-01-18 11:09:18
+(epstopdf)                    date: 2017-01-18 09:09:18
 (epstopdf)                    size: 40112 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/FigS3-eps-c
 onverted-to.pdf active/figures/FigS3.eps>
 (epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/FigS3-eps-converted-to.pdf, id=1518, 494.84875pt x 357.335pt>
+<active/figures/FigS3-eps-converted-to.pdf, id=1468, 494.84875pt x 357.335pt>
 File: active/figures/FigS3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/FigS3-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/FigS3-eps-converted-to.pdf used on inpu
 t line 152.
-(pdftex.def)             Requested size: 433.62pt x 313.1199pt.
- [74 <./active/figures/FigS1-eps-converted-to.pdf> <./active/figures/FigS2-eps-
+(pdftex.def)             Requested size: 469.75499pt x 339.2155pt.
+ [72 <./active/figures/FigS1-eps-converted-to.pdf> <./active/figures/FigS2-eps-
 converted-to.pdf>]
 Package epstopdf Info: Source file: <active/figures/FigS4.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 1508470 bytes
 (epstopdf)             Output file: <active/figures/FigS4-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-01-18 11:09:20
+(epstopdf)                    date: 2017-01-18 09:09:20
 (epstopdf)                    size: 167251 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/FigS4-eps-c
 onverted-to.pdf active/figures/FigS4.eps>
 (epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/FigS4-eps-converted-to.pdf, id=1551, 534.99875pt x 459.7175pt>
+<active/figures/FigS4-eps-converted-to.pdf, id=1499, 534.99875pt x 459.7175pt>
 File: active/figures/FigS4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/FigS4-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/FigS4-eps-converted-to.pdf used on inpu
 t line 158.
-(pdftex.def)             Requested size: 433.62pt x 372.62166pt.
- [75 <./active/figures/FigS3-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 469.75499pt x 403.6758pt.
+ [73 <./active/figures/FigS3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <active/figures/FigS5.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 776926 bytes
 (epstopdf)             Output file: <active/figures/FigS5-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-01-18 11:09:22
+(epstopdf)                    date: 2017-01-18 09:09:22
 (epstopdf)                    size: 85174 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/FigS5-eps-c
 onverted-to.pdf active/figures/FigS5.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/FigS5-eps-converted-to.pdf, id=1565, 478.78876pt x 185.69376pt>
+<active/figures/FigS5-eps-converted-to.pdf, id=1513, 478.78876pt x 185.69376pt>
 File: active/figures/FigS5-eps-converted-to.pdf Graphic file (type pdf)
 <use active/figures/FigS5-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/FigS5-eps-converted-to.pdf used on inpu
 t line 164.
-(pdftex.def)             Requested size: 433.62pt x 168.17688pt.
- [76 <./active/figures/FigS4-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 469.75499pt x 182.19115pt.
+ [74 <./active/figures/FigS4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <active/figures/FigS6.eps>
-(epstopdf)                    date: 2017-01-17 15:44:38
+(epstopdf)                    date: 2017-01-17 13:44:38
 (epstopdf)                    size: 469706 bytes
 (epstopdf)             Output file: <active/figures/FigS6-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-01-18 11:09:23
+(epstopdf)                    date: 2017-01-18 09:09:23
 (epstopdf)                    size: 19744 bytes
 (epstopdf)             Command: <repstopdf --outfile=active/figures/FigS6-eps-c
 onverted-to.pdf active/figures/FigS6.eps>
 (epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
-<active/figures/FigS6-eps-converted-to.pdf, id=1580, 515.9275pt x 142.5325pt>
+<active/figures/FigS6-eps-converted-to.pdf, id=1529, 515.9275pt x 142.5325pt>
 File: active/figures/FigS6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use active/figures/FigS6-eps-converted-to.pdf>
 Package pdftex.def Info: active/figures/FigS6-eps-converted-to.pdf used on inpu
 t line 170.
-(pdftex.def)             Requested size: 433.62pt x 119.79823pt.
-) [77 <./active/figures/FigS5-eps-converted-to.pdf> <./active/figures/FigS6-eps
--converted-to.pdf>] [78]
+(pdftex.def)             Requested size: 469.75499pt x 129.78088pt.
+) [75 <./active/figures/FigS5-eps-converted-to.pdf> <./active/figures/FigS6-eps
+-converted-to.pdf>] [76]
 Chapter 4.
-(./pulse/pulse_paper.tex [79
+(./pulse/pulse_paper.tex [77
 
-]
-
-Package natbib Warning: Citation `He:2010gf' on page 80 undefined on input line
- 15.
-
-
-Package natbib Warning: Citation `He:2010gf' on page 80 undefined on input line
- 15.
-
-[80]
-
-Package natbib Warning: Citation `He:2010gf' on page 81 undefined on input line
- 19.
-
-
-Overfull \hbox (0.53383pt too wide) in paragraph at lines 21--22
-[]\OT1/fvm/m/n/12 Here we com-bine quan-ti-ta-tive imag-ing with ex-per-i-men-t
-al ma-nip-u-la-tions and math-
- []
-
-[81]
+] [78] [79]
 Package epstopdf Info: Source file: <pulse/Figure2-1.eps>
-(epstopdf)                    date: 2016-08-23 11:06:26
+(epstopdf)                    date: 2016-08-23 09:06:26
 (epstopdf)                    size: 4665450 bytes
 (epstopdf)             Output file: <pulse/Figure2-1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:13:32
+(epstopdf)                    date: 2017-02-17 15:13:32
 (epstopdf)                    size: 621238 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-1-eps-conver
 ted-to.pdf pulse/Figure2-1.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
- <pulse/Figure2-1-eps-converted-to.pdf, id=1615, 474.77374pt x 626.34pt>
+
+<pulse/Figure2-1-eps-converted-to.pdf, id=1564, 474.77374pt x 626.34pt>
 File: pulse/Figure2-1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-1-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-1-eps-converted-to.pdf used on input lin
 e 29.
-(pdftex.def)             Requested size: 281.85034pt x 371.84067pt.
- [82] [83 <./pulse/Figure2-1-eps-converted-to.pdf>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
+(pdftex.def)             Requested size: 305.33788pt x 402.825pt.
+ [80] [81 <./pulse/Figure2-1-eps-converted-to.pdf>] [82]
 Package epstopdf Info: Source file: <pulse/Figure2-2.eps>
-(epstopdf)                    date: 2016-08-25 12:34:58
+(epstopdf)                    date: 2016-08-25 10:34:58
 (epstopdf)                    size: 3410362 bytes
 (epstopdf)             Output file: <pulse/Figure2-2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:13:35
+(epstopdf)                    date: 2017-02-17 15:13:35
 (epstopdf)                    size: 460825 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-2-eps-conver
 ted-to.pdf pulse/Figure2-2.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/Figure2-2-eps-converted-to.pdf, id=1638, 606.265pt x 442.65375pt>
+<pulse/Figure2-2-eps-converted-to.pdf, id=1591, 606.265pt x 442.65375pt>
 File: pulse/Figure2-2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-2-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-2-eps-converted-to.pdf used on input lin
 e 43.
-(pdftex.def)             Requested size: 433.62pt x 316.60309pt.
- [84] [85 <./pulse/Figure2-2-eps-converted-to.pdf>] [86]
+(pdftex.def)             Requested size: 469.75499pt x 342.98555pt.
+ [83] [84 <./pulse/Figure2-2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pulse/Figure2-3.eps>
-(epstopdf)                    date: 2016-10-17 08:58:26
+(epstopdf)                    date: 2016-10-17 06:58:26
 (epstopdf)                    size: 2458822 bytes
 (epstopdf)             Output file: <pulse/Figure2-3-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:13:37
+(epstopdf)                    date: 2017-02-17 15:13:37
 (epstopdf)                    size: 82136 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-3-eps-conver
 ted-to.pdf pulse/Figure2-3.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/Figure2-3-eps-converted-to.pdf, id=1665, 389.455pt x 604.2575pt>
+<pulse/Figure2-3-eps-converted-to.pdf, id=1614, 389.455pt x 604.2575pt>
 File: pulse/Figure2-3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-3-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-3-eps-converted-to.pdf used on input lin
 e 58.
-(pdftex.def)             Requested size: 216.81pt x 336.39032pt.
- [87] [88 <./pulse/Figure2-3-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 234.87749pt x 364.41978pt.
+ [85] [86 <./pulse/Figure2-3-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pulse/Figure2-4.eps>
-(epstopdf)                    date: 2016-10-17 13:02:04
+(epstopdf)                    date: 2016-10-17 11:02:04
 (epstopdf)                    size: 2952466 bytes
 (epstopdf)             Output file: <pulse/Figure2-4-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:13:40
+(epstopdf)                    date: 2017-02-17 15:13:40
 (epstopdf)                    size: 353928 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-4-eps-conver
 ted-to.pdf pulse/Figure2-4.eps>
 (epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/Figure2-4-eps-converted-to.pdf, id=1689, 556.0775pt x 514.92375pt>
+<pulse/Figure2-4-eps-converted-to.pdf, id=1638, 556.0775pt x 514.92375pt>
 File: pulse/Figure2-4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-4-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-4-eps-converted-to.pdf used on input lin
 e 73.
-(pdftex.def)             Requested size: 260.17464pt x 240.92206pt.
-
-
-Package natbib Warning: Citation `Maddox:2007cx' on page 89 undefined on input 
-line 80.
-
-[89] [90 <./pulse/Figure2-4-eps-converted-to.pdf>] [91]
+(pdftex.def)             Requested size: 281.85585pt x 260.99693pt.
+ [87] [88 <./pulse/Figure2-4-eps-converted-to.pdf>] [89] [90]
 Package epstopdf Info: Source file: <pulse/Figure2-5.eps>
-(epstopdf)                    date: 2016-10-17 17:44:54
+(epstopdf)                    date: 2016-10-17 15:44:54
 (epstopdf)                    size: 4743918 bytes
 (epstopdf)             Output file: <pulse/Figure2-5-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:13:44
+(epstopdf)                    date: 2017-02-17 15:13:44
 (epstopdf)                    size: 533966 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-5-eps-conver
 ted-to.pdf pulse/Figure2-5.eps>
 (epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/Figure2-5-eps-converted-to.pdf, id=1748, 598.235pt x 345.29pt>
+<pulse/Figure2-5-eps-converted-to.pdf, id=1701, 598.235pt x 345.29pt>
 File: pulse/Figure2-5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-5-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-5-eps-converted-to.pdf used on input lin
 e 92.
-(pdftex.def)             Requested size: 433.62pt x 250.27876pt.
- [92] [93 <./pulse/Figure2-5-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 469.75499pt x 271.13753pt.
+ [91 <./pulse/Figure2-5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pulse/Figure2-6.eps>
-(epstopdf)                    date: 2016-10-17 17:45:34
+(epstopdf)                    date: 2016-10-17 15:45:34
 (epstopdf)                    size: 8127150 bytes
 (epstopdf)             Output file: <pulse/Figure2-6-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:13:49
+(epstopdf)                    date: 2017-02-17 15:13:49
 (epstopdf)                    size: 710840 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-6-eps-conver
 ted-to.pdf pulse/Figure2-6.eps>
 (epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/Figure2-6-eps-converted-to.pdf, id=1770, 556.0775pt x 428.60126pt>
+<pulse/Figure2-6-eps-converted-to.pdf, id=1719, 556.0775pt x 428.60126pt>
 File: pulse/Figure2-6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-6-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-6-eps-converted-to.pdf used on input lin
 e 106.
-(pdftex.def)             Requested size: 433.62pt x 334.22261pt.
-
-
-Package natbib Warning: Citation `Diogon:2007kc' on page 94 undefined on input 
-line 112.
-
-[94] [95 <./pulse/Figure2-6-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 469.75499pt x 362.07613pt.
+ [92] [93 <./pulse/Figure2-6-eps-converted-to.pdf>] [94]
 Package epstopdf Info: Source file: <pulse/Figure2-7.eps>
-(epstopdf)                    date: 2016-08-30 10:59:56
+(epstopdf)                    date: 2016-08-30 08:59:56
 (epstopdf)                    size: 10999378 bytes
 (epstopdf)             Output file: <pulse/Figure2-7-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:13:57
+(epstopdf)                    date: 2017-02-17 15:13:57
 (epstopdf)                    size: 1265462 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-7-eps-conver
 ted-to.pdf pulse/Figure2-7.eps>
 (epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/Figure2-7-eps-converted-to.pdf, id=1791, 460.72125pt x 574.145pt>
+<pulse/Figure2-7-eps-converted-to.pdf, id=1744, 460.72125pt x 574.145pt>
 File: pulse/Figure2-7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-7-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-7-eps-converted-to.pdf used on input lin
 e 119.
-(pdftex.def)             Requested size: 325.215pt x 405.27164pt.
+(pdftex.def)             Requested size: 352.31624pt x 439.05304pt.
 
 
-LaTeX Warning: Float too large for page by 36.59035pt on input line 122.
+LaTeX Warning: Float too large for page by 16.12303pt on input line 122.
 
-[96] [97 <./pulse/Figure2-7-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pulse/Figure2-8.eps>
-(epstopdf)                    date: 2016-10-17 17:47:02
+(epstopdf)                    date: 2016-10-17 15:47:02
 (epstopdf)                    size: 7380246 bytes
 (epstopdf)             Output file: <pulse/Figure2-8-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:14:02
+(epstopdf)                    date: 2017-02-17 15:14:02
 (epstopdf)                    size: 749020 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-8-eps-conver
 ted-to.pdf pulse/Figure2-8.eps>
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
-
-<pulse/Figure2-8-eps-converted-to.pdf, id=1818, 527.9725pt x 557.08125pt>
+<pulse/Figure2-8-eps-converted-to.pdf, id=1745, 527.9725pt x 557.08125pt>
 File: pulse/Figure2-8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-8-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-8-eps-converted-to.pdf used on input lin
 e 132.
-(pdftex.def)             Requested size: 433.62pt x 457.52362pt.
+(pdftex.def)             Requested size: 469.75499pt x 495.65625pt.
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no µ in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no µ in font cmr12!
+ [95] [96 <./pulse/Figure2-7-eps-converted-to.pdf>] [97 <./pulse/Figure2-8-eps-
+converted-to.pdf>]
 Package epstopdf Info: Source file: <pulse/Figure2-9.eps>
-(epstopdf)                    date: 2016-10-17 17:48:16
+(epstopdf)                    date: 2016-10-17 15:48:16
 (epstopdf)                    size: 1311054 bytes
 (epstopdf)             Output file: <pulse/Figure2-9-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:14:03
+(epstopdf)                    date: 2017-02-17 15:14:03
 (epstopdf)                    size: 76580 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-9-eps-conver
 ted-to.pdf pulse/Figure2-9.eps>
 (epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/Figure2-9-eps-converted-to.pdf, id=1819, 509.905pt x 385.44pt>
+<pulse/Figure2-9-eps-converted-to.pdf, id=1784, 509.905pt x 385.44pt>
 File: pulse/Figure2-9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-9-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-9-eps-converted-to.pdf used on input lin
 e 148.
-(pdftex.def)             Requested size: 433.62pt x 327.79022pt.
+(pdftex.def)             Requested size: 469.75499pt x 355.10901pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [98] [99 <./pulse/Figure2-8-eps-converted-to.pdf>] [100 <./pulse/Figure2-9-eps
--converted-to.pdf>]
-
-Package natbib Warning: Citation `He:2010gf' on page 101 undefined on input lin
-e 164.
-
-[101] [102]
+ [98] [99 <./pulse/Figure2-9-eps-converted-to.pdf>] [100] [101]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [103] [104] [105] [106] [107]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
- [108]
-
-Package natbib Warning: Citation `Landau:1987uk' on page 109 undefined on input
- line 242.
-
-[109] [110]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-Overfull \hbox (3.16774pt too wide) in paragraph at lines 266--267
-[]\OT1/fvm/m/n/12 We nor-mal-ized the in-ten-sity data for in-di-vid-ual pulses
- us-ing the equa-tion $\OML/cmm/m/it/12 I[]\OT1/fvm/m/n/12 (\OML/cmm/m/it/12 t\
-OT1/fvm/m/n/12 ) =
+ [102] [103] [104] [105]
+Overfull \hbox (19.10104pt too wide) in paragraph at lines 211--212
+\OT1/fvm/m/n/12 averaged data us-ing a Mat-lab im-ple-men-ta-tion (http://peopl
+e.umass.edu/kilfoil/downloads.html)
  []
 
+[106] [107] [108] [109] [110]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[111]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-
-Overfull \hbox (4.69908pt too wide) in paragraph at lines 284--285
-\OT1/fvm/m/n/12 from smoothed nor-mal-ized in-ten-sity val-ues us-ing MAT-LABs 
-built in dif-fer-ence method.
- []
-
-[112] [113] [114]
+ [111] [112] [113]
 Package epstopdf Info: Source file: <pulse/Figure2-10.eps>
-(epstopdf)                    date: 2016-08-30 11:00:36
+(epstopdf)                    date: 2016-08-30 09:00:36
 (epstopdf)                    size: 2249522 bytes
 (epstopdf)             Output file: <pulse/Figure2-10-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:14:06
+(epstopdf)                    date: 2017-02-17 15:14:06
 (epstopdf)                    size: 250865 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-10-eps-conve
 rted-to.pdf pulse/Figure2-10.eps>
 (epstopdf)             \includegraphics on input line 331.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/Figure2-10-eps-converted-to.pdf, id=1896, 548.0475pt x 596.2275pt>
+<pulse/Figure2-10-eps-converted-to.pdf, id=1847, 548.0475pt x 596.2275pt>
 File: pulse/Figure2-10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-10-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-10-eps-converted-to.pdf used on input li
 ne 331.
-(pdftex.def)             Requested size: 346.89731pt x 377.39935pt.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
+(pdftex.def)             Requested size: 328.82706pt x 357.73926pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-
-
-LaTeX Warning: Float too large for page by 8.71806pt on input line 334.
-
 Package epstopdf Info: Source file: <pulse/Figure2-11.eps>
-(epstopdf)                    date: 2016-10-17 17:51:46
+(epstopdf)                    date: 2016-10-17 15:51:46
 (epstopdf)                    size: 2335046 bytes
 (epstopdf)             Output file: <pulse/Figure2-11-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:14:08
+(epstopdf)                    date: 2017-02-17 15:14:08
 (epstopdf)                    size: 184254 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-11-eps-conve
 rted-to.pdf pulse/Figure2-11.eps>
 (epstopdf)             \includegraphics on input line 343.
 Package epstopdf Info: Output file is already uptodate.
-<pulse/Figure2-11-eps-converted-to.pdf, id=1897, 566.115pt x 586.19pt>
+
+<pulse/Figure2-11-eps-converted-to.pdf, id=1848, 566.115pt x 586.19pt>
 File: pulse/Figure2-11-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-11-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-11-eps-converted-to.pdf used on input li
 ne 343.
-(pdftex.def)             Requested size: 173.44534pt x 179.59717pt.
+(pdftex.def)             Requested size: 187.89912pt x 194.56136pt.
 Package epstopdf Info: Source file: <pulse/Figure2-12.eps>
-(epstopdf)                    date: 2016-10-17 17:50:06
+(epstopdf)                    date: 2016-10-17 15:50:06
 (epstopdf)                    size: 3351550 bytes
 (epstopdf)             Output file: <pulse/Figure2-12-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:14:11
+(epstopdf)                    date: 2017-02-17 15:14:11
 (epstopdf)                    size: 362788 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-12-eps-conve
 rted-to.pdf pulse/Figure2-12.eps>
 (epstopdf)             \includegraphics on input line 357.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/Figure2-12-eps-converted-to.pdf, id=1898, 429.605pt x 596.2275pt>
+<pulse/Figure2-12-eps-converted-to.pdf, id=1849, 429.605pt x 596.2275pt>
 File: pulse/Figure2-12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-12-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-12-eps-converted-to.pdf used on input li
 ne 357.
-(pdftex.def)             Requested size: 216.81pt x 300.906pt.
-
-
-LaTeX Warning: Float too large for page by 4.72472pt on input line 360.
-
+(pdftex.def)             Requested size: 234.87749pt x 325.97923pt.
 Package epstopdf Info: Source file: <pulse/Figure2-13.eps>
-(epstopdf)                    date: 2016-10-17 09:18:02
+(epstopdf)                    date: 2016-10-17 07:18:02
 (epstopdf)                    size: 4941790 bytes
 (epstopdf)             Output file: <pulse/Figure2-13-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:14:15
+(epstopdf)                    date: 2017-02-17 15:14:15
 (epstopdf)                    size: 630496 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-13-eps-conve
 rted-to.pdf pulse/Figure2-13.eps>
 (epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
-<pulse/Figure2-13-eps-converted-to.pdf, id=1899, 467.7475pt x 624.3325pt>
+
+<pulse/Figure2-13-eps-converted-to.pdf, id=1850, 467.7475pt x 624.3325pt>
 File: pulse/Figure2-13-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-13-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-13-eps-converted-to.pdf used on input li
 ne 380.
-(pdftex.def)             Requested size: 260.17464pt x 347.28981pt.
+(pdftex.def)             Requested size: 281.85585pt x 376.23143pt.
 Package epstopdf Info: Source file: <pulse/Figure2-14.eps>
-(epstopdf)                    date: 2016-08-30 10:59:42
+(epstopdf)                    date: 2016-08-30 08:59:42
 (epstopdf)                    size: 3336274 bytes
 (epstopdf)             Output file: <pulse/Figure2-14-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 17:14:17
+(epstopdf)                    date: 2017-02-17 15:14:17
 (epstopdf)                    size: 313034 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/Figure2-14-eps-conve
 rted-to.pdf pulse/Figure2-14.eps>
 (epstopdf)             \includegraphics on input line 391.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/Figure2-14-eps-converted-to.pdf, id=1900, 548.0475pt x 562.1pt>
+<pulse/Figure2-14-eps-converted-to.pdf, id=1851, 548.0475pt x 562.1pt>
 File: pulse/Figure2-14-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/Figure2-14-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/Figure2-14-eps-converted-to.pdf used on input li
 ne 391.
-(pdftex.def)             Requested size: 281.85034pt x 289.07733pt.
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-
-LaTeX Warning: Float too large for page by 21.89604pt on input line 394.
-
-) [115] [116 <./pulse/Figure2-10-eps-converted-to.pdf>] [117 <./pulse/Figure2-1
-1-eps-converted-to.pdf>] [118 <./pulse/Figure2-12-eps-converted-to.pdf>]
-[119 <./pulse/Figure2-13-eps-converted-to.pdf>] [120 <./pulse/Figure2-14-eps-co
-nverted-to.pdf>]
+(pdftex.def)             Requested size: 305.33788pt x 313.16997pt.
+) [114 <./pulse/Figure2-10-eps-converted-to.pdf>] [115 <./pulse/Figure2-11-eps-
+converted-to.pdf>] [116 <./pulse/Figure2-12-eps-converted-to.pdf>] [117 <./puls
+e/Figure2-13-eps-converted-to.pdf>]
+[118 <./pulse/Figure2-14-eps-converted-to.pdf>]
 Chapter 5.
-(./future/future.tex [121
+(./future/future.tex [119
 
-] [122] [123] [124] [125] [126] [127] [128] [129]
-[130]) [131]
+] [120] [121] [122] [123] [124] [125] [126] [127]
+[128] [129] [130] [131] [132] [133] [134] [135]) [136]
 Appendix A.
-(./model/explanation.tex [132
+(./slippage/slippage.tex [137
 
-] [133] [134] [135] [136]
-Overfull \hbox (60.38025pt too wide) in paragraph at lines 139--139
-[] \OT1/cmtt/m/n/12 for j = 2:ncnt            % iterate through remaining segme
-nts to add endpoints[] 
- []
-
-
-Overfull \hbox (35.68024pt too wide) in paragraph at lines 139--139
-[] \OT1/cmtt/m/n/12 p((i-1)*ncnt+j,:) = p((i-1)*ncnt+j-1,:)+L/(ncnt-1.0)*[cos(t
-het) sin(thet)];[] 
- []
-
-[137] [138] [139] [140] [141] [142] [143]
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 289--289
-[]  \OT1/cmtt/m/n/12 dp(i:i+1,:) = dp(i:i+1,:) + edg*tnu/lm*[vm*(1-f(ind,1));vm
-*f(ind,1)];[] 
- []
-
-
-Overfull \hbox (4.80522pt too wide) in paragraph at lines 289--289
-[]  \OT1/cmtt/m/n/12 dp(j:j+1,:) = dp(j:j+1,:) - edg*tnu/lm*[vm*(1-f(ind,2));vm
-*f(ind,2)];[] 
- []
-
-
-Overfull \hbox (10.98022pt too wide) in paragraph at lines 317--317
-[]\OT1/cmtt/m/n/12 val = sig*round(mod(0.5+-psi*t,1)).*(round(mod(0.55+-psi*t/2
-,1))-0.5)*2;[] 
- []
-
-[144] [145] [146] [147]) (./docu/docu.tex) [148]
-Appendix B.
-(./slippage/slippage.tex [149
-
-]
-<slippage/eff_vic_master.pdf, id=2087, 718.685pt x 542.025pt>
+] [138]
+<slippage/eff_vic_master.pdf, id=2005, 718.685pt x 542.025pt>
 File: slippage/eff_vic_master.pdf Graphic file (type pdf)
 
 <use slippage/eff_vic_master.pdf>
-Package pdftex.def Info: slippage/eff_vic_master.pdf used on input line 87.
-(pdftex.def)             Requested size: 433.62pt x 327.03703pt.
+Package pdftex.def Info: slippage/eff_vic_master.pdf used on input line 63.
+(pdftex.def)             Requested size: 469.75499pt x 354.29701pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[150] [151 <./slippage/eff_vic_master.pdf>]
-<slippage/glass_relax_illustrate.pdf, id=2125, 903.375pt x 853.1875pt>
+[139] [140 <./slippage/eff_vic_master.pdf>]
+<slippage/glass_relax_illustrate.pdf, id=2043, 903.375pt x 853.1875pt>
 File: slippage/glass_relax_illustrate.pdf Graphic file (type pdf)
 
 <use slippage/glass_relax_illustrate.pdf>
 Package pdftex.def Info: slippage/glass_relax_illustrate.pdf used on input line
- 116.
-(pdftex.def)             Requested size: 433.62pt x 409.53838pt.
+ 92.
+(pdftex.def)             Requested size: 469.75499pt x 443.66006pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[152] [153 <./slippage/glass_relax_illustrate.pdf>]
-<slippage/collapse.pdf, id=2155, 903.375pt x 853.1875pt>
+<slippage/collapse.pdf, id=2044, 903.375pt x 853.1875pt>
 File: slippage/collapse.pdf Graphic file (type pdf)
 
 <use slippage/collapse.pdf>
-Package pdftex.def Info: slippage/collapse.pdf used on input line 126.
-(pdftex.def)             Requested size: 433.62pt x 409.53838pt.
- [154 <./slippage/collapse.pdf>]
-<slippage/tearer.pdf, id=2170, 903.375pt x 853.1875pt>
+Package pdftex.def Info: slippage/collapse.pdf used on input line 102.
+(pdftex.def)             Requested size: 469.75499pt x 443.66006pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (24.32562pt too wide) in paragraph at lines 129--130
+[]\OT1/fvm/m/n/12 At this point the fil-a-ment ori-en-ta-tions be-come un-evenl
+y dis-tributed $\OMS/cmsy/m/n/12 h\OML/cmm/m/it/12 ^^NL=L\OMS/cmsy/m/n/12 i 6\O
+T1/fvm/m/n/12 = \OML/cmm/m/it/12 ^^M[]sin\OT1/fvm/m/n/12 (\OML/cmm/m/it/12 ^^R\
+OT1/fvm/m/n/12 )\OML/cmm/m/it/12 cos\OT1/fvm/m/n/12 (\OML/cmm/m/it/12 ^^R\OT1/f
+vm/m/n/12 )$,
+ []
+
+<slippage/tearer.pdf, id=2045, 903.375pt x 853.1875pt>
 File: slippage/tearer.pdf Graphic file (type pdf)
 
 <use slippage/tearer.pdf>
-Package pdftex.def Info: slippage/tearer.pdf used on input line 157.
-(pdftex.def)             Requested size: 433.62pt x 409.53838pt.
+Package pdftex.def Info: slippage/tearer.pdf used on input line 133.
+(pdftex.def)             Requested size: 469.75499pt x 443.66006pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<slippage/shear_modes_b.pdf, id=2171, 903.375pt x 853.1875pt>
+[141] [142 <./slippage/glass_relax_illustrate.pdf>] [143 <./slippage/collapse.p
+df>] <slippage/shear_modes_b.pdf, id=2090, 903.375pt x 853.1875pt>
 File: slippage/shear_modes_b.pdf Graphic file (type pdf)
 
 <use slippage/shear_modes_b.pdf>
-Package pdftex.def Info: slippage/shear_modes_b.pdf used on input line 170.
-(pdftex.def)             Requested size: 433.62pt x 409.53838pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[155] <slippage/phase_diag.pdf, id=2175, 903.375pt x 853.1875pt>
+Package pdftex.def Info: slippage/shear_modes_b.pdf used on input line 146.
+(pdftex.def)             Requested size: 469.75499pt x 443.66006pt.
+ [144 <./slippage/tearer.pdf>] [145 <./slippage/shear_modes_b.pdf>]
+<slippage/phase_diag.pdf, id=2123, 903.375pt x 853.1875pt>
 File: slippage/phase_diag.pdf Graphic file (type pdf)
 
 <use slippage/phase_diag.pdf>
-Package pdftex.def Info: slippage/phase_diag.pdf used on input line 179.
-(pdftex.def)             Requested size: 433.62pt x 409.53838pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<slippage/frequency_dep.pdf, id=2176, 744.7825pt x 650.43pt>
-File: slippage/frequency_dep.pdf Graphic file (type pdf)
-
-<use slippage/frequency_dep.pdf>
-Package pdftex.def Info: slippage/frequency_dep.pdf used on input line 188.
-(pdftex.def)             Requested size: 433.62pt x 378.69867pt.
- [156 <./slippage/tearer.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[157 <./slippage/shear_modes_b.pdf>] [158 <./slippage/phase_diag.pdf>] [159 <./
-slippage/frequency_dep.pdf>]
-<slippage/strain_mem_weak.pdf, id=2230, 731.73375pt x 559.08875pt>
+Package pdftex.def Info: slippage/phase_diag.pdf used on input line 155.
+(pdftex.def)             Requested size: 469.75499pt x 443.66006pt.
+ [146 <./slippage/phase_diag.pdf>]
+<slippage/strain_mem_weak.pdf, id=2138, 731.73375pt x 559.08875pt>
 File: slippage/strain_mem_weak.pdf Graphic file (type pdf)
 
 <use slippage/strain_mem_weak.pdf>
-Package pdftex.def Info: slippage/strain_mem_weak.pdf used on input line 203.
-(pdftex.def)             Requested size: 433.62pt x 331.30977pt.
- [160 <./slippage/strain_mem_weak.pdf>]
-[161] [162]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[163]) [164]
-Appendix C.
-(./data/data.tex [165
-
-] [166]
-<data/prelim_flow.pdf, id=2255, 508.6561pt x 188.37476pt>
-File: data/prelim_flow.pdf Graphic file (type pdf)
-
-<use data/prelim_flow.pdf>
-Package pdftex.def Info: data/prelim_flow.pdf used on input line 86.
-(pdftex.def)             Requested size: 433.62pt x 160.59355pt.
+Package pdftex.def Info: slippage/strain_mem_weak.pdf used on input line 168.
+(pdftex.def)             Requested size: 469.75499pt x 358.92459pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[167] <data/flow_mrck_kd.pdf, id=2259, 457.03322pt x 185.69345pt>
-File: data/flow_mrck_kd.pdf Graphic file (type pdf)
+[147] [148 <./slippage/strain_mem_weak.pdf>] [149] [150]
+<slippage/frequency_dep.pdf, id=2154, 744.7825pt x 650.43pt>
+File: slippage/frequency_dep.pdf Graphic file (type pdf)
 
-<use data/flow_mrck_kd.pdf>
-Package pdftex.def Info: data/flow_mrck_kd.pdf used on input line 114.
-(pdftex.def)             Requested size: 433.62pt x 176.17825pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[168 <./data/prelim_flow.pdf>]
-Overfull \hbox (25.22388pt too wide) in paragraph at lines 122--123
-\OT1/fvm/m/n/12 treated em-bryos with jas-plaki-no-lide and im-aged the actin c
-y-toskele-ton with utrophin::GFP.
- []
-
-<data/jasp_flow_stop.pdf, id=2281, 541.22832pt x 197.95023pt>
-File: data/jasp_flow_stop.pdf Graphic file (type pdf)
-
-<use data/jasp_flow_stop.pdf>
-Package pdftex.def Info: data/jasp_flow_stop.pdf used on input line 126.
-(pdftex.def)             Requested size: 433.62pt x 158.59296pt.
+<use slippage/frequency_dep.pdf>
+Package pdftex.def Info: slippage/frequency_dep.pdf used on input line 305.
+(pdftex.def)             Requested size: 469.75499pt x 410.25938pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [169 <./data/flow_mrck_kd.pdf>] [170 <./data/jasp_flow_stop.pdf>]
-Appendix D.
+) [151] [152 <./slippage/frequency_dep.pdf>]
+Appendix B.
 (./pulse/pulse.tex
 Package epstopdf Info: Source file: <pulse/diagram_eq.eps>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 523862 bytes
 (epstopdf)             Output file: <pulse/diagram_eq-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 42360 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/diagram_eq-eps-conve
 rted-to.pdf pulse/diagram_eq.eps>
 (epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/diagram_eq-eps-converted-to.pdf, id=2411, 306.14375pt x 327.2225pt>
+<pulse/diagram_eq-eps-converted-to.pdf, id=2163, 306.14375pt x 327.2225pt>
 File: pulse/diagram_eq-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/diagram_eq-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/diagram_eq-eps-converted-to.pdf used on input li
 ne 4.
-(pdftex.def)             Requested size: 216.81pt x 231.73543pt.
- [171
+(pdftex.def)             Requested size: 234.87749pt x 251.04837pt.
+ [153
 
- <./pulse/diagram_eq-eps-converted-to.pdf>] [172]
+ <./pulse/diagram_eq-eps-converted-to.pdf>] [154]
 Package epstopdf Info: Source file: <pulse/phase_tester.eps>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 1209607 bytes
 (epstopdf)             Output file: <pulse/phase_tester-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 187994 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/phase_tester-eps-con
 verted-to.pdf pulse/phase_tester.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/phase_tester-eps-converted-to.pdf, id=2426, 799.98875pt x 870.25125pt>
+<pulse/phase_tester-eps-converted-to.pdf, id=2179, 799.98875pt x 870.25125pt>
 File: pulse/phase_tester-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/phase_tester-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/phase_tester-eps-converted-to.pdf used on input 
 line 58.
-(pdftex.def)             Requested size: 433.62pt x 471.70805pt.
+(pdftex.def)             Requested size: 469.75499pt x 511.01375pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package epstopdf Info: Source file: <pulse/k_phase.eps>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 1025031 bytes
 (epstopdf)             Output file: <pulse/k_phase-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 127174 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/k_phase-eps-converte
 d-to.pdf pulse/k_phase.eps>
 (epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
-<pulse/k_phase-eps-converted-to.pdf, id=2427, 500.87125pt x 508.90125pt>
+<pulse/k_phase-eps-converted-to.pdf, id=2180, 500.87125pt x 508.90125pt>
 File: pulse/k_phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/k_phase-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/k_phase-eps-converted-to.pdf used on input line 
 68.
-(pdftex.def)             Requested size: 433.62pt x 440.58955pt.
+(pdftex.def)             Requested size: 469.75499pt x 477.3034pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[173]
+[155]
 Package epstopdf Info: Source file: <pulse/randomized_simulation.eps>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 121895 bytes
 (epstopdf)             Output file: <pulse/randomized_simulation-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 50743 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/randomized_simulatio
 n-eps-converted-to.pdf pulse/randomized_simulation.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/randomized_simulation-eps-converted-to.pdf, id=2431, 788.9475pt x 607.26
+<pulse/randomized_simulation-eps-converted-to.pdf, id=2184, 788.9475pt x 607.26
 875pt>
 File: pulse/randomized_simulation-eps-converted-to.pdf Graphic file (type pdf)
  <use pulse/randomized_simulation-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/randomized_simulation-eps-converted-to.pdf used 
 on input line 76.
-(pdftex.def)             Requested size: 433.62pt x 333.7672pt.
-
+(pdftex.def)             Requested size: 469.75499pt x 361.57495pt.
+ [156 <./pulse/phase_tester-eps-converted-to.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[174 <./pulse/phase_tester-eps-converted-to.pdf>]
+[157 <./pulse/k_phase-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pulse/fitting_plot.eps>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 140063 bytes
 (epstopdf)             Output file: <pulse/fitting_plot-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 24954 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/fitting_plot-eps-con
 verted-to.pdf pulse/fitting_plot.eps>
 (epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/fitting_plot-eps-converted-to.pdf, id=2443, 751.80875pt x 768.8725pt>
+<pulse/fitting_plot-eps-converted-to.pdf, id=2205, 751.80875pt x 768.8725pt>
 File: pulse/fitting_plot-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/fitting_plot-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/fitting_plot-eps-converted-to.pdf used on input 
 line 86.
-(pdftex.def)             Requested size: 433.62pt x 443.4709pt.
- [175 <./pulse/k_phase-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 469.75499pt x 480.4268pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[176 <./pulse/randomized_simulation-eps-converted-to.pdf>]
+[158 <./pulse/randomized_simulation-eps-converted-to.pdf>] [159 <./pulse/fittin
+g_plot-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <pulse/simple_model_fit_phase.eps>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 268334 bytes
 (epstopdf)             Output file: <pulse/simple_model_fit_phase-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 25376 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/simple_model_fit_pha
 se-eps-converted-to.pdf pulse/simple_model_fit_phase.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/simple_model_fit_phase-eps-converted-to.pdf, id=2461, 743.77875pt x 549.
+<pulse/simple_model_fit_phase-eps-converted-to.pdf, id=2225, 743.77875pt x 549.
 05125pt>
 File: pulse/simple_model_fit_phase-eps-converted-to.pdf Graphic file (type pdf)
 
  <use pulse/simple_model_fit_phase-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/simple_model_fit_phase-eps-converted-to.pdf used
  on input line 103.
-(pdftex.def)             Requested size: 195.12767pt x 144.04015pt.
+(pdftex.def)             Requested size: 211.3883pt x 156.04558pt.
 Package epstopdf Info: Source file: <pulse/model_profile.eps>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 113959 bytes
 (epstopdf)             Output file: <pulse/model_profile-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 15722 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/model_profile-eps-co
 nverted-to.pdf pulse/model_profile.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/model_profile-eps-converted-to.pdf, id=2462, 1015.795pt x 708.6475pt>
+<pulse/model_profile-eps-converted-to.pdf, id=2226, 1015.795pt x 708.6475pt>
 File: pulse/model_profile-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/model_profile-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/model_profile-eps-converted-to.pdf used on input
  line 104.
-(pdftex.def)             Requested size: 195.12767pt x 136.12581pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[177 <./pulse/fitting_plot-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 211.3883pt x 147.46873pt.
 Package epstopdf Info: Source file: <pulse/model_compare.eps>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 341753 bytes
 (epstopdf)             Output file: <pulse/model_compare-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-01 08:12:29
+(epstopdf)                    date: 2016-08-01 06:12:29
 (epstopdf)                    size: 103872 bytes
 (epstopdf)             Command: <repstopdf --outfile=pulse/model_compare-eps-co
 nverted-to.pdf pulse/model_compare.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<pulse/model_compare-eps-converted-to.pdf, id=2474, 1015.795pt x 708.6475pt>
+<pulse/model_compare-eps-converted-to.pdf, id=2227, 1015.795pt x 708.6475pt>
 File: pulse/model_compare-eps-converted-to.pdf Graphic file (type pdf)
 
 <use pulse/model_compare-eps-converted-to.pdf>
 Package pdftex.def Info: pulse/model_compare-eps-converted-to.pdf used on input
  line 111.
-(pdftex.def)             Requested size: 433.62pt x 302.50662pt.
+(pdftex.def)             Requested size: 469.75499pt x 327.7119pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pulse/final_fig.png, id=2475, 884.30376pt x 637.38126pt>
-File: pulse/final_fig.png Graphic file (type png)
-
-<use pulse/final_fig.png>
-Package pdftex.def Info: pulse/final_fig.png used on input line 121.
-(pdftex.def)             Requested size: 433.62pt x 312.54324pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[178 <./pulse/simple_model_fit_phase-eps-converted-to.pdf> <./pulse/model_profi
-le-eps-converted-to.pdf>]) [179 <./pulse/model_compare-eps-converted-to.pdf>]
-[180 <./pulse/final_fig.png>]
-Appendix E.
+[160 <./pulse/simple_model_fit_phase-eps-converted-to.pdf> <./pulse/model_profi
+le-eps-converted-to.pdf>] [161 <./pulse/model_compare-eps-converted-to.pdf>])
+[162]
+Appendix C.
 (./edeals/datacenter_energy.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<edeals/pwr_model_ins.pdf, id=2503, 578.16pt x 289.08pt>
+<edeals/pwr_model_ins.pdf, id=2256, 578.16pt x 289.08pt>
 File: edeals/pwr_model_ins.pdf Graphic file (type pdf)
 
 <use edeals/pwr_model_ins.pdf>
@@ -2081,12 +1712,6 @@ Package pdftex.def Info: edeals/pwr_model_ins.pdf used on input line 9.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -2100,108 +1725,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[181
+[163
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[182 <./edeals/pwr_model_ins.pdf>]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
+[164 <./edeals/pwr_model_ins.pdf>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-<edeals/ray_fig.pdf, id=2555, 794.97pt x 614.295pt>
+<edeals/ray_fig.pdf, id=2307, 794.97pt x 614.295pt>
 File: edeals/ray_fig.pdf Graphic file (type pdf)
  <use edeals/ray_fig.pdf>
 Package pdftex.def Info: edeals/ray_fig.pdf used on input line 39.
 (pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
 
-[183] [184 <./edeals/ray_fig.pdf, page is rotated 90 degrees>]
-<edeals/usage_viz4.pdf, id=2579, 433.62pt x 216.81pt>
+[165] [166 <./edeals/ray_fig.pdf, page is rotated 90 degrees>]
+<edeals/usage_viz4.pdf, id=2331, 433.62pt x 216.81pt>
 File: edeals/usage_viz4.pdf Graphic file (type pdf)
 
 <use edeals/usage_viz4.pdf>
 Package pdftex.def Info: edeals/usage_viz4.pdf used on input line 71.
 (pdftex.def)             Requested size: 238.49173pt x 119.24586pt.
 
-<edeals/power_viz.pdf, id=2580, 433.62pt x 289.08pt>
+<edeals/power_viz.pdf, id=2332, 433.62pt x 289.08pt>
 File: edeals/power_viz.pdf Graphic file (type pdf)
 
 <use edeals/power_viz.pdf>
-Package pdftex.def Info: edeals/power_viz.pdf used on input line 82.
+Package pdftex.def Info: edeals/power_viz.pdf used on input line 83.
 (pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
- [185 <./edeals/usage_viz4.pdf> <./edeals/power_viz.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./edeals/power_viz.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->] [186] <edeals/down_v_pow.pdf, id=2652, 433.62pt x 289.08pt>
+ [167 <./edeals/usage_viz4.pdf>] [168 <./edeals/power_viz.pdf>] <edeals/down_v_
+pow.pdf, id=2405, 433.62pt x 289.08pt>
 File: edeals/down_v_pow.pdf Graphic file (type pdf)
 
 <use edeals/down_v_pow.pdf>
-Package pdftex.def Info: edeals/down_v_pow.pdf used on input line 123.
+Package pdftex.def Info: edeals/down_v_pow.pdf used on input line 124.
 (pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
 
-<edeals/down_v_wait.pdf, id=2653, 433.62pt x 289.08pt>
+<edeals/down_v_wait.pdf, id=2406, 433.62pt x 289.08pt>
 File: edeals/down_v_wait.pdf Graphic file (type pdf)
 
 <use edeals/down_v_wait.pdf>
-Package pdftex.def Info: edeals/down_v_wait.pdf used on input line 135.
+Package pdftex.def Info: edeals/down_v_wait.pdf used on input line 136.
 (pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
- [187 <./edeals/down_v_pow.pdf>]
+ [169 <./edeals/down_v_pow.pdf>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [188 <./edeals/down_v_wait.pdf>]
-
-LaTeX Warning: Reference `usage_viz' on page 189 undefined on input line 164.
-
-<edeals/pwr_proc.pdf, id=2749, 433.62pt x 216.81pt>
+ [170 <./edeals/down_v_wait.pdf>] [171] <edeals/pwr_proc.pdf, id=2504, 433.62pt
+ x 216.81pt>
 File: edeals/pwr_proc.pdf Graphic file (type pdf)
- <use edeals/pwr_proc.pdf>
-Package pdftex.def Info: edeals/pwr_proc.pdf used on input line 173.
+
+<use edeals/pwr_proc.pdf>
+Package pdftex.def Info: edeals/pwr_proc.pdf used on input line 174.
 (pdftex.def)             Requested size: 238.49173pt x 119.24586pt.
 
-<edeals/pwr_proc_c.pdf, id=2750, 433.62pt x 216.81pt>
+<edeals/pwr_proc_c.pdf, id=2505, 433.62pt x 216.81pt>
 File: edeals/pwr_proc_c.pdf Graphic file (type pdf)
 
 <use edeals/pwr_proc_c.pdf>
-Package pdftex.def Info: edeals/pwr_proc_c.pdf used on input line 174.
+Package pdftex.def Info: edeals/pwr_proc_c.pdf used on input line 175.
 (pdftex.def)             Requested size: 238.49173pt x 119.24586pt.
 
-<edeals/ipmi_v_cdu.pdf, id=2751, 433.62pt x 289.08pt>
+<edeals/ipmi_v_cdu.pdf, id=2506, 433.62pt x 289.08pt>
 File: edeals/ipmi_v_cdu.pdf Graphic file (type pdf)
 
 <use edeals/ipmi_v_cdu.pdf>
-Package pdftex.def Info: edeals/ipmi_v_cdu.pdf used on input line 185.
+Package pdftex.def Info: edeals/ipmi_v_cdu.pdf used on input line 186.
 (pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
- [189] [190 <./edeals/pwr_proc.pdf> <./edeals/pwr_proc_c.pdf
+ [172 <./edeals/pwr_proc.pdf> <./edeals/pwr_proc_c.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./edeals/pwr_proc_c.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
->] [191 <./edeals/ipmi_v_cdu.pdf>]
-<edeals/final.pdf, id=2897, 433.62pt x 289.08pt>
+>] [173 <./edeals/ipmi_v_cdu.pdf>]
+<edeals/final.pdf, id=2651, 433.62pt x 289.08pt>
 File: edeals/final.pdf Graphic file (type pdf)
  <use edeals/final.pdf>
-Package pdftex.def Info: edeals/final.pdf used on input line 215.
+Package pdftex.def Info: edeals/final.pdf used on input line 216.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 225.
+               Default added (so using `tbp') on input line 226.
 
-[192 <./edeals/final.pdf>]) [193]
-Appendix F.
-[194
+[174]) [175 <./edeals/final.pdf>]
+Appendix D.
+(./docu/docu.tex) (./model/explanation.tex [176
 
-]
-\openout2 = `art/art.aux'.
+] [177] [178] [179] [180]
+[181]
+Overfull \hbox (24.24525pt too wide) in paragraph at lines 139--139
+[] \OT1/cmtt/m/n/12 for j = 2:ncnt            % iterate through remaining segme
+nts to add endpoints[] 
+ []
 
- (./art/art.tex
+[182] [183] [184] [185] [186] [187] [188] [189] [190] [191] [192]) [193]
+[194]
+Appendix E.
+(./art/art.tex
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
@@ -2235,6 +1859,7 @@ Missing character: There is no ò in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
+ [196]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ò in font cmr12!
@@ -2247,79 +1872,79 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [196]
-<art/collab1.jpg, id=2958, 853.1875pt x 341.275pt>
+ <art/collab1.jpg, id=2770, 853.1875pt x 341.275pt>
 File: art/collab1.jpg Graphic file (type jpg)
- <use art/collab1.jpg>
+
+<use art/collab1.jpg>
 Package pdftex.def Info: art/collab1.jpg used on input line 23.
-(pdftex.def)             Requested size: 433.62pt x 173.44908pt.
+(pdftex.def)             Requested size: 469.75499pt x 187.9049pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<art/shavings.jpg, id=2959, 853.1875pt x 341.275pt>
+<art/shavings.jpg, id=2771, 853.1875pt x 341.275pt>
 File: art/shavings.jpg Graphic file (type jpg)
  <use art/shavings.jpg>
 Package pdftex.def Info: art/shavings.jpg used on input line 29.
-(pdftex.def)             Requested size: 433.62pt x 173.44908pt.
+(pdftex.def)             Requested size: 469.75499pt x 187.9049pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<art/IMG_20160801_121017.jpg, id=2960, 2168.1pt x 3854.4pt>
+<art/IMG_20160801_121017.jpg, id=2772, 2168.1pt x 3854.4pt>
 File: art/IMG_20160801_121017.jpg Graphic file (type jpg)
 
 <use art/IMG_20160801_121017.jpg>
 Package pdftex.def Info: art/IMG_20160801_121017.jpg used on input line 35.
-(pdftex.def)             Requested size: 216.81pt x 385.40376pt.
+(pdftex.def)             Requested size: 234.87749pt x 417.51585pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<art/IMG_20160801_115125.jpg, id=2961, 2168.1pt x 3854.4pt>
+<art/IMG_20160801_115125.jpg, id=2773, 2168.1pt x 3854.4pt>
 File: art/IMG_20160801_115125.jpg Graphic file (type jpg)
 
 <use art/IMG_20160801_115125.jpg>
 Package pdftex.def Info: art/IMG_20160801_115125.jpg used on input line 41.
-(pdftex.def)             Requested size: 216.81pt x 385.40376pt.
+(pdftex.def)             Requested size: 234.87749pt x 417.51585pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<art/IMG_20160801_121232.jpg, id=2962, 3854.4pt x 2168.1pt>
+<art/IMG_20160801_121232.jpg, id=2774, 3854.4pt x 2168.1pt>
 File: art/IMG_20160801_121232.jpg Graphic file (type jpg)
 
 <use art/IMG_20160801_121232.jpg>
 Package pdftex.def Info: art/IMG_20160801_121232.jpg used on input line 49.
-(pdftex.def)             Requested size: 433.62pt x 243.88419pt.
+(pdftex.def)             Requested size: 469.75499pt x 264.22992pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<art/extruding.png, id=2963, 1283.79625pt x 1084.05pt>
+<art/extruding.png, id=2775, 1283.79625pt x 1084.05pt>
 File: art/extruding.png Graphic file (type png)
  <use art/extruding.png>
 Package pdftex.def Info: art/extruding.png used on input line 55.
-(pdftex.def)             Requested size: 433.62pt x 366.14056pt.
+(pdftex.def)             Requested size: 469.75499pt x 396.65916pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<art/CAM00454.jpg, id=2964, 2601.72pt x 1951.29pt>
+<art/CAM00454.jpg, id=2776, 2601.72pt x 1951.29pt>
 File: art/CAM00454.jpg Graphic file (type jpg)
  <use art/CAM00454.jpg>
 Package pdftex.def Info: art/CAM00454.jpg used on input line 61.
-(pdftex.def)             Requested size: 433.62pt x 325.19435pt.
+(pdftex.def)             Requested size: 469.75499pt x 352.3187pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<art/IMG_20160205_113249.jpg, id=2965, 2601.72pt x 1951.29pt>
+<art/IMG_20160205_113249.jpg, id=2777, 2601.72pt x 1951.29pt>
 File: art/IMG_20160205_113249.jpg Graphic file (type jpg)
 
 <use art/IMG_20160205_113249.jpg>
 Package pdftex.def Info: art/IMG_20160205_113249.jpg used on input line 69.
-(pdftex.def)             Requested size: 433.62pt x 325.19435pt.
+(pdftex.def)             Requested size: 469.75499pt x 352.3187pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2328,18 +1953,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 _121017.jpg>] [200 <./art/IMG_20160801_115125.jpg>] [201 <./art/IMG_20160801_12
 1232.jpg>] [202 <./art/extruding.png>] [203 <./art/CAM00454.jpg>] [204 <./art/I
 MG_20160205_113249.jpg>]
-Appendix G.
-[205
-
-
-]
-\openout2 = `workshop/workshop.aux'.
-
- (./workshop/workshop.tex
+Appendix F.
+(./workshop/workshop.tex
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [206
+ [205
 
 ]
 Missing character: There is no ‚ in font cmr12!
@@ -2348,137 +1967,92 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [207]
-<workshop/table_of_responses.png, id=3002, 449.68pt x 365.365pt>
+ [206]
+<workshop/table_of_responses.png, id=2809, 449.68pt x 365.365pt>
 File: workshop/table_of_responses.png Graphic file (type png)
 
 <use workshop/table_of_responses.png>
 Package pdftex.def Info: workshop/table_of_responses.png used on input line 68.
 
-(pdftex.def)             Requested size: 346.89731pt x 281.86711pt.
- [208 <./workshop/table_of_responses.png>]
-Overfull \hbox (51.78612pt too wide) in paragraph at lines 99--100
+(pdftex.def)             Requested size: 375.80542pt x 305.35464pt.
+ [207 <./workshop/table_of_responses.png>] [208]
+Overfull \hbox (15.65112pt too wide) in paragraph at lines 99--100
 []\OT1/fvm/m/n/12 https://drive.google.com/drive/folders/0B3gBL61483U8Z2h1b3JRU
 HZMQ1k?usp=sharing 
  []
 
 [209] [210] [211] [212]
-Overfull \hbox (23.33023pt too wide) in paragraph at lines 172--172
-[]\OT1/cmtt/m/n/12 p0 = [1,0];         #initial conditions for the concentratio
-n of p1 and p2[] 
+Overfull \hbox (9.65376pt too wide) in paragraph at lines 187--189
+ \OT1/cmr/bx/n/12 W2[] \OT1/fvm/m/n/12 Q1: Which is not a sit-u-a-tion that is 
+amenable to math-e-mat-i-cal mod-el-ing? A metabolism,
  []
 
-
-Overfull \hbox (17.15523pt too wide) in paragraph at lines 172--172
-[]\OT1/cmtt/m/n/12 a=1; b=1;          #optional constants a and b which will ch
-ange behavior[] 
- []
-
-
-Overfull \hbox (17.15523pt too wide) in paragraph at lines 172--172
-[]\OT1/cmtt/m/n/12 plot(t,p(:,1)); hold on; plot(t,p(:,2));           #this plo
-ts the output[] 
- []
-
-[213] [214]) [215] (./theseus.bbl
+[213]) [214] (./theseus.bbl
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
- [216
+ [215
 
-
-] [217] [218] [219] [220]
+] [216] [217] [218]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
+ [219]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
- [221] [222]
-[223] [224] [225] [226] [227] [228]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 947.
+ [220] [221] [222]
+[223] [224] [225] [226]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 993.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 947.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 993.
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ° in font cmr12!
- [229] [230]
-Underfull \hbox (badness 6559) in paragraph at lines 1095--1100
-[]\OT1/fvm/m/n/12 Anne-C^^Secile Rey-mann, Ra-jaa Boujemaa-Paterski, Jean-Louis
- Mar-tiel,
- []
-
+ [227] [228]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no º in font cmr12!
-[231] [232] [233]
-Underfull \hbox (badness 3792) in paragraph at lines 1295--1299
-[]\OT1/fvm/m/n/12 D'Arcy Went-worth Thomp-son.  \OT1/cmr/m/it/12 On growth and 
-form / by D'Arcy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1295--1299
-\OT1/cmr/m/it/12 Went-worth Thomp-son.  \OT1/fvm/m/n/12 Cam-bridge :Uni-ver-sit
-y Press ;, 1945.
- []
-
-[234] [235] [236]
-Underfull \hbox (badness 1264) in paragraph at lines 1477--1481
-[]\OT1/fvm/m/n/12 Donglei Zhang and Michael Glotzer.  The RhoGAP ac-tiv-ity of 
-CYK-
- []
-
-)
-
-Package natbib Warning: There were undefined citations.
-
-[237] (./theseus.aux (./introduction/introduction.aux) (./art/art.aux)
-(./workshop/workshop.aux))
+ [229] [230] [231] [232] [233]) [234] (./theseus.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9746 strings out of 494910
- 152826 string characters out of 6179836
- 292505 words of memory out of 5000000
- 12715 multiletter control sequences out of 15000+600000
- 13125 words of font info for 48 fonts, out of 8000000 for 9000
+ 9851 strings out of 494910
+ 154392 string characters out of 6179836
+ 237635 words of memory out of 5000000
+ 12842 multiletter control sequences out of 15000+600000
+ 11258 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 42i,20n,54p,3310b,1194s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,20n,54p,3327b,1265s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/will/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/tex-gy
-re/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on theseus.pdf (266 pages, 20803114 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/pu
+blic/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
+Output written on theseus.pdf (249 pages, 19174643 bytes).
 PDF statistics:
- 3171 PDF objects out of 3580 (max. 8388607)
- 1786 compressed objects within 18 object streams
+ 2970 PDF objects out of 2984 (max. 8388607)
+ 1657 compressed objects within 17 object streams
  0 named destinations out of 1000 (max. 500000)
- 366 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 346 words of extra memory for PDF output out of 10000 (max. 10000000)
 
