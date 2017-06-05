@@ -246,15 +246,15 @@ Defining the a normalized density $X=\rho L^2/2$, normalized time $\tau = \frac{
 
 \begin{equation}
 \label{drho_4}
-\frac{dX}{dt}=X_0 - X - \frac{AX}{\left (X - 1\right )} 
+\frac{dX}{dt}=X_0 - X - \frac{AX}{\left (X - 1\right )^2} 
 \end{equation}
 
-Fig. A.1 plots the right-hand-side of equation 9 versus X for several values of the normalized filament lifetime, A.  For sufficiently large A, there is no stable state, i.e. flow will reduce density until connectivity is lost. However, as A decreases below a critical value, $A_crit$, a stable steady state appears. Note that when $A=A_{crit}$, $\frac{dX}{dt}$ is tangent to the X-axis at X = X*. Accordingly, to determine X*, we solve
+Fig. A.1 plots the right-hand-side of equation 9 versus X for several values of the normalized filament lifetime, A.  For sufficiently large A, there is no stable state, i.e. flow will reduce density until connectivity is lost. However, as A decreases below a critical value, $A_{crit}$, a stable steady state appears. Note that when $A=A_{crit}$, $\frac{dX}{dt}$ is tangent to the X-axis at X = X*. Accordingly, to determine X*, we solve
 
 
 \begin{equation}
 \label{drho_5}
-0 = \frac{d}{dX} \left (X_0 - X - \frac{AX}{\left (X - 1\right )}\right ) = 1 - \frac{A}{\left(X - 1 \right )^2 } + \frac{2AX}{\left (X - 1\right )^3}
+0 = \frac{d}{dX} \left (X_0 - X - \frac{AX}{\left (X - 1\right )^2}\right ) = 1 - \frac{A}{\left(X - 1 \right )^2 } + \frac{2AX}{\left (X - 1\right )^3}
 \end{equation}
 
 
@@ -272,14 +272,14 @@ which has a single positive real root
 X^* = 1 + A^{1/3} \left[\left(1+\sqrt{1-A/27}\right)^{1/3} + \left(1-\sqrt{1-A/27}\right)^{1/3}\right]
 \end{equation}
 
-Note that a purely real X* exists for all A > 0, even for A > 27, because the imaginary components from the two radicals cancel exactly.
+Note that a purely real X* exists for all $A > 0$, even for $A > 27$, because the imaginary components from the two radicals cancel exactly.
 
-In principle, $A_{crit}$ is determined by setting equation 12 equal to zero, setting X = X*, and solving for A. The form of equation 12 makes this challenging to do analytically. However, it is straight-forward to determine $A_{crit}$ computationally from equations 9 and 12, for any $X_0 > 0$, for example by plotting the right-hand-side of equation 9 as a function of A, with X determined by equation 12, and looking for the X-intercept.
+In principle, $A_{crit}$ is determined by setting equation 12 equal to zero, setting X = X*, and solving for A. The form of equation 12 makes this challenging to do analytically. However, it is straight-forward to determine $A_{crit}$ computationally from equations 9 and 12, for any $X_0 > 0$, for example by plotting the right-hand-side of equation 9 as a function of A, with X determined by equation 12, and looking for the intersection of the curve with the A-axis.
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\hsize]{figures/FigS0}
-	\caption*{ \textbf{Fig. A.1 Graphical analysis of the time evolution of network density.}  Phase portraits of the first order ODE describing the time evolution of the normalized density, $\frac{dX}{dt}=X_0 - X - \frac{AX}{\left (X - 1\right )}$, where $X=\rho L^2/2$, $\tau = \frac{t}{\tau_r}$, $A=\frac{\sigma \tau_r}{\xi}$, and $X_0=\rho_0 L^2/2$.  Individual curves represent different values of $\tau_r$. Cool colors correspond to large $\tau_r$, and warm colors correspond to small $\tau_r$. Fixed points corresponding to steady-state densities are represented by zero crossings $\left(\frac{dX}{dt}=0\right)$. Open and closed circles represent unstable and stable steady states, respectively. The dashed line at $X=1$ corresponds to a filament density at which the average number of filament overlaps is one. Below this density, the network cannot transmit stress or support coherent flow.  Thus we ignore fixed points in the region $X<1$ (curves showing $\frac{dX}{dt}$ for $X<1$ are dimmed out). For $\tau_r < \tau_{crit}$, there are two crossings (orange, red): the rightmost crossing represents a stable steady state.  }
+	\caption*{ \textbf{Fig. A.1 Graphical analysis of the time evolution of network density.}  Phase portraits of the first order ODE describing the time evolution of the normalized density, $\frac{dX}{dt}=X_0 - X - \frac{AX}{\left (X - 1\right )^2}$, where $X=\rho L^2/2$, $\tau = \frac{t}{\tau_r}$, $A=\frac{\sigma \tau_r}{\xi}$, and $X_0=\rho_0 L^2/2$.  Individual curves represent different values of $\tau_r$. Cool colors correspond to large $\tau_r$, and warm colors correspond to small $\tau_r$. Fixed points corresponding to steady-state densities are represented by zero crossings $\left(\frac{dX}{dt}=0\right)$. Open and closed circles represent unstable and stable steady states, respectively. The dashed line at $X=1$ corresponds to a filament density at which the average number of filament overlaps is one. Below this density, the network cannot transmit stress or support coherent flow.  Thus we ignore fixed points in the region $X<1$ (curves showing $\frac{dX}{dt}$ for $X<1$ are dimmed out). For $\tau_r < \tau_{crit}$, there are two crossings (orange, red): the rightmost crossing represents a stable steady state.  }
 \end{figure}
 
 
